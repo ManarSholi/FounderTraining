@@ -38,7 +38,7 @@ var umbrella = {
   }
 }
 console.log(umbrella.open());
-
+console.log("Hello");
 
 
 
