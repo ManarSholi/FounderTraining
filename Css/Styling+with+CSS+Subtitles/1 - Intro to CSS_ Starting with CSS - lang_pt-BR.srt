@@ -1,0 +1,81 @@
+1
+00:00:00,033 --> 00:00:01,468
+Bem-vindo de volta.
+
+2
+00:00:01,501 --> 00:00:03,803
+Nesta aula, você vai aprender
+o básico
+
+3
+00:00:03,837 --> 00:00:06,139
+de uma parte bem colorida
+da web.
+
+4
+00:00:06,172 --> 00:00:08,041
+É chamada de "CSS".
+
+5
+00:00:08,074 --> 00:00:09,809
+"Folhas de Estilos
+em Cascata".
+
+6
+00:00:09,843 --> 00:00:12,645
+E é como as páginas da web
+recebem sua decoração.
+
+7
+00:00:12,679 --> 00:00:16,616
+Todas as cores, fontes e o layout
+que você vê na web
+
+8
+00:00:16,649 --> 00:00:18,785
+são fornecidos pela CSS.
+
+9
+00:00:18,818 --> 00:00:24,224
+Usando CSS, você poderá melhorar
+o visual das suas páginas HTML.
+
+10
+00:00:24,257 --> 00:00:27,560
+Pode ser desde mudar a cor
+do seu texto
+
+11
+00:00:27,594 --> 00:00:29,929
+até mudar completamente
+o layout.
+
+12
+00:00:29,963 --> 00:00:33,333
+E, enquanto você está aprendendo
+a incrementar sua página,
+
+13
+00:00:33,366 --> 00:00:35,201
+também vai aumentar
+seu conhecimento
+
+14
+00:00:35,235 --> 00:00:37,404
+sobre sintaxe de linguagem
+de computador.
+
+15
+00:00:37,437 --> 00:00:41,875
+Você entenderá melhor como funciona
+a linguagem de computador.
+
+16
+00:00:41,908 --> 00:00:43,376
+E isto vai ajudar você
+
+17
+00:00:43,410 --> 00:00:45,612
+durante a sua introdução
+à programação.
+

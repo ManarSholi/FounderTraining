@@ -1,0 +1,174 @@
+1
+00:00:00,000 --> 00:00:03,390
+HTMLda matnni bir necha qatorlarga 
+
+2
+00:00:03,390 --> 00:00:07,059
+bo‘lishning ikki xil usuli borligini olgandirsiz.
+
+3
+00:00:07,059 --> 00:00:13,349
+Bizda bo‘sh element bo‘lgan br element mavjud bo‘lib, u bizning matnimiz orasiga bo‘sh qator kiritadi,
+
+4
+00:00:13,349 --> 00:00:16,910
+lekin bizda bo‘sh bo‘lmagan paragraf elementi ham mavjud.
+
+5
+00:00:16,910 --> 00:00:20,675
+U ma’lum tarkibga ega va u tarkibga paragraf sifatida qaraydi 
+
+6
+00:00:20,675 --> 00:00:22,949
+va paragraflar o‘rtasida uzilishlar mavjud.
+
+7
+00:00:22,949 --> 00:00:25,370
+Xo‘sh, bu ikkalasi bizga nega kerak?
+
+8
+00:00:25,370 --> 00:00:28,135
+Farqi nima? Ko‘rinib turibdiki, 
+9
+00:00:28,135 ---> 00:00:30,260
+bu yerda ko‘plab farqlar mavjud.
+
+9
+00:00:30,260 --> 00:00:32,774
+br tegi bajarayotgan ish shuki,
+
+10
+00:00:32,774 --> 00:00:34,965
+shunchaki chiziqni tugatish.
+
+11
+00:00:34,965 --> 00:00:40,950
+Siz ilgari HTML bizning matnimiz orasidagi har qancha oddiy bo‘sh satrlar  qo‘yilishi ahamiyatsiz ekanligi,
+
+12
+00:00:40,950 --> 00:00:42,369
+ularning barchasini baribir ham birlashtirib turishini ko‘rdingiz.
+
+13
+00:00:42,369 --> 00:00:44,299
+br tegi shunchaki brauzerga 
+
+14
+00:00:44,299 --> 00:00:45,854
+"Bu yerda qatorni uzing" deb aytadi.
+
+15
+00:00:45,854 --> 00:00:47,945
+Ammo paragraf bajarayotgan ish
+
+16
+00:00:47,945 --> 00:00:49,490
+aslida umuman boshqacha ishdir.
+
+17
+00:00:49,490 --> 00:00:53,770
+Bu xuddi faqat matnni o‘z ichiga olgan yana nimadir qilyapti.
+
+18
+00:00:53,770 --> 00:00:58,270
+Matn atrofida bir oz ko‘rinmas qutichani hosil qilishni brauzerga aytadi.
+
+19
+00:00:58,270 --> 00:01:01,520
+Ushbu quticha blok deb ataladi va 
+
+20
+00:01:01,520 --> 00:01:05,105
+bloklar brauzerning ekrandagi matnni qanday chiqarishiga katta ta’sir ko‘rsatadi.
+
+21
+00:01:05,105 --> 00:01:09,530
+Ushbu blokning uzunligi va eni bor, shuningdek, uning ostidan
+
+22
+00:01:09,530 --> 00:01:14,105
+paragraf atrofida bo‘sh joyni ta’minlaydigan pastroq chegarasi bor.
+
+23
+00:01:14,105 --> 00:01:18,150
+Endi yanada murakkab loyihalar uchun HTMLdan foydalansangiz, 
+
+24
+00:01:18,150 --> 00:01:22,219
+bu farq rostdan ham juda ko‘p ekanligini bilib olasiz.
+
+25
+00:01:22,219 --> 00:01:26,605
+P elementi - bu blok element deb ataydigan narsa, chunki u ko‘rinmas 
+27
+00:01:26,605 ---> 00:01:28,405
+qutichalardan biri bo‘lgan blokni yaratadi.
+
+26
+00:01:28,405 --> 00:01:33,814
+em, mark va hatto br kabi bloklarni ham yaratmaydigan elementlar
+
+27
+00:01:33,814 --> 00:01:36,344
+ichki elementlar deyiladi.
+
+28
+00:01:36,344 --> 00:01:40,670
+Bu yerda blok va ichki elementlarning yana bir nechta namunalari.
+
+29
+00:01:40,670 --> 00:01:43,349
+Hozir ularni eslab qolishingiz haqida qayg‘urmang.
+
+30
+00:01:43,349 --> 00:01:47,019
+Bularning ba’zilarini siz hali ko‘rmagansiz, ammo tez orada ko‘rasiz; 
+
+31
+00:01:47,019 --> 00:01:49,875
+ro‘yxatlar, jadvallar, 
+
+32
+00:01:49,875 --> 00:01:53,935
+sarlavhalar va video pleyerlar kabi narsalar - barchasi blok elementlari.
+
+33
+00:01:53,935 --> 00:01:56,495
+Brauzer ularning har biri uchun quticha tayyorlaydi.
+
+34
+00:01:56,495 --> 00:01:59,150
+Agar siz veb-sahifangizga tartiblangan ro‘yxatni qo‘ysangiz, 
+
+35
+00:01:59,150 --> 00:02:01,420
+brauzer uning atrofiga qutichani qo‘yishi kerak.
+
+36
+00:02:01,420 --> 00:02:03,879
+Ammo chiziqlar kesishishi, 
+
+37
+00:02:03,879 --> 00:02:06,644
+urg‘u berish, boshqa veb-sahifalarga havolalar 
+
+38
+00:02:06,644 --> 00:02:09,729
+va rasmlar kabi barcha narsalar ichki elementlardan iborat bo‘lib, 
+
+39
+00:02:09,729 --> 00:02:11,449
+ular quticha hosil qilmaydi, 
+
+40
+00:02:11,449 --> 00:02:14,365
+ular o‘zlari foydalangan matnlar bilan birikadi.
+
+41
+00:02:14,365 --> 00:02:16,580
+HTML haqida ko‘proq o‘rganganingiz sayin, 
+
+42
+00:02:16,580 --> 00:02:20,920
+siz ushbu va boshqa ko‘plab elementlar haqida ko‘proq ma’lumotga ega bo‘lasiz.
+

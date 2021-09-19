@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:04,974
+Ushbu mashq sizdan quyidagi beshta fayldan qaysilari matn yordamida tayyorlanganligini so‘ragan edi.
+
+2
+00:00:04,974 --> 00:00:08,689
+Birinchisi, siz Atom muharririda yozgan hikoyangiz.
+
+3
+00:00:08,689 --> 00:00:10,650
+Agar siz Atomda hikoya yozsangiz,
+
+4
+00:00:10,650 --> 00:00:12,255
+u oddiy matnda bo‘ladi.
+
+5
+00:00:12,255 --> 00:00:14,125
+Shunday qilib, bu to‘g‘ri.
+
+6
+00:00:14,125 --> 00:00:18,329
+Ikkinchisi - bu sizning telefoningizdagi musiqa.
+
+7
+00:00:18,329 --> 00:00:23,745
+Keling, musiqa faylini olib, uni matn muharririda ochsak nima bo‘lishini ko‘rib chiqaylik.
+
+8
+00:00:23,745 --> 00:00:27,914
+Menda Betxoven to‘qqizinchi simfonik MP3 fayli bor.
+
+9
+00:00:27,914 --> 00:00:30,554
+Atomda ochishga ijozat bering.
+
+10
+00:00:30,554 --> 00:00:33,375
+Voy, qandoq ahmoqlik,
+
+11
+00:00:33,375 --> 00:00:37,619
+matn muharriri faylni matn sifatida ochishga urinmoqda, turli tartibsizliklarni keltirib chiqarmoqda,
+
+12
+00:00:37,619 --> 00:00:39,340
+ammo unday emas.
+
+13
+00:00:39,340 --> 00:00:42,570
+Matn muharriri mp3 fayl bilan nima qilishni bilmaydi.
+
+14
+00:00:42,570 --> 00:00:45,560
+Musiqa fayllari aslida matn emasdirlar.
+
+15
+00:00:45,560 --> 00:00:48,393
+Uchinchisi Udacityning bosh sahifasi.
+
+16
+00:00:48,393 --> 00:00:50,969
+Bosh sahifa HTMLdan iborat bolib,
+
+17
+00:00:50,969 --> 00:00:53,149
+HTML esa matn shaklida yozilgan.
+
+18
+00:00:53,149 --> 00:00:55,225
+Demak, bu ham to‘g‘ri.
+
+19
+00:00:55,225 --> 00:00:58,109
+To‘rtinchisi - kuchukning fotosurati.
+
+20
+00:00:58,109 --> 00:01:00,204
+Rasmlar matn emas.
+
+21
+00:01:00,204 --> 00:01:04,159
+Brauzerlar rasmlarni qanday aks ettirishni bilishadi,
+
+22
+00:01:04,159 --> 00:01:07,674
+lekin siz uni matn muharririda ochishga harakat qilsangiz,
+
+23
+00:01:07,674 --> 00:01:09,204
+siz mp3 musiqiy fayl kabi,
+
+24
+00:01:09,204 --> 00:01:11,829
+katta tartibsizlikni ko‘rasiz.
+
+25
+00:01:11,829 --> 00:01:13,310
+Suratni tahrirlash uchun
+
+26
+00:01:13,310 --> 00:01:15,500
+sizga tahrirlash dasturi kerak bo‘ladi.
+
+27
+00:01:15,500 --> 00:01:17,655
+Oxirgisi biroz qiyin.
+
+28
+00:01:17,655 --> 00:01:20,484
+Qonuniy shartnomaning PDF fayli.
+
+29
+00:01:20,484 --> 00:01:22,909
+PDFni brauzeringizda yoki
+
+30
+00:01:22,909 --> 00:01:25,510
+Adobe Acrobat kabi dasturda ko‘rsangiz,
+
+31
+00:01:25,510 --> 00:01:28,564
+odatda so‘zlar, jumlalar va boshqalarni ko‘rishingiz mumkin.
+
+32
+00:01:28,564 --> 00:01:31,480
+Xullas, u matnga o‘xshaydi,
+
+33
+00:01:31,480 --> 00:01:34,049
+ammo PDF matnli fayl emas,
+
+34
+00:01:34,049 --> 00:01:36,694
+va uni matn muharririda tahrirlay olmaysiz.
+
+35
+00:01:36,694 --> 00:01:41,584
+MS Word kabi dasturlarning protsessorlari uchun xuddi shunday.
+
+36
+00:01:41,584 --> 00:01:47,659
+HTML yoki boshqa dasturlar kabi matnli fayllarni tahrirlash uchun biz hech qachon matn protsessoridan foydalanmaymiz.
+
+37
+00:01:47,659 --> 00:01:49,759
+Biz matn muharriridan fydalanamiz.
+

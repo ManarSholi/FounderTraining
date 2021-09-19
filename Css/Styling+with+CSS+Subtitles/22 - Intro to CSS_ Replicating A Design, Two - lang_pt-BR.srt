@@ -1,0 +1,195 @@
+1
+00:00:00,281 --> 00:00:03,435
+Bem, a minha abordagem
+foi bem parecida com a do Karl,
+
+2
+00:00:03,477 --> 00:00:05,707
+mas fiz algumas coisas
+um pouco diferentes.
+
+3
+00:00:05,749 --> 00:00:08,101
+Eu mostrarei os meus passos.
+
+4
+00:00:08,143 --> 00:00:11,165
+Para começar, configurei
+o tamanho dos elementos
+
+5
+00:00:11,207 --> 00:00:13,692
+para ter algo tangível
+com que trabalhar.
+
+6
+00:00:13,734 --> 00:00:16,837
+Abri a imagem em um aplicativo
+no meu computador
+
+7
+00:00:16,879 --> 00:00:19,078
+para ver a largura do original
+
+8
+00:00:19,120 --> 00:00:23,668
+e tentei adivinhar o tamanho
+das minhas caixas.
+
+9
+00:00:23,710 --> 00:00:26,976
+Três caixas em 300px.
+
+10
+00:00:27,018 --> 00:00:30,452
+Teremos três caixas
+com 100px cada.
+
+11
+00:00:30,494 --> 00:00:33,308
+Também quero que haja espaço
+entre elas,
+
+12
+00:00:33,350 --> 00:00:36,109
+então adicionarei
+uma margem de 5px.
+
+13
+00:00:36,151 --> 00:00:38,105
+Preciso transformar a coluna
+
+14
+00:00:38,147 --> 00:00:41,503
+em uma grade de 3x3.
+
+15
+00:00:41,545 --> 00:00:43,280
+Aí entra o float.
+
+16
+00:00:43,322 --> 00:00:45,880
+O float permite que itens
+com largura configurada
+
+17
+00:00:45,922 --> 00:00:49,480
+flutuem para cima no próximo
+espaço disponível da página.
+
+18
+00:00:49,522 --> 00:00:52,145
+Como a caixa está configurada
+a 300px,
+
+19
+00:00:52,187 --> 00:00:56,616
+posso flutuar até 300px de itens
+na primeira linha.
+
+20
+00:00:57,384 --> 00:01:02,848
+Somente dois itens
+passaram para a primeira linha.
+
+21
+00:01:02,890 --> 00:01:04,528
+Vejamos a conta novamente.
+
+22
+00:01:05,168 --> 00:01:08,929
+Deve ser
+por conta das margens adicionais.
+
+23
+00:01:08,971 --> 00:01:12,632
+Vamos redimensionar as caixas
+para acomodar as margens
+
+24
+00:01:12,674 --> 00:01:15,496
+de forma que caibam
+na largura da caixa maior.
+
+25
+00:01:15,538 --> 00:01:16,760
+Agora ficou melhor.
+
+26
+00:01:16,802 --> 00:01:21,384
+Parece que as caixas
+estão na ordem errada.
+
+27
+00:01:21,426 --> 00:01:25,968
+Usando "float: right", parece
+que as caixas preencheram o espaço
+
+28
+00:01:26,010 --> 00:01:27,841
+até que a largura
+fosse preenchida.
+
+29
+00:01:27,883 --> 00:01:30,799
+Em vez disso, quero preencher
+a partir da esquerda
+
+30
+00:01:30,841 --> 00:01:32,975
+para manter a ordem.
+
+31
+00:01:33,017 --> 00:01:35,553
+Vamos alterar isso aqui.
+
+32
+00:01:35,595 --> 00:01:38,376
+Muito bem.
+Agora estamos progredindo.
+
+33
+00:01:38,418 --> 00:01:42,575
+O resto das correções
+são as mesmas da solução do Karl.
+
+34
+00:01:42,617 --> 00:01:45,087
+Precisamos nos livrar
+dos pontos de lista,
+
+35
+00:01:45,129 --> 00:01:48,111
+aumentar a fonte,
+centralizar o texto
+
+36
+00:01:48,153 --> 00:01:51,135
+e configurar a font-family
+para remover a serif.
+
+37
+00:01:51,177 --> 00:01:55,632
+Além disso, configuro
+a cor de fundo das caixas
+
+38
+00:01:55,674 --> 00:01:57,751
+para que seja igual
+à da imagem.
+
+39
+00:01:57,793 --> 00:02:01,576
+Parece ser azul-claro,
+então configurarei nessa cor.
+
+40
+00:02:01,618 --> 00:02:05,965
+Demais! Essa foi outra abordagem
+para criar a renderização de um site
+
+41
+00:02:06,007 --> 00:02:08,094
+com design
+de um jogo da velha.
+

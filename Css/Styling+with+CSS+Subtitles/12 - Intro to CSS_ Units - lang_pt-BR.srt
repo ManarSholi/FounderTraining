@@ -1,0 +1,289 @@
+1
+00:00:00,292 --> 00:00:02,978
+Uma das coisas para a qual
+podemos usar o CSS
+
+2
+00:00:03,020 --> 00:00:06,658
+é para alterar o layout
+dos elementos da página.
+
+3
+00:00:06,700 --> 00:00:10,165
+Podemos movê-los,
+mudar o tamanho deles,
+
+4
+00:00:10,207 --> 00:00:14,623
+o formato e a posição.
+
+5
+00:00:14,665 --> 00:00:18,470
+Para falar onde os elementos
+estão na página,
+
+6
+00:00:18,512 --> 00:00:21,133
+precisamos ter
+unidades de medida.
+
+7
+00:00:21,175 --> 00:00:25,110
+Assim como no dia a dia
+usamos metros, pés,
+
+8
+00:00:25,152 --> 00:00:26,982
+milhas ou quilômetros
+
+9
+00:00:27,024 --> 00:00:30,149
+para dizer onde uma coisa está
+ou o tamanho dela,
+
+10
+00:00:30,191 --> 00:00:34,270
+no CSS,
+usamos algumas unidades.
+
+11
+00:00:34,312 --> 00:00:39,706
+A unidade básica de medida no CSS
+é o pixel, ou px.
+
+12
+00:00:39,748 --> 00:00:43,169
+Os pixels são as unidades usadas
+em ferramentas de desenvolvimento
+
+13
+00:00:43,211 --> 00:00:46,149
+para medir o tamanho
+de um elemento de caixa.
+
+14
+00:00:46,191 --> 00:00:50,856
+Normalmente, um pixel
+é um ponto de cor na tela,
+
+15
+00:00:50,898 --> 00:00:54,597
+mas as telas de computador
+não têm o mesmo tamanho em pixels.
+
+16
+00:00:54,639 --> 00:00:57,222
+Em especial,
+os pixels do hardware
+
+17
+00:00:57,264 --> 00:01:00,261
+dos novos dispositivos móveis
+são minúsculos
+
+18
+00:01:00,303 --> 00:01:03,398
+se comparados com as telas
+dos computadores mais antigos.
+
+19
+00:01:03,440 --> 00:01:08,036
+Então, no CSS, a unidade chamada
+de "pixel" ou "px"
+
+20
+00:01:08,078 --> 00:01:10,813
+não é realmente
+um pixel do hardware,
+
+21
+00:01:10,855 --> 00:01:15,374
+em vez disso, ela é definida
+como 1/96 de uma polegada.
+
+22
+00:01:15,416 --> 00:01:19,101
+96 pixels por polegada
+era uma resolução de tela comum
+
+23
+00:01:19,143 --> 00:01:21,422
+quando o CSS
+estava sendo padronizado,
+
+24
+00:01:21,464 --> 00:01:25,351
+então foi assim que a unidade px
+do CSS foi configurada.
+
+25
+00:01:25,393 --> 00:01:27,528
+Me desculpem
+os fãs de métricas,
+
+26
+00:01:27,570 --> 00:01:31,199
+mas a medida do CSS é definida
+de acordo com a unidade americana.
+
+27
+00:01:31,241 --> 00:01:34,240
+Há 96 pixels de CSS
+em uma polegada,
+
+28
+00:01:34,282 --> 00:01:39,215
+isso significa que há 37,8 pixels
+de CSS em um centímetro.
+
+29
+00:01:39,257 --> 00:01:42,687
+Eis um exemplo de como usar
+essas unidades.
+
+30
+00:01:42,729 --> 00:01:46,464
+Imagine que temos um elemento <p>
+com a classe skinny
+
+31
+00:01:46,506 --> 00:01:50,079
+e queremos que ele apareça
+com duas polegadas de largura.
+
+32
+00:01:50,121 --> 00:01:55,219
+A propriedade CSS width
+configura a largura do elemento.
+
+33
+00:01:55,261 --> 00:01:56,911
+Para selecionar o elemento,
+
+34
+00:01:56,953 --> 00:01:59,864
+usaremos
+o seletor de classe .skinny
+
+35
+00:01:59,906 --> 00:02:01,889
+e adicionaremos uma declaração
+
+36
+00:02:01,931 --> 00:02:06,707
+width: 192px;.
+
+37
+00:02:06,749 --> 00:02:09,107
+Quando isso é aplicado
+ao HTML,
+
+38
+00:02:09,149 --> 00:02:12,772
+obtemos um parágrafo
+com duas polegadas de largura.
+
+39
+00:02:12,814 --> 00:02:16,706
+O nome de classe skinny
+é algo que criamos
+
+40
+00:02:16,748 --> 00:02:19,777
+para anexar a configuração
+desta regra ao parágrafo.
+
+41
+00:02:19,819 --> 00:02:22,259
+Nós poderíamos chamá-la
+de "aardvark",
+
+42
+00:02:22,301 --> 00:02:25,275
+mas isso não seria
+muito descritivo.
+
+43
+00:02:25,317 --> 00:02:28,120
+Também existem outras unidades
+no CSS.
+
+44
+00:02:28,162 --> 00:02:32,302
+Uma unidade tipográfica tradicional
+é a de ponto, ou pt.
+
+45
+00:02:32,344 --> 00:02:35,041
+Você já deve tê-la visto
+nos processadores de texto,
+
+46
+00:02:35,083 --> 00:02:37,184
+como no MS Word
+ou no Google Docs,
+
+47
+00:02:37,226 --> 00:02:39,359
+nos quais temos
+fontes de 12 pontos,
+
+48
+00:02:39,401 --> 00:02:42,023
+de 36 pontos
+ou coisa parecida.
+
+49
+00:02:42,065 --> 00:02:45,520
+Um ponto é igual a 1/70 segundos
+de uma polegada.
+
+50
+00:02:45,562 --> 00:02:49,047
+No CSS, os pontos não servem só
+para o tamanho da fonte,
+
+51
+00:02:49,089 --> 00:02:51,258
+mas é para isso
+que são mais usados.
+
+52
+00:02:51,952 --> 00:02:55,127
+Algumas unidades
+funcionam de forma diferente.
+
+53
+00:02:55,169 --> 00:02:58,807
+Enquanto pixels e pontos
+se baseiam em polegadas,
+
+54
+00:02:58,849 --> 00:03:01,376
+que é uma medida de comprimento
+do mundo real,
+
+55
+00:03:01,418 --> 00:03:06,079
+outras unidades CSS são relativas
+ao tamanho de algo na página.
+
+56
+00:03:06,121 --> 00:03:08,562
+Uma delas é o "em".
+
+57
+00:03:08,604 --> 00:03:13,321
+O em é igual ao tamanho da fonte
+do texto no elemento.
+
+58
+00:03:13,363 --> 00:03:16,089
+Se usarmos uma fonte
+de 18 pontos,
+
+59
+00:03:16,131 --> 00:03:19,165
+então 1em será igual
+a 18 pontos.
+

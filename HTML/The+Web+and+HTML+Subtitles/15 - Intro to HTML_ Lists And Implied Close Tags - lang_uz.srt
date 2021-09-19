@@ -1,0 +1,179 @@
+1
+00:00:00,000 --> 00:00:07,230
+HTML da ba’zi elementlar aniq boshqa elementlarning ichida ishlatiladi. 
+
+2
+00:00:07,230 --> 00:00:09,675
+Ular o‘zlari nimanidir anglatmaydilar.
+
+3
+00:00:09,675 --> 00:00:14,285
+Misol uchun, ro‘yxat elementi yoki li elementi.
+
+4
+00:00:14,285 --> 00:00:17,010
+Ro‘yxat obyektlari ichidagi birorta elementi
+
+5
+00:00:17,010 --> 00:00:21,254
+xaridlar ro‘yxati, rasmlar ro‘yxati yoki tarkiblar jadvali kabi bir narsa.
+
+6
+00:00:21,254 --> 00:00:24,464
+Ro‘yxat elementi faqat o‘z-o‘zidan paydo bo‘lishi mumkin emas,
+
+7
+00:00:24,464 --> 00:00:26,609
+u har doim ro‘yxatning bir qismi bo‘ladi.
+
+8
+00:00:26,609 --> 00:00:31,440
+lining bir qismi bo‘lishi mumkin bo‘lgan ikki xil ro‘yxat mavjud.
+
+9
+00:00:31,440 --> 00:00:34,289
+Odatda buyurtmalar ro‘yxatning bir qismi bo‘lishi mumkin, odatda
+
+10
+00:00:34,289 --> 00:00:37,810
+har bir elementning oldida raqamlar,
+
+11
+00:00:37,810 --> 00:00:40,219
+yoki harflar bilan ro‘yxat sifatida ko‘rsatiladi yoki,
+
+12
+00:00:40,219 --> 00:00:42,914
+tartiblashtirilmagan ro‘yxat odatda markerlar yoki nuqta bilan ko‘rsatiladi.
+
+13
+00:00:42,914 --> 00:00:46,534
+Tartiblangan ro‘yxat uchun HTML elementlari ol,
+
+14
+00:00:46,534 --> 00:00:49,384
+tartiblanmaganlar uchun esa ul.
+
+15
+00:00:49,384 --> 00:00:54,625
+Xo‘sh, nima uchun ro‘yxat elementi ro‘yxatdan ajralib turolmaydi?
+
+16
+00:00:54,625 --> 00:00:59,490
+ol va ul ro‘yxatlari boshqacha ko‘rinadi.
+
+17
+00:00:59,490 --> 00:01:02,960
+Ro‘yxatning bir yoki boshqa turining kontekstisiz brauzer,
+
+18
+00:01:02,960 --> 00:01:07,084
+elementni nuqta yoki raqam qo‘yish kerakligini bilmaydi.
+
+19
+00:01:07,084 --> 00:01:11,900
+Shu sababli, HTMLda qoidaga ko‘ra
+
+20
+00:01:11,900 --> 00:01:16,969
+li elementlar faqat ol yoki ul ichida bo‘lishi mumkin.
+
+21
+00:01:16,969 --> 00:01:21,689
+Ammo ro‘yxat boshqa ro‘yxatlarga joyashtirilishi mumkin.
+
+22
+00:01:21,689 --> 00:01:24,980
+Mana bu qanday qilib diagramma yoki vazifalar ro‘yxati kabi narsalarni
+
+23
+00:01:24,980 --> 00:01:29,140
+yaratishingiz mumkinligini ko‘rsatadi, unda ba’zi vazifalar ichida bir nechta qadamlar mavjud.
+
+24
+00:01:29,140 --> 00:01:34,069
+Mana, butun mamlakat bo‘ylab Kaliforniyaga ko‘chib o‘tish uchun topshiriqlar ro‘yxati.
+
+25
+00:01:34,069 --> 00:01:37,275
+Men bir necha bosqichlarini o‘tkazib yuborgan bo‘lsam kerak, ammo bu juda kattalari edi.
+26
+00:01:37,275 --> 00:01:40,232.
+Oshxona buyumlari ro‘yxat elementini ko‘rib chiqing.
+
+26
+00:01:40,704 --> 00:01:48,810
+Bu ul element ichidagi li element, ol ichidagi boshqa li element.
+
+27
+00:01:48,810 --> 00:01:51,084
+Brauzerda biz buni namoyish
+
+28
+00:01:51,084 --> 00:01:53,480
+qilganimizda u,
+
+29
+00:01:53,480 --> 00:01:57,984
+birinchi, ikkinchi va uchinchi fikrlarni bajaradi.
+
+30
+00:01:57,984 --> 00:02:00,594
+Aytgancha, bu yerda biroz qisqartma.
+
+31
+00:02:00,594 --> 00:02:04,069
+li elementi faqat ro‘yxat ichida ko‘rinishi mumkin va to‘g‘ridan-to‘g‘ri 
+
+32
+00:02:04,069 --> 00:02:08,550
+boshqa li ichida bo‘la olmasligi sababli,
+
+33
+00:02:08,550 --> 00:02:14,275
+HTML bizdan elementlar uchun yakunlovchi taglarni yozishni talab qilmaydi.
+
+34
+00:02:14,275 --> 00:02:20,060
+Buning sababi shundaki li elementi hech qachon boshqa
+
+35
+00:02:20,060 --> 00:02:23,585
+li ning ichida paydo bo‘lolmaydi, u har doim ol yoki ulning ichida bo‘lishi kerak.
+
+36
+00:02:23,585 --> 00:02:26,629
+Bu shuni anglatadiki, agar brauzer li elementining matnini 
+
+37
+00:02:26,629 --> 00:02:31,125
+o‘qib chiqsa va boshqa ochiladigan li tegni topsa,
+
+38
+00:02:31,125 --> 00:02:34,810
+oldingi ro‘yxat elementi bilan bajarilishi kerakligini biladi.
+
+39
+00:02:34,810 --> 00:02:40,090
+Shunday qilib, xohlasangiz yoki xohlamasangiz li uchun yopuvchi teglarni yozishni tanlashingiz mumkin.
+
+40
+00:02:40,090 --> 00:02:44,955
+Ba’zi veb-dasturchilar har doim shunday qilishadi, chunki ular kodlarni yaxshiroq qiladi deb o‘ylashadi.
+
+41
+00:02:44,955 --> 00:02:47,689
+Ba’zilar bunday qilmaydilar, chunki
+
+42
+00:02:47,689 --> 00:02:51,055
+ularni qoldirib, fayldagi bo‘sh joyni tejashingiz mumkin.
+
+43
+00:02:51,055 --> 00:02:56,780
+Ammo siz har doim ul uchun teglarni yozishingiz kerak,
+
+44
+00:02:56,780 --> 00:03:02,039
+shunda brauzer ularning ortidan hamma narsani ro‘yxatga kiritishga urinmaydi.
+

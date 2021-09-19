@@ -1,0 +1,210 @@
+1
+00:00:00,328 --> 00:00:03,887
+Até agora, o HTML que você compôs
+nesta aula
+
+2
+00:00:03,929 --> 00:00:07,303
+tem o que chamamos
+de "fragmentos de HTML",
+
+3
+00:00:07,345 --> 00:00:09,150
+pedaços de HTML,
+
+4
+00:00:09,192 --> 00:00:11,287
+que o navegador pode exibir,
+
+5
+00:00:11,329 --> 00:00:13,694
+mas existem mais coisas
+a serem adicionadas
+
+6
+00:00:13,736 --> 00:00:16,559
+para torná-lo
+um documento HTML completo,
+
+7
+00:00:16,601 --> 00:00:19,270
+ou melhor dizendo,
+uma página da internet.
+
+8
+00:00:19,312 --> 00:00:21,382
+O HTML composto até agora
+
+9
+00:00:21,424 --> 00:00:25,014
+foi como algumas frases
+de uma história,
+
+10
+00:00:25,056 --> 00:00:28,372
+mas uma história publicada
+possui coisas como o título
+
+11
+00:00:28,414 --> 00:00:31,227
+e o autor, não somente frases.
+
+12
+00:00:31,269 --> 00:00:34,739
+Da mesma forma, existem coisas
+que precisam ser adicionadas
+
+13
+00:00:34,781 --> 00:00:38,132
+em todo documento HTML,
+para torná-lo completo.
+
+14
+00:00:38,174 --> 00:00:42,892
+Primeiro, como o navegador sabe
+qual é o tipo de documento?
+
+15
+00:00:42,934 --> 00:00:46,941
+A extensão do arquivo
+só informa parte da história.
+
+16
+00:00:46,983 --> 00:00:50,037
+O HTML existe há muitos anos,
+
+17
+00:00:50,079 --> 00:00:53,397
+e já houve muitas versões
+do HTML.
+
+18
+00:00:53,439 --> 00:00:56,700
+Indicamos o tipo de HTML
+que estamos usando
+
+19
+00:00:56,742 --> 00:01:00,437
+adicionando uma tag
+no início do arquivo.
+
+20
+00:01:00,479 --> 00:01:03,069
+Esta tag é a de DOCTYPE
+
+21
+00:01:03,111 --> 00:01:06,326
+e é escrita um pouco
+diferente das outras tags.
+
+22
+00:01:06,368 --> 00:01:08,612
+Nas primeiras versões
+do HTML,
+
+23
+00:01:08,654 --> 00:01:12,957
+as tags DOCTYPE
+eram longas e confusas.
+
+24
+00:01:12,999 --> 00:01:15,997
+Posteriormente, os engenheiros
+que projetaram o HTML
+
+25
+00:01:16,039 --> 00:01:19,525
+decidiram simplificar
+deixando-as bem básicas.
+
+26
+00:01:19,567 --> 00:01:24,045
+No HTML moderno,
+a tag DOCTYPE é assim:
+
+27
+00:01:24,087 --> 00:01:26,380
+colchete angular,
+ponto de exclamação,
+
+28
+00:01:26,422 --> 00:01:29,453
+DOCTYPE em caixa-alta,
+espaço,
+
+29
+00:01:29,495 --> 00:01:32,989
+html em minúsculo
+e colchete angular de encerramento.
+
+30
+00:01:33,031 --> 00:01:36,433
+Desta forma.
+E você colocará isto
+
+31
+00:01:36,475 --> 00:01:39,730
+no início
+de todo documento HTML.
+
+32
+00:01:39,772 --> 00:01:42,803
+O que a tag DOCTYPE faz?
+
+33
+00:01:42,845 --> 00:01:45,943
+Ela informa ao navegador
+que o documento deve ser tratado
+
+34
+00:01:45,985 --> 00:01:47,881
+como um HTML moderno,
+
+35
+00:01:47,923 --> 00:01:50,658
+diferente das versões
+mais antigas.
+
+36
+00:01:50,700 --> 00:01:53,961
+Isso não é tão importante
+para HTMLs simples,
+
+37
+00:01:54,003 --> 00:01:55,970
+mas evita muitos erros
+
+38
+00:01:56,012 --> 00:01:58,849
+quando o HTML
+ficar mais complexo.
+
+39
+00:01:58,891 --> 00:02:00,680
+Sem a tag DOCTYPE,
+
+40
+00:02:00,722 --> 00:02:04,337
+os navegadores
+entram no modo Quirks,
+
+41
+00:02:04,379 --> 00:02:08,441
+que tenta ser compatível
+com formas mais antigas de HTML.
+
+42
+00:02:08,483 --> 00:02:11,434
+Isso é algo que geralmente
+não desejamos hoje,
+
+43
+00:02:11,476 --> 00:02:13,826
+então adicionar a tag DOCTYPE
+nos documentos
+
+44
+00:02:13,868 --> 00:02:15,565
+é a maneira certa
+de trabalhar.
+

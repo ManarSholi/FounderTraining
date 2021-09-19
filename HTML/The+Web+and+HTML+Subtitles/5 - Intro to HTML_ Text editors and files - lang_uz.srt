@@ -1,0 +1,160 @@
+1
+00:00:00,000 --> 00:00:03,419
+Deyarli har qanday dasturlash tilidagi
+
+2
+00:00:03,419 --> 00:00:07,509
+HTML hujjatlari va dasturlari matnli fayllarda yozilgan.
+
+3
+00:00:07,509 --> 00:00:09,609
+Keling, bu nimani anglatishini ko‘rib chiqamiz.
+
+4
+00:00:09,609 --> 00:00:13,970
+Matnli fayllar faqat belgilarni o‘z ichiga oladi:
+
+5
+00:00:13,970 --> 00:00:17,114
+harflar, raqamlar, belgilar va boshqalar.
+
+6
+00:00:17,114 --> 00:00:19,559
+Ularda qalin, kursiv yoki,
+
+7
+00:00:19,559 --> 00:00:22,089
+ranglar kabi maxsus topografiya mavjud emas.
+
+8
+00:00:22,089 --> 00:00:24,109
+Ularda fotosuratlar, piktogramma,
+
+9
+00:00:24,109 --> 00:00:26,309
+yoki boshqa rasmlar mavjud emas.
+
+10
+00:00:26,309 --> 00:00:31,504
+Eski modeldagi yozuv mashinkasida yozishingiz mumkin bo‘lgan har qanday narsa kabi matnni tasavvur qilishingiz mumkin.
+
+11
+00:00:31,504 --> 00:00:34,454
+Matn cheklangandek ko‘rinadi,
+
+12
+00:00:34,454 --> 00:00:36,689
+ammo u ham juda moslashuvchan.
+
+13
+00:00:36,689 --> 00:00:39,729
+Undan turi xil ishlar uchun foydalanish mumkin.
+
+14
+00:00:39,729 --> 00:00:42,284
+HTML matn shaklida yozilgan,
+
+15
+00:00:42,284 --> 00:00:47,414
+ammo ma’lumotlarni tahlil qilish yoki yozuv serverlarini yozish uchun turli xil dasturlash tillari qo‘llaniladi.
+
+16
+00:00:47,414 --> 00:00:50,990
+Bular matnni kiritishi va uni 
+
+17
+00:00:50,990 --> 00:00:55,369
+musiqiy notaga, ilmiy maqola formatlash yoki,
+
+18
+00:00:55,369 --> 00:00:58,774
+maxsus tashkil etilgan matnlarni elektron jadvalga yuklashi mumkin bo‘lgan dasturlardir.
+
+19
+00:00:58,774 --> 00:01:01,094
+HTMl kodini ko‘rsangiz unda juda ko‘p,
+
+20
+00:01:01,094 --> 00:01:04,480
+g‘alati narsalar sodir bo‘lgandek tuyulishi mumkin,
+
+21
+00:01:04,480 --> 00:01:07,329
+lekin aslida hammasi shunchaki matndan iborat.
+
+22
+00:01:07,329 --> 00:01:10,305
+Foydalanuvchi uchun ko‘rinadigan veb-sahifaning,
+
+23
+00:01:10,305 --> 00:01:15,060
+tartibi ushbu matn faylidagi kod asosida veb-brauzer tomonidan tuziladi.
+
+24
+00:01:15,060 --> 00:01:18,340
+Foydalanuvchi uchun ko‘rinadigan veb-sahifaning
+
+25
+00:01:18,340 --> 00:01:20,359
+tartibi ushbu matn fayldagi kod
+
+26
+00:01:20,359 --> 00:01:25,325
+asosida veb-brauzer tomonidan tuziladi.
+
+27
+00:01:25,325 --> 00:01:27,924
+Brauzer manzilni ko‘radi va 
+
+28
+00:01:27,924 --> 00:01:31,849
+ushbu sahifaga joylashtirish uchun kerakli rasmlarni yoki videolarni yuklab oladi.
+
+29
+00:01:31,849 --> 00:01:35,795
+HTML faylini dasturchining matn tahrirlovchisiga yuklaganingizda, siz uni ranglar,
+
+30
+00:01:35,795 --> 00:01:39,655
+va maxsus formatlash bilan aks ettirilganini tez-tez ko‘rib turasiz,
+
+31
+00:01:39,655 --> 00:01:42,493
+bu sintaksisni ta’kidlash deb nomlanadi va
+
+32
+00:01:42,493 --> 00:01:45,174
+bu muharrirning maxsus vazifasi hisoblanadi.
+
+33
+00:01:45,174 --> 00:01:48,010
+Ushbu ranglar faylda ko‘rinmaydi,
+
+34
+00:01:48,010 --> 00:01:51,609
+aksincha muharrir HTML grammatikasini tushinishingizga 
+
+35
+00:01:51,609 --> 00:01:55,875
+yordam beradigan ranglarni qo‘llaydi.
+
+36
+00:01:55,875 --> 00:01:57,635
+Agar siz faylni saqlasangiz,
+
+37
+00:01:57,635 --> 00:02:00,219
+odatda fayl turini ko‘rsatadigan ma’lum bir tugashi
+
+38
+00:02:00,219 --> 00:02:04,924
+yoki kengaytmasi mavjud bo‘lgan fayl nomi ishlatadi.
+
+39
+00:02:04,924 --> 00:02:10,375
+Bu tahrirlovchi va brauzerlar kabi dasturlarning faylga to‘g‘ri munosabatda bo‘lishga yordam beradi.
+
+40
+00:02:10,375 --> 00:02:16,599
+HTML uchun biz fayl nomi va .HTML kengaytmasidan foydalanamiz.
+

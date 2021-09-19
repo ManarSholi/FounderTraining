@@ -1,0 +1,156 @@
+1
+00:00:00,000 --> 00:00:02,830
+Most of the time your browser gets
+
+2
+00:00:02,830 --> 00:00:06,675
+web pages by communicating with servers over the Internet.
+
+3
+00:00:06,674 --> 00:00:09,294
+Servers are just computers,
+
+4
+00:00:09,294 --> 00:00:12,884
+they're not fundamentally different from the one you're using right now,
+
+5
+00:00:12,884 --> 00:00:18,134
+but they have programs running on them that answer a browser's requests.
+
+6
+00:00:18,135 --> 00:00:22,685
+Your computer is probably connected to Udacity's webserver right now,
+
+7
+00:00:22,684 --> 00:00:25,004
+as well as, to other web servers.
+
+8
+00:00:25,004 --> 00:00:28,509
+One of the superpowers of the web is that you can make links to
+
+9
+00:00:28,510 --> 00:00:32,340
+a file or document that's on a different server for instance,
+
+10
+00:00:32,340 --> 00:00:35,140
+Udacity's website tells your browser to show
+
+11
+00:00:35,140 --> 00:00:39,045
+this video which is hosted on YouTube's website.
+
+12
+00:00:39,045 --> 00:00:43,195
+A web page can include resources such as videos, images,
+
+13
+00:00:43,195 --> 00:00:48,549
+fonts or program code from the same web server or from other web servers.
+
+14
+00:00:48,549 --> 00:00:52,954
+Web browsers and servers interact in a pretty specific way,
+
+15
+00:00:52,954 --> 00:00:55,884
+when you go to a web page or follow a link,
+
+16
+00:00:55,884 --> 00:01:01,964
+your browser makes a request to the server asking for a particular document by name,
+
+17
+00:01:01,965 --> 00:01:06,609
+and the server sends a response back to the browser containing that document,
+
+18
+00:01:06,609 --> 00:01:11,224
+or if it can't find that document it sends an error message instead.
+
+19
+00:01:11,224 --> 00:01:15,329
+The rules for how these requests and responses work are
+
+20
+00:01:15,329 --> 00:01:19,789
+called the Hypertext Transfer Protocol or HTTP.
+
+21
+00:01:19,790 --> 00:01:25,205
+That's why web addresses usually start with HTTP or HTTPS.
+
+22
+00:01:25,204 --> 00:01:28,209
+It's telling the browser how to talk to the server.
+
+23
+00:01:28,209 --> 00:01:31,640
+But when you're building a web page for the first time,
+
+24
+00:01:31,640 --> 00:01:35,745
+you won't need to run a server or have any HTTP involved.
+
+25
+00:01:35,745 --> 00:01:38,930
+Instead, you will just save the web page as a file
+
+26
+00:01:38,930 --> 00:01:42,470
+on your computer and open it up in your browser.
+
+27
+00:01:42,469 --> 00:01:46,174
+Your browser can display documents that are stored on your computer,
+
+28
+00:01:46,174 --> 00:01:48,319
+as well as, ones from the Internet.
+
+29
+00:01:48,319 --> 00:01:51,379
+Later when you want to publish a web page to the rest of
+
+30
+00:01:51,379 --> 00:01:54,920
+the world you will do that by putting it onto a server.
+
+31
+00:01:54,920 --> 00:01:57,739
+So, what goes into a web page?
+
+32
+00:01:57,739 --> 00:02:01,789
+HTML or Hypertext Markup Language is
+
+33
+00:02:01,790 --> 00:02:06,950
+the language that we use to provide the structure and the text of web pages.
+
+34
+00:02:06,950 --> 00:02:09,550
+When you load up a website in your browser,
+
+35
+00:02:09,550 --> 00:02:14,650
+the first thing that that server sends to your browser is a piece of HTML.
+
+36
+00:02:14,650 --> 00:02:18,890
+If you look at that HTML file using programmer's tools,
+
+37
+00:02:18,889 --> 00:02:22,479
+you will see all the technical details that tell the browser what to do.
+
+38
+00:02:22,479 --> 00:02:25,159
+When you open that same file in a web browser,
+
+39
+00:02:25,159 --> 00:02:30,240
+the browser will follow those instructions to build and display the page.
+

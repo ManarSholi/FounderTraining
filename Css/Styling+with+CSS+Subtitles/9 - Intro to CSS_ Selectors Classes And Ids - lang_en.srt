@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:02,040
+You don't always want to style
+
+2
+00:00:02,040 --> 00:00:05,730
+all elements of the same type in exactly the same way though.
+
+3
+00:00:05,730 --> 00:00:09,570
+For instance, if your document is an article with a sidebar,
+
+4
+00:00:09,570 --> 00:00:12,195
+you might want to apply a different style to
+
+5
+00:00:12,195 --> 00:00:15,315
+paragraph elements in the article versus in the sidebar.
+
+6
+00:00:15,314 --> 00:00:18,359
+One way you can do this is by putting a special attribute on
+
+7
+00:00:18,359 --> 00:00:21,864
+the HTML tags, the class attribute.
+
+8
+00:00:21,864 --> 00:00:24,659
+In computer languages, class is
+
+9
+00:00:24,660 --> 00:00:30,375
+a really common word for a group of things with the same characteristics.
+
+10
+00:00:30,375 --> 00:00:32,234
+As you go on in computing,
+
+11
+00:00:32,234 --> 00:00:36,899
+you'll see lots of other examples of classes in different languages.
+
+12
+00:00:36,899 --> 00:00:38,820
+But for now here,
+
+13
+00:00:38,820 --> 00:00:44,350
+a class in html is just a special attribute that we can use to say that,
+
+14
+00:00:44,350 --> 00:00:50,060
+for instance, some paragraphs need to have different style than other paragraphs.
+
+15
+00:00:50,060 --> 00:00:52,344
+So, how do you create a class?
+
+16
+00:00:52,344 --> 00:00:56,469
+All you have to do is make up a name for that class and start using it.
+
+17
+00:00:56,469 --> 00:00:58,159
+You add the class attribute to
+
+18
+00:00:58,159 --> 00:01:02,839
+some html elements and create a CSS rule set with the same name,
+
+19
+00:01:02,840 --> 00:01:05,240
+and the way you apply a CSS rule set to
+
+20
+00:01:05,239 --> 00:01:09,589
+a class is to write a selector that starts with the dot.
+
+21
+00:01:09,590 --> 00:01:12,260
+Classes are what you should use when there can be
+
+22
+00:01:12,260 --> 00:01:15,990
+several elements on the page that you want to apply a rule to.
+
+23
+00:01:15,989 --> 00:01:19,269
+If you know there will be only one element to apply it to,
+
+24
+00:01:19,269 --> 00:01:24,069
+you can make this clearer by using the id attribute instead of class.
+
+25
+00:01:24,069 --> 00:01:29,469
+The difference between id and class is that id is meant to be unique.
+
+26
+00:01:29,469 --> 00:01:33,724
+There can only be one element with a particular id on the page.
+
+27
+00:01:33,724 --> 00:01:38,394
+In contrast, there can be any number of elements with the same class.
+
+28
+00:01:38,394 --> 00:01:43,439
+Id values come from the same place that class values do, you just make them up.
+
+29
+00:01:43,439 --> 00:01:48,834
+But to apply a style to elements by id instead of a dot in the selector,
+
+30
+00:01:48,834 --> 00:01:50,754
+you put a hash mark,
+
+31
+00:01:50,754 --> 00:01:52,429
+or a number sign,
+
+32
+00:01:52,430 --> 00:01:54,880
+or one of these things anyway.
+

@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:03,439
+Matn muharriri va brauzeringizni o‘zingizga qulay qilib qo‘ying.
+
+2
+00:00:03,439 --> 00:00:06,424
+Keling, ko‘proq HTML-elementlarini ko‘rib chiqaylik.
+
+3
+00:00:06,424 --> 00:00:09,685
+Hamma biz ko‘rib chiqadigan narsalar bu tipografik elementlardir.
+
+4
+00:00:09,685 --> 00:00:13,619
+Ular brauzer matnni boshqacha ko‘rsatishi kerakligini aytishgan.
+
+5
+00:00:13,619 --> 00:00:17,524
+Keling, oddiy matndan boshlaylik.
+
+6
+00:00:17,524 --> 00:00:20,440
+Agar biz buni saqlasak va brauzerga yuklasak
+
+7
+00:00:20,440 --> 00:00:22,190
+biz matnni ko‘ramiz.
+
+8
+00:00:22,190 --> 00:00:24,635
+Yaxshi, ajoyib ish.
+
+9
+00:00:24,635 --> 00:00:27,214
+Biz bir oz urg‘u qo‘shishimiz mumkin edi,
+
+10
+00:00:27,214 --> 00:00:29,015
+lekin biz buni oldin qildik.
+
+11
+00:00:29,015 --> 00:00:30,739
+Keling, yana bir narsani sinab ko‘raylik.
+
+12
+00:00:30,739 --> 00:00:32,829
+Bu yerda boshqa HTML element mavjud.
+
+13
+00:00:32,829 --> 00:00:35,664
+U Mark deb nomlangan. "Hey Mark. Nima gap?"
+
+14
+00:00:35,664 --> 00:00:39,079
+Voy, bu Mark degan odam emas.
+
+15
+00:00:39,079 --> 00:00:41,090
+Bu ta’kidlash uchun.
+
+16
+00:00:41,090 --> 00:00:43,189
+Brauzerga yuklagan va hey,
+
+17
+00:00:43,189 --> 00:00:46,274
+go‘yo kimdir mening hayotimga sariq markerni ishga tushirgangdek.
+
+18
+00:00:46,274 --> 00:00:48,990
+Keling boshqa elementlarni sinab ko‘raylik.
+
+19
+00:00:48,990 --> 00:00:50,759
+Mana sinash uchun misol.
+
+20
+00:00:50,759 --> 00:00:53,179
+Sub va sup.
+
+21
+00:00:53,179 --> 00:00:55,429
+Men ularning ko‘rinishini ko‘rsatmoqchi emasman,
+
+22
+00:00:55,429 --> 00:00:58,479
+chunki siz ularni o‘zingiz sinab ko‘rishingizni xohlayman.
+

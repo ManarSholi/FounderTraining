@@ -1,0 +1,137 @@
+1
+00:00:00,420 --> 00:00:03,546
+Vamos falar sobre
+o espaço em branco.
+
+2
+00:00:03,588 --> 00:00:07,211
+Você deve ter percebido que,
+ao digitarmos texto no editor,
+
+3
+00:00:07,253 --> 00:00:11,611
+adicionamos várias linhas,
+espaços e quebras de parágrafos,
+
+4
+00:00:11,653 --> 00:00:13,362
+mas, ao renderizar
+no navegador,
+
+5
+00:00:13,404 --> 00:00:15,251
+tudo aparece junto.
+
+6
+00:00:15,293 --> 00:00:18,627
+Isso é porque, quando o navegador
+renderiza o HTML,
+
+7
+00:00:18,669 --> 00:00:23,091
+todo espaço em branco
+é reunido em um único espaço.
+
+8
+00:00:23,133 --> 00:00:28,604
+"Espaço em branco" é como chamamos
+o espaço, as tabulações
+
+9
+00:00:28,646 --> 00:00:30,195
+e as quebras de linha.
+
+10
+00:00:30,237 --> 00:00:33,627
+O navegador, por padrão,
+junta todos os espaços em branco,
+
+11
+00:00:33,669 --> 00:00:36,947
+então não vemos as quebras
+de linha que inserimos.
+
+12
+00:00:36,989 --> 00:00:41,195
+Quero que este poema apareça
+em linhas separadas.
+
+13
+00:00:41,237 --> 00:00:43,562
+Há uma forma
+de realizar isso no HTML,
+
+14
+00:00:43,604 --> 00:00:48,427
+inserindo uma tag
+em cada linha, chamada de "br".
+
+15
+00:00:48,469 --> 00:00:50,868
+"BR" quer dizer
+"quebrar" em inglês.
+
+16
+00:00:50,910 --> 00:00:53,926
+Então há a quebra de linha
+e o início de uma nova.
+
+17
+00:00:53,968 --> 00:00:56,941
+Ao recarregarmos
+a janela do navegador,
+
+18
+00:00:56,983 --> 00:00:59,583
+o poema
+aparecerá corretamente.
+
+19
+00:01:00,327 --> 00:01:04,197
+Você deve ter notado
+que não há tag de encerramento
+
+20
+00:01:04,239 --> 00:01:06,077
+para o elemento <br>,
+
+21
+00:01:06,119 --> 00:01:09,069
+isso porque não há
+nenhum conteúdo,
+
+22
+00:01:09,111 --> 00:01:11,845
+não há nada
+dentro da quebra de linha,
+
+23
+00:01:11,887 --> 00:01:15,342
+ele só pede
+para quebrar a linha.
+
+24
+00:01:15,384 --> 00:01:19,119
+Veremos mais elementos HTML
+como esse,
+
+25
+00:01:19,161 --> 00:01:24,037
+que não têm tag de encerramento,
+pois não há conteúdo.
+
+26
+00:01:24,079 --> 00:01:28,670
+Esses elementos são chamados
+de "void" ou de "vazios".
+
+27
+00:01:28,712 --> 00:01:33,173
+Outro exemplo disso é a tag <img>
+para imagens.
+
+28
+00:01:33,215 --> 00:01:36,494
+Veremos isso depois.
+Por ora, falaremos do texto.
+

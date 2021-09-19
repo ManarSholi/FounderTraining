@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:04,974
+This quiz asked you which of five kinds of files are made of text.
+
+2
+00:00:04,974 --> 00:00:08,689
+The first is a story that you wrote in the Atom editor.
+
+3
+00:00:08,689 --> 00:00:10,649
+If you write a story in Atom,
+
+4
+00:00:10,650 --> 00:00:12,255
+it will be in plain text.
+
+5
+00:00:12,255 --> 00:00:14,125
+So, that's correct.
+
+6
+00:00:14,125 --> 00:00:18,329
+The second item on the quiz is a piece of music on your phone.
+
+7
+00:00:18,329 --> 00:00:23,744
+Well, let's see what happens if we take a music file and open it up in a text editor.
+
+8
+00:00:23,745 --> 00:00:27,914
+I've got an MP3 file here of Beethoven's Ninth Symphony.
+
+9
+00:00:27,914 --> 00:00:30,554
+Let me open it up in Atom.
+
+10
+00:00:30,554 --> 00:00:33,375
+Well, wow, what a mess,
+
+11
+00:00:33,375 --> 00:00:37,619
+the text editor is trying its darndest to treat the file as text,
+
+12
+00:00:37,619 --> 00:00:39,339
+but it just isn't.
+
+13
+00:00:39,340 --> 00:00:42,570
+A text editor doesn't know what to do with an mp3.
+
+14
+00:00:42,570 --> 00:00:45,560
+Music files are generally not text.
+
+15
+00:00:45,560 --> 00:00:48,394
+The third is Udacity's homepage.
+
+16
+00:00:48,393 --> 00:00:50,969
+The homepage is made up of HTML,
+
+17
+00:00:50,969 --> 00:00:53,149
+and HTML is written in text.
+
+18
+00:00:53,149 --> 00:00:55,225
+So, this is correct too.
+
+19
+00:00:55,225 --> 00:00:58,109
+The fourth is a photo of a dog.
+
+20
+00:00:58,109 --> 00:01:00,204
+Photos are not text.
+
+21
+00:01:00,204 --> 00:01:04,159
+Browsers know how to display photos and other images,
+
+22
+00:01:04,159 --> 00:01:07,674
+but if you try to open it up in a text editor,
+
+23
+00:01:07,674 --> 00:01:09,204
+you will see a big mess,
+
+24
+00:01:09,204 --> 00:01:11,829
+just like with the mp3 music file.
+
+25
+00:01:11,829 --> 00:01:13,310
+To edit a photo,
+
+26
+00:01:13,310 --> 00:01:15,500
+you need photo editing software.
+
+27
+00:01:15,500 --> 00:01:17,655
+The last is a bit tricky.
+
+28
+00:01:17,655 --> 00:01:20,484
+A PDF file of a legal contract.
+
+29
+00:01:20,484 --> 00:01:22,909
+When you look at a PDF in your browser,
+
+30
+00:01:22,909 --> 00:01:25,509
+or in a program like Adobe Acrobat,
+
+31
+00:01:25,510 --> 00:01:28,565
+you can usually see words and sentences, and stuff.
+
+32
+00:01:28,564 --> 00:01:31,480
+So, that seems kind of like textish,
+
+33
+00:01:31,480 --> 00:01:34,049
+but a PDF isn't a text file,
+
+34
+00:01:34,049 --> 00:01:36,694
+and you can't edit it in a text editor.
+
+35
+00:01:36,694 --> 00:01:41,584
+The same is true for word processor files from programs like MS Word.
+
+36
+00:01:41,584 --> 00:01:47,659
+We don't ever use a word processor to edit text files such as HTML or other programs.
+
+37
+00:01:47,659 --> 00:01:49,759
+We use a text editor.
+

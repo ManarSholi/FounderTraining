@@ -1,0 +1,129 @@
+1
+00:00:00,297 --> 00:00:03,636
+Um jeito de aplicar estilos
+em uma página da internet
+
+2
+00:00:03,670 --> 00:00:07,707
+é visitar cada nó da árvore
+e adicionar o estilo que queremos.
+
+3
+00:00:07,741 --> 00:00:10,176
+Há um atributo de estilo
+que podemos colocar
+
+4
+00:00:10,210 --> 00:00:13,413
+nas tags HTML iniciais
+para fazer isto.
+
+5
+00:00:13,446 --> 00:00:17,550
+Por exemplo, se quisermos deixar
+todos os itens de lista verdes,
+
+6
+00:00:17,584 --> 00:00:18,685
+podemos fazer isto.
+
+7
+00:00:18,718 --> 00:00:20,585
+Podemos adicionar
+o atributo de estilo
+
+8
+00:00:20,619 --> 00:00:23,390
+style="color:green"
+
+9
+00:00:23,423 --> 00:00:25,425
+para cada um
+dos elementos <li>.
+
+10
+00:00:25,458 --> 00:00:29,662
+O problema de usar este método
+é que é incrivelmente repetitivo.
+
+11
+00:00:29,696 --> 00:00:33,266
+E, se errarmos em um lugar,
+será difícil de descobrir onde.
+
+12
+00:00:33,299 --> 00:00:34,768
+No geral, em computação,
+
+13
+00:00:34,801 --> 00:00:39,005
+é bom evitar a repetição
+sempre que possível.
+
+14
+00:00:39,039 --> 00:00:41,341
+Poupa digitação
+
+15
+00:00:41,374 --> 00:00:44,944
+e diminui a possibilidade
+de as coisas darem errado.
+
+16
+00:00:44,978 --> 00:00:50,383
+O CSS nos permite pegar
+todas estas informações de estilo
+
+17
+00:00:50,417 --> 00:00:52,686
+e dizer que queremos aplicar
+este estilo
+
+18
+00:00:52,719 --> 00:00:56,623
+para cada <li> no documento,
+em vez de um de cada vez.
+
+19
+00:00:56,656 --> 00:00:58,491
+Um jeito de fazer isto
+
+20
+00:00:58,525 --> 00:01:03,096
+é colocando um grupo de regras CSS
+no elemento <head> do documento,
+
+21
+00:01:03,129 --> 00:01:06,266
+criando um elemento especial
+chamado "style".
+
+22
+00:01:06,299 --> 00:01:08,835
+As informações de estilo
+que colocarmos aqui
+
+23
+00:01:08,868 --> 00:01:11,071
+serão aplicadas
+em todo o documento.
+
+24
+00:01:11,104 --> 00:01:13,873
+Quando o navegador construir
+a imagem na tela
+
+25
+00:01:13,907 --> 00:01:15,074
+vinda da árvore da DOM,
+
+26
+00:01:15,108 --> 00:01:17,010
+ele vai usar essas regras
+de estilo
+
+27
+00:01:17,043 --> 00:01:20,347
+para a cor, forma
+e o layout da página.
+

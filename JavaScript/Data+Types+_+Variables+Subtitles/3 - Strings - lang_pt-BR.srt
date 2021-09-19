@@ -1,0 +1,97 @@
+1
+00:00:00,336 --> 00:00:02,672
+Vejamos o tipo de dado string.
+
+2
+00:00:02,772 --> 00:00:06,269
+Você já deve ter usado
+uma string sem saber.
+
+3
+00:00:06,336 --> 00:00:09,000
+Quando digitamos
+uma mensagem no console.log,
+
+4
+00:00:09,067 --> 00:00:12,067
+ela, na verdade,
+é uma string do JavaScript.
+
+5
+00:00:12,873 --> 00:00:16,403
+Este "Hiya, Friend"
+é só uma string.
+
+6
+00:00:17,000 --> 00:00:20,470
+As strings podem conter
+letras únicas, como "h",
+
+7
+00:00:20,537 --> 00:00:25,000
+ou até mesmo números,
+como a string "123".
+
+8
+00:00:25,067 --> 00:00:28,739
+O importante é que você use
+aspas para significá-las.
+
+9
+00:00:28,806 --> 00:00:31,672
+Não importa se elas são
+simples ou duplas,
+
+10
+00:00:31,739 --> 00:00:33,403
+elas só precisam combinar.
+
+11
+00:00:34,134 --> 00:00:36,269
+Eu usei aspas duplas aqui...
+
+12
+00:00:36,806 --> 00:00:38,672
+e simples aqui.
+
+13
+00:00:38,772 --> 00:00:41,537
+Se eu tentar passar uma string
+para o console.log
+
+14
+00:00:41,604 --> 00:00:43,806
+e me esquecer das aspas,
+
+15
+00:00:44,537 --> 00:00:47,067
+o JavaScript mostrará um erro.
+
+16
+00:00:47,739 --> 00:00:53,470
+Isso porque o JavaScript lê como
+uma variável chamada "hello",
+
+17
+00:00:53,537 --> 00:00:56,806
+em vez de uma string
+com o valor de "hello".
+
+18
+00:00:56,873 --> 00:01:00,873
+Ainda não falamos sobre
+variáveis, mas o importante
+
+19
+00:01:00,940 --> 00:01:04,067
+é nos lembrarmos de usar
+as aspas nas strings.
+
+20
+00:01:05,403 --> 00:01:07,269
+Se eu adicionar as aspas,
+
+21
+00:01:07,336 --> 00:01:09,940
+a string aparecerá no console.
+

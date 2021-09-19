@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:04,469
+You've learned a lot of CSS techniques so far in this lesson.
+
+2
+00:00:04,469 --> 00:00:08,289
+Now, it's time to put a bunch of them together at once.
+
+3
+00:00:08,289 --> 00:00:09,799
+In the next exercise,
+
+4
+00:00:09,800 --> 00:00:13,235
+you'll be doing something that web developers do pretty often.
+
+5
+00:00:13,234 --> 00:00:15,939
+Making a web page match a design,
+
+6
+00:00:15,939 --> 00:00:17,969
+by adding CSS to it.
+
+7
+00:00:17,969 --> 00:00:21,285
+The design you'll be working with looks like this.
+
+8
+00:00:21,285 --> 00:00:23,250
+It's a tic-tac-toe board.
+
+9
+00:00:23,250 --> 00:00:27,414
+All of these x's and o's are just ordinary text.
+
+10
+00:00:27,414 --> 00:00:29,649
+But they're in a big size,
+
+11
+00:00:29,649 --> 00:00:31,579
+and a particular font.
+
+12
+00:00:31,579 --> 00:00:33,414
+They're on a background,
+
+13
+00:00:33,414 --> 00:00:36,774
+and they neatly space in their own little squares.
+
+14
+00:00:36,774 --> 00:00:39,909
+You'll start out with a piece of plain HTML,
+
+15
+00:00:39,909 --> 00:00:41,859
+and an empty CSS file.
+
+16
+00:00:41,859 --> 00:00:45,344
+Your job will be to fill in that CSS file.
+
+17
+00:00:45,344 --> 00:00:47,109
+Here's how I suggest you do it.
+
+18
+00:00:47,109 --> 00:00:49,505
+One step at a time.
+
+19
+00:00:49,505 --> 00:00:51,409
+Here's another suggestion.
+
+20
+00:00:51,408 --> 00:00:55,384
+Start by getting the boxes laid out in the way that you want them.
+
+21
+00:00:55,384 --> 00:00:58,479
+Then, work on the fonts and colors after that.
+
+22
+00:00:58,479 --> 00:01:00,634
+If you're completely lost,
+
+23
+00:01:00,634 --> 00:01:03,004
+that's okay too. Give it a try.
+
+24
+00:01:03,005 --> 00:01:06,480
+See what sorts of things you can do by using just CSS,
+
+25
+00:01:06,480 --> 00:01:07,855
+to make this layout.
+
+26
+00:01:07,855 --> 00:01:12,730
+On the next page, will each show you how we approach this problem.
+

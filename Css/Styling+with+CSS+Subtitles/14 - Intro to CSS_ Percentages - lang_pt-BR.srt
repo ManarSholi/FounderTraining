@@ -1,0 +1,148 @@
+1
+00:00:00,180 --> 00:00:01,985
+Frequentemente, no CSS,
+
+2
+00:00:02,027 --> 00:00:06,226
+não pedimos uma caixa
+com exatamente 200px de largura,
+
+3
+00:00:06,268 --> 00:00:11,858
+pedimos que ela tenha
+metade da largura da tela,
+
+4
+00:00:11,900 --> 00:00:14,882
+pois não sabemos a largura
+do navegador do usuário,
+
+5
+00:00:14,924 --> 00:00:19,547
+então não podemos dizer
+um número de pixel ou de em.
+
+6
+00:00:19,589 --> 00:00:22,865
+Nós podemos usar
+a porcentagem.
+
+7
+00:00:22,907 --> 00:00:26,340
+Quando configuramos a largura
+e a altura da caixa em porcentagem -
+
+8
+00:00:26,382 --> 00:00:27,874
+como 50% -,
+
+9
+00:00:27,916 --> 00:00:31,891
+pedimos ao navegador para alterar
+a fração da largura ou da altura
+
+10
+00:00:31,933 --> 00:00:34,297
+da caixa que está dentro.
+
+11
+00:00:34,339 --> 00:00:36,731
+As caixas no nível máximo
+do documento
+
+12
+00:00:36,773 --> 00:00:40,195
+terão 50% da largura
+da página toda.
+
+13
+00:00:40,237 --> 00:00:42,993
+As caixas
+dentro de outras caixas
+
+14
+00:00:43,035 --> 00:00:46,643
+terão 50% da largura
+da caixa pai.
+
+15
+00:00:46,685 --> 00:00:48,434
+Mas tome cuidado
+com uma coisa.
+
+16
+00:00:48,476 --> 00:00:51,506
+Por padrão, a largura
+não inclui a borda
+
+17
+00:00:51,548 --> 00:00:53,587
+e jamais inclui
+o preenchimento,
+
+18
+00:00:53,629 --> 00:00:56,795
+então se você quiser colocar
+duas caixas uma do lado da outra
+
+19
+00:00:56,837 --> 00:00:58,009
+usando "float: left",
+
+20
+00:00:58,051 --> 00:01:03,113
+geralmente elas serão menores
+do que 50% da caixa pai.
+
+21
+00:01:03,155 --> 00:01:06,739
+O CSS também usa porcentagens
+para algo bem diferente,
+
+22
+00:01:06,781 --> 00:01:09,195
+para escalonar as coisas.
+
+23
+00:01:09,237 --> 00:01:12,493
+Por exemplo, imagine deixar
+um texto strong
+
+24
+00:01:12,535 --> 00:01:14,395
+mais forte ainda.
+
+25
+00:01:14,437 --> 00:01:18,042
+Podemos fazer isso definindo
+o estilo no elemento strong
+
+26
+00:01:18,084 --> 00:01:21,627
+para deixar o tamanho da fonte
+com 120%.
+
+27
+00:01:21,669 --> 00:01:23,961
+E podemos adicionar
+a cor vermelha a ela.
+
+28
+00:01:24,003 --> 00:01:28,596
+Assim, independente
+do tamanho da fonte em pontos,
+
+29
+00:01:28,638 --> 00:01:31,092
+qualquer texto
+com elemento strong
+
+30
+00:01:31,134 --> 00:01:33,547
+será expandido a 120%
+
+31
+00:01:33,589 --> 00:01:36,679
+em comparação
+ao tamanho da fonte pai.
+

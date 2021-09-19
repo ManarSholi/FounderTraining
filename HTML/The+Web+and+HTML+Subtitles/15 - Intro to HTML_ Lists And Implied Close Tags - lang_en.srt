@@ -1,0 +1,180 @@
+1
+00:00:00,000 --> 00:00:07,230
+There are a few HTML elements that are always used inside certain other elements.
+
+2
+00:00:07,230 --> 00:00:09,675
+They don't make sense on their own.
+
+3
+00:00:09,675 --> 00:00:14,285
+Here's an example, the list item or li element.
+
+4
+00:00:14,285 --> 00:00:17,010
+A list item is one item on a list,
+
+5
+00:00:17,010 --> 00:00:21,255
+like a shopping list or a list of pictures or a table of contents.
+
+6
+00:00:21,254 --> 00:00:24,464
+A list item can't just appear by itself,
+
+7
+00:00:24,464 --> 00:00:26,609
+it will always be part of a list.
+
+8
+00:00:26,609 --> 00:00:31,439
+But there are two different kinds of lists that an li can be part of.
+
+9
+00:00:31,440 --> 00:00:34,289
+It can be part of an ordered list which usually
+
+10
+00:00:34,289 --> 00:00:37,810
+shows up as a list with numbers or letters in front of each item,
+
+11
+00:00:37,810 --> 00:00:40,219
+or an unordered list,
+
+12
+00:00:40,219 --> 00:00:42,914
+which usually shows up with bullets or dots.
+
+13
+00:00:42,914 --> 00:00:46,534
+The HTML element for an ordered list is ol,
+
+14
+00:00:46,534 --> 00:00:49,384
+while the unordered list is ul.
+
+15
+00:00:49,384 --> 00:00:54,625
+So, why can't a list item stand on its own outside of a list?
+
+16
+00:00:54,625 --> 00:00:59,490
+Well, an ol list and a ul list are displayed differently.
+
+17
+00:00:59,490 --> 00:01:02,960
+Without the context of one or the other kind of list,
+
+18
+00:01:02,960 --> 00:01:07,085
+the browser wouldn't know whether to put a dot or a number on the item.
+
+19
+00:01:07,084 --> 00:01:11,899
+Because of that, HTML has a rule that li elements
+
+20
+00:01:11,900 --> 00:01:16,969
+can only occur inside either an ol or a ul.
+
+21
+00:01:16,969 --> 00:01:21,689
+But lists can be nested inside other lists.
+
+22
+00:01:21,689 --> 00:01:24,980
+This is how you'd create something like an outline or
+
+23
+00:01:24,980 --> 00:01:29,140
+a task list where some tasks have multiple steps inside of them.
+
+24
+00:01:29,140 --> 00:01:34,069
+Here's a task list for moving to California from across the country.
+
+25
+00:01:34,069 --> 00:01:37,274
+I might have missed some steps but these are the big ones.
+
+26
+00:01:37,275 --> 00:01:40,705
+Take a look at this list item here, kitchen stuff.
+
+27
+00:01:40,704 --> 00:01:48,810
+It's an li element inside a ul element inside another li inside an ol.
+
+28
+00:01:48,810 --> 00:01:51,084
+When we render this in the browser,
+
+29
+00:01:51,084 --> 00:01:53,480
+the ol makes these steps one,
+
+30
+00:01:53,480 --> 00:01:57,984
+two and three and inside the first step there are three bullet points.
+
+31
+00:01:57,984 --> 00:02:00,594
+By the way, here's a little shortcut.
+
+32
+00:02:00,594 --> 00:02:04,069
+Because an li element can only occur inside
+
+33
+00:02:04,069 --> 00:02:08,549
+a list and it cannot occur directly inside another li,
+
+34
+00:02:08,550 --> 00:02:14,275
+HTML doesn't actually require us to write closing tags for li elements.
+
+35
+00:02:14,275 --> 00:02:20,060
+The reason this works is the li element can never occur directly inside another li,
+
+36
+00:02:20,060 --> 00:02:23,585
+it always has to be inside an ol or ul.
+
+37
+00:02:23,585 --> 00:02:26,629
+Which means, if the browser is reading the text of
+
+38
+00:02:26,629 --> 00:02:31,125
+an li element and it encounters another li opening tag,
+
+39
+00:02:31,125 --> 00:02:34,810
+it knows the previous list item must be done with.
+
+40
+00:02:34,810 --> 00:02:40,090
+So you can choose to write closing tags for li if you want to or not.
+
+41
+00:02:40,090 --> 00:02:44,955
+Some web developers always do because they think it makes their code more clear.
+
+42
+00:02:44,955 --> 00:02:47,690
+Some don't because leaving them out saves
+
+43
+00:02:47,689 --> 00:02:51,055
+a little tiny bit of space in the file, it's up to you.
+
+44
+00:02:51,055 --> 00:02:56,780
+But you always need to write closing tags for ul and ol,
+
+45
+00:02:56,780 --> 00:03:02,039
+so the browser doesn't try to stuff everything after them into the list
+

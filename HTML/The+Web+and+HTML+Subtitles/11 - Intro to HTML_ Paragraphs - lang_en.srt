@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:05,669
+The BR tag is great for adding line breaks in poems.
+
+2
+00:00:05,669 --> 00:00:08,310
+Not every webpage is a poem though,
+
+3
+00:00:08,310 --> 00:00:14,005
+a lot of the time we're writing an article or a story or an essay or something like that.
+
+4
+00:00:14,005 --> 00:00:18,155
+These sorts of writings are usually split into paragraphs.
+
+5
+00:00:18,155 --> 00:00:20,390
+To make a paragraph in html,
+
+6
+00:00:20,390 --> 00:00:21,990
+we use the P element,
+
+7
+00:00:21,989 --> 00:00:25,594
+P stands for paragraph and it's a regular tag.
+
+8
+00:00:25,594 --> 00:00:30,210
+There's an opening P tag with an angle bracket P, angle bracket,
+
+9
+00:00:30,210 --> 00:00:36,015
+and then there's a closing P tag with an angle bracket slash P, angle bracket.
+
+10
+00:00:36,015 --> 00:00:39,920
+Let's make all of these paragraphs into P elements,
+
+11
+00:00:39,920 --> 00:00:43,200
+and now when we reload the page and the browser,
+
+12
+00:00:43,200 --> 00:00:46,970
+there we've got nice neat paragraphs now.
+
+13
+00:00:46,969 --> 00:00:51,394
+Each paragraph is separated from the next one by a little margin.
+
+14
+00:00:51,395 --> 00:00:55,105
+Whenever you're writing texts for a webpage in html,
+
+15
+00:00:55,104 --> 00:00:59,194
+you'll use P elements to mark up all of your paragraphs.
+
+16
+00:00:59,195 --> 00:01:01,945
+Why not just use line breaks?
+
+17
+00:01:01,945 --> 00:01:04,760
+It turns out later on that there are good reasons to
+
+18
+00:01:04,760 --> 00:01:07,460
+tell the browser about the structure of our text,
+
+19
+00:01:07,459 --> 00:01:12,514
+the little pieces it's made up of and not just what we want it to visually look like.
+
+20
+00:01:12,515 --> 00:01:15,680
+You'll learn more about this later when you learn to control
+
+21
+00:01:15,680 --> 00:01:19,600
+the visual appearance separately using CSS.
+

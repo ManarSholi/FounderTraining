@@ -1,0 +1,312 @@
+1
+00:00:00,433 --> 00:00:04,959
+Compor um HTML ajuda a começar
+a pensar sobre programação,
+
+2
+00:00:05,001 --> 00:00:09,183
+pois permite experimentar
+ideias essenciais de programação,
+
+3
+00:00:09,225 --> 00:00:13,096
+além de fornecer um parecer rápido
+do que está sendo aprendido,
+
+4
+00:00:13,138 --> 00:00:16,216
+porque vemos tudo
+no navegador.
+
+5
+00:00:16,258 --> 00:00:17,982
+Durante esta aula,
+
+6
+00:00:18,024 --> 00:00:20,544
+observe alguns conceitos
+
+7
+00:00:20,586 --> 00:00:24,248
+que vão te ajudar muito.
+
+8
+00:00:24,290 --> 00:00:27,432
+O primeiro conceito
+é o de sintaxe,
+
+9
+00:00:27,474 --> 00:00:30,606
+que são as regras gramaticais
+de uma língua.
+
+10
+00:00:30,648 --> 00:00:33,873
+Línguas naturais, como o português,
+possuem regras gramaticais
+
+11
+00:00:33,915 --> 00:00:37,727
+assim como as de computador,
+como HTML ou Python.
+
+12
+00:00:37,769 --> 00:00:43,231
+Por exemplo, em português, diríamos
+"O cachorro correu pelo quintal"
+
+13
+00:00:43,273 --> 00:00:47,718
+e não "Cachorro quintal
+correu o pelo".
+
+14
+00:00:47,760 --> 00:00:50,735
+Isso não seria gramatical,
+não faria sentido.
+
+15
+00:00:50,777 --> 00:00:54,006
+Os programadores chamam isso
+de erro de sintaxe.
+
+16
+00:00:54,048 --> 00:00:56,728
+As linguagens computacionais
+têm uma gramatica,
+
+17
+00:00:56,770 --> 00:00:59,178
+regras de como
+compor os códigos.
+
+18
+00:00:59,220 --> 00:01:01,062
+Conforme aprendemos
+uma nova língua,
+
+19
+00:01:01,104 --> 00:01:03,203
+aprendemos as novas regras.
+
+20
+00:01:03,245 --> 00:01:06,372
+Às vezes, explicaremos as regras
+de forma explícita,
+
+21
+00:01:06,414 --> 00:01:09,301
+outras vezes,
+você aprenderá com os exemplos.
+
+22
+00:01:09,343 --> 00:01:11,085
+A segunda coisa a se atentar
+
+23
+00:01:11,127 --> 00:01:14,360
+é o que os cientistas da computação
+chamam de "formalismo",
+
+24
+00:01:14,402 --> 00:01:16,493
+mas, às vezes,
+os programadores chamam
+
+25
+00:01:16,535 --> 00:01:18,197
+de "computadores são burros".
+
+26
+00:01:18,239 --> 00:01:19,717
+Com algumas exceções,
+
+27
+00:01:19,759 --> 00:01:22,797
+os computadores leem o código
+de forma literal,
+
+28
+00:01:22,839 --> 00:01:25,301
+palavra por palavra,
+letra por letra.
+
+29
+00:01:25,343 --> 00:01:28,349
+Eles não advinham
+o que você quis dizer,
+
+30
+00:01:28,391 --> 00:01:31,118
+só fazem
+o que você mandou fazer.
+
+31
+00:01:31,160 --> 00:01:33,109
+Por exemplo, no HTML,
+
+32
+00:01:33,151 --> 00:01:35,661
+se quisermos adicionar
+um título a uma página,
+
+33
+00:01:35,703 --> 00:01:39,173
+escrevemos a palavra "title"
+dentro desses símbolos.
+
+34
+00:01:39,215 --> 00:01:43,432
+Se escrevermos errado,
+como T-I-L-T-E,
+
+35
+00:01:43,474 --> 00:01:47,663
+o computador não adivinhará
+que você quis dizer T-I-T-L-E.
+
+36
+00:01:47,705 --> 00:01:51,542
+É preciso estar atento aos erros
+e à pontuação, na programação.
+
+37
+00:01:51,584 --> 00:01:54,111
+Geralmente não há
+correção automática.
+
+38
+00:01:54,153 --> 00:01:57,191
+Uma terceira ideia
+é um aspecto da sintaxe
+
+39
+00:01:57,233 --> 00:02:00,302
+que aparece em todas
+as linguagens de computação,
+
+40
+00:02:00,344 --> 00:02:02,959
+o conceito de aninhamento,
+
+41
+00:02:03,001 --> 00:02:05,214
+que é quando um código
+
+42
+00:02:05,256 --> 00:02:09,833
+pode ir dentro de outros códigos
+de forma ordenada.
+
+43
+00:02:09,875 --> 00:02:12,694
+Isso é algo que temos
+na linguagem humana também.
+
+44
+00:02:12,736 --> 00:02:14,873
+Por exemplo,
+quando contamos uma história
+
+45
+00:02:14,915 --> 00:02:17,601
+na qual falamos sobre
+uma pessoa falando da outra,
+
+46
+00:02:17,643 --> 00:02:19,743
+usamos citações aninhadas
+
+47
+00:02:19,785 --> 00:02:24,112
+para dizer que a Jessica disse
+que o Bob contou algo sobre a Mary.
+
+48
+00:02:24,154 --> 00:02:27,328
+Veremos coisas desse tipo
+na programação.
+
+49
+00:02:27,370 --> 00:02:29,447
+Sei que isso
+foi um pouco abstrato,
+
+50
+00:02:29,489 --> 00:02:31,231
+mas quando o aninhamento
+aparecer,
+
+51
+00:02:31,273 --> 00:02:34,863
+nós falaremos sobre o assunto -
+e isso aparecerá com frequência.
+
+52
+00:02:34,905 --> 00:02:38,190
+A última grande ideia
+a que você deve estar atento
+
+53
+00:02:38,232 --> 00:02:41,039
+é que há muita ajuda
+disponível.
+
+54
+00:02:41,081 --> 00:02:44,288
+Há muita gente no mundo
+aprendendo a codificar -
+
+55
+00:02:44,330 --> 00:02:45,634
+você é uma delas -,
+
+56
+00:02:45,676 --> 00:02:48,496
+e existem muitos recursos
+que podem ajudar.
+
+57
+00:02:48,538 --> 00:02:51,454
+Uma das ferramentas mais
+importantes do programador
+
+58
+00:02:51,496 --> 00:02:52,950
+é a documentação,
+
+59
+00:02:52,992 --> 00:02:55,622
+que são os manuais
+e os tutoriais
+
+60
+00:02:55,664 --> 00:02:58,301
+das linguagens
+que você está aprendendo.
+
+61
+00:02:58,343 --> 00:03:02,678
+Por exemplo, você pode aprender
+tudo que há sobre HTML
+
+62
+00:03:02,720 --> 00:03:07,300
+buscando na Rede de Desenvolvedores
+da Mozilla, no site da MDN.
+
+63
+00:03:07,342 --> 00:03:10,246
+Além dos recursos
+fornecidos pela Udacity,
+
+64
+00:03:10,288 --> 00:03:12,164
+você poderá encontrar
+muita coisa
+
+65
+00:03:12,206 --> 00:03:14,558
+usando seu motor de busca
+favorito.
+

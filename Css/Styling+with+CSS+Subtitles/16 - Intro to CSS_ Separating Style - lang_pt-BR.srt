@@ -1,0 +1,139 @@
+1
+00:00:00,141 --> 00:00:03,020
+Existem algumas formas
+de pedir ao navegador
+
+2
+00:00:03,062 --> 00:00:06,420
+para aplicar estilos CSS
+ao HTML.
+
+3
+00:00:06,462 --> 00:00:08,324
+Uma delas você já viu.
+
+4
+00:00:08,366 --> 00:00:12,763
+Pegamos o código CSS e colocamos
+na cabeça do documento HTML,
+
+5
+00:00:12,805 --> 00:00:14,531
+no elemento <style>,
+
+6
+00:00:14,573 --> 00:00:16,859
+mas isso pode gerar
+uma bagunça.
+
+7
+00:00:16,901 --> 00:00:21,396
+É comum que um site
+com muitos documentos HTML
+
+8
+00:00:21,438 --> 00:00:25,043
+queira aplicar o mesmo estilo
+a todos eles.
+
+9
+00:00:25,085 --> 00:00:28,670
+Copiar o mesmo código CSS
+em cada uma das páginas
+
+10
+00:00:28,712 --> 00:00:30,499
+seria um desperdício
+de espaço,
+
+11
+00:00:30,541 --> 00:00:34,883
+e, para alterar algo, precisaríamos
+mexer em todos os arquivos.
+
+12
+00:00:34,925 --> 00:00:37,325
+Há outra forma de fazer isso.
+
+13
+00:00:37,367 --> 00:00:40,419
+Podemos colocar o CSS
+em um arquivo diferente
+
+14
+00:00:40,461 --> 00:00:43,675
+e fazer referência a ele
+no HTML.
+
+15
+00:00:43,717 --> 00:00:48,442
+Para isso, adicionamos uma tag
+no início do HTML:
+
+16
+00:00:48,484 --> 00:00:51,227
+<link rel="stylesheet"
+
+17
+00:00:51,269 --> 00:00:57,171
+href=" e o URL
+ou nome do arquivo CSS.
+
+18
+00:00:57,213 --> 00:00:59,683
+Você se lembra das regras
+dos URLs relativos?
+
+19
+00:00:59,725 --> 00:01:03,307
+Se usarmos um arquivo CSS
+que está na internet,
+
+20
+00:01:03,349 --> 00:01:05,746
+colocamos o URL inteiro aqui,
+
+21
+00:01:05,788 --> 00:01:09,842
+mas se o arquivo CSS estiver
+no mesmo diretório do HTML
+
+22
+00:01:09,884 --> 00:01:13,251
+e ele se chamar, por exemplo,
+"style.css",
+
+23
+00:01:13,293 --> 00:01:16,315
+então colocamos
+o nome do arquivo aqui.
+
+24
+00:01:16,357 --> 00:01:19,828
+O elemento <link> vai dentro
+do elemento <head>
+
+25
+00:01:19,870 --> 00:01:21,594
+do arquivo HTML.
+
+26
+00:01:21,636 --> 00:01:25,458
+Ele pode estar logo após
+o elemento <title>, por exemplo.
+
+27
+00:01:25,500 --> 00:01:28,339
+Quando o navegador carregar
+o arquivo HTML,
+
+28
+00:01:28,381 --> 00:01:31,707
+ele automaticamente
+carregará style.css
+
+29
+00:01:31,749 --> 00:01:34,761
+e aplicará os estilos
+aos elementos do arquivo.
+

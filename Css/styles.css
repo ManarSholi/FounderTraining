@@ -1,0 +1,32 @@
+/* add your CSS here */
+#interesting-fact {
+  font-style: italic;
+}
+.boldFont {
+  font-weight: bold;
+}
+#facts {
+  list-style-type: none;
+}
+#container {
+  border-style: solid;
+  border-collapse: separate;
+  border-spacing: 0px 0px 0px 0px;
+  padding: 5%;
+}
+div #card {
+  padding-left: 10px;
+  border-color: red;
+  border-style: solid;
+  border-spacing: 0px 0px 0px 0px;
+  padding: 5%;
+}
+#card.animal_info {
+  border: 5px solid red;
+  padding: 5%;
+}
+.imgCat {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}

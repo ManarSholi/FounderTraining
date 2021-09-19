@@ -1,0 +1,142 @@
+1
+00:00:00,367 --> 00:00:02,000
+Os dados estão por toda parte.
+
+2
+00:00:02,033 --> 00:00:04,033
+Na sua nota
+na prova de matemática,
+
+3
+00:00:04,067 --> 00:00:06,000
+na conversa que você tem
+com amigos
+
+4
+00:00:06,033 --> 00:00:09,133
+e na decisão que você tomou
+ao se sentar para ver o vídeo.
+
+5
+00:00:09,667 --> 00:00:12,701
+Tudo isso pode ser representado
+em dados.
+
+6
+00:00:12,734 --> 00:00:15,300
+Os dados nos ajudam
+a entender o mundo,
+
+7
+00:00:15,334 --> 00:00:16,634
+a reconhecer tendências,
+
+8
+00:00:16,667 --> 00:00:19,701
+a fazer suposições
+e a informar nossas decisões.
+
+9
+00:00:19,734 --> 00:00:21,767
+Isso não é diferente
+na programação.
+
+10
+00:00:21,801 --> 00:00:23,334
+Os dados e os tipos de dados
+
+11
+00:00:23,400 --> 00:00:25,634
+são a base
+da linguagem de programação
+
+12
+00:00:25,667 --> 00:00:27,668
+e nos ajudam
+a organizar as informações
+
+13
+00:00:27,701 --> 00:00:29,967
+e a determinar
+como os programas executarão.
+
+14
+00:00:30,300 --> 00:00:33,300
+Quando olhamos um perfil
+no Facebook, o que vemos?
+
+15
+00:00:33,334 --> 00:00:37,100
+O nome, a quantidade de amigos,
+a data da última postagem,
+
+16
+00:00:37,133 --> 00:00:41,567
+a lista de atualizações
+e as curtidas nos comentários.
+
+17
+00:00:41,601 --> 00:00:44,200
+Toda essa informação
+foi reunida, calculada
+
+18
+00:00:44,234 --> 00:00:47,400
+e apresentada aos visitantes
+do perfil.
+
+19
+00:00:47,434 --> 00:00:50,467
+Quando olhamos o extrato
+bancário, o que vemos?
+
+20
+00:00:50,501 --> 00:00:54,400
+O número da conta, o saldo,
+as datas das transações
+
+21
+00:00:54,434 --> 00:00:57,467
+e o nome da empresa
+onde você fez a compra.
+
+22
+00:00:57,501 --> 00:01:00,801
+É importante saber o tipo
+de dado que você usa
+
+23
+00:01:00,834 --> 00:01:03,467
+e quando é melhor
+usar cada um deles.
+
+24
+00:01:03,501 --> 00:01:06,033
+Nesta aula,
+aprenderemos a definir
+
+25
+00:01:06,067 --> 00:01:09,067
+e a manipular os tipos de dados
+primitivos do JavaScript:
+
+26
+00:01:09,100 --> 00:01:13,668
+números, strings, booleanos,
+indefinidos e nulos.
+
+27
+00:01:13,701 --> 00:01:15,767
+Depois de entendermos
+os tipos de dados,
+
+28
+00:01:15,800 --> 00:01:17,834
+veremos como armazená-los
+em variáveis
+
+29
+00:01:17,868 --> 00:01:21,100
+para podermos reutilizá-los
+e manipulá-los no código.
+

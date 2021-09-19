@@ -1,0 +1,264 @@
+1
+00:00:00,000 --> 00:00:04,575
+Tree structures are something that's going to show up a lot in your code.
+
+2
+00:00:04,575 --> 00:00:07,800
+They're really common in computer science and in
+
+3
+00:00:07,799 --> 00:00:10,904
+how programmers talk about the way computer languages work.
+
+4
+00:00:10,904 --> 00:00:15,419
+So, it's useful to learn a bit about the terminology of tree structures.
+
+5
+00:00:15,419 --> 00:00:19,364
+A tree is made up of parts called the nodes or
+
+6
+00:00:19,364 --> 00:00:24,004
+elements of the tree that have connections between them called branches.
+
+7
+00:00:24,004 --> 00:00:27,774
+The HTML elements that you've seen are an example of this,
+
+8
+00:00:27,774 --> 00:00:30,109
+but here's a different example.
+
+9
+00:00:30,109 --> 00:00:33,804
+It's a tree that I made to list some things that are in my apartment.
+
+10
+00:00:33,804 --> 00:00:36,049
+The nodes are the words in boxes.
+
+11
+00:00:36,049 --> 00:00:38,449
+The branches are the arrows.
+
+12
+00:00:38,450 --> 00:00:40,580
+This is saying that in my apartment,
+
+13
+00:00:40,579 --> 00:00:42,364
+there's a kitchen, and a bathroom,
+
+14
+00:00:42,365 --> 00:00:44,770
+and a bedroom, and in each of those rooms,
+
+15
+00:00:44,770 --> 00:00:46,290
+there are some pieces of furniture.
+
+16
+00:00:46,289 --> 00:00:49,299
+Like a refrigerator in the kitchen and a bed in the bedroom.
+
+17
+00:00:49,299 --> 00:00:52,189
+In the refrigerator, there's a cucumber and
+
+18
+00:00:52,189 --> 00:00:55,539
+some yogurt and in the bed, there are pillows.
+
+19
+00:00:55,539 --> 00:00:58,700
+Nodes of a tree have relationships between them.
+
+20
+00:00:58,700 --> 00:01:03,460
+Here, I'm drawing those with arrows and they mean this is inside that.
+
+21
+00:01:03,460 --> 00:01:06,995
+Like the pillows are in the bed which is in the bedroom,
+
+22
+00:01:06,995 --> 00:01:08,965
+which is in my apartment.
+
+23
+00:01:08,965 --> 00:01:11,375
+A tree always has a root,
+
+24
+00:01:11,375 --> 00:01:13,760
+which is the top or start of the tree.
+
+25
+00:01:13,760 --> 00:01:16,469
+In the case of an HTML document,
+
+26
+00:01:16,469 --> 00:01:19,640
+the HTML element is the root of the tree.
+
+27
+00:01:19,640 --> 00:01:24,040
+The nodes that descend from any particular node are called its children.
+
+28
+00:01:24,040 --> 00:01:29,340
+So, the HTML element has the head and the body as its children.
+
+29
+00:01:29,340 --> 00:01:36,615
+The head node has the title as a child and the body has a P element and so on.
+
+30
+00:01:36,614 --> 00:01:42,349
+We can also flip that around and say that this P element has a parent node which is body,
+
+31
+00:01:42,349 --> 00:01:46,444
+and this would still be the case if we had several paragraphs in this document.
+
+32
+00:01:46,444 --> 00:01:52,024
+Each of those is a separate P node and they all have the body as their parent.
+
+33
+00:01:52,025 --> 00:01:57,490
+But a tree isn't a kind of diagram with boxes and arrows.
+
+34
+00:01:57,489 --> 00:02:00,394
+It doesn't have to be written with the root at the top.
+
+35
+00:02:00,394 --> 00:02:02,825
+It doesn't have to be written at all.
+
+36
+00:02:02,825 --> 00:02:04,475
+A tree is a data structure.
+
+37
+00:02:04,474 --> 00:02:07,409
+It's the way that information can be organized.
+
+38
+00:02:07,409 --> 00:02:12,250
+How we write or draw that data structure is kind of secondary.
+
+39
+00:02:12,250 --> 00:02:15,259
+Anytime you've ever written an outline,
+
+40
+00:02:15,259 --> 00:02:16,954
+like for a paper in school,
+
+41
+00:02:16,955 --> 00:02:21,884
+or made a presentation using bullet points inside slides,
+
+42
+00:02:21,883 --> 00:02:26,404
+or classified things into categories that have subcategories,
+
+43
+00:02:26,405 --> 00:02:29,819
+you were using a tree structure even if you didn't know it.
+
+44
+00:02:29,819 --> 00:02:33,185
+Of course, every time you've written html,
+
+45
+00:02:33,185 --> 00:02:35,795
+you're writing a tree structure too.
+
+46
+00:02:35,794 --> 00:02:40,303
+So, there are a few rules that are always true for tree structures.
+
+47
+00:02:40,304 --> 00:02:44,870
+First, a tree structure from one node that is the root.
+
+48
+00:02:44,870 --> 00:02:48,599
+Second, each node including the root,
+
+49
+00:02:48,599 --> 00:02:52,289
+can have references or branches that point to other nodes.
+
+50
+00:02:52,289 --> 00:02:55,405
+Those other nodes are that node's children.
+
+51
+00:02:55,405 --> 00:03:02,034
+Third, each node has exactly one parent except for the root node which has no parent.
+
+52
+00:03:02,034 --> 00:03:05,689
+Though each node can have any number of branches going out,
+
+53
+00:03:05,689 --> 00:03:08,564
+it only has one branch coming in.
+
+54
+00:03:08,564 --> 00:03:13,210
+A new branch can never point to a node that's already in the tree.
+
+55
+00:03:13,210 --> 00:03:16,590
+Another way of saying this is that each node other than the root,
+
+56
+00:03:16,590 --> 00:03:18,819
+has only one parent,
+
+57
+00:03:18,819 --> 00:03:22,604
+and that's just about all the rules there are for trees.
+
+58
+00:03:22,604 --> 00:03:24,724
+As you go on in computing,
+
+59
+00:03:24,724 --> 00:03:27,939
+you'll find there are tree structures everywhere.
+
+60
+00:03:27,939 --> 00:03:30,675
+The DOM or document object model,
+
+61
+00:03:30,675 --> 00:03:33,950
+the tree structure of HTML is just one of them.
+
+62
+00:03:33,949 --> 00:03:36,685
+This is what you're actually looking at
+
+63
+00:03:36,685 --> 00:03:39,520
+when you look in the elements tab on developer tools.
+
+64
+00:03:39,520 --> 00:03:42,099
+Not the original HTML source code,
+
+65
+00:03:42,098 --> 00:03:45,864
+but a version that's been reconstituted from the DOM tree.
+
+66
+00:03:45,865 --> 00:03:48,840
+That's why it looks different from the original.
+

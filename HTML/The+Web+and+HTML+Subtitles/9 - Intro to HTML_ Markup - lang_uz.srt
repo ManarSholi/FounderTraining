@@ -1,0 +1,183 @@
+1
+00:00:05,504 --> 00:00:08,449
+ammo HTML bundan ham ko‘proq narsani qila oladi.
+
+2
+00:00:08,449 --> 00:00:13,125
+HTML fayl brauzerga nima qilish kerakligini aniq aytib berishi uchun belgilar mavjud.
+
+3
+00:00:13,125 --> 00:00:17,079
+Belgilar bu xuddi oddiy matn kabi, faqat maxsus ma’nosi bor.
+
+4
+00:00:17,079 --> 00:00:21,280
+HTMLd, ko‘pchilik belgilar shunday ko‘rinadi.
+
+5
+00:00:21,280 --> 00:00:24,120
+Unda kamroq va ko‘proq belgilari mavjud,
+
+6
+00:00:24,120 --> 00:00:27,375
+masalan, kalit so‘zning nomini ajratib ko‘rsatish.
+
+7
+00:00:27,375 --> 00:00:31,844
+Ushbu belgilar ichidagi so‘z teg bo‘lib,
+
+8
+00:00:31,844 --> 00:00:38,280
+ikkita bir-biriga mos keladigan teglardan va ularning orasidagi ba’zi matnlardan tashkil topgan butun blok element deb ataladi.
+
+9
+00:00:38,280 --> 00:00:40,505
+Bu yerda elementga xos yana bir misol.
+
+10
+00:00:40,505 --> 00:00:42,799
+Ushbu element em element deb ataladi,
+
+11
+00:00:42,799 --> 00:00:45,034
+em urg‘u degan ma’noni anglatadi.
+
+12
+00:00:45,034 --> 00:00:48,125
+Bu shuni anglatadiki, ichidagi matn alohida ta’kidlanishi kerak.
+
+13
+00:00:48,125 --> 00:00:51,200
+Odatda bu uning kursiv bilan ko‘rsatilganligini anglatadi.
+
+14
+00:00:51,200 --> 00:00:54,314
+Elementning tarkibi qanday bo‘lmasin, masalan,
+
+15
+00:00:54,314 --> 00:00:58,164
+salom, brauzer xuddi shunday namoyish etadi.
+
+16
+00:00:58,164 --> 00:01:01,954
+Har bir element teg bilan boshlanib, teg bilan tugaydi.
+
+17
+00:01:01,954 --> 00:01:05,194
+Birinchisida boshida kichikroq belgi bor,
+
+18
+00:01:05,194 --> 00:01:07,310
+keyinroq belgidan kattaroq belgisi bor
+
+19
+00:01:07,310 --> 00:01:11,275
+va element oxirida kichikroq belgi, kesish,
+
+20
+00:01:11,275 --> 00:01:14,334
+em va boshqa teglar mavjud.
+
+21
+00:01:14,334 --> 00:01:18,430
+Ushbu ikki teglar orasidagi farq shundaki, bu to‘g‘ri chiziq.
+
+22
+00:01:18,430 --> 00:01:20,405
+HTML qanday ishlashini, birinchi teg chaqiruvchi yoki,
+
+23
+00:01:20,405 --> 00:01:24,185
+boshlang‘ich teg deb nomlanadi
+
+24
+00:01:24,185 --> 00:01:28,549
+va egri chiziq - bu yopish yoki tugatish tegi,
+
+25
+00:01:28,549 --> 00:01:32,515
+ular ko‘pincha juftliklar deyiladi, lekin har doim ham emas.
+
+26
+00:01:32,515 --> 00:01:38,950
+HTML tegi har doim kichik belgidan boshlanadi va katta belgidan tugaydi.
+
+27
+00:01:38,950 --> 00:01:40,849
+Veb-dasturchilar odatda bu burchak qavslarni chaqirishadi,
+
+28
+00:01:40,849 --> 00:01:44,569
+chunki ular o‘tkir burchak shaklida bo‘ladi.
+
+29
+00:01:44,569 --> 00:01:47,420
+Burchakli qavslar har doim juft-juft bo‘lib turishadi,
+
+30
+00:01:47,420 --> 00:01:49,129
+tegni ochiq burchakli qavs bilan
+
+31
+00:01:49,129 --> 00:01:53,769
+boshlash xato va hech qachon yorliqni to‘ldirish uchun yopiq qavs yozmaslik.
+
+32
+00:01:53,769 --> 00:01:57,620
+Ochish va yopish g‘oyasi HTML va boshqa kompyuter
+
+33
+00:01:57,620 --> 00:02:01,790
+tillarini o‘rganishda davom etadi.
+
+34
+00:02:01,790 --> 00:02:04,189
+Bu biz qavslar arifmetikasida 
+
+35
+00:02:04,189 --> 00:02:07,655
+bajaradigan unchalik farq qilmaydi.
+
+36
+00:02:07,655 --> 00:02:12,889
+Siz hech qachon yopiq qavs ocholmaysiz,
+38
+00:02:12,889 --> 00:02:15,0.
+HTML teglari ham xuddi shunday.
+
+37
+00:02:15,099 --> 00:02:19,169
+Endi siz buni element deb atashimni bilasiz va 
+
+38
+00:02:19,169 --> 00:02:22,955
+men boshlang‘ich va tugatish teglarni yozaman.
+
+39
+00:02:22,955 --> 00:02:24,800
+Bu texnik jihatdan to‘g‘ri.
+
+40
+00:02:24,800 --> 00:02:29,449
+Biroq, odamlar har doim ham kompyuter kabi aniq emas
+
+41
+00:02:29,449 --> 00:02:33,969
+va shuning uchun biz bu haqida teg sifatida gaplashayotganimizni eshitasiz.
+
+42
+00:02:33,969 --> 00:02:35,780
+Bu biroz noto‘g‘ri,
+
+43
+00:02:35,780 --> 00:02:38,455
+lekin odatda kontekstdan biz bitta ochilish yoki yopilish,
+
+44
+00:02:38,455 --> 00:02:42,330
+tegi yoki butun element,
+
+45
+00:02:42,330 --> 00:02:45,080
+haqida gaplashayotganimizni aniqlashingiz mumkin.
+

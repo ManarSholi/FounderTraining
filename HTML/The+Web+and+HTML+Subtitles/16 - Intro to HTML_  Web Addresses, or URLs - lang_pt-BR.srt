@@ -1,0 +1,309 @@
+1
+00:00:00,529 --> 00:00:04,184
+Mais à frente, você aprenderá
+a adicionar links e imagens
+
+2
+00:00:04,226 --> 00:00:05,624
+em suas páginas,
+
+3
+00:00:05,666 --> 00:00:08,889
+mas há algo que precisamos
+falar antes disso,
+
+4
+00:00:08,931 --> 00:00:11,160
+sobre os endereços
+na internet.
+
+5
+00:00:11,202 --> 00:00:14,720
+A internet não seria uma rede
+sem os endereços.
+
+6
+00:00:14,762 --> 00:00:19,728
+Cada site, página, imagem
+e arquivo na internet tem um.
+
+7
+00:00:19,770 --> 00:00:21,905
+É assim que o navegador
+segue os links
+
+8
+00:00:21,947 --> 00:00:23,903
+de uma página para a outra,
+
+9
+00:00:23,945 --> 00:00:27,201
+e é como os usuários
+pedem ao navegador
+
+10
+00:00:27,243 --> 00:00:29,975
+para irem a um site.
+
+11
+00:00:30,017 --> 00:00:33,194
+Sempre que colocamos uma imagem
+ou um link no HTML,
+
+12
+00:00:33,236 --> 00:00:35,560
+fazemos isso com endereços.
+
+13
+00:00:35,602 --> 00:00:38,704
+No padrão da internet,
+existem termos técnicos
+
+14
+00:00:38,746 --> 00:00:40,519
+para esses endereços.
+
+15
+00:00:40,561 --> 00:00:45,017
+Um endereço é chamado
+de "localizador padrão de recursos"
+
+16
+00:00:45,059 --> 00:00:47,393
+ou URL.
+
+17
+00:00:47,435 --> 00:00:50,423
+Ele é o endereço
+que informa ao navegador
+
+18
+00:00:50,465 --> 00:00:52,704
+como localizar
+um recurso específico -
+
+19
+00:00:52,746 --> 00:00:54,272
+um arquivo, por exemplo -,
+
+20
+00:00:54,314 --> 00:00:56,473
+de forma padronizada.
+
+21
+00:00:56,515 --> 00:01:00,776
+A palavra "padrão"
+significa que ele é consistente.
+
+22
+00:01:00,818 --> 00:01:03,592
+Existem diferentes formas
+de escrever os URLs
+
+23
+00:01:03,634 --> 00:01:05,536
+na hora de lê-los.
+
+24
+00:01:05,578 --> 00:01:10,912
+Às vezes, o veremos
+com http ou https na frente,
+
+25
+00:01:10,954 --> 00:01:12,368
+e, às vezes, não.
+
+26
+00:01:12,410 --> 00:01:14,914
+No anúncio em um caminhão,
+alguém poderá colocar
+
+27
+00:01:14,956 --> 00:01:18,760
+www.empresa.com.
+
+28
+00:01:18,802 --> 00:01:21,656
+Isso funcionará
+em um navegador,
+
+29
+00:01:21,698 --> 00:01:25,248
+porque ele adivinhará
+que você deseja ir a um site.
+
+30
+00:01:25,290 --> 00:01:28,344
+Mas se você usar isso
+no código HTML,
+
+31
+00:01:28,386 --> 00:01:29,824
+não funcionará.
+
+32
+00:01:29,866 --> 00:01:33,942
+O navegador achará que você
+está se referindo a um arquivo.
+
+33
+00:01:33,984 --> 00:01:37,022
+Quando escrevemos URLs
+no HTML,
+
+34
+00:01:37,064 --> 00:01:41,631
+precisamos ter cuidado
+para fornecer todas as informações.
+
+35
+00:01:41,673 --> 00:01:44,704
+Às vezes, podemos
+usar atalhos,
+
+36
+00:01:44,746 --> 00:01:48,710
+mas, por ora,
+usaremos a forma completa dos URLs.
+
+37
+00:01:48,752 --> 00:01:52,655
+A versão da qual falamos é chamada
+de "URL totalmente qualificado"
+
+38
+00:01:52,697 --> 00:01:55,214
+ou de "URL absoluto".
+
+39
+00:01:55,256 --> 00:01:57,623
+Você já deve ter visto isso
+como usuário,
+
+40
+00:01:57,665 --> 00:02:01,399
+mas vamos explicar o que é
+o totalmente qualificado.
+
+41
+00:02:01,441 --> 00:02:04,370
+Muitas coisas podem aparecer
+nos URLs,
+
+42
+00:02:04,412 --> 00:02:06,180
+mas isto é o básico.
+
+43
+00:02:06,979 --> 00:02:09,970
+No início, o URL da internet
+
+44
+00:02:10,012 --> 00:02:13,271
+começará com http ou https,
+
+45
+00:02:13,313 --> 00:02:16,539
+isso informará ao navegador
+se ele usará criptografia segura
+
+46
+00:02:16,581 --> 00:02:18,329
+para se conectar
+com um servidor.
+
+47
+00:02:18,371 --> 00:02:21,154
+O URL de um arquivo
+em um drive local
+
+48
+00:02:21,196 --> 00:02:24,073
+começará com file.
+
+49
+00:02:24,115 --> 00:02:27,705
+O http, o https e o file
+
+50
+00:02:27,747 --> 00:02:29,241
+são protocolos
+
+51
+00:02:29,283 --> 00:02:32,385
+ou formas de como o navegador
+poderá obter algo.
+
+52
+00:02:32,427 --> 00:02:37,105
+Depois do protocolo,
+sempre vemos "://",
+
+53
+00:02:37,147 --> 00:02:40,768
+que separa o protocolo
+da próxima parte.
+
+54
+00:02:40,810 --> 00:02:43,449
+Nos URLs da internet,
+a próxima parte
+
+55
+00:02:43,491 --> 00:02:45,009
+será o nome de domínio.
+
+56
+00:02:45,051 --> 00:02:48,632
+Isso informará ao navegador
+a qual servidor se conectar.
+
+57
+00:02:48,674 --> 00:02:52,689
+Os URLs file não terão isso,
+pois não há nenhum servidor,
+
+58
+00:02:52,731 --> 00:02:56,065
+é apenas o navegador
+lendo do computador.
+
+59
+00:02:56,107 --> 00:02:59,168
+É por isso que se dermos
+um URL file para alguém,
+
+60
+00:02:59,210 --> 00:03:01,369
+ele provavelmente
+não poderá ser visto.
+
+61
+00:03:01,411 --> 00:03:04,817
+Isso porque o arquivo
+não está no computador da pessoa.
+
+62
+00:03:04,859 --> 00:03:07,189
+A última coisa que aparece
+em um URL completo
+
+63
+00:03:07,231 --> 00:03:08,592
+é o caminho do arquivo,
+
+64
+00:03:08,634 --> 00:03:12,992
+o nome do diretório e do arquivo
+ao qual o URL fará referência.
+
+65
+00:03:13,034 --> 00:03:15,965
+Isso, às vezes, estará vazio
+ou haverá uma barra,
+
+66
+00:03:16,007 --> 00:03:19,567
+se você estiver
+na página principal do site.
+

@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:05,669
+BR tegi satrlarning uzilishlarini hosil uchun juda yaxshi.
+
+2
+00:00:05,669 --> 00:00:08,310
+Har bir veb-sahifa ham she’r emas, biz ko‘pincha
+
+3
+00:00:08,310 --> 00:00:14,005
+maqola, hikoya, insho yoki shunga o‘xshash narsalarni yozamiz.
+
+4
+00:00:14,005 --> 00:00:18,155
+Ushbu turdagi yozuvlar odatda paragraflarga bo‘linadi.
+
+5
+00:00:18,155 --> 00:00:20,390
+HTMLda xatboshini yaratish uchun,
+
+6
+00:00:20,390 --> 00:00:21,989
+biz P elementidan foydalanamiz,
+
+7
+00:00:21,989 --> 00:00:25,594
+P xatboshiga to‘g‘ri keladi va bu oddiy teg.
+
+8
+00:00:25,594 --> 00:00:30,210
+Bu yerda ochilgan burchakli qavsli P tegi bor,
+
+9
+00:00:30,210 --> 00:00:36,015
+burchakli qavs, keyin P burchakli qavs uchun egri chiziq P burchakli qavs bor.
+
+10
+00:00:36,015 --> 00:00:39,920
+Keling, ushbu paragraflarning barchasini P
+
+11
+00:00:39,920 --> 00:00:43,200
+elementlariga aylantiramiz va endi,
+
+12
+00:00:43,200 --> 00:00:46,969
+sahifani va brauzerni qayta yuklaganimizda, chiroyli paragraflar mavjud bo‘ladi.
+
+13
+00:00:46,969 --> 00:00:51,395
+Har bir paragraf keyingi qismdan kichik quti bilan ajratilgan.
+
+14
+00:00:51,395 --> 00:00:55,104
+Har doim veb-sahifa uchun HTML matnini yozganda,
+
+15
+00:00:55,104 --> 00:00:59,195
+siz barcha elementlaringizni belgilash uchun P elementlaridan foydalanasiz.
+
+16
+00:00:59,195 --> 00:01:01,945
+Nega shunchki chizizq uzilishlaridan foydalanmasligingiz kerak?
+
+17
+00:01:01,945 --> 00:01:04,760
+Keyinchalik, brauzerga bizning matnimizning tuzilishi,
+
+18
+00:01:04,760 --> 00:01:07,459
+uning sarlavhalari haqida va biz qanday qilib vizual tarzda 
+
+19
+00:01:07,459 --> 00:01:12,515
+ko‘rinishini xohlashimiz haqida gapirishga asosli sabab borligi ma’lum bo‘ldi.
+
+20
+00:01:12,515 --> 00:01:15,680
+Keyinchalik CSSda alohida ko‘rinishni qanday boshqarishni bilib olsangiz,
+
+21
+00:01:15,680 --> 00:01:19,600
+bu haqida ko‘proq ma’lumotga ega bo‘lasiz.
+

@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:02,819
+Xush kelibsiz. Ushbu darsda 
+
+2
+00:00:02,819 --> 00:00:05,405
+siz veb-sahifalarni yaratishni boshlaysiz.
+
+3
+00:00:05,405 --> 00:00:10,445
+Davom etar ekansiz, siz kompyuter tillari qanday ishlashi haqida ba’zi muhim tushunchalarni o‘rganasiz.
+
+4
+00:00:10,445 --> 00:00:12,820
+Internetning o‘zi nima, 
+
+5
+00:00:12,820 --> 00:00:15,759
+u nimadan yasalgani va qanday ishlashi haqida gaplashamiz.
+
+6
+00:00:15,759 --> 00:00:18,269
+Siz dasturchi matn tahrirlovchisi yordamida veb-sahifalarni tahrirlash 
+
+7
+00:00:18,269 --> 00:00:22,484
+va o‘zingizning ishingizni brauzeringizda sinab ko‘rish amaliyotiga ega bo‘lasiz.
+
+8
+00:00:22,484 --> 00:00:25,320
+Siz HTML asoslarini, biz veb-sahifalarni tuzishda 
+
+9
+00:00:25,320 --> 00:00:29,719
+va yozishda foydalanadigan kompyuter tilini o‘rganasiz.
+
+10
+00:00:29,719 --> 00:00:35,670
+Shuningdek, veb-saytlar va hujjatlarga murojaat qilish uchun biz foydalanadigan URL manzillar haqida.
+
+11
+00:00:35,670 --> 00:00:38,659
+Siz bularning barchasini birgalikda o‘rganganlaringiz asosida qaydlar olasiz
+
+12
+00:00:38,659 --> 00:00:41,750
+va qaydlarni veb-sahifaga aylantirasiz.
+
+13
+00:00:41,750 --> 00:00:44,005
+Internet katta mavzu.
+
+14
+00:00:44,005 --> 00:00:46,310
+Xo‘sh, nimadan boshlashimiz kerak?
+
+15
+00:00:46,310 --> 00:00:50,280
+Internet qanday yaratilgan?
+
+16
+00:00:50,280 --> 00:00:52,505
+Yaxshi, bir tomondan, 
+
+17
+00:00:52,505 --> 00:00:56,509
+internet bu HTMLda yozilgan hujjatlar to‘plami,
+
+18
+00:00:56,509 --> 00:01:00,770
+ya’ni rasmlar va videolar kabi boshqa manbalar, 
+
+19
+00:01:00,770 --> 00:01:05,754
+shuningdek, ushbu hujjatlar va manbalar bilan o‘zaro aloqada bo‘lgan dasturlar va xizmatlar.
+
+20
+00:01:05,754 --> 00:01:10,415
+Veb-brauzeringiz orqali murojaat qilishingiz mumkin bo‘lgan barcha narsalar internetning qismidir.
+
+21
+00:01:10,415 --> 00:01:12,920
+Ushbu manbalar minglab va 
+
+22
+00:01:12,920 --> 00:01:16,120
+minglab turli xil kompyuter tizimlari orasida tarqalgan.
+
+23
+00:01:16,120 --> 00:01:19,265
+Internet gipermatnli tizimdir.
+
+24
+00:01:19,265 --> 00:01:23,564
+Buning ma’nosi shundaki, hujjatlar, veb-sahifalar, saytlar, 
+
+25
+00:01:23,564 --> 00:01:27,650
+veb-ilovalar boshqa hujjatlarga havolalarni o‘z ichiga olishi mumkin 
+
+26
+00:01:27,650 --> 00:01:32,099
+va foydalanuvchilar kerakli ma’lumotni topish uchun ushbu havolalardan foydalanishlari mumkin.
+
+27
+00:01:32,099 --> 00:01:34,450
+Har doim siz buni bajarasiz, 
+
+28
+00:01:34,450 --> 00:01:37,995
+blogdagi yoki yangiliklar maqolasidagi havolani bosganingizda shunday qilasiz.
+
+29
+00:01:37,995 --> 00:01:40,250
+Biz ushbu havolalarni giperhavolalar 
+
+30
+00:01:40,250 --> 00:01:42,000
+yoki qisqa havolalar deb ataymiz 
+
+31
+00:01:42,000 --> 00:01:47,704
+va ularni hujjatdan hujjatga ko‘chirish imkoniyati uni internetga o‘xshatib turadi.
+
+32
+00:01:47,704 --> 00:01:52,700
+Ushbu gipermatnni boshqa ma’lumotlarga murojaat qilish qobiliyati 
+
+33
+00:01:52,700 --> 00:01:58,170
+veb-sahifada rasm, video yoki kod qismi mavjud bo‘lganda ham qo‘llaniladi.
+
+34
+00:01:58,170 --> 00:02:00,349
+Gipermatn bu juda katta bitimdir.
+
+35
+00:02:00,349 --> 00:02:03,920
+Barcha veb-texnologiyalar ushbu hujjatlar va bir-birlariga standart
+
+36
+00:02:03,920 --> 00:02:08,599
+tarzda bog‘lanishi mumkin bo‘lgan boshqa ma’lumotlar obyektlari fikriga yaqin tarzda qurilgan.
+
+37
+00:02:08,599 --> 00:02:10,539
+Aynan bu qanday ishlashini
+
+38
+00:02:10,539 --> 00:02:14,039
+darsning qolgan qismida ko‘rishingiz mumkin.
+

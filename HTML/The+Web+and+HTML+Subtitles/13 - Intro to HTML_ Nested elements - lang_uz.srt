@@ -1,0 +1,179 @@
+1
+00:00:00,030 --> 00:00:02,370
+Endi ichma-ich deb nomlangan,
+
+2
+00:00:02,370 --> 00:00:05,520
+muhim konsepsiya haqida gaplashamiz.
+
+3
+00:00:05,520 --> 00:00:07,710
+Ichma-ich deganda men shunchaki biror narsa ichkariga kirishi
+
+4
+00:00:07,710 --> 00:00:10,469
+yoki joylashtirishi mumkin degan fikrni bildiraman.
+
+5
+00:00:10,469 --> 00:00:13,590
+Bu siz uchun amaliy misol.
+
+6
+00:00:13,590 --> 00:00:15,719
+Siz rus Matryoshka qo‘g‘irchoqlardan birini ko‘rganmisiz,
+
+7
+00:00:15,719 --> 00:00:17,400
+birinchisini ochsangiz
+
+8
+00:00:17,400 --> 00:00:19,320
+uning ichida yana qo‘g‘irchoq bor.
+
+9
+00:00:19,320 --> 00:00:21,930
+Yana biri,  agar siz ularni ochsangiz va yuqoridan qarasangiz,
+
+10
+00:00:21,930 --> 00:00:24,630
+ularni barchasi qanday qilib
+
+11
+00:00:24,630 --> 00:00:27,570
+bir-biriga mos kelishni ko‘rasiz va
+
+12
+00:00:27,570 --> 00:00:29,820
+baribir to‘g‘ri tartibda joylashtirish uchun
+
+13
+00:00:29,820 --> 00:00:31,800
+ularni juda ehtiyotkorlik
+
+14
+00:00:31,800 --> 00:00:35,880
+bilan HTML ni yoping.
+
+15
+00:00:35,880 --> 00:00:38,460
+Lekin ular aniq qoidalarga
+
+16
+00:00:38,460 --> 00:00:41,309
+amal qilishlari kerak, 
+
+17
+00:00:41,309 --> 00:00:43,530
+masalan agar sizda 
+
+18
+00:00:43,530 --> 00:00:46,590
+paragraf elementlari mavjud bo‘lsa
+
+19
+00:00:46,590 --> 00:00:49,170
+va ularni belgilashingiz kerak bo‘lsa.
+
+20
+00:00:49,170 --> 00:00:52,230
+Odatda HTML hujjatlari 
+
+21
+00:00:52,230 --> 00:00:55,559
+yuqori darajadagi elementlar bilan
+
+22
+00:00:55,559 --> 00:00:58,230
+ishlaydigan dallillar
+
+23
+00:00:58,230 --> 00:01:00,300
+paragraflar va boshqa katta qismlarga
+
+24
+00:01:00,300 --> 00:01:03,359
+o‘xshash narsalar va ichkarida
+
+25
+00:01:03,359 --> 00:01:05,909
+bu matnni ta’kidlash kabi kichikroq elementlar mavjud.
+
+26
+00:01:05,909 --> 00:01:09,270
+Shuning uchun ushbu kichik 
+
+27
+00:01:09,270 --> 00:01:11,310
+elementlardan har qanday
+
+28
+00:01:11,310 --> 00:01:14,189
+biri ichiga joylashtirishi mumkin.
+
+29
+00:01:14,189 --> 00:01:16,259
+Belgilangan va ajratilgan matnga
+
+30
+00:01:16,259 --> 00:01:19,080
+ega bo‘lishingiz yoki tanlangan matn
+
+31
+00:01:19,080 --> 00:01:22,110
+ichida ustunliklar paydo bo‘lishi mumkin, ammo
+
+32
+00:01:22,110 --> 00:01:24,780
+ishlamaydigan yirik birikmasi mavjud
+
+33
+00:01:24,780 --> 00:01:27,450
+siz paragrafni boshqa paragrafga 
+
+34
+00:01:27,450 --> 00:01:30,479
+qo‘yishingiz mumkin.
+
+35
+00:01:30,479 --> 00:01:33,780
+Masalan, ikkita HTML elementlari
+
+36
+00:01:33,780 --> 00:01:37,320
+matnda bir-biriga zid kelmasligi uchun
+
+37
+00:01:37,320 --> 00:01:40,130
+biri to‘liq ikkinchisining ichida
+
+38
+00:01:40,130 --> 00:01:43,979
+bo‘lishi kerak yoki SUP
+
+39
+00:01:43,979 --> 00:01:47,700
+sizdagi e/m ning ichida yoki e/m da bo‘lishi kerak.
+
+40
+00:01:47,700 --> 00:01:49,890
+Qoidalar asosan aql-idrokka asoslangan bo‘lib
+
+41
+00:01:49,890 --> 00:01:51,750
+g‘ayrioddiy o‘ziga xos talablar mavjud bo‘lgan
+
+42
+00:01:51,750 --> 00:01:54,869
+elementlarga ishora qiladi yoki element biroz zerikarli bo‘lishi mumkin.
+43
+00:01:54,869 -->  
+Kattasining ichida kichkinasi bo‘ladi, lekin siz qaysi birini ichkariga
+
+43
+00:01:57,479 --> 00:01:59,729
+kiritishni ular bir-birinining ustiga mos kelib 
+
+44
+00:01:59,729 --> 00:02:05,630
+qolmasligi uchun o‘zingiz hal qilasiz.
+

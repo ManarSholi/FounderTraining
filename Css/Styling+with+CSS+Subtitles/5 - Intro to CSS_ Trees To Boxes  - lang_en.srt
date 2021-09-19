@@ -1,0 +1,136 @@
+1
+00:00:00,000 --> 00:00:07,384
+So, you've seen now how the browser turns HTML text into the tree structure of the DOM.
+
+2
+00:00:07,384 --> 00:00:09,300
+Let's take a look at how it can turn
+
+3
+00:00:09,300 --> 00:00:13,135
+that tree structure into a picture that we can see on the screen.
+
+4
+00:00:13,134 --> 00:00:16,800
+I'm going to load up one of our sample HTML pages,
+
+5
+00:00:16,800 --> 00:00:20,589
+and check it out using developer tools to see what I can find.
+
+6
+00:00:20,589 --> 00:00:25,019
+I have a sense of how the HTML of the page has a tree structure,
+
+7
+00:00:25,019 --> 00:00:28,500
+but how does that relate to what is on the page?
+
+8
+00:00:28,500 --> 00:00:34,755
+So, it looks like this OL element gets rendered as a large box,
+
+9
+00:00:34,755 --> 00:00:40,505
+and each of these LI elements shows up as a smaller box inside it.
+
+10
+00:00:40,505 --> 00:00:44,045
+The large box fills up the whole width of the page,
+
+11
+00:00:44,045 --> 00:00:45,410
+while the smaller ones,
+
+12
+00:00:45,409 --> 00:00:48,579
+each look like they take up about a fifth of the page.
+
+13
+00:00:48,579 --> 00:00:52,399
+Over here, in the Style pane of the developer tools,
+
+14
+00:00:52,399 --> 00:00:55,494
+we can see this same sort of box diagram.
+
+15
+00:00:55,494 --> 00:00:59,155
+Here, it's got some parts labeled margin,
+
+16
+00:00:59,155 --> 00:01:01,310
+and border, and padding.
+
+17
+00:01:01,310 --> 00:01:05,780
+This margin here might have something to do with the CSS code
+
+18
+00:01:05,780 --> 00:01:11,310
+here that says, margin 20px.
+
+19
+00:01:11,310 --> 00:01:15,920
+So, we saw earlier that the browser reads the text of the HTML document,
+
+20
+00:01:15,920 --> 00:01:18,579
+and turns it into a tree structure.
+
+21
+00:01:18,579 --> 00:01:21,875
+We had the question of how it gets from there
+
+22
+00:01:21,875 --> 00:01:25,260
+into the two dimensional layout of a web page on the screen.
+
+23
+00:01:25,260 --> 00:01:29,340
+Well, these boxes are pretty much the answer to that.
+
+24
+00:01:29,340 --> 00:01:34,064
+Every element that appears on the page gets laid out into a box,
+
+25
+00:01:34,064 --> 00:01:37,700
+and these boxes land inside of other boxes.
+
+26
+00:01:37,700 --> 00:01:40,545
+The layout of these boxes, well,
+
+27
+00:01:40,545 --> 00:01:45,320
+it's controlled by the tree structure with a little help from the CSS.
+
+28
+00:01:45,319 --> 00:01:48,529
+So, for instance, the HTML code for
+
+29
+00:01:48,530 --> 00:01:53,109
+this list will always get translated into the same tree structure,
+
+30
+00:01:53,109 --> 00:01:57,090
+and that tree structure will always be turned into boxes.
+
+31
+00:01:57,090 --> 00:02:00,865
+One big box containing three smaller boxes.
+
+32
+00:02:00,864 --> 00:02:05,694
+But then, whether those boxes get laid out like this, vertically,
+
+33
+00:02:05,694 --> 00:02:08,314
+or like this, horizontally,
+
+34
+00:02:08,314 --> 00:02:13,359
+and pink, is something that you can control with the CSS.
+

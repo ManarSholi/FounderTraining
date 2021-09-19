@@ -1,0 +1,113 @@
+1
+00:00:00,000 --> 00:00:04,153
+Vimos alguns tipos de dados -
+número, string e booleano -,
+
+2
+00:00:04,195 --> 00:00:06,493
+mas existem outros
+que precisamos observar,
+
+3
+00:00:06,535 --> 00:00:09,332
+que são o nulo e o indefinido.
+
+4
+00:00:09,374 --> 00:00:11,427
+A princípio parecem
+um pouco confusos,
+
+5
+00:00:11,469 --> 00:00:12,925
+pois são muito parecidos,
+
+6
+00:00:12,967 --> 00:00:16,416
+então é melhor assistir à explicação
+algumas vezes.
+
+7
+00:00:16,458 --> 00:00:19,433
+O nulo é um tipo de dado
+que não tem valor.
+
+8
+00:00:19,475 --> 00:00:22,377
+Assim como configuramos
+uma variável com o valor 10,
+
+9
+00:00:23,098 --> 00:00:27,266
+podemos configurar uma variável
+com o valor null.
+
+10
+00:00:27,308 --> 00:00:32,121
+Indefinido é um tipo de dado
+que indica a ausência de valor.
+
+11
+00:00:32,163 --> 00:00:36,137
+É um pouco confuso,
+mas não é igual ao nulo.
+
+12
+00:00:36,179 --> 00:00:38,464
+Nulo é um valor
+que não significa nada
+
+13
+00:00:38,506 --> 00:00:40,049
+ou totalmente vazio,
+
+14
+00:00:40,091 --> 00:00:44,617
+mas indefinido significa
+que não há um valor,
+
+15
+00:00:44,659 --> 00:00:46,801
+nem mesmo um valor de nada.
+
+16
+00:00:46,843 --> 00:00:49,256
+Poderíamos declarar
+uma variável x,
+
+17
+00:00:49,298 --> 00:00:53,152
+tentar usá-la,
+e ela retornaria indefinida,
+
+18
+00:00:53,194 --> 00:00:58,689
+isso porque a variável x existe,
+mas ainda não há um valor.
+
+19
+00:00:58,731 --> 00:01:02,320
+Se configurarmos uma variável
+com o valor null,
+
+20
+00:01:02,362 --> 00:01:04,089
+ela retornaria nulo.
+
+21
+00:01:04,131 --> 00:01:06,849
+Em outras palavras,
+indefinido será retornado
+
+22
+00:01:06,891 --> 00:01:09,648
+se não configurarmos um valor.
+
+23
+00:01:09,690 --> 00:01:11,109
+Nulo será retornado,
+
+24
+00:01:11,151 --> 00:01:14,333
+se configurarmos o valor
+como nada.
+

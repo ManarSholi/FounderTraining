@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:04,384
+CSS also lets you combine selectors.
+
+2
+00:00:04,384 --> 00:00:08,879
+For instance, you might want to say ''Make emphasized text red,
+
+3
+00:00:08,880 --> 00:00:11,275
+but only if it's part of a list item.''
+
+4
+00:00:11,275 --> 00:00:12,990
+Here's how you would do that,
+
+5
+00:00:12,990 --> 00:00:14,835
+in the selector part of the rule,
+
+6
+00:00:14,835 --> 00:00:17,850
+you write the selector for the parent element Li,
+
+7
+00:00:17,850 --> 00:00:20,620
+and then for the child element em.
+
+8
+00:00:20,620 --> 00:00:27,900
+Together, this selector means 'Select every em element that's a child of an Li element.
+
+9
+00:00:27,899 --> 00:00:30,044
+With that style applied,
+
+10
+00:00:30,045 --> 00:00:33,640
+this html will look like this.
+
+11
+00:00:33,640 --> 00:00:35,814
+The em element in the list item,
+
+12
+00:00:35,814 --> 00:00:38,544
+turns red, but the other em doesn't,
+
+13
+00:00:38,545 --> 00:00:40,575
+because it's not part of an Li.
+
+14
+00:00:40,575 --> 00:00:45,350
+This kind of selector that uses a space to create a combined selector,
+
+15
+00:00:45,350 --> 00:00:50,030
+Li space em, is called the descendant selector.
+
+16
+00:00:50,030 --> 00:00:54,500
+There are actually a whole bunch of other kinds of selectors in CSS.
+
+17
+00:00:54,500 --> 00:00:56,210
+I'm going to suggest you take a look at
+
+18
+00:00:56,210 --> 00:01:01,000
+the Mozilla CSS documentation for selectors if you'd like to see more of them though.
+

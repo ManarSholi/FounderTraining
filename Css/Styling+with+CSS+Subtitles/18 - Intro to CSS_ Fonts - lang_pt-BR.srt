@@ -1,0 +1,327 @@
+1
+00:00:00,335 --> 00:00:02,606
+Vamos falar sobre as fontes.
+
+2
+00:00:02,648 --> 00:00:05,811
+Uma das coisas que pode
+diferenciar um site
+
+3
+00:00:05,853 --> 00:00:08,706
+é escolher fontes
+que funcionem bem juntas.
+
+4
+00:00:08,748 --> 00:00:14,724
+O CSS permite alterar
+tudo na fonte do seu texto.
+
+5
+00:00:14,766 --> 00:00:16,954
+As fontes são complicadas,
+
+6
+00:00:16,996 --> 00:00:19,091
+e há toda uma história
+sobre tipografia
+
+7
+00:00:19,133 --> 00:00:21,738
+que não trataremos
+neste curso.
+
+8
+00:00:21,780 --> 00:00:26,178
+Nós mostraremos o básico
+necessário para os usuários do CSS.
+
+9
+00:00:26,220 --> 00:00:29,635
+Se você sabe trabalhar com fonte
+em um processador de texto,
+
+10
+00:00:29,677 --> 00:00:34,425
+o que você chama de fonte,
+o CSS chama de "font-family".
+
+11
+00:00:34,467 --> 00:00:37,834
+Esse é o nome de um tipo de letra
+como a Times New Roman,
+
+12
+00:00:37,876 --> 00:00:40,394
+a Helvetica ou a Impact.
+
+13
+00:00:40,436 --> 00:00:44,091
+Aplicar uma regra font-family
+a um elemento
+
+14
+00:00:44,133 --> 00:00:48,322
+fará com que o texto dele
+apareça com uma dada fonte.
+
+15
+00:00:48,364 --> 00:00:51,073
+Pelo menos ele tentará.
+
+16
+00:00:51,115 --> 00:00:54,954
+Nem todo computador ou dispositivo
+têm as mesmas fontes instaladas.
+
+17
+00:00:54,996 --> 00:00:59,051
+Se você solicitar uma font-family
+que o usuário não possui,
+
+18
+00:00:59,093 --> 00:01:01,097
+o CSS não fará nada,
+
+19
+00:01:01,139 --> 00:01:03,881
+ele deixará o texto
+na font-family padrão,
+
+20
+00:01:03,923 --> 00:01:08,250
+que geralmente é algo simples
+e inofensivo como a Times.
+
+21
+00:01:08,292 --> 00:01:11,835
+Se você não se preocupa
+com a font-family que será exibida,
+
+22
+00:01:11,877 --> 00:01:15,226
+mas quer que seja
+de um tipo de fonte,
+
+23
+00:01:15,268 --> 00:01:18,918
+o CSS oferece
+font-families genéricas.
+
+24
+00:01:18,960 --> 00:01:23,645
+Existem 5 e são nomeadas
+a partir de categorias gerais:
+
+25
+00:01:23,687 --> 00:01:26,253
+serif, sans-serif,
+
+26
+00:01:26,295 --> 00:01:28,718
+cursive, fantasy
+
+27
+00:01:28,760 --> 00:01:30,526
+e monospace.
+
+28
+00:01:30,568 --> 00:01:35,143
+Podemos digitar
+"font-family: monospace;"
+
+29
+00:01:35,185 --> 00:01:38,229
+e obter alguma fonte monospace
+
+30
+00:01:38,271 --> 00:01:41,937
+quando você não se importar
+se for Courier New
+
+31
+00:01:41,979 --> 00:01:44,134
+ou Inconsolata.
+
+32
+00:01:44,176 --> 00:01:48,254
+Geralmente usamos fontes genéricas
+como plano B,
+
+33
+00:01:48,296 --> 00:01:50,533
+para quando o navegador
+não tem acesso
+
+34
+00:01:50,575 --> 00:01:53,088
+a uma fonte específica
+que desejamos.
+
+35
+00:01:53,130 --> 00:01:57,254
+Por conta disso, o CSS permite
+escrever uma pilha de fontes,
+
+36
+00:01:57,296 --> 00:01:59,086
+uma lista de font-families,
+
+37
+00:01:59,128 --> 00:02:01,830
+que geralmente termina
+com uma genérica.
+
+38
+00:02:01,872 --> 00:02:06,334
+Por exemplo, o Windows tem
+uma fonte chamada "Constantia",
+
+39
+00:02:06,376 --> 00:02:08,615
+mas ela só está disponível
+no Windows.
+
+40
+00:02:08,657 --> 00:02:12,760
+Podemos dizer que existem fontes
+parecidas em outras plataformas,
+
+41
+00:02:12,802 --> 00:02:14,111
+como a Georgia,
+
+42
+00:02:14,153 --> 00:02:18,389
+e, caso ela não exista,
+usaremos uma serif.
+
+43
+00:02:18,431 --> 00:02:21,175
+Podemos controlar outras coisas
+sobre a fonte
+
+44
+00:02:21,217 --> 00:02:23,261
+além do tipo da letra.
+
+45
+00:02:23,303 --> 00:02:27,278
+Podemos mudar o tamanho
+da fonte, o quão grande ela é.
+
+46
+00:02:27,320 --> 00:02:29,463
+Geralmente medimos isso
+em pontos,
+
+47
+00:02:29,505 --> 00:02:32,302
+mas o CSS permite usar
+a unidade que desejarmos.
+
+48
+00:02:32,344 --> 00:02:35,343
+Podemos usar o tamanho de fonte
+igual a uma polegada,
+
+49
+00:02:35,385 --> 00:02:37,696
+que é o mesmo que 72 pontos.
+
+50
+00:02:38,504 --> 00:02:43,000
+Coisas que podemos controlar
+na fonte, como o negrito, o itálico
+
+51
+00:02:43,042 --> 00:02:46,878
+e o sublinhado,
+não funcionam no CSS
+
+52
+00:02:46,920 --> 00:02:49,305
+da mesma forma
+que em um processador de texto.
+
+53
+00:02:49,347 --> 00:02:52,888
+No Google Docs, negrito,
+itálico e sublinhado
+
+54
+00:02:52,930 --> 00:02:55,511
+são botões,
+que ficam um do lado do outro,
+
+55
+00:02:55,553 --> 00:02:59,119
+mas, no CSS, isso é controlado
+por propriedades.
+
+56
+00:02:59,161 --> 00:03:03,061
+O negrito
+é "font-weight: bold;",
+
+57
+00:03:03,103 --> 00:03:07,486
+o itálico
+é "font-style: italic;"
+
+58
+00:03:07,528 --> 00:03:09,854
+e o sublinhado é, na verdade,
+
+59
+00:03:09,896 --> 00:03:13,536
+"text-decoration: underline;".
+
+60
+00:03:14,166 --> 00:03:17,605
+Felizmente,
+não precisamos usar isso,
+
+61
+00:03:17,647 --> 00:03:19,991
+pois podemos especificar
+tudo sobre a fonte
+
+62
+00:03:20,033 --> 00:03:21,430
+em uma única linha.
+
+63
+00:03:21,472 --> 00:03:23,550
+Existe uma propriedade
+chamada "font",
+
+64
+00:03:23,592 --> 00:03:27,046
+que permite combinar as propriedades
+em uma linha única.
+
+65
+00:03:27,088 --> 00:03:30,790
+Em vez de escrever
+as diferentes propriedades,
+
+66
+00:03:30,832 --> 00:03:32,815
+podemos escrever isto.
+
+67
+00:03:32,857 --> 00:03:36,814
+Infelizmente, precisamos escrever
+em uma ordem específica,
+
+68
+00:03:36,856 --> 00:03:39,238
+que eu sempre
+preciso pesquisar.
+
+69
+00:03:39,280 --> 00:03:42,054
+Vou sugerir
+que você pesquise também.
+

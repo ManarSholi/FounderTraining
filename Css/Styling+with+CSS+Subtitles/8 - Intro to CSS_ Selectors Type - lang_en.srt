@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:06,778
+So, a CSS selector tells the browser which elements the rule will affect.
+
+2
+00:00:06,778 --> 00:00:10,259
+There are a few different kinds of selectors that you can use.
+
+3
+00:00:10,259 --> 00:00:12,119
+Actually, there are a whole lot of them,
+
+4
+00:00:12,119 --> 00:00:14,744
+but we're just going to look at a few of them for now.
+
+5
+00:00:14,744 --> 00:00:18,089
+The simplest one is a type selector,
+
+6
+00:00:18,089 --> 00:00:23,824
+it's just the name of one type of HTML element such as p or em.
+
+7
+00:00:23,824 --> 00:00:25,480
+It can even be body,
+
+8
+00:00:25,480 --> 00:00:29,324
+which would make the rule apply to the whole body of the HTML document.
+
+9
+00:00:29,324 --> 00:00:34,820
+For an example, here's a rule-set that will change the font for the entire document.
+
+10
+00:00:34,820 --> 00:00:38,310
+Type selectors are particularly useful when you want to
+
+11
+00:00:38,310 --> 00:00:41,890
+apply a style really widely across the web page.
+
+12
+00:00:41,890 --> 00:00:45,649
+For instance, if you're writing an article that uses a lot of section headings
+
+13
+00:00:45,649 --> 00:00:49,269
+with the headline elements h1 h2 and so on,
+
+14
+00:00:49,270 --> 00:00:54,525
+a single CSS selector will apply to all of the elements of a particular type,
+
+15
+00:00:54,524 --> 00:00:59,539
+but you still have to write one CSS rule for each headline element type.
+
+16
+00:00:59,539 --> 00:01:03,888
+This one targets every h1 element on the page and applies these styles.
+
+17
+00:01:03,889 --> 00:01:08,329
+This one targets every h2 element and applies these styles and so on.
+

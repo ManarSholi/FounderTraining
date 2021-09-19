@@ -1,0 +1,248 @@
+1
+00:00:00,000 --> 00:00:05,099
+HTMLda yozish dasturlash haqida o‘ylashni boshlash uchun eng yaxshi joy,
+
+2
+00:00:05,099 --> 00:00:09,419
+chunki dasturlash uchun juda zarur bo‘lgan bir nechta fikrlarni sinab ko‘rish imkoniyati mavjud,
+
+3
+00:00:09,419 --> 00:00:12,509
+ammo o‘rganayotgan narsangiz haqida tezkor fikr-mulohaza olishga imkon beradi,
+
+4
+00:00:12,509 --> 00:00:16,199
+chunki siz veb-brauzeringizda hamma narsani ko‘rishingiz mumkin.
+
+5
+00:00:16,199 --> 00:00:18,160
+Ushbu dars davomida ishlayotganingizda, 
+
+6
+00:00:18,160 --> 00:00:20,625
+ba’zi bir muhim tushunchalarni ko‘rib chiqing.
+
+7
+00:00:20,625 --> 00:00:24,030
+Bunga e’tiborli bo‘lishingiz o‘zingizga ko‘p yordam beradi.
+
+8
+00:00:24,030 --> 00:00:27,434
+Birinchi konsept - bu sintaksis, 
+
+9
+00:00:27,434 --> 00:00:30,695
+bu tilning grammatik qoidalari uchun yana bir so‘z
+
+10
+00:00:30,695 --> 00:00:33,869
+va ingliz kabi tabiiy tillar grammatik qoidalarga ega
+
+11
+00:00:33,869 --> 00:00:37,539
+hamda HTML yoki Python kabi kompyuter tillari, 
+
+12
+00:00:37,539 --> 00:00:40,435
+masalan, ingliz tilida aytgandek,
+
+13
+00:00:40,435 --> 00:00:44,215
+"It hovlidan yugurdi" emas, 
+
+14
+00:00:44,215 --> 00:00:47,554
+"It hovlisi yugurib o‘tdi".
+
+15
+00:00:47,554 --> 00:00:49,414
+Bu grammatik jihatdan xato bo‘lar edi.
+
+16
+00:00:49,414 --> 00:00:50,759
+Bu mantiqiy to‘g‘ri emas 
+
+17
+00:00:50,759 --> 00:00:53,619
+va dasturchilar sintaktik xato deb atashadi.
+
+18
+00:00:53,619 --> 00:00:56,524
+Kompyuter tillarida ham grammatik qoidalar bor,
+
+19
+00:00:56,524 --> 00:00:59,039
+kodni qanday biriktirish qoidalari ham mavjud.
+
+20
+00:00:59,039 --> 00:01:01,015
+Yangi tilni o‘rganayotib, 
+
+21
+00:01:01,015 --> 00:01:03,140
+siz ushbu grammatika qoidalariga amal qilasiz.
+
+22
+00:01:03,140 --> 00:01:06,364
+Ba’zan, biz sizga ushbu qoidalarni aniq aytib beramiz.
+
+23
+00:01:06,364 --> 00:01:09,159
+Boshqa safar, siz ularni misol orqali o‘rganasiz.
+
+24
+00:01:09,159 --> 00:01:14,314
+Yodda tutish kerak bo‘lgan ikkinchi narsa - kompyuter olimlari rasmiyatchilik deb ataydigan narsa.
+
+25
+00:01:14,314 --> 00:01:17,995
+Ammo ba’zida dasturchilar kompyuterlarni ahmoq deb atashadi.
+
+26
+00:01:17,995 --> 00:01:19,629
+Bir nechta istisnolardan tashqari,
+
+27
+00:01:19,629 --> 00:01:22,855
+kompyuterlar to‘liq so‘zma-so‘z, 
+
+28
+00:01:22,855 --> 00:01:25,319
+harma-harf kod olishadi.
+
+29
+00:01:25,319 --> 00:01:28,319
+Aslida kompyuter nimani anglatishini taxmin qila olmaydi.
+
+30
+00:01:28,319 --> 00:01:31,060
+U faqat siz aytganingizni bajarishi mumkin.
+
+31
+00:01:31,060 --> 00:01:33,170
+Masalan, HTMLda
+
+32
+00:01:33,170 --> 00:01:35,750
+agar siz veb-sahifaga sarlavha qo‘ymoqchi bo‘lsangiz,
+
+33
+00:01:35,750 --> 00:01:39,144
+ushbu belgilar ichida so‘zning sarlavhasini yozasiz.
+
+34
+00:01:39,144 --> 00:01:43,484
+Agar siz uning o‘rnini T-I-L-T-E kabi yozsangiz,
+
+35
+00:01:43,484 --> 00:01:45,890
+kompyuter T-I-T-L-E deganingizni taxmin qilmaydi. 
+
+36
+00:01:45,890 --> 00:01:51,545
+Dasturlashda har doim imlo va tinish belgilariga ehtiyot bo‘lishingiz kerak.
+
+37
+00:01:51,545 --> 00:01:54,030
+Oddiy avtomatik tuzatish mavjud emas.
+
+38
+00:01:54,030 --> 00:01:56,810
+Uchinchi katta konsept - o‘rganilayotgan 
+
+39
+00:01:56,810 --> 00:02:00,489
+har bir kompyuter tilida aks ettirishga imkon beradigan sintaksis jihati.
+
+40
+00:02:00,489 --> 00:02:02,884
+Bu ichma-ich qilish tushunchasidir.
+
+41
+00:02:02,884 --> 00:02:06,064
+Bu ba’zi bir kod bitlari boshqa qismlarga 
+
+42
+00:02:06,064 --> 00:02:09,705
+tartibda kirib borishi bilan bog‘liq bo‘lib,
+
+43
+00:02:09,705 --> 00:02:12,745
+bu bizda inson tilida ham mavjud.
+
+44
+00:02:12,745 --> 00:02:17,840
+Masalan, biz bir-birimiz bilan suhbatlashishlar haqida gaplashadigan voqeani aytib bersak
+
+45
+00:02:17,840 --> 00:02:20,449
+Biz Jessica Bobning Mary haqida nimanidir aytib 
+
+46
+00:02:20,449 --> 00:02:24,004
+berganligini aytish uchun biz qo‘shtirnoqlardan foydalanishimiz mumkin.
+
+47
+00:02:24,004 --> 00:02:27,259
+Siz shunga o‘xshash narsalarni dasturlashda ham ko‘rasiz.
+
+48
+00:02:27,259 --> 00:02:29,504
+Ha, bu biroz mavhum edi, hozir.
+
+49
+00:02:29,504 --> 00:02:31,120
+Jamlaganingizda, biz buni sizga ko‘rsatishga
+
+50
+00:02:31,120 --> 00:02:32,675
+harakat qilamiz 
+
+51
+00:02:32,675 --> 00:02:34,805
+va u tezroq paydo bo‘ladi.
+
+52
+00:02:34,805 --> 00:02:38,349
+O‘rganishingizga turtki bo‘ladigan oxirgi katta g‘oya
+
+53
+00:02:38,349 --> 00:02:41,039
+bu juda ko‘p yordam mavjudligi.
+
+54
+00:02:41,039 --> 00:02:44,340
+Dunyoda hozirda kodlashni o‘rganadigan ko‘plab odamlar bor.
+
+55
+00:02:44,340 --> 00:02:48,564
+Siz ulardan birisiz va sizga o‘rganishga yordam beradigan ko‘plab manbalar mavjud.
+
+56
+00:02:48,564 --> 00:02:52,944
+Dasturchilarning eng muhim vositalaridan biri bu hujjatlardir.
+
+57
+00:02:52,944 --> 00:02:55,270
+Siz o‘rganayotgan va ishlayotgan 
+
+58
+00:02:55,270 --> 00:02:58,310
+tillar uchun qo‘llanmalar va yo‘riqnomalar mavjud.
+
+59
+00:02:58,310 --> 00:03:01,824
+Masalan, siz HTML haqida bilish uchun mavjud bo‘lgan 
+
+60
+00:03:01,824 --> 00:03:07,240
+barcha narsalarni Mozilla Developer Network yoki MDM veb-saytidan qidirib topishingiz mumkin.
+
+61
+00:03:07,240 --> 00:03:10,150
+Udacity sizga olib keladigan manbalardan tashqari, 
+
+62
+00:03:10,150 --> 00:03:15,080
+siz o‘zingizning sevimli qidiruv tizimingizdan foydalanib topishingiz mumkin bo‘lgan juda ko‘p yordam mavjud.
+

@@ -1,0 +1,172 @@
+1
+00:00:00,000 --> 00:00:03,815
+What would the web be without cat pictures,
+
+2
+00:00:03,815 --> 00:00:07,109
+or without maps, or news photos,
+
+3
+00:00:07,110 --> 00:00:10,160
+or diagrams or banner ads?
+
+4
+00:00:10,160 --> 00:00:14,085
+Images are a huge part of why the web is so successful.
+
+5
+00:00:14,085 --> 00:00:19,175
+So, you might be wondering how to include images in your own web pages.
+
+6
+00:00:19,175 --> 00:00:21,630
+It probably comes as no surprise.
+
+7
+00:00:21,629 --> 00:00:24,710
+There's an HTML element for just that.
+
+8
+00:00:24,710 --> 00:00:27,995
+This element is img for image,
+
+9
+00:00:27,995 --> 00:00:33,469
+and works a lot like the a element for links but with some important differences.
+
+10
+00:00:33,469 --> 00:00:37,969
+Now, the a element for links uses a single attribute
+
+11
+00:00:37,969 --> 00:00:43,759
+named href whose value is the URL of the page you want to link to.
+
+12
+00:00:43,759 --> 00:00:49,894
+But the img element uses two attributes; src and alt.
+
+13
+00:00:49,895 --> 00:00:53,359
+Now src stands for source and it's
+
+14
+00:00:53,359 --> 00:00:57,604
+the URL of the image that you want to appear in your webpage.
+
+15
+00:00:57,604 --> 00:01:02,854
+An alt stands for alternate and it's a text description of that image.
+
+16
+00:01:02,854 --> 00:01:07,515
+The text that shows up here is usually called the alt text.
+
+17
+00:01:07,515 --> 00:01:12,109
+Now, you need to include both of those attributes when you write HTML.
+
+18
+00:01:12,109 --> 00:01:16,855
+The src attribute is there to tell the browser where to get the image from,
+
+19
+00:01:16,855 --> 00:01:19,064
+what is the source of the image.
+
+20
+00:01:19,064 --> 00:01:22,039
+The alt attribute is there to tell the browser
+
+21
+00:01:22,040 --> 00:01:25,935
+what text to show if it can't display the image.
+
+22
+00:01:25,935 --> 00:01:32,090
+For instance, alt text will be displayed if the file is missing from the server or if
+
+23
+00:01:32,090 --> 00:01:35,120
+the user's network connections stops working before that image
+
+24
+00:01:35,120 --> 00:01:38,465
+can be loaded which is really common on mobile for instance.
+
+25
+00:01:38,465 --> 00:01:40,924
+Or if the user can't see images,
+
+26
+00:01:40,924 --> 00:01:42,769
+for instance, if they're blind.
+
+27
+00:01:42,769 --> 00:01:44,509
+Something to keep in mind;
+
+28
+00:01:44,510 --> 00:01:48,365
+putting an img element into your HTML file
+
+29
+00:01:48,364 --> 00:01:52,609
+doesn't copy the image file into your HTML file.
+
+30
+00:01:52,609 --> 00:01:56,049
+It just tells the browser where to find that image file,
+
+31
+00:01:56,049 --> 00:01:58,149
+what the source of it is.
+
+32
+00:01:58,150 --> 00:02:01,155
+The image file still has to be somewhere,
+
+33
+00:02:01,155 --> 00:02:04,620
+whether that's on your local disk or on a server.
+
+34
+00:02:04,620 --> 00:02:09,420
+The img element is an empty or void element like br.
+
+35
+00:02:09,419 --> 00:02:13,974
+It doesn't have any textual contents and there's no close tag for it.
+
+36
+00:02:13,974 --> 00:02:17,674
+Remember, contents of an HTML element would be
+
+37
+00:02:17,675 --> 00:02:22,885
+text between an open and a close tag like in a p element.
+
+38
+00:02:22,884 --> 00:02:24,879
+In the sense that we're using here,
+
+39
+00:02:24,879 --> 00:02:29,180
+the src and the alt on an image tag are not contents,
+
+40
+00:02:29,180 --> 00:02:32,485
+they are HTML attributes of that element.
+
+41
+00:02:32,485 --> 00:02:35,895
+The img element is an inline element.
+
+42
+00:02:35,895 --> 00:02:39,159
+You can put an image right into the middle of a piece of text.
+
+43
+00:02:39,159 --> 00:02:44,319
+If the image is taller than the text around it it'll space the lines of text out.
+

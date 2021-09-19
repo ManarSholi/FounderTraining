@@ -1,0 +1,109 @@
+1
+00:00:00,404 --> 00:00:03,819
+Vejamos as 5 afirmações
+deste quiz.
+
+2
+00:00:03,861 --> 00:00:07,959
+Nº 1: "quando digitamos
+'udacity.com' no navegador,
+
+3
+00:00:08,001 --> 00:00:12,095
+ele se comunica com o servidor
+da Udacity usando HTTP."
+
+4
+00:00:12,137 --> 00:00:13,696
+Bem, isso é verdade,
+
+5
+00:00:13,738 --> 00:00:17,632
+há muita coisa envolvida para
+levar a página até seu navegador,
+
+6
+00:00:17,674 --> 00:00:22,063
+e uma é que o navegador se comunica
+com o servidor usando HTTP.
+
+7
+00:00:22,105 --> 00:00:25,832
+O navegador solicita a página
+e o servidor responde.
+
+8
+00:00:25,874 --> 00:00:29,087
+E o que está nesta resposta
+é a afirmação 2,
+
+9
+00:00:29,129 --> 00:00:30,455
+um pedaço de HTML.
+
+10
+00:00:30,497 --> 00:00:32,824
+Então ela é verdadeira.
+
+11
+00:00:32,866 --> 00:00:38,046
+A nº 3 diz que o navegador copia
+todos os arquivos do servidor.
+
+12
+00:00:38,088 --> 00:00:39,286
+Isso não é verdade.
+
+13
+00:00:39,328 --> 00:00:44,470
+Ele só copia os arquivos e recursos
+que a página precisa.
+
+14
+00:00:44,512 --> 00:00:47,974
+É isso que está na nº 4,
+então ela é verdadeira,
+
+15
+00:00:48,016 --> 00:00:50,887
+pois o navegador solicita
+outros arquivos do servidor
+
+16
+00:00:50,929 --> 00:00:52,680
+e de outros servidores.
+
+17
+00:00:52,722 --> 00:00:55,639
+A nº 5 diz que tudo
+do site da Udacity
+
+18
+00:00:55,681 --> 00:00:57,543
+precisa vir
+do servidor da Udacity.
+
+19
+00:00:57,585 --> 00:00:58,927
+Isso não é verdade.
+
+20
+00:00:58,969 --> 00:01:01,829
+As páginas podem incluir
+ou fazer referência a arquivos
+
+21
+00:01:01,871 --> 00:01:03,931
+localizados
+em outros servidores.
+
+22
+00:01:03,973 --> 00:01:07,251
+Por exemplo, este vídeo
+não está no mesmo servidor
+
+23
+00:01:07,293 --> 00:01:09,869
+que forneceu o HTML
+em volta dele.
+

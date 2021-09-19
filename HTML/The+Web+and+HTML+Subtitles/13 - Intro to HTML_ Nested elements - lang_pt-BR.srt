@@ -1,0 +1,186 @@
+1
+00:00:00,396 --> 00:00:03,346
+A seguir, falaremos sobre
+um conceito importante
+
+2
+00:00:03,388 --> 00:00:05,035
+chamado "aninhamento".
+
+3
+00:00:05,077 --> 00:00:09,419
+Aninhamento é a ideia de que algo
+pode ficar dentro
+
+4
+00:00:09,461 --> 00:00:12,835
+ou pode ser aninhado
+em outra coisa.
+
+5
+00:00:12,877 --> 00:00:14,758
+Este é um exemplo prático.
+
+6
+00:00:14,800 --> 00:00:17,354
+Você já viu um desses
+brinquedos russos?
+
+7
+00:00:17,396 --> 00:00:20,747
+Podemos abrir o primeiro
+e haverá outro dentro.
+
+8
+00:00:20,789 --> 00:00:23,711
+E, dentro dele, haverá outro.
+
+9
+00:00:23,753 --> 00:00:25,519
+Se abrirmos
+
+10
+00:00:25,561 --> 00:00:27,327
+e observá-los de cima,
+
+11
+00:00:27,369 --> 00:00:29,359
+veremos
+como eles se encaixam.
+
+12
+00:00:29,401 --> 00:00:31,135
+Para fechá-los,
+
+13
+00:00:31,177 --> 00:00:34,335
+é preciso recolocar
+na ordem certa.
+
+14
+00:00:34,377 --> 00:00:37,911
+Os elementos HTML
+são parecidos com isso.
+
+15
+00:00:37,953 --> 00:00:42,142
+Os elementos de uma página HTML
+podem ir dentro de outros elementos,
+
+16
+00:00:42,184 --> 00:00:45,782
+mas é preciso seguir
+algumas regras.
+
+17
+00:00:45,824 --> 00:00:48,871
+Por exemplo, podemos ter
+um elemento de parágrafo
+
+18
+00:00:48,913 --> 00:00:52,439
+com elementos <em> ou <mark>
+dentro dele.
+
+19
+00:00:52,481 --> 00:00:56,271
+É assim que os documentos
+HTML normalmente funcionam.
+
+20
+00:00:56,313 --> 00:00:58,750
+Os elementos de nível superior,
+no documento,
+
+21
+00:00:58,792 --> 00:01:01,911
+são coisas como parágrafos
+e outras grandes divisões,
+
+22
+00:01:01,953 --> 00:01:04,567
+e, dentro deles,
+estão os elementos menores,
+
+23
+00:01:04,609 --> 00:01:08,535
+como a ênfase de um texto
+ou o destaque de outro.
+
+24
+00:01:08,577 --> 00:01:13,232
+Os elementos menores
+podem estar dentro de outros.
+
+25
+00:01:13,274 --> 00:01:17,659
+Por exemplo, podemos enfatizar
+e destacar o mesmo texto
+
+26
+00:01:17,701 --> 00:01:20,857
+ou podemos sobrescrever
+
+27
+00:01:20,899 --> 00:01:23,920
+um texto enfatizado,
+
+28
+00:01:23,962 --> 00:01:26,831
+mas existem combinações
+que não funcionam.
+
+29
+00:01:26,873 --> 00:01:31,892
+Não podemos colocar um parágrafo
+dentro de outro parágrafo
+
+30
+00:01:31,934 --> 00:01:36,956
+e dois elementos diferentes
+não podem se sobrepor no texto,
+
+31
+00:01:36,998 --> 00:01:40,942
+um deve estar totalmente dentro
+do outro.
+
+32
+00:01:40,984 --> 00:01:44,704
+O </sup> deve estar
+dentro do </em>
+
+33
+00:01:44,746 --> 00:01:47,393
+ou o <em>
+deve estar dentro do <sup>.
+
+34
+00:01:47,435 --> 00:01:49,544
+Estas regras
+são senso comum,
+
+35
+00:01:49,586 --> 00:01:53,617
+mas mostraremos quando isso
+for alguma exigência específica.
+
+36
+00:01:53,659 --> 00:01:56,165
+Um elemento
+pode ser o pequeno boneco
+
+37
+00:01:56,207 --> 00:01:58,222
+que vai dentro do maior,
+
+38
+00:01:58,264 --> 00:02:01,318
+mas você precisará decidir
+qual irá dentro,
+
+39
+00:02:01,360 --> 00:02:04,296
+eles não poderão
+se sobrepor.
+

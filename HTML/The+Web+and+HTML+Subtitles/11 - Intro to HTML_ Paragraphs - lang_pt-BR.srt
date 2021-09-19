@@ -1,0 +1,118 @@
+1
+00:00:00,642 --> 00:00:05,600
+A tag <br> adiciona
+quebras de linha em poemas,
+
+2
+00:00:05,642 --> 00:00:08,144
+mas nem toda página
+será um poema.
+
+3
+00:00:08,186 --> 00:00:12,832
+Muitas vezes, escrevemos um artigo,
+uma história, uma dissertação
+
+4
+00:00:12,874 --> 00:00:14,399
+ou algo do tipo,
+
+5
+00:00:14,441 --> 00:00:18,296
+e esses tipos de escrita
+são divididos em parágrafos.
+
+6
+00:00:18,338 --> 00:00:20,328
+Para criar um parágrafo
+no HTML,
+
+7
+00:00:20,370 --> 00:00:21,959
+usamos o elemento <p>.
+
+8
+00:00:22,001 --> 00:00:25,631
+P significa parágrafo
+e é uma tag regular.
+
+9
+00:00:25,673 --> 00:00:29,134
+Há uma tag <p> de abertura
+com um colchete angular, p
+
+10
+00:00:29,176 --> 00:00:30,311
+e colchete angular.
+
+11
+00:00:30,353 --> 00:00:34,655
+Depois há uma tag de encerramento
+com um colchete angular, /p
+
+12
+00:00:34,697 --> 00:00:36,135
+e colchete angular.
+
+13
+00:00:36,177 --> 00:00:40,062
+Vamos transformar esses parágrafos
+em elementos <p>.
+
+14
+00:00:40,104 --> 00:00:43,472
+Agora, ao recarregarmos a página
+no navegador,
+
+15
+00:00:43,514 --> 00:00:47,191
+vemos belos parágrafos.
+
+16
+00:00:47,233 --> 00:00:49,782
+Cada parágrafo
+será separado do outro
+
+17
+00:00:49,824 --> 00:00:51,631
+por uma pequena margem.
+
+18
+00:00:51,673 --> 00:00:55,039
+Sempre que escrever texto
+para uma página no HTML,
+
+19
+00:00:55,081 --> 00:00:59,218
+você usará o elemento <p>
+para marcar os parágrafos.
+
+20
+00:00:59,260 --> 00:01:02,158
+Por que não usamos
+quebras de linha?
+
+21
+00:01:02,200 --> 00:01:05,570
+Mais tarde entenderemos por que
+devemos informar ao navegador
+
+22
+00:01:05,612 --> 00:01:09,323
+sobre a estrutura do texto,
+sobre as partes que o constituem,
+
+23
+00:01:09,365 --> 00:01:12,610
+e não somente
+sobre a aparência.
+
+24
+00:01:12,652 --> 00:01:14,603
+Aprenderemos mais sobre isso
+
+25
+00:01:14,645 --> 00:01:19,171
+quando falarmos sobre o controle
+da aparência visual com o CSS.
+

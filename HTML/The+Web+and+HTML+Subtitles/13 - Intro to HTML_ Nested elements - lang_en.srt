@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:05,115
+Next up, we're going to talk about an important concept called Nesting.
+
+2
+00:00:05,115 --> 00:00:08,820
+By Nesting, I just mean the idea that something can go
+
+3
+00:00:08,820 --> 00:00:12,820
+inside or be nested inside something else.
+
+4
+00:00:12,820 --> 00:00:14,790
+Here's a hands-on example.
+
+5
+00:00:14,789 --> 00:00:17,259
+Have you ever seen one of these Russian Matryoshka dolls,
+
+6
+00:00:17,260 --> 00:00:18,955
+you can open up the first one,
+
+7
+00:00:18,954 --> 00:00:20,719
+and there's another one inside.
+
+8
+00:00:20,719 --> 00:00:23,704
+And inside there, there's another one.
+
+9
+00:00:23,704 --> 00:00:27,479
+If you open them up, and look at them from the top,
+
+10
+00:00:27,480 --> 00:00:29,385
+you can see how they all fit together.
+
+11
+00:00:29,385 --> 00:00:31,135
+And to neatly close them up,
+
+12
+00:00:31,135 --> 00:00:34,054
+you have to put them back in the right order.
+
+13
+00:00:34,054 --> 00:00:37,789
+Anyway, HTML elements are like that.
+
+14
+00:00:37,789 --> 00:00:42,214
+Elements on an HTML page can go inside other elements,
+
+15
+00:00:42,215 --> 00:00:45,535
+but they have to follow some certain rules when they do.
+
+16
+00:00:45,534 --> 00:00:52,449
+For example, you can have a paragraph element that has em or mark elements inside it.
+
+17
+00:00:52,450 --> 00:00:56,225
+In fact, that's how HTML documents normally work.
+
+18
+00:00:56,225 --> 00:00:58,939
+The top level elements in the document are
+
+19
+00:00:58,939 --> 00:01:01,989
+things like paragraphs and other big divisions,
+
+20
+00:01:01,990 --> 00:01:05,000
+and inside those, are smaller elements like,
+
+21
+00:01:05,000 --> 00:01:08,439
+"Emphasize this text," Or "Highlight that text."
+
+22
+00:01:08,439 --> 00:01:10,480
+Any of these smaller elements,
+
+23
+00:01:10,480 --> 00:01:13,140
+can be put inside another one too.
+
+24
+00:01:13,140 --> 00:01:17,594
+For instance, you can have text that's both emphasized and highlighted,
+
+25
+00:01:17,594 --> 00:01:23,784
+or you can have things like superscripts show up inside of a piece of emphasized text.
+
+26
+00:01:23,784 --> 00:01:26,899
+But there are some combinations that don't work,
+
+27
+00:01:26,900 --> 00:01:31,830
+you can't put a paragraph inside another paragraph for instance,
+
+28
+00:01:31,829 --> 00:01:34,539
+and two different HTML elements,
+
+29
+00:01:34,540 --> 00:01:36,910
+can't overlap in the text.
+
+30
+00:01:36,909 --> 00:01:40,729
+One has to be entirely inside the other.
+
+31
+00:01:40,730 --> 00:01:44,810
+Either the sup needs to be inside the em,
+
+32
+00:01:44,810 --> 00:01:47,305
+or the em inside the sup.
+
+33
+00:01:47,305 --> 00:01:49,590
+These rules are mostly common sense,
+
+34
+00:01:49,590 --> 00:01:53,600
+but we'll point them out when there are unusually specific requirements.
+
+35
+00:01:53,599 --> 00:01:56,189
+Either element can be the little doll,
+
+36
+00:01:56,189 --> 00:01:58,194
+that goes inside the bigger one,
+
+37
+00:01:58,194 --> 00:02:04,959
+but you have to decide which one will go inside, they can't overlap.
+

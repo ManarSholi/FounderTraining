@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:02,819
+Welcome. In this lesson,
+
+2
+00:00:02,819 --> 00:00:05,404
+you're going to get started creating web pages.
+
+3
+00:00:05,405 --> 00:00:10,445
+As you go, you'll be learning some important concepts about how computer languages work.
+
+4
+00:00:10,445 --> 00:00:12,820
+We'll be talking about what the web is,
+
+5
+00:00:12,820 --> 00:00:15,759
+what it's built of, and the basics of how it works.
+
+6
+00:00:15,759 --> 00:00:18,269
+You'll get practice editing web pages using
+
+7
+00:00:18,269 --> 00:00:22,484
+a programmer's text editor and testing your work in your browser.
+
+8
+00:00:22,484 --> 00:00:25,320
+You'll learn the fundamentals of HTML,
+
+9
+00:00:25,320 --> 00:00:29,719
+the computer language that we use to structure and write web pages.
+
+10
+00:00:29,719 --> 00:00:35,670
+Also about URLs, the addresses that we use to refer to documents and sites on the web.
+
+11
+00:00:35,670 --> 00:00:38,660
+You'll put all of this together by taking notes on what
+
+12
+00:00:38,659 --> 00:00:41,750
+you've learned and turning those notes into a web page.
+
+13
+00:00:41,750 --> 00:00:44,005
+The web is a big topic.
+
+14
+00:00:44,005 --> 00:00:46,310
+So, where should we get started?
+
+15
+00:00:46,310 --> 00:00:50,280
+Well, how about what's the web made of?
+
+16
+00:00:50,280 --> 00:00:52,505
+Well, in one sense,
+
+17
+00:00:52,505 --> 00:00:56,510
+the web is a collection of documents written in HTML,
+
+18
+00:00:56,509 --> 00:01:00,769
+along with other resources such as images and videos,
+
+19
+00:01:00,770 --> 00:01:05,755
+as well as programs and services that interact with these documents and resources.
+
+20
+00:01:05,754 --> 00:01:10,414
+Everything that you can access using your web browser is part of the web.
+
+21
+00:01:10,415 --> 00:01:12,920
+Those resources are spread out among
+
+22
+00:01:12,920 --> 00:01:16,120
+thousands and thousands of different computer systems.
+
+23
+00:01:16,120 --> 00:01:19,265
+The web is a hypertext system.
+
+24
+00:01:19,265 --> 00:01:23,564
+What this means is that documents, web pages, sites,
+
+25
+00:01:23,564 --> 00:01:27,649
+web apps can contain references to other documents
+
+26
+00:01:27,650 --> 00:01:32,100
+and users can follow those references to find related information.
+
+27
+00:01:32,099 --> 00:01:34,449
+That's what you're doing every time you,
+
+28
+00:01:34,450 --> 00:01:37,995
+say, click on a link in a blog post or a news article.
+
+29
+00:01:37,995 --> 00:01:40,250
+We call these references hyperlinks,
+
+30
+00:01:40,250 --> 00:01:42,000
+or links for short,
+
+31
+00:01:42,000 --> 00:01:47,704
+and the ability to follow them from document to document is what makes the web web-like.
+
+32
+00:01:47,704 --> 00:01:52,700
+This hypertext ability to refer to other information is also
+
+33
+00:01:52,700 --> 00:01:58,170
+used whenever a web page includes an image or a video or a piece of code.
+
+34
+00:01:58,170 --> 00:02:00,350
+Hypertext is kind of a big deal.
+
+35
+00:02:00,349 --> 00:02:03,919
+All of web technology is built around this idea of
+
+36
+00:02:03,920 --> 00:02:08,599
+documents and other data objects that can link to each other in a standard way.
+
+37
+00:02:08,599 --> 00:02:10,539
+Exactly how this works,
+
+38
+00:02:10,539 --> 00:02:14,039
+well, that's what you'll see throughout the rest of this lesson.
+

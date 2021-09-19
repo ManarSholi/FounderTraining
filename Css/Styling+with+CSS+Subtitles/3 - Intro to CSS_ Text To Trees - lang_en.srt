@@ -1,0 +1,188 @@
+1
+00:00:00,000 --> 00:00:02,345
+When you load up a webpage,
+
+2
+00:00:02,345 --> 00:00:06,240
+somehow the browser takes a piece of HTML text and it
+
+3
+00:00:06,240 --> 00:00:10,605
+creates the two-dimensional image that appears in your browser window.
+
+4
+00:00:10,605 --> 00:00:14,830
+But what our HTML and the image on the screen made of?
+
+5
+00:00:14,830 --> 00:00:19,875
+Well, this HTML over here is just a piece of text.
+
+6
+00:00:19,875 --> 00:00:21,969
+It's made of letters, and numbers,
+
+7
+00:00:21,969 --> 00:00:24,660
+and punctuation marks, and spaces.
+
+8
+00:00:24,660 --> 00:00:28,545
+Some of that text spells out HTML tags.
+
+9
+00:00:28,545 --> 00:00:31,490
+Other texts makes up the content of the page,
+
+10
+00:00:31,489 --> 00:00:33,975
+like the word Apple, here.
+
+11
+00:00:33,975 --> 00:00:36,375
+But this browser window,
+
+12
+00:00:36,375 --> 00:00:37,965
+that's a visual image,
+
+13
+00:00:37,965 --> 00:00:41,335
+a two-dimensional picture made of pixels on your screen,
+
+14
+00:00:41,335 --> 00:00:43,115
+it could have text in it,
+
+15
+00:00:43,115 --> 00:00:46,690
+or images, video, or other things.
+
+16
+00:00:46,689 --> 00:00:52,219
+There are things in HTML source code that don't show up on the screen,
+
+17
+00:00:52,219 --> 00:00:55,299
+like the literal text of these tags.
+
+18
+00:00:55,299 --> 00:01:01,019
+There are things that show up on the screen that don't literally appear in the HTML,
+
+19
+00:01:01,020 --> 00:01:03,680
+like the number two, here.
+
+20
+00:01:03,679 --> 00:01:06,665
+It turns out that this is a little easier to
+
+21
+00:01:06,665 --> 00:01:10,740
+understand if we look at this intermediate step.
+
+22
+00:01:10,739 --> 00:01:16,304
+The browser reads the HTML and it turns it into something here,
+
+23
+00:01:16,305 --> 00:01:21,555
+and then it turns that something into the view that we see on the screen.
+
+24
+00:01:21,555 --> 00:01:24,650
+When we make a style change to the page,
+
+25
+00:01:24,650 --> 00:01:28,234
+that doesn't change the structure of the HTML source code,
+
+26
+00:01:28,234 --> 00:01:30,629
+but it does change the appearance.
+
+27
+00:01:30,629 --> 00:01:35,454
+That means the style is getting mixed in with this thing here.
+
+28
+00:01:35,454 --> 00:01:38,245
+This something is a data structure.
+
+29
+00:01:38,245 --> 00:01:43,045
+It's an organized map of what's going to end up on the page.
+
+30
+00:01:43,045 --> 00:01:46,870
+It's also what developer tools let's us look at.
+
+31
+00:01:46,870 --> 00:01:49,895
+When the browser reads the HTML source,
+
+32
+00:01:49,894 --> 00:01:52,849
+it builds up a map in the computer's memory of
+
+33
+00:01:52,849 --> 00:01:56,434
+what all the elements are that it will need to put on the screen.
+
+34
+00:01:56,435 --> 00:02:01,715
+This map shows which elements are nested inside which other elements.
+
+35
+00:02:01,715 --> 00:02:07,200
+Doing this step first makes it much more practical to lay out the elements on the screen.
+
+36
+00:02:07,200 --> 00:02:10,844
+It's like making an outline of the page.
+
+37
+00:02:10,844 --> 00:02:14,419
+This kind of structure is called a tree structure,
+
+38
+00:02:14,419 --> 00:02:19,039
+because each element can have branches coming out of it to other elements.
+
+39
+00:02:19,039 --> 00:02:21,629
+For each element, there will be branches
+
+40
+00:02:21,629 --> 00:02:24,930
+going to that elements that are nested inside of it,
+
+41
+00:02:24,930 --> 00:02:30,795
+like these LI or list items inside the OL or ordered list,
+
+42
+00:02:30,794 --> 00:02:35,819
+all the way down to the individual pieces of text that occur inside the list.
+
+43
+00:02:35,819 --> 00:02:39,995
+The particular tree structure that the browser builds out of HTML
+
+44
+00:02:39,995 --> 00:02:44,525
+is called the DOM or Document Object Model.
+
+45
+00:02:44,525 --> 00:02:48,724
+The DOM has a tree structure for each HTML element,
+
+46
+00:02:48,724 --> 00:02:51,194
+and for each piece of text, and image,
+
+47
+00:02:51,194 --> 00:02:54,519
+and other object inside the webpage.
+

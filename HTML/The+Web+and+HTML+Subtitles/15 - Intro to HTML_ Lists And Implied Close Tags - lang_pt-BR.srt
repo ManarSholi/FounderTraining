@@ -1,0 +1,255 @@
+1
+00:00:00,650 --> 00:00:04,312
+Existem alguns elementos HTML
+que são sempre usados
+
+2
+00:00:04,354 --> 00:00:07,182
+dentro de outros elementos,
+
+3
+00:00:07,224 --> 00:00:09,728
+eles não fazem sentido
+sozinhos.
+
+4
+00:00:09,770 --> 00:00:14,322
+Eis um exemplo, o item de lista
+ou elemento <li>.
+
+5
+00:00:14,364 --> 00:00:17,039
+O item de lista
+é um item em uma lista,
+
+6
+00:00:17,081 --> 00:00:19,503
+como uma lista de compras,
+de imagens
+
+7
+00:00:19,545 --> 00:00:21,207
+ou de uma tabela.
+
+8
+00:00:21,249 --> 00:00:24,479
+Um item de lista
+não pode aparecer sozinho,
+
+9
+00:00:24,521 --> 00:00:27,152
+ele sempre fará parte
+de uma lista.
+
+10
+00:00:27,194 --> 00:00:31,505
+Mas existem dois tipos de listas
+nas quais o <li> poderá fazer parte,
+
+11
+00:00:31,547 --> 00:00:33,535
+como a lista ordenada,
+
+12
+00:00:33,577 --> 00:00:37,790
+que geralmente aparece com números
+ou letras na frente de cada item,
+
+13
+00:00:37,832 --> 00:00:40,190
+ou uma lista não ordenada,
+
+14
+00:00:40,232 --> 00:00:43,096
+que geralmente aparece
+com pontos.
+
+15
+00:00:43,138 --> 00:00:46,775
+O elemento HTML
+de uma lista ordenada é <ol>,
+
+16
+00:00:46,817 --> 00:00:49,527
+e o da lista não ordenada
+é <ul>.
+
+17
+00:00:49,569 --> 00:00:54,607
+Por que um item de lista
+não pode aparecer fora da lista?
+
+18
+00:00:54,649 --> 00:00:59,598
+As listas <ol> e <ul>
+são exibidas de forma diferente.
+
+19
+00:00:59,640 --> 00:01:02,655
+Sem o contexto
+de uma das listas,
+
+20
+00:01:02,697 --> 00:01:07,247
+o navegador não saberá
+se deve colocar um número no item.
+
+21
+00:01:07,289 --> 00:01:11,775
+Por isso, o HTML tem a regra
+de que os elementos <li>
+
+22
+00:01:11,817 --> 00:01:16,967
+só podem ocorrer
+dentro de um <ol> ou de um <ul>,
+
+23
+00:01:17,009 --> 00:01:21,663
+mas as listas podem ser
+aninhadas em outras listas.
+
+24
+00:01:21,705 --> 00:01:25,848
+É assim que criamos
+uma lista de tópicos ou de tarefas,
+
+25
+00:01:25,890 --> 00:01:28,943
+na qual a tarefa terá
+vários passos dentro dela.
+
+26
+00:01:28,985 --> 00:01:32,321
+Esta é uma tabela de mudança
+para a Califórnia,
+
+27
+00:01:32,363 --> 00:01:33,848
+do outro lado do país.
+
+28
+00:01:33,890 --> 00:01:37,456
+Podem estar faltando passos,
+mas aqui estão os principais.
+
+29
+00:01:37,498 --> 00:01:40,777
+Dê uma olhada no item de lista
+"Kitchen stuff".
+
+30
+00:01:40,819 --> 00:01:44,856
+Ele é um elemento <li>
+dentro de um elemento <ul>,
+
+31
+00:01:44,898 --> 00:01:48,776
+dentro de outro <li>,
+dentro de um <ol>.
+
+32
+00:01:48,818 --> 00:01:51,049
+Ao renderizarmos isto
+no navegador,
+
+33
+00:01:51,091 --> 00:01:54,681
+o <ol> criará os passos
+1, 2 e 3.
+
+34
+00:01:54,723 --> 00:01:58,120
+Dentro do primeiro passo,
+há três pontos.
+
+35
+00:01:58,162 --> 00:02:00,680
+A propósito, há um atalho.
+
+36
+00:02:00,722 --> 00:02:04,568
+Como o elemento <li>
+só pode ocorrer dentro de uma lista
+
+37
+00:02:04,610 --> 00:02:08,536
+e não pode ocorrer
+diretamente dentro de um <li>,
+
+38
+00:02:08,578 --> 00:02:12,657
+o HTML não exige
+tags de encerramento
+
+39
+00:02:12,699 --> 00:02:14,264
+para elementos <li>.
+
+40
+00:02:14,306 --> 00:02:19,960
+Isso porque o elemento <li>
+não ocorre dentro de outro <li>,
+
+41
+00:02:20,002 --> 00:02:23,632
+ele sempre deverá estar
+dentro de um <ol> ou de um <ul>.
+
+42
+00:02:23,674 --> 00:02:27,745
+Assim, quando o navegador
+ler o texto do elemento <li>
+
+43
+00:02:27,787 --> 00:02:31,105
+e encontrar
+outra tag de abertura <li>,
+
+44
+00:02:31,147 --> 00:02:34,862
+ele saberá que o item
+de lista anterior acabou.
+
+45
+00:02:34,904 --> 00:02:40,263
+Podemos colocar as tags
+de encerramento do <li> ou não.
+
+46
+00:02:40,305 --> 00:02:42,258
+Alguns desenvolvedores
+sempre colocam,
+
+47
+00:02:42,300 --> 00:02:44,792
+pois isso deixa o código
+mais claro.
+
+48
+00:02:44,834 --> 00:02:45,978
+Outro não colocam,
+
+49
+00:02:46,020 --> 00:02:49,865
+pois isso economiza um minúsculo
+espaço no arquivo.
+
+50
+00:02:49,907 --> 00:02:51,233
+É você quem decide,
+
+51
+00:02:51,275 --> 00:02:54,337
+mas não se esqueça
+das tags de encerramento
+
+52
+00:02:54,379 --> 00:02:56,769
+do <ul> e do <ol>,
+
+53
+00:02:56,811 --> 00:03:01,514
+assim o navegador
+não colocará tudo na lista.
+

@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:02,040
+Pretty often in CSS,
+
+2
+00:00:02,040 --> 00:00:06,240
+we don't want to say make this box exactly 200 pixels wide.
+
+3
+00:00:06,240 --> 00:00:08,234
+We want to say something more like,
+
+4
+00:00:08,234 --> 00:00:11,719
+make this box take up half of the page width,
+
+5
+00:00:11,720 --> 00:00:14,820
+but we don't know how wide the user's browser window is.
+
+6
+00:00:14,820 --> 00:00:17,410
+So, we can't just say a number of pixels,
+
+7
+00:00:17,410 --> 00:00:19,464
+or EMs, or something for this.
+
+8
+00:00:19,464 --> 00:00:22,670
+What we can do is use a percentage.
+
+9
+00:00:22,670 --> 00:00:27,810
+When we set the width or the height of a box to be a percentage like 50 percent,
+
+10
+00:00:27,809 --> 00:00:30,829
+we're asking the browser to make it that fraction of
+
+11
+00:00:30,829 --> 00:00:34,079
+the width or height of the box that it's inside.
+
+12
+00:00:34,079 --> 00:00:36,859
+For boxes at the top level of our document,
+
+13
+00:00:36,859 --> 00:00:39,945
+that makes it 50 percent of the width the whole page.
+
+14
+00:00:39,945 --> 00:00:43,000
+For a box that's inside another box,
+
+15
+00:00:43,000 --> 00:00:46,354
+it's 50 percent of the width of its parent box.
+
+16
+00:00:46,354 --> 00:00:48,344
+But here's something to watch out for.
+
+17
+00:00:48,344 --> 00:00:53,239
+By default, width doesn't include the border and it never includes the padding.
+
+18
+00:00:53,240 --> 00:00:58,039
+So, if you have two boxes that you want to fit next to each other using float: left,
+
+19
+00:00:58,039 --> 00:01:02,700
+you will usually need to make them smaller than 50 percent of the containing box.
+
+20
+00:01:02,700 --> 00:01:06,725
+CSS also uses percentages for something pretty different,
+
+21
+00:01:06,724 --> 00:01:09,034
+scaling things up or down.
+
+22
+00:01:09,034 --> 00:01:14,289
+For instance, let's say that we want to make strong text even stronger than usual.
+
+23
+00:01:14,290 --> 00:01:19,445
+We can do that by defining a style on the strong element to make the font-size,
+
+24
+00:01:19,444 --> 00:01:23,634
+say, 120 percent, and maybe we'll make the color red.
+
+25
+00:01:23,635 --> 00:01:28,734
+That means that no matter what the actual font-size in points is of the text,
+
+26
+00:01:28,734 --> 00:01:32,359
+any text that's in a strong element will be expanded to
+
+27
+00:01:32,359 --> 00:01:37,000
+120 percent of the strong node's parent font-size.
+

@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:02,910
+One way that we can apply style to
+
+2
+00:00:02,910 --> 00:00:07,770
+a webpage is to visit each node of the tree and add the style we want.
+
+3
+00:00:07,769 --> 00:00:13,454
+There's a style attribute that we can put on html opening tags to do just that.
+
+4
+00:00:13,455 --> 00:00:18,730
+For instance, if we'd like to turn all of these list items green, we could do that.
+
+5
+00:00:18,730 --> 00:00:20,504
+We can add the style attribute,
+
+6
+00:00:20,504 --> 00:00:22,699
+style equals color, colon,
+
+7
+00:00:22,699 --> 00:00:25,464
+green, to each of the li elements.
+
+8
+00:00:25,464 --> 00:00:29,704
+The problem with doing it this way is that it's incredibly repetitious.
+
+9
+00:00:29,704 --> 00:00:31,784
+Also, if we mess up in one place,
+
+10
+00:00:31,785 --> 00:00:33,304
+it'll be hard to catch.
+
+11
+00:00:33,304 --> 00:00:39,350
+Generally in computing, if it's possible to avoid repeating yourself it's nice to do so,
+
+12
+00:00:39,350 --> 00:00:44,980
+not only does it save on typing but it also makes for fewer places things can go wrong.
+
+13
+00:00:44,979 --> 00:00:50,449
+So, what CSS lets us do is to pull all of the style information out,
+
+14
+00:00:50,450 --> 00:00:52,850
+and say we want to apply this style to
+
+15
+00:00:52,850 --> 00:00:56,679
+every li in the document instead of just one at a time.
+
+16
+00:00:56,679 --> 00:01:01,189
+One way we can do that is by putting a CSS rule set into
+
+17
+00:01:01,189 --> 00:01:06,310
+the document's head element by creating a special element called style.
+
+18
+00:01:06,310 --> 00:01:11,115
+The style information that we put here will be applied throughout the document.
+
+19
+00:01:11,114 --> 00:01:15,094
+As the browser builds up the picture on screen from the dom tree,
+
+20
+00:01:15,094 --> 00:01:17,814
+it'll use these style rules to color,
+
+21
+00:01:17,814 --> 00:01:20,359
+shape, and layout the page.
+

@@ -1,0 +1,319 @@
+1
+00:00:00,413 --> 00:00:03,603
+Você deve ter notado
+este URL de imagem antes,
+
+2
+00:00:03,645 --> 00:00:07,140
+ele é de um site
+chamado "placebear.com",
+
+3
+00:00:07,182 --> 00:00:09,881
+que tem muitas imagens
+de ursos.
+
+4
+00:00:09,923 --> 00:00:12,375
+Se quiser uma imagem
+de um tamanho específico -
+
+5
+00:00:12,417 --> 00:00:15,131
+por exemplo,
+de 800 x 600 pixels -,
+
+6
+00:00:15,173 --> 00:00:18,155
+o placebear.com
+encontrará uma para você,
+
+7
+00:00:18,197 --> 00:00:21,522
+desde que você queira
+a imagem de um urso.
+
+8
+00:00:21,564 --> 00:00:24,851
+Para adicionar a imagem
+no arquivo myNotes.html,
+
+9
+00:00:24,893 --> 00:00:28,195
+eu usarei uma tag <img>.
+
+10
+00:00:28,237 --> 00:00:31,011
+Quando o navegador abrir
+o arquivo HTML,
+
+11
+00:00:31,053 --> 00:00:34,547
+ele irá até
+o servidor placebear.com,
+
+12
+00:00:34,589 --> 00:00:38,091
+obterá a imagem
+e a colocará na página.
+
+13
+00:00:38,133 --> 00:00:42,500
+E se eu tiver um arquivo de imagem
+no meu computador?
+
+14
+00:00:42,542 --> 00:00:46,779
+E se ela estiver na mesma pasta
+do arquivo HTML?
+
+15
+00:00:46,821 --> 00:00:48,899
+Eu precisarei colocá-la
+em um servidor
+
+16
+00:00:48,941 --> 00:00:51,996
+para usá-la como referência
+em uma tag de imagem?
+
+17
+00:00:52,038 --> 00:00:54,132
+Na verdade, não.
+
+18
+00:00:54,174 --> 00:00:57,707
+Em vez disso, posso colocar
+o nome do arquivo na tag de imagem.
+
+19
+00:00:57,749 --> 00:00:59,924
+Por que isso funciona?
+
+20
+00:00:59,966 --> 00:01:03,357
+O navegador observa
+o atributo src
+
+21
+00:01:03,399 --> 00:01:06,012
+e não vê um URL completo,
+
+22
+00:01:06,054 --> 00:01:09,677
+pois não começa com "http://",
+
+23
+00:01:09,719 --> 00:01:14,029
+com "file://"
+ou algo parecido.
+
+24
+00:01:14,071 --> 00:01:18,803
+Especificamente,
+não há nenhum "://",
+
+25
+00:01:18,845 --> 00:01:23,469
+e o navegador tem uma regra
+para esses casos.
+
+26
+00:01:23,511 --> 00:01:26,281
+Especificamente, ele procura
+pelo nome do arquivo
+
+27
+00:01:26,323 --> 00:01:30,501
+como uma variação
+do documento HTML no URL.
+
+28
+00:01:30,543 --> 00:01:33,805
+Isto é chamado
+de "URL relativo".
+
+29
+00:01:33,847 --> 00:01:37,995
+No momento, o arquivo HTML
+está no meu computador,
+
+30
+00:01:38,037 --> 00:01:40,302
+e o navegador usa o URL
+
+31
+00:01:40,335 --> 00:01:46,781
+file:///Users/Karl/courses/
+notes.html.
+
+32
+00:01:47,869 --> 00:01:49,855
+Dessa forma, quando o arquivo
+
+33
+00:01:49,897 --> 00:01:54,232
+se referir ao URL relativo
+kittens.jpg,
+
+34
+00:01:54,274 --> 00:01:57,311
+ele procurará pelo arquivo
+no mesmo diretório.
+
+35
+00:01:57,353 --> 00:02:02,303
+Embora eu só tenha escrito
+"kittens.jpg" no arquivo HTML,
+
+36
+00:02:02,345 --> 00:02:05,116
+o navegador carregará
+o mesmo URL como
+
+37
+00:02:05,149 --> 00:02:11,452
+file:///Users/Karl/courses/
+kittens.jpg.
+
+38
+00:02:12,601 --> 00:02:15,638
+Usar o URL relativo
+exige menos digitação,
+
+39
+00:02:15,680 --> 00:02:17,894
+mas essa não é
+a única vantagem.
+
+40
+00:02:17,936 --> 00:02:20,615
+Se eu quiser enviar
+a página para alguém,
+
+41
+00:02:20,657 --> 00:02:24,888
+o HTML não conterá
+a imagem do gato,
+
+42
+00:02:24,930 --> 00:02:27,418
+então eu precisarei enviar
+o arquivo de imagem.
+
+43
+00:02:27,460 --> 00:02:29,525
+Mas se eu enviar o arquivo
+para a Kelly,
+
+44
+00:02:29,567 --> 00:02:31,474
+ele não aparecerá
+no computador dela
+
+45
+00:02:31,516 --> 00:02:34,466
+em um diretório chamado
+"/Users/Karl".
+
+46
+00:02:34,508 --> 00:02:36,914
+Os URLs do meu HTML
+
+47
+00:02:36,956 --> 00:02:39,299
+apontam para os diretórios
+no meu computador,
+
+48
+00:02:39,341 --> 00:02:42,036
+e isso não funcionará
+no computador de outra pessoa.
+
+49
+00:02:42,078 --> 00:02:43,410
+Como regra geral,
+
+50
+00:02:43,452 --> 00:02:46,898
+se você se referir a uma imagem
+ou a um link de um servidor,
+
+51
+00:02:46,940 --> 00:02:48,803
+como o placebear.com,
+
+52
+00:02:48,845 --> 00:02:51,690
+é melhor usar todo o URL
+
+53
+00:02:51,732 --> 00:02:57,498
+como
+https://placebear.com/800/600.
+
+54
+00:02:57,540 --> 00:03:01,215
+Se você estiver se referindo
+a uma imagem ou a um arquivo
+
+55
+00:03:01,257 --> 00:03:04,787
+que você passará junto
+com o arquivo HTML,
+
+56
+00:03:04,829 --> 00:03:08,243
+é melhor usar URLs relativos.
+
+57
+00:03:08,285 --> 00:03:10,619
+A propósito, os URLs relativos
+
+58
+00:03:10,661 --> 00:03:14,763
+são a razão pela qual não poderemos
+criar um link para o Google
+
+59
+00:03:14,805 --> 00:03:19,835
+escrevendo "<a href= 'google.com'>"
+no HTML,
+
+60
+00:03:19,877 --> 00:03:24,279
+embora o google.com funcione
+se digitarmos no navegador.
+
+61
+00:03:24,321 --> 00:03:25,750
+No HTML,
+
+62
+00:03:25,792 --> 00:03:28,903
+um URL sem "://"
+
+63
+00:03:28,945 --> 00:03:31,750
+é tratado como URL relativo,
+
+64
+00:03:31,792 --> 00:03:35,383
+então o navegador procurará
+por um arquivo chamado "google.com",
+
+65
+00:03:35,425 --> 00:03:37,518
+que geralmente
+não é o que desejamos.
+
+66
+00:03:37,560 --> 00:03:40,654
+Se quiser criar um link
+para outro site,
+
+67
+00:03:40,696 --> 00:03:46,159
+é preciso colocar o http
+ou o https na frente.
+

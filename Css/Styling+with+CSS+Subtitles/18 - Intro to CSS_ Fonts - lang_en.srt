@@ -1,0 +1,220 @@
+1
+00:00:00,000 --> 00:00:02,774
+Okay. Let's talk about fonts.
+
+2
+00:00:02,774 --> 00:00:05,160
+One of the things that can really make a website more
+
+3
+00:00:05,160 --> 00:00:08,675
+distinctive is to choose fonts that work well together.
+
+4
+00:00:08,675 --> 00:00:14,515
+CSS lets you change all sorts of things about the font in which your text gets displayed.
+
+5
+00:00:14,515 --> 00:00:17,370
+Now, fonts are actually really complicated and there's
+
+6
+00:00:17,370 --> 00:00:21,785
+a whole history of topography that we are totally not getting into in this course.
+
+7
+00:00:21,785 --> 00:00:25,850
+We'll just touch the basics that every CSS user will need.
+
+8
+00:00:25,850 --> 00:00:29,740
+If you're used to working with fonts in a word processor,
+
+9
+00:00:29,739 --> 00:00:34,369
+what you think of as a font CSS actually calls a font-family.
+
+10
+00:00:34,369 --> 00:00:40,390
+This is the name of a typeface like Times New Roman or Helvetica or Impact.
+
+11
+00:00:40,390 --> 00:00:43,399
+Applying a font-family rule to
+
+12
+00:00:43,399 --> 00:00:48,085
+an element will make text in that element show up in that font.
+
+13
+00:00:48,085 --> 00:00:51,070
+Well, it'll try to anyway.
+
+14
+00:00:51,070 --> 00:00:54,924
+Not every computer or device has the same fonts installed.
+
+15
+00:00:54,924 --> 00:00:59,099
+If you ask for a font family and the user's device doesn't have it,
+
+16
+00:00:59,100 --> 00:01:01,045
+CSS just won't do anything.
+
+17
+00:01:01,045 --> 00:01:04,310
+It will just leave the text and the default font-family which
+
+18
+00:01:04,310 --> 00:01:07,995
+is usually something boring but inoffensive like Times.
+
+19
+00:01:07,995 --> 00:01:11,150
+If you don't care exactly what font-family the user
+
+20
+00:01:11,150 --> 00:01:15,275
+sees but you know that you want it to be a particular sort of font,
+
+21
+00:01:15,275 --> 00:01:18,955
+CSS offers generic font families for these.
+
+22
+00:01:18,954 --> 00:01:23,810
+There are five of these and they're named for five general categories of fonts;
+
+23
+00:01:23,810 --> 00:01:30,430
+Serif, Sans-Serif, Cursive, Fantasy and Monospace.
+
+24
+00:01:30,430 --> 00:01:35,110
+You can say font-family: monospace,
+
+25
+00:01:35,109 --> 00:01:38,260
+and be sure that you're getting some monospace font.
+
+26
+00:01:38,260 --> 00:01:44,240
+When you don't care whether it turns out to be Courier New or income's Inconsolata.
+
+27
+00:01:44,239 --> 00:01:48,250
+But usually we use generic fonts as a fallback plan
+
+28
+00:01:48,250 --> 00:01:53,094
+in case the browser doesn't have access to a particular font that we do want.
+
+29
+00:01:53,094 --> 00:01:57,310
+Because of that, CSS lets us write a font stack.
+
+30
+00:01:57,310 --> 00:02:01,579
+A list of font families usually ending with the generic.
+
+31
+00:02:01,579 --> 00:02:05,189
+So for instance, Windows has this really nice font
+
+32
+00:02:05,189 --> 00:02:08,629
+called Constantia but it's only available on Windows.
+
+33
+00:02:08,629 --> 00:02:10,349
+We might say okay,
+
+34
+00:02:10,349 --> 00:02:13,185
+there are other similar fonts on other platforms like
+
+35
+00:02:13,185 --> 00:02:18,180
+Georgia and then if we don't have that we'll settle for any Serif font.
+
+36
+00:02:18,180 --> 00:02:23,165
+There are other things we can control about the font besides the typeface though.
+
+37
+00:02:23,164 --> 00:02:27,155
+There's the font size which is how big the text is.
+
+38
+00:02:27,155 --> 00:02:32,349
+Usually, we measure this in points but CSS lets you use whatever unit you want.
+
+39
+00:02:32,349 --> 00:02:38,069
+You can say I want a font size of one inch which is the same as 72 points.
+
+40
+00:02:38,069 --> 00:02:43,275
+Other things you might want to control about the font like bold or italic or
+
+41
+00:02:43,275 --> 00:02:48,939
+underline actually work kind of differently in CSS than they do in a word processor.
+
+42
+00:02:48,939 --> 00:02:50,794
+Like in Google Docs,
+
+43
+00:02:50,794 --> 00:02:56,549
+bold and italic and underline are all just buttons right next to each other but in CSS,
+
+44
+00:02:56,550 --> 00:02:59,045
+these are all controlled by different properties.
+
+45
+00:02:59,044 --> 00:03:04,574
+Bold is font-weight: bold and italic is
+
+46
+00:03:04,574 --> 00:03:13,789
+font-style: italic and underline is actually text-decoration: underline.
+
+47
+00:03:13,789 --> 00:03:17,370
+Fortunately, you don't ever need to actually use those.
+
+48
+00:03:17,370 --> 00:03:21,090
+You can specify everything about the font you want in a single line.
+
+49
+00:03:21,090 --> 00:03:23,770
+There's a property called font that
+
+50
+00:03:23,770 --> 00:03:26,980
+lets you combine all of these properties into a single line.
+
+51
+00:03:26,979 --> 00:03:30,935
+So instead of writing all of these different properties,
+
+52
+00:03:30,935 --> 00:03:32,694
+you can just write this.
+
+53
+00:03:32,694 --> 00:03:35,709
+Unfortunately, you do have to write those parts in
+
+54
+00:03:35,710 --> 00:03:39,180
+a specific order which I always have to look up.
+
+55
+00:03:39,180 --> 00:03:42,439
+So, I'm just going to suggest you look it up too.
+

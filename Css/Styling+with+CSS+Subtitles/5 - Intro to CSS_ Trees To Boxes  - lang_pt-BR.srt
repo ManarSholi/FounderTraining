@@ -1,0 +1,183 @@
+1
+00:00:00,363 --> 00:00:04,838
+Você viu como o navegador
+transforma texto HTML
+
+2
+00:00:04,871 --> 00:00:07,340
+na estrutura de árvore da DOM.
+
+3
+00:00:07,374 --> 00:00:10,243
+Vejamos como ele pode transformar
+esta estrutura de árvore
+
+4
+00:00:10,276 --> 00:00:13,013
+numa imagem
+que podemos ver na tela.
+
+5
+00:00:13,046 --> 00:00:17,450
+Vou carregar uma das nossas amostras
+de páginas HTML e analisá-la
+
+6
+00:00:17,484 --> 00:00:20,553
+com as ferramentas do desenvolvedor
+para ver o que descubro.
+
+7
+00:00:20,587 --> 00:00:23,423
+Eu tenho uma noção
+de como o HTML da página
+
+8
+00:00:23,456 --> 00:00:24,958
+tem uma estrutura de árvore,
+
+9
+00:00:24,991 --> 00:00:28,461
+mas como isto se relaciona
+ao que está na página?
+
+10
+00:00:28,495 --> 00:00:31,937
+Parece que este elemento <ol>
+
+11
+00:00:31,970 --> 00:00:34,701
+é renderizado como
+uma grande caixa,
+
+12
+00:00:34,734 --> 00:00:38,071
+e cada um destes
+elementos <li> aparecem
+
+13
+00:00:38,104 --> 00:00:40,440
+como uma caixa menor
+dentro dele.
+
+14
+00:00:40,473 --> 00:00:44,010
+A caixa grande preenche
+toda a largura da página,
+
+15
+00:00:44,044 --> 00:00:48,515
+já as menores parecem preencher
+cerca de um quinto da página.
+
+16
+00:00:48,548 --> 00:00:52,352
+Aqui, no painel de estilos
+das ferramentas do desenvolvedor,
+
+17
+00:00:52,385 --> 00:00:55,455
+podemos ver o mesmo tipo
+de diagrama de caixa.
+
+18
+00:00:55,488 --> 00:00:58,391
+Aqui temos algumas partes
+marcadas como
+
+19
+00:00:58,425 --> 00:01:01,261
+margem, borda e preenchimento.
+
+20
+00:01:01,294 --> 00:01:04,297
+Esta margem aqui pode ter
+algo a ver
+
+21
+00:01:04,330 --> 00:01:07,120
+com o código CSS que diz
+
+22
+00:01:07,179 --> 00:01:10,970
+que a margem tem 20 pixels.
+
+23
+00:01:11,004 --> 00:01:15,875
+Vimos antes que o navegador lê
+o texto do documento HTML
+
+24
+00:01:15,909 --> 00:01:18,545
+e o transforma
+numa estrutura de árvore.
+
+25
+00:01:18,578 --> 00:01:21,848
+Temos a pergunta
+de como ele sai de lá
+
+26
+00:01:21,881 --> 00:01:25,218
+para um layout bidimensional
+de uma página da internet na tela.
+
+27
+00:01:25,251 --> 00:01:29,289
+Estas caixas são a resposta
+para isto.
+
+28
+00:01:29,322 --> 00:01:34,027
+Todo elemento que aparece na página
+é colocado numa caixa,
+
+29
+00:01:34,060 --> 00:01:37,664
+e estas caixas entram
+em outras caixas.
+
+30
+00:01:37,697 --> 00:01:42,669
+O layout destas caixas é controlado
+pela estrutura de árvore
+
+31
+00:01:42,702 --> 00:01:45,271
+com uma pequena ajuda do CSS.
+
+32
+00:01:45,305 --> 00:01:49,342
+Então, por exemplo, o código HTML
+para esta lista
+
+33
+00:01:49,376 --> 00:01:53,046
+sempre será traduzido
+para a mesma estrutura de árvore,
+
+34
+00:01:53,079 --> 00:01:57,050
+e esta estrutura de árvore
+sempre será transformada em caixas.
+
+35
+00:01:57,083 --> 00:02:00,820
+Uma grande caixa contendo
+três caixas menores.
+
+36
+00:02:00,854 --> 00:02:05,658
+Se as caixas serão formatadas assim,
+verticalmente,
+
+37
+00:02:05,692 --> 00:02:09,662
+ou assim, horizontalmente,
+e com a cor rosa,
+
+38
+00:02:09,696 --> 00:02:13,333
+é algo que você pode controlar
+com o CSS.
+

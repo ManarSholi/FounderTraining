@@ -1,0 +1,172 @@
+1
+00:00:00,000 --> 00:00:05,474
+Ushbu darsda, siz HTML imlo qoidalarini bilib oldingiz.
+
+2
+00:00:05,474 --> 00:00:09,974
+Bu qoidalar tilning imlo va grammatika qoidalariga o‘xshash, ammo
+
+3
+00:00:09,974 --> 00:00:13,210
+sizning HTMLingiz to‘g‘ri yozilganligiga
+
+4
+00:00:13,210 --> 00:00:16,785
+va grammatik jihatdan yozilganligiga amin bo‘ldingizmi?
+
+5
+00:00:16,785 --> 00:00:20,375
+Yangi boshlaganlar uchun uni brauzerda yuklab olishingiz mumkin.
+
+6
+00:00:20,375 --> 00:00:22,410
+Agar u brauzeringizda to‘g‘ri ko‘rinsa, 
+
+7
+00:00:22,410 --> 00:00:24,355
+hammasi yaxshi bo‘lishi kerak, shunday emasmi?
+
+8
+00:00:24,355 --> 00:00:29,339
+Aslida, bu sizning brauzeringiz tomonidan xato bo‘lishi mumkin, ammo
+
+9
+00:00:29,339 --> 00:00:31,454
+boshqa brauzerda ishlay olmaydi.
+
+10
+00:00:31,454 --> 00:00:35,740
+HTMLni to‘g‘ri HTMLda ishlashi uchun brauzerni bir xil qilish kifoya va
+
+11
+00:00:35,740 --> 00:00:41,049
+brauzerda sinab ko‘rish juda ko‘p ish bo‘ladi.
+
+12
+00:00:41,049 --> 00:00:43,869
+Baxtga ko‘ra, sintaksisning to‘g‘ri ekanligiga ishonch hosil qilish uchun,
+ 
+13
+00:00:43,869 --> 00:00:45,924
+HTMLni tekshirish usuli mavjud.
+
+13
+00:00:45,924 --> 00:00:49,295
+Barcha tafsilotlarni tekshiradigan HTML tekshiruvchisi deb,
+
+14
+00:00:49,295 --> 00:00:51,619
+nomlangan vositalar mavjud.
+
+15
+00:00:51,619 --> 00:00:54,679
+To‘g‘ri yozilgan teglardan tortib, ro‘yxatga olish elementlari
+
+16
+00:00:54,679 --> 00:00:56,810
+kabi ba’zi qiyin joylashish qoidalarigacha
+
+17
+00:00:56,810 --> 00:01:00,064
+bo‘lgan narsalar ro‘yxat ichida bo‘lishi kerak.
+
+18
+00:01:00,064 --> 00:01:06,170
+Eng taniqli HTML tekshiruvchisi W3C tomonidan 
+
+19
+00:01:06,170 --> 00:01:08,655
+boshqariladigan .w3.org tekshiruvchisi,
+
+20
+00:01:08,655 --> 00:01:11,390
+butun dunyo bo‘ylab veb-konsorsium hisoblanadi.
+
+21
+00:01:11,390 --> 00:01:15,204
+Bu HTML va boshqa tarmoq tarkibiy qismlari uchun,
+
+22
+00:01:15,204 --> 00:01:17,280
+standartlarni yozadigan tashkilot.
+
+23
+00:01:17,280 --> 00:01:22,019
+Shunday qilib, ular sizning HTMl manzilingiz to‘g‘ri yoki yo‘qligini sizga ayta oladigan darajada yaxshi holatda.
+
+24
+00:01:22,019 --> 00:01:26,594
+Tekshiruvchi xizmatidan foydalanishning uchta usuli mavjud.
+
+25
+00:01:26,594 --> 00:01:29,739
+Agar sizning HTMLingiz ommaviy veb-serverda bo‘lsa, 
+
+26
+00:01:29,739 --> 00:01:35,269
+URL manzilini berishingiz mumkin va u HTMLni yuklab olib tekshiradi.
+
+27
+00:01:35,269 --> 00:01:38,894
+Agar siz kompyuteringizda HTML fayli bilan ishlayotgan bo‘lsangiz,
+
+28
+00:01:38,894 --> 00:01:42,534
+boshqa ikkita variantdan birini ishlatishingiz kerak.
+
+29
+00:01:42,534 --> 00:01:47,745
+Siz faylni yuklashingiz yoki uni muharriringizdan nusxalashingiz va joylashtirishingiz mumkin.
+
+30
+00:01:47,745 --> 00:01:51,344
+Buni bajarganingizda sizda HTMLda biror-bir xato bor yoki yo‘qligi haqida
+
+31
+00:01:51,344 --> 00:01:54,825
+sizga ma’lumot beradigan kichik xabarnoma olasiz.
+
+32
+00:01:54,825 --> 00:01:56,560
+Agar xatolar bo‘lsa, 
+
+33
+00:01:56,560 --> 00:01:59,650
+siz quyidagi xabarni olasiz:
+
+34
+00:01:59,650 --> 00:02:06,665
+elementlar sarlavhasida elementning kerakli sarlavha namunasi yo‘q.
+
+35
+00:02:06,665 --> 00:02:09,370
+Buni texnik jihatdan aytganda
+
+36
+00:02:09,370 --> 00:02:15,680
+''To‘liq HTML hujjat sarlavha elementiga ega bo‘lishi kerak".
+
+37
+00:02:15,680 --> 00:02:17,699
+Ushbu xatolarga duch kelsangiz
+
+38
+00:02:17,699 --> 00:02:19,835
+ularni matn muharririda tuzating,
+
+39
+00:02:19,835 --> 00:02:23,770
+so‘ngra yangi versiyasini joylashtiring yoki yuklab oling yoki tekshiring.
+
+40
+00:02:23,770 --> 00:02:25,534
+Hammasi to‘g‘ri bo‘lsa,
+
+41
+00:02:25,534 --> 00:02:27,650
+siz ko‘rsatishda xatolar va ogohlantirishlar 
+
+42
+00:02:27,650 --> 00:02:31,460
+bo‘lmaganligi haqida aytilganga o‘xshash yashil xabar olasiz.
+

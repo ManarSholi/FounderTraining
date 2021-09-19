@@ -1,0 +1,277 @@
+1
+00:00:00,578 --> 00:00:03,664
+Acabamos de ver
+como exibir texto simples
+
+2
+00:00:03,706 --> 00:00:05,425
+no navegador,
+
+3
+00:00:05,467 --> 00:00:08,416
+mas o HTML pode fazer
+muito mais do que isso.
+
+4
+00:00:08,458 --> 00:00:10,808
+O arquivo HTML
+contém marcações,
+
+5
+00:00:10,850 --> 00:00:13,387
+que informam ao navegador
+exatamente o que fazer.
+
+6
+00:00:13,429 --> 00:00:17,136
+A marcação é um texto
+com significado especial.
+
+7
+00:00:17,178 --> 00:00:21,360
+No HTML, a maioria das marcações
+é parecida com esta.
+
+8
+00:00:21,402 --> 00:00:25,488
+Vemos os sinais de maior e de menor,
+que envolvem uma palavra-chave,
+
+9
+00:00:25,530 --> 00:00:27,575
+como "strong".
+
+10
+00:00:27,617 --> 00:00:30,128
+A palavra "strong",
+entre os símbolos,
+
+11
+00:00:30,170 --> 00:00:31,841
+é uma tag.
+
+12
+00:00:31,883 --> 00:00:36,385
+Esta unidade - com duas tags
+e um texto no meio -
+
+13
+00:00:36,427 --> 00:00:38,513
+é chamada de "elemento".
+
+14
+00:00:38,555 --> 00:00:40,448
+Eis outro exemplo de elemento.
+
+15
+00:00:40,490 --> 00:00:42,824
+Este é chamado
+de "elemento em",
+
+16
+00:00:42,866 --> 00:00:45,072
+que significa ênfase.
+
+17
+00:00:45,114 --> 00:00:48,085
+Isso significa que o texto de dentro
+deve ser enfatizado.
+
+18
+00:00:48,127 --> 00:00:51,208
+Geralmente isso significa
+que ele será exibido em itálico.
+
+19
+00:00:51,250 --> 00:00:53,736
+O conteúdo
+dentro dos elementos -
+
+20
+00:00:53,778 --> 00:00:55,281
+como "Hi there!" -
+
+21
+00:00:55,323 --> 00:00:58,482
+será exibido dessa forma
+no navegador.
+
+22
+00:00:58,524 --> 00:01:02,048
+Todo elemento começa e termina
+com uma tag.
+
+23
+00:01:02,090 --> 00:01:05,928
+A tag inicial
+tem um sinal de menor, em
+
+24
+00:01:05,970 --> 00:01:07,560
+e um sinal de maior.
+
+25
+00:01:07,602 --> 00:01:09,144
+No fim do elemento,
+
+26
+00:01:09,186 --> 00:01:11,352
+vemos uma tag
+com um sinal de menor,
+
+27
+00:01:11,394 --> 00:01:14,417
+/em e um sinal de maior.
+
+28
+00:01:14,459 --> 00:01:18,498
+A diferença entre
+as duas tags é a barra.
+
+29
+00:01:18,540 --> 00:01:20,210
+Para o HTML,
+
+30
+00:01:20,252 --> 00:01:22,835
+a primeira tag é chamada
+de "tag de abertura"
+
+31
+00:01:22,877 --> 00:01:24,260
+ou "tag de início",
+
+32
+00:01:24,302 --> 00:01:26,824
+e a tag com a barra,
+de "tag de encerramento"
+
+33
+00:01:26,866 --> 00:01:28,323
+ou "tag de fim".
+
+34
+00:01:28,365 --> 00:01:31,145
+Elas geralmente aparecem
+em pares, desta forma,
+
+35
+00:01:31,187 --> 00:01:32,871
+mas nem sempre.
+
+36
+00:01:32,913 --> 00:01:36,705
+As tags HTML sempre começam
+com o sinal de menor
+
+37
+00:01:36,747 --> 00:01:39,161
+e terminam
+com o sinal de maior.
+
+38
+00:01:39,203 --> 00:01:42,478
+Os programadores chamam isso
+de "colchetes angulares",
+
+39
+00:01:42,520 --> 00:01:44,605
+pois têm formato
+de um ângulo agudo.
+
+40
+00:01:44,647 --> 00:01:47,173
+Os colchetes angulares
+sempre vêm em pares,
+
+41
+00:01:47,215 --> 00:01:50,377
+é um erro começar uma tag
+com um colchete angular de abertura
+
+42
+00:01:50,419 --> 00:01:53,840
+e nunca escrever um de encerramento
+para finalizar a tag.
+
+43
+00:01:53,882 --> 00:01:57,664
+Essa ideia de abrir e fechar
+continuará aparecendo
+
+44
+00:01:57,706 --> 00:01:59,394
+conforme você aprende
+sobre HTML
+
+45
+00:01:59,436 --> 00:02:01,936
+e em outras linguagens
+de computador.
+
+46
+00:02:01,978 --> 00:02:05,016
+Isso não é diferente do que fazemos
+na aritmética
+
+47
+00:02:05,058 --> 00:02:07,672
+com os parênteses.
+
+48
+00:02:07,714 --> 00:02:10,719
+Não vemos um parêntese
+de encerramento
+
+49
+00:02:10,761 --> 00:02:12,854
+sem que haja um de abertura.
+
+50
+00:02:12,896 --> 00:02:15,342
+O mesmo vale
+para as tags HTML.
+
+51
+00:02:15,384 --> 00:02:19,240
+Você deve ter percebido
+que chamei isso de "elemento",
+
+52
+00:02:19,282 --> 00:02:22,974
+e que chamei as partes
+iniciais e finais de "tags".
+
+53
+00:02:23,016 --> 00:02:24,743
+Isso está
+tecnicamente correto,
+
+54
+00:02:24,785 --> 00:02:29,230
+porém os humanos nem sempre
+são precisos como os computadores,
+
+55
+00:02:29,272 --> 00:02:34,030
+então você nos ouvirá
+chamando tudo isto de tag.
+
+56
+00:02:34,072 --> 00:02:35,726
+Isso é um pouco errado,
+
+57
+00:02:35,768 --> 00:02:38,767
+mas, a partir do contexto,
+você saberá se estamos falando
+
+58
+00:02:38,809 --> 00:02:42,206
+da tag de abertura
+ou de encerramento
+
+59
+00:02:42,248 --> 00:02:44,439
+ou do elemento inteiro.
+

@@ -1,0 +1,176 @@
+1
+00:00:00,000 --> 00:00:03,660
+There's something special built right into your web browser that will be
+
+2
+00:00:03,660 --> 00:00:07,890
+an incredibly huge help for learning more about HTML and CSS.
+
+3
+00:00:07,889 --> 00:00:10,320
+It's called the "Developer tools," and it's
+
+4
+00:00:10,320 --> 00:00:13,390
+something that every web developer spends a lot of time with.
+
+5
+00:00:13,390 --> 00:00:14,980
+When you get started with it,
+
+6
+00:00:14,980 --> 00:00:18,705
+it can seem a little overwhelming but it's also really valuable.
+
+7
+00:00:18,704 --> 00:00:22,169
+Every browser has a developer tools window built in,
+
+8
+00:00:22,170 --> 00:00:25,215
+but it'll look a bit different from one browser to another.
+
+9
+00:00:25,214 --> 00:00:27,460
+I'm demonstrating this using Google Chrome,
+
+10
+00:00:27,460 --> 00:00:30,170
+but you can use whatever browser you're already using.
+
+11
+00:00:30,170 --> 00:00:31,920
+They have pretty similar abilities,
+
+12
+00:00:31,920 --> 00:00:35,010
+although some of their names for things might be a little bit different.
+
+13
+00:00:35,009 --> 00:00:38,434
+Here, I've got the webpage for the World Wide Web Consortium,
+
+14
+00:00:38,435 --> 00:00:44,145
+and if I right-click or control-click on this page there's this option inspect,
+
+15
+00:00:44,145 --> 00:00:47,045
+this is one way to get at the developer tools.
+
+16
+00:00:47,045 --> 00:00:49,225
+Well, what are we inspecting?
+
+17
+00:00:49,225 --> 00:00:53,660
+This lets me look at the HTML elements for everything on this page,
+
+18
+00:00:53,659 --> 00:00:56,159
+starting out with what I clicked on.
+
+19
+00:00:56,159 --> 00:00:59,234
+So, like I said, there's a lot going on here.
+
+20
+00:00:59,234 --> 00:01:05,069
+Each of these tabs lets you peek into a different aspect of what the browser is doing.
+
+21
+00:01:05,069 --> 00:01:10,819
+For now, we'll stick to this elements tab which shows you some HTML elements.
+
+22
+00:01:10,819 --> 00:01:14,779
+This looks a lot like the HTML source code for this page.
+
+23
+00:01:14,780 --> 00:01:17,875
+As I mouse over these HTML elements,
+
+24
+00:01:17,875 --> 00:01:21,079
+it highlights the parts of the page that correspond to them.
+
+25
+00:01:21,079 --> 00:01:25,459
+This element's view and the rendered page over
+
+26
+00:01:25,459 --> 00:01:29,734
+on the left are two different views of the same underlying data.
+
+27
+00:01:29,734 --> 00:01:31,795
+But since we're doing CSS,
+
+28
+00:01:31,795 --> 00:01:35,445
+it's this part down here which is actually really interesting.
+
+29
+00:01:35,444 --> 00:01:38,509
+If I click on one of these elements down,
+
+30
+00:01:38,510 --> 00:01:44,330
+here I can see a bunch of information about the style of that element. Check it out.
+
+31
+00:01:44,329 --> 00:01:46,069
+It tells you about the background,
+
+32
+00:01:46,069 --> 00:01:48,244
+and the border, and the padding,
+
+33
+00:01:48,245 --> 00:01:50,359
+and the font, and color,
+
+34
+00:01:50,359 --> 00:01:53,974
+a whole bunch of things that have to do with a style and appearance of the page.
+
+35
+00:01:53,974 --> 00:01:57,334
+There's a pretty useful trick with this style pane over here.
+
+36
+00:01:57,334 --> 00:02:02,434
+Each of these pieces of style information has a little checkbox next to it.
+
+37
+00:02:02,435 --> 00:02:07,519
+Clicking them can turn that style on or off and that means that we can use this as
+
+38
+00:02:07,519 --> 00:02:09,769
+a tool to find out what the style settings
+
+39
+00:02:09,770 --> 00:02:12,680
+do by looking at the effects on the rendered page,
+
+40
+00:02:12,680 --> 00:02:14,435
+like check it out.
+
+41
+00:02:14,435 --> 00:02:20,000
+Turning this padding setting on or off changes the padding on the page.
+
+42
+00:02:20,000 --> 00:02:23,120
+This is something we should do a lot when we have a new tool.
+
+43
+00:02:23,120 --> 00:02:25,609
+Find out how we can use it to investigate
+
+44
+00:02:25,609 --> 00:02:30,090
+the world and see what we can discover about what we can change with it.
+

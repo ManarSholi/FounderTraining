@@ -1,0 +1,160 @@
+1
+00:00:00,000 --> 00:00:03,419
+HTML documents and programs in
+
+2
+00:00:03,419 --> 00:00:07,509
+almost every programming language are written in text files.
+
+3
+00:00:07,509 --> 00:00:09,609
+Let's take a look at what this means.
+
+4
+00:00:09,609 --> 00:00:13,969
+Text files contain nothing but characters: Letters,
+
+5
+00:00:13,970 --> 00:00:17,115
+numbers, symbols, spaces and so on.
+
+6
+00:00:17,114 --> 00:00:19,559
+They don't contain any special topography,
+
+7
+00:00:19,559 --> 00:00:22,089
+such as bold or italics or colors.
+
+8
+00:00:22,089 --> 00:00:24,109
+They don't contain any photos,
+
+9
+00:00:24,109 --> 00:00:26,309
+icons or other images.
+
+10
+00:00:26,309 --> 00:00:31,504
+You can imagine text as anything you could type on an old fashioned typewriter.
+
+11
+00:00:31,504 --> 00:00:34,454
+Text seems like it would be very limiting,
+
+12
+00:00:34,454 --> 00:00:36,689
+but it's also very flexible.
+
+13
+00:00:36,689 --> 00:00:39,729
+It can be used for countless different things.
+
+14
+00:00:39,729 --> 00:00:42,284
+HTML is written in text,
+
+15
+00:00:42,284 --> 00:00:47,414
+but so are programming languages used to do data analysis or write servers.
+
+16
+00:00:47,414 --> 00:00:50,990
+There are programs that can take text input and turn it
+
+17
+00:00:50,990 --> 00:00:55,370
+into a musical notation or format it for a scientific paper,
+
+18
+00:00:55,369 --> 00:00:58,774
+or load specially organized texts into a spreadsheet.
+
+19
+00:00:58,774 --> 00:01:01,094
+As you look at HTML code,
+
+20
+00:01:01,094 --> 00:01:04,480
+it might look like it has a lot of weird things going on,
+
+21
+00:01:04,480 --> 00:01:07,329
+but it's really all just made up of text.
+
+22
+00:01:07,329 --> 00:01:10,304
+The layout of a Web page as seen by the user,
+
+23
+00:01:10,305 --> 00:01:15,060
+is put together by the web browser based on the code in that text file.
+
+24
+00:01:15,060 --> 00:01:18,340
+When a Web page includes an image or a video,
+
+25
+00:01:18,340 --> 00:01:20,359
+like the video you're watching right now,
+
+26
+00:01:20,359 --> 00:01:25,325
+it does that by including a text-based address in the code of the page.
+
+27
+00:01:25,325 --> 00:01:27,924
+The browser sees the address and then
+
+28
+00:01:27,924 --> 00:01:31,849
+downloads the right images or videos to put into that page.
+
+29
+00:01:31,849 --> 00:01:35,794
+When you load an HTML file into a programmer's text editor,
+
+30
+00:01:35,795 --> 00:01:39,655
+you'll often see it displayed with colors and special formatting,
+
+31
+00:01:39,655 --> 00:01:42,493
+this is called syntax highlighting,
+
+32
+00:01:42,493 --> 00:01:45,174
+and it's a special feature of that editor.
+
+33
+00:01:45,174 --> 00:01:48,009
+Those colors aren't saved in the file,
+
+34
+00:01:48,010 --> 00:01:51,609
+rather the editor knows the grammar of HTML and it applies
+
+35
+00:01:51,609 --> 00:01:55,875
+colors in order to help you get the grammar right as you're editing it.
+
+36
+00:01:55,875 --> 00:01:57,635
+When you save a file,
+
+37
+00:01:57,635 --> 00:02:00,219
+it's conventional to use a file name that has
+
+38
+00:02:00,219 --> 00:02:04,924
+a particular ending or extension indicating the files type.
+
+39
+00:02:04,924 --> 00:02:10,375
+This helps programs such as editors and browsers treat the file appropriately.
+
+40
+00:02:10,375 --> 00:02:16,599
+For HTML, we'll use filename endings and.HTML.
+

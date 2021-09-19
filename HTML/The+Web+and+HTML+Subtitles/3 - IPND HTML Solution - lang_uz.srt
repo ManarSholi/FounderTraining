@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:03,730
+Keling, ushbu mashqdagi beshta ifodani ko‘rib chiqaylik.
+
+2
+00:00:03,730 --> 00:00:08,130
+Birinchisi, siz brauzeringizga udacity.comni kiritganingizda,
+
+3
+00:00:08,130 --> 00:00:12,099
+brauzeringiz HTTPdan foydalanib Udacityning serveri bilan aloqa o‘rnatadi.
+
+4
+00:00:12,099 --> 00:00:13,695
+Yaxshi, bu to‘g‘ri.
+
+5
+00:00:13,695 --> 00:00:17,609
+Brauzeringizda veb-sahifani olish bilan bog‘liq ko‘plab narsalar mavjud.
+
+6
+00:00:17,609 --> 00:00:21,910
+Ammo ulardan biri shundaki, brauzeringiz HTTPdan foydalanib server bilan aloqa qiladi.
+
+7
+00:00:21,910 --> 00:00:25,894
+Brauzer sahifaga so‘rov jo‘natadi va server javob beradi.
+
+8
+00:00:25,894 --> 00:00:28,995
+Bu javobda ikki raqami,
+
+9
+00:00:28,995 --> 00:00:30,379
+html qismi bor.
+
+10
+00:00:30,379 --> 00:00:32,810
+Shunday qilib, ikki raqami to‘g‘ri.
+
+11
+00:00:32,810 --> 00:00:35,810
+Uch raqamiga ko‘ra, brauzeringiz barcha fayllarni 
+
+12
+00:00:35,810 --> 00:00:39,250
+veb-serverdan nusxalashlari kerak. Bu to‘g‘ri emas.
+
+13
+00:00:39,250 --> 00:00:42,409
+Brauzer faqat ma’lum bir fayllar yoki sahifalarning 
+
+14
+00:00:42,409 --> 00:00:46,250
+sahifasini olishni talab qiladi va to‘rtinchi raqamda aytilganidek.
+
+15
+00:00:46,250 --> 00:00:47,990
+Shunday qilib, to‘rt raqami to‘g‘ri.
+
+16
+00:00:47,990 --> 00:00:52,634
+Sizning brauzeringiz bizning serverimizdan va boshqa veb-serverlardan turli xil fayllarni talab qiladi.
+
+17
+00:00:52,634 --> 00:00:57,649
+Besh raqamiga ko‘ra, Udacity veb-saytidagi barcha narsalar Udacityning serveridan kelishi kerak.
+
+18
+00:00:57,649 --> 00:01:00,710
+Bu to‘g‘ri emas. Veb-sahifalar boshqa serverlarda
+
+19
+00:01:00,710 --> 00:01:03,774
+joylashgan fayllarni ham o‘z ichiga olishi yoki ularga murojaat qilishi mumkin.
+
+20
+00:01:03,774 --> 00:01:06,650
+Masalan, ushbu video HTMLni taqdim 
+
+21
+00:01:06,650 --> 00:01:10,280
+etgan bitta serverda joylashtirilmagan.
+

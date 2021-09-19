@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:03,439
+Okay, keep your text editor and your browser handy.
+
+2
+00:00:03,439 --> 00:00:06,424
+Let's try out a lot more HTML elements.
+
+3
+00:00:06,424 --> 00:00:09,684
+All the ones we're going to see now are typographic elements.
+
+4
+00:00:09,685 --> 00:00:13,620
+They're used to say that the browser should display text in a different way.
+
+5
+00:00:13,619 --> 00:00:17,524
+Let's start out with a piece of ordinary text.
+
+6
+00:00:17,524 --> 00:00:20,439
+If we save this and load it up in the browser,
+
+7
+00:00:20,440 --> 00:00:22,190
+we see the text.
+
+8
+00:00:22,190 --> 00:00:24,635
+Okay, big deal.
+
+9
+00:00:24,635 --> 00:00:27,215
+So, we could add some emphasis,
+
+10
+00:00:27,214 --> 00:00:29,015
+but we've done that before.
+
+11
+00:00:29,015 --> 00:00:30,740
+Let's try something else.
+
+12
+00:00:30,739 --> 00:00:32,829
+Here's a different HTML element.
+
+13
+00:00:32,829 --> 00:00:35,664
+It's called Mark. "Hey Mark. What's up?"
+
+14
+00:00:35,664 --> 00:00:39,079
+Oh, it's not somebody named Mark.
+
+15
+00:00:39,079 --> 00:00:41,089
+It's for highlighting.
+
+16
+00:00:41,090 --> 00:00:43,190
+Loaded up in the browser and hey,
+
+17
+00:00:43,189 --> 00:00:46,274
+it's like someone ran a yellow highlighter over my life.
+
+18
+00:00:46,274 --> 00:00:48,989
+Let's try out some other elements.
+
+19
+00:00:48,990 --> 00:00:50,760
+Here are a couple to try.
+
+20
+00:00:50,759 --> 00:00:53,179
+Sub and sup.
+
+21
+00:00:53,179 --> 00:00:55,429
+I'm not going to show you what they look like,
+
+22
+00:00:55,429 --> 00:00:58,479
+because I want you to try them out for yourself.
+

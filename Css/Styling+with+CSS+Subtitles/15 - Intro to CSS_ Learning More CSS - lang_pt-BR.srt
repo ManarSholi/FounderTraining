@@ -1,0 +1,83 @@
+1
+00:00:00,171 --> 00:00:03,681
+Podemos fazer muitas coisas
+com o CSS.
+
+2
+00:00:03,723 --> 00:00:09,306
+O mais importante
+que podemos ensinar sobre CSS
+
+3
+00:00:09,348 --> 00:00:13,057
+é como saber mais
+sobre o que ele pode realizar.
+
+4
+00:00:13,099 --> 00:00:16,634
+É isso que faremos
+no próximo exercício.
+
+5
+00:00:16,676 --> 00:00:20,122
+Você receberá um link de um material
+de referência sobre o CSS
+
+6
+00:00:20,164 --> 00:00:22,770
+e procurará algumas
+propriedades nele.
+
+7
+00:00:22,812 --> 00:00:26,154
+Dessa forma, você aprenderá
+a usar um material de referência
+
+8
+00:00:26,196 --> 00:00:29,249
+usado constantemente
+por desenvolvedores web,
+
+9
+00:00:29,291 --> 00:00:31,775
+assim não precisaremos criar
+milhares de vídeos
+
+10
+00:00:31,817 --> 00:00:34,312
+para todos os recursos.
+
+11
+00:00:34,354 --> 00:00:37,884
+O material de referência
+poderá parecer um pouco assustador
+
+12
+00:00:37,926 --> 00:00:39,868
+ou muito assustador,
+
+13
+00:00:39,910 --> 00:00:42,387
+mas é como procurar uma palavra
+em um dicionário
+
+14
+00:00:42,429 --> 00:00:45,013
+sem saber ao certo
+como se escreve a palavra.
+
+15
+00:00:45,055 --> 00:00:48,657
+Você pode tentar
+algumas vezes até encontrá-la
+
+16
+00:00:48,699 --> 00:00:51,889
+ou pode usar o seu motor
+de busca favorito,
+
+17
+00:00:51,931 --> 00:00:54,988
+pois essa também é
+uma forma válida de aprendizado.
+

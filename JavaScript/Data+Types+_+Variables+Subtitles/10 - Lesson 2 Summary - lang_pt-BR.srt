@@ -1,0 +1,56 @@
+1
+00:00:00,413 --> 00:00:03,364
+Com isso, concluímos
+os tipos de dados e as variáveis.
+
+2
+00:00:03,406 --> 00:00:05,807
+Parabéns pelo trabalho
+bem-feito,
+
+3
+00:00:05,849 --> 00:00:07,565
+pois esta aula foi gigantesca.
+
+4
+00:00:07,607 --> 00:00:11,198
+Nesta aula, vimos os tipos de dados
+básicos do JavaScript,
+
+5
+00:00:11,240 --> 00:00:16,429
+incluindo os números, as strings,
+o booleano, o nulo e o indefinido.
+
+6
+00:00:16,471 --> 00:00:20,036
+Também vimos como armazenar dados
+em variáveis.
+
+7
+00:00:20,078 --> 00:00:22,666
+Não se esqueça das operações
+em números e strings.
+
+8
+00:00:22,708 --> 00:00:24,293
+Isso também.
+
+9
+00:00:24,335 --> 00:00:25,477
+Na próxima aula,
+
+10
+00:00:25,519 --> 00:00:28,211
+veremos mais sobre
+os tipos de dados e as variáveis
+
+11
+00:00:28,253 --> 00:00:31,019
+e como compor código
+para resolver problemas lógicos.
+
+12
+00:00:31,061 --> 00:00:32,229
+Até lá.
+

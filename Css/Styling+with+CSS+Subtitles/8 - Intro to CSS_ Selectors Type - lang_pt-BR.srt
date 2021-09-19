@@ -1,0 +1,109 @@
+1
+00:00:00,627 --> 00:00:04,237
+Um seletor CSS diz
+para o navegador
+
+2
+00:00:04,270 --> 00:00:06,740
+quais elementos
+a regra vai afetar.
+
+3
+00:00:06,773 --> 00:00:10,210
+Existem alguns tipos diferentes
+de seletores que você pode usar.
+
+4
+00:00:10,243 --> 00:00:12,078
+Na verdade,
+existem vários deles,
+
+5
+00:00:12,112 --> 00:00:14,681
+mas só vamos ver
+alguns por enquanto.
+
+6
+00:00:14,714 --> 00:00:18,051
+O mais simples é
+o "seletor de tipo".
+
+7
+00:00:18,084 --> 00:00:23,790
+É só o nome de um tipo
+de elemento HTML, como "p" ou "em".
+
+8
+00:00:23,823 --> 00:00:25,492
+Pode até ser "body",
+
+9
+00:00:25,558 --> 00:00:29,262
+o que faria a regra ser aplicada
+em todo o corpo do documento HTML.
+
+10
+00:00:29,295 --> 00:00:31,765
+Por exemplo, aqui está
+um conjunto de regras
+
+11
+00:00:31,798 --> 00:00:34,768
+que vai mudar a fonte
+de todo o documento.
+
+12
+00:00:34,801 --> 00:00:37,537
+Seletores de tipo são
+particularmente úteis
+
+13
+00:00:37,570 --> 00:00:41,841
+quando você quer aplicar um estilo
+amplamente numa página da web.
+
+14
+00:00:41,875 --> 00:00:44,143
+Por exemplo, se você está
+escrevendo um artigo
+
+15
+00:00:44,177 --> 00:00:45,843
+que usa vários cabeçalhos
+de seção
+
+16
+00:00:45,876 --> 00:00:49,215
+com elementos como
+<h1>, <h2> e por aí vai.
+
+17
+00:00:49,249 --> 00:00:51,885
+Um único seletor vai aplicar
+o estilo
+
+18
+00:00:51,918 --> 00:00:54,487
+em todos os elementos
+de um tipo em particular.
+
+19
+00:00:54,521 --> 00:00:57,390
+Mas você ainda tem que escrever
+uma regra CSS
+
+20
+00:00:57,424 --> 00:00:59,492
+para cada tipo de elemento
+no headline.
+
+21
+00:00:59,526 --> 00:01:03,830
+Este aqui marca todo elemento h1
+na página e aplica seus estilos.
+
+22
+00:01:03,863 --> 00:01:08,301
+Este outro marca os elementos h2
+e aplica seus estilos e por aí vai.
+

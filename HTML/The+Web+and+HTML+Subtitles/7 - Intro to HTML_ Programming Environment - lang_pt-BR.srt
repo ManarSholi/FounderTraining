@@ -1,0 +1,306 @@
+1
+00:00:00,670 --> 00:00:03,195
+Neste vídeo, mostrarei
+uma configuração simples
+
+2
+00:00:03,237 --> 00:00:05,618
+na hora de trabalhar
+com os arquivos HTML.
+
+3
+00:00:05,660 --> 00:00:08,291
+À esquerda,
+temos o editor de texto,
+
+4
+00:00:08,333 --> 00:00:10,427
+e, à direita, o navegador.
+
+5
+00:00:11,068 --> 00:00:13,658
+Existem vários
+editores disponíveis,
+
+6
+00:00:13,700 --> 00:00:15,491
+cada um
+com recursos próprios.
+
+7
+00:00:15,533 --> 00:00:18,491
+A maioria tem recursos básicos
+que são muito úteis,
+
+8
+00:00:18,533 --> 00:00:22,923
+como o destaque da sintaxe,
+que diferencia as partes do código,
+
+9
+00:00:22,965 --> 00:00:24,576
+e numeração de linha,
+
+10
+00:00:24,618 --> 00:00:28,056
+para que você se refira
+à uma linha específica do código.
+
+11
+00:00:28,098 --> 00:00:30,783
+Mostraremos os links
+dos nossos editores favoritos,
+
+12
+00:00:30,825 --> 00:00:34,319
+mas você poderá testar
+para ver de qual gosta mais.
+
+13
+00:00:34,361 --> 00:00:36,934
+Se você escolher algo
+que não esteja na lista,
+
+14
+00:00:36,976 --> 00:00:39,363
+garanta que seja
+um editor de texto
+
+15
+00:00:39,405 --> 00:00:43,163
+e não um processador de texto,
+como o MS Word, o Google Docs
+
+16
+00:00:43,205 --> 00:00:44,388
+ou o Pages.
+
+17
+00:00:45,091 --> 00:00:49,171
+O editor de texto edita
+arquivos de texto simples,
+
+18
+00:00:49,213 --> 00:00:53,619
+diferente de um processador,
+que faz mais do que editar texto,
+
+19
+00:00:53,661 --> 00:00:57,051
+pois adiciona informações
+sobre a formatação do texto,
+
+20
+00:00:57,093 --> 00:01:01,090
+a fonte e permite
+inserir tabelas e imagens.
+
+21
+00:01:01,132 --> 00:01:03,564
+Ao editar o código
+em um processador de texto,
+
+22
+00:01:03,606 --> 00:01:06,716
+ele parecerá
+um arquivo de texto simples,
+
+23
+00:01:06,758 --> 00:01:11,508
+mas existem informações ocultas
+que poderão corromper o arquivo.
+
+24
+00:01:11,550 --> 00:01:14,023
+Certifique-se de usar
+um editor de texto,
+
+25
+00:01:14,065 --> 00:01:15,678
+como os que mostramos abaixo,
+
+26
+00:01:15,720 --> 00:01:18,855
+e de que os arquivos
+sejam de texto simples.
+
+27
+00:01:18,897 --> 00:01:21,399
+Esta é a forma básica
+de trabalhar.
+
+28
+00:01:21,441 --> 00:01:24,799
+No editor de texto,
+eu digitarei um texto.
+
+29
+00:01:26,319 --> 00:01:28,647
+Agora eu salvarei o arquivo.
+
+30
+00:01:28,689 --> 00:01:33,471
+Para garantir que o navegador
+reconheça o arquivo HTML,
+
+31
+00:01:33,513 --> 00:01:38,151
+vou usar a extensão .html
+no nome do arquivo.
+
+32
+00:01:41,934 --> 00:01:44,723
+Aqui está a pasta na qual
+eu salvei o arquivo.
+
+33
+00:01:44,765 --> 00:01:48,075
+Eu clico e arrasto o arquivo
+para o navegador
+
+34
+00:01:48,117 --> 00:01:49,866
+para que ele seja aberto.
+
+35
+00:01:49,908 --> 00:01:51,291
+Como vemos,
+
+36
+00:01:51,333 --> 00:01:53,468
+aqui está o texto
+que estava no arquivo.
+
+37
+00:01:54,164 --> 00:02:00,156
+No Mac, você pode arrastar o ícone
+da barra do editor de texto
+
+38
+00:02:00,198 --> 00:02:02,771
+diretamente para o navegador.
+
+39
+00:02:02,813 --> 00:02:04,835
+Isso fará a mesma coisa.
+
+40
+00:02:04,877 --> 00:02:06,828
+Ou, em vez
+de arrastar o arquivo,
+
+41
+00:02:06,870 --> 00:02:11,276
+basta ir ao menu do navegador
+e abri-lo de lá, se preferir.
+
+42
+00:02:11,318 --> 00:02:14,308
+Agora tenho o editor de texto
+com o código,
+
+43
+00:02:14,350 --> 00:02:18,148
+e o navegador exibirá
+como o código é renderizado.
+
+44
+00:02:18,844 --> 00:02:21,075
+Se eu alterar o código,
+
+45
+00:02:21,117 --> 00:02:24,204
+adicionando um HTML
+para formatá-lo,
+
+46
+00:02:25,276 --> 00:02:28,100
+ele não aparecerá imediatamente
+no navegador,
+
+47
+00:02:28,732 --> 00:02:30,244
+é preciso salvá-lo...
+
+48
+00:02:31,196 --> 00:02:33,411
+e clicar no botão
+de recarregar.
+
+49
+00:02:33,453 --> 00:02:36,043
+Agora temos as alterações
+que foram feitas.
+
+50
+00:02:36,085 --> 00:02:38,204
+Esta é uma forma
+de fazer isso,
+
+51
+00:02:38,246 --> 00:02:41,530
+mas há outras formas de configurar
+o ambiente de programação,
+
+52
+00:02:41,572 --> 00:02:44,741
+e você deve descobrir
+o que funciona melhor para você.
+
+53
+00:02:45,420 --> 00:02:48,732
+O importante é ter um lugar
+onde possamos editar o código
+
+54
+00:02:48,774 --> 00:02:50,372
+e experimentar as coisas,
+
+55
+00:02:50,414 --> 00:02:54,802
+além de um lugar no qual
+veremos o resultado das alterações.
+
+56
+00:02:54,844 --> 00:02:57,867
+Eu não costumo compor
+um monte de código de uma vez,
+
+57
+00:02:57,909 --> 00:02:59,252
+pois algo pode dar errado
+
+58
+00:02:59,294 --> 00:03:01,532
+e eu precisarei
+consertar o erro.
+
+59
+00:03:01,574 --> 00:03:04,965
+Ao trabalhar com meu código,
+eu experimento muito
+
+60
+00:03:05,007 --> 00:03:07,013
+e testo o resultado
+frequentemente,
+
+61
+00:03:07,055 --> 00:03:10,836
+assim eu vejo quais alterações
+agem da forma esperada.
+
+62
+00:03:10,878 --> 00:03:14,484
+A forma como trabalha
+ajudará você a aprender melhor
+
+63
+00:03:14,526 --> 00:03:16,069
+desde que a configuração
+
+64
+00:03:16,111 --> 00:03:19,797
+ajude a ter um retorno
+imediato do trabalho.
+

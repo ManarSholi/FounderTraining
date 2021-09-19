@@ -1,0 +1,222 @@
+1
+00:00:00,589 --> 00:00:05,179
+Documentos HTML e programas,
+em quase toda linguagem,
+
+2
+00:00:05,221 --> 00:00:07,532
+são compostos
+por arquivos de texto.
+
+3
+00:00:07,574 --> 00:00:09,612
+Vejamos o que isso
+quer dizer.
+
+4
+00:00:09,654 --> 00:00:13,020
+Os arquivos de texto contêm
+somente caracteres -
+
+5
+00:00:13,062 --> 00:00:17,276
+letras, números, símbolos,
+espaços e assim por diante -,
+
+6
+00:00:17,318 --> 00:00:19,515
+não existe nenhuma
+tipografia especial
+
+7
+00:00:19,557 --> 00:00:22,050
+como negrito, itálicos
+ou cores,
+
+8
+00:00:22,092 --> 00:00:26,380
+nem há fotos, ícones
+ou imagens.
+
+9
+00:00:26,422 --> 00:00:29,562
+Imagine o texto como tudo
+que você poderia escrever
+
+10
+00:00:29,604 --> 00:00:31,712
+em uma máquina de escrever
+antiga.
+
+11
+00:00:31,754 --> 00:00:34,441
+O texto parece ser algo
+limitado,
+
+12
+00:00:34,483 --> 00:00:36,823
+mas também é muito flexível.
+
+13
+00:00:36,865 --> 00:00:39,937
+Ele pode ser usado
+para muitas coisas.
+
+14
+00:00:39,979 --> 00:00:42,185
+O HTML é composto
+por texto,
+
+15
+00:00:42,227 --> 00:00:46,009
+assim como as linguagens
+que realizam análise de dados
+
+16
+00:00:46,051 --> 00:00:47,688
+ou que compõem os servidores.
+
+17
+00:00:47,730 --> 00:00:50,335
+Existem programas
+que usam o texto como input
+
+18
+00:00:50,377 --> 00:00:52,809
+e o transforma
+em partituras de música,
+
+19
+00:00:52,851 --> 00:00:55,240
+em um relatório científico
+
+20
+00:00:55,282 --> 00:00:59,000
+ou carrega os textos organizados
+em uma tabela.
+
+21
+00:00:59,042 --> 00:01:01,057
+Ao observarmos
+o código HTML,
+
+22
+00:01:01,099 --> 00:01:04,536
+parece que muita coisa estranha
+está acontecendo,
+
+23
+00:01:04,578 --> 00:01:07,271
+mas tudo é constituído
+de texto.
+
+24
+00:01:07,313 --> 00:01:10,495
+O layout de uma página na internet,
+que é vista pelo usuário,
+
+25
+00:01:10,537 --> 00:01:13,388
+é apresentado pelo navegador
+a partir do código
+
+26
+00:01:13,430 --> 00:01:14,963
+no arquivo de texto.
+
+27
+00:01:15,005 --> 00:01:18,322
+Quando a página inclui
+uma imagem ou um vídeo -
+
+28
+00:01:18,364 --> 00:01:20,334
+como o que você
+está assistindo -,
+
+29
+00:01:20,376 --> 00:01:23,598
+isso é feito a partir
+de um endereço escrito
+
+30
+00:01:23,640 --> 00:01:25,374
+no código da página.
+
+31
+00:01:25,416 --> 00:01:30,166
+O navegador vê o endereço
+e baixa as imagens ou os vídeos
+
+32
+00:01:30,208 --> 00:01:31,860
+que aparecerão na página.
+
+33
+00:01:31,902 --> 00:01:35,823
+Ao carregarmos um arquivo HTML
+no editor de texto de programação,
+
+34
+00:01:35,865 --> 00:01:39,728
+ele será exibido com cores
+e formatos especiais.
+
+35
+00:01:39,770 --> 00:01:42,542
+Isso é chamado
+de "destaque da sintaxe"
+
+36
+00:01:42,584 --> 00:01:45,335
+e é um recurso especial
+do editor.
+
+37
+00:01:45,377 --> 00:01:47,613
+As cores não são salvas
+no arquivo,
+
+38
+00:01:47,655 --> 00:01:50,935
+mas o editor
+reconhece a gramática do HTML
+
+39
+00:01:50,977 --> 00:01:54,175
+e aplica cores para ajudar você
+a entender a gramática
+
+40
+00:01:54,217 --> 00:01:56,368
+na hora de editar.
+
+41
+00:01:56,410 --> 00:01:57,727
+Ao salvarmos um arquivo,
+
+42
+00:01:57,769 --> 00:02:01,567
+é comum usarmos o nome do arquivo
+com uma terminação especial,
+
+43
+00:02:01,609 --> 00:02:04,998
+ou extensão,
+que indica o tipo do arquivo.
+
+44
+00:02:05,040 --> 00:02:08,302
+Isso ajuda os programas -
+como os editores e os navegadores -
+
+45
+00:02:08,344 --> 00:02:10,495
+a tratarem o arquivo
+de forma apropriada.
+
+46
+00:02:10,537 --> 00:02:15,928
+Para o HTML, usaremos
+a terminação .html.
+

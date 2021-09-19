@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:04,644
+The web is built on the idea of hypertext.
+
+2
+00:00:04,644 --> 00:00:08,673
+Hypertext means that you can have textual documents,
+
+3
+00:00:08,673 --> 00:00:14,140
+like web pages, but that they also have references between them.
+
+4
+00:00:14,140 --> 00:00:16,875
+On the web, those are links.
+
+5
+00:00:16,875 --> 00:00:20,129
+Every time you click on a link in a web page,
+
+6
+00:00:20,129 --> 00:00:22,574
+you're making use of hypertext.
+
+7
+00:00:22,574 --> 00:00:24,769
+When you write HTML,
+
+8
+00:00:24,769 --> 00:00:27,059
+you can link to other web pages,
+
+9
+00:00:27,059 --> 00:00:30,324
+both your own and also someone else's.
+
+10
+00:00:30,324 --> 00:00:33,304
+That's how a search engine works, for example.
+
+11
+00:00:33,304 --> 00:00:37,914
+So, here's how to make a link in your own HTML.
+
+12
+00:00:37,914 --> 00:00:42,075
+The element for making links is called <a>.
+
+13
+00:00:42,075 --> 00:00:46,405
+Yes, it's not called link, it's called <a>.
+
+14
+00:00:46,405 --> 00:00:48,835
+That stands for anchor,
+
+15
+00:00:48,835 --> 00:00:53,990
+because an <a> element anchors an address to a piece of text on the page.
+
+16
+00:00:53,990 --> 00:00:56,285
+Yeah, that sounds weird to me too,
+
+17
+00:00:56,284 --> 00:00:59,069
+but that's how it is, at least it's short.
+
+18
+00:00:59,070 --> 00:01:02,810
+But we can't just use <a> by itself.
+
+19
+00:01:02,810 --> 00:01:08,939
+There are a couple things we need an <a> element to include in order to make a link.
+
+20
+00:01:08,939 --> 00:01:12,349
+The text that a user clicks on to follow the link,
+
+21
+00:01:12,349 --> 00:01:15,439
+and the URL of the page we're linking to.
+
+22
+00:01:15,439 --> 00:01:18,090
+Here's how we're going to do that.
+
+23
+00:01:18,090 --> 00:01:20,870
+The opening tag for the <a> element has
+
+24
+00:01:20,870 --> 00:01:25,225
+this extra little bit in it that we haven't seen in HTML tags before.
+
+25
+00:01:25,224 --> 00:01:31,869
+This href equals "a url" part.
+
+26
+00:01:31,870 --> 00:01:35,765
+This is an example of an HTML attribute.
+
+27
+00:01:35,765 --> 00:01:38,689
+It's an extra piece of data that comes along
+
+28
+00:01:38,689 --> 00:01:42,189
+with the element and it gives it extra meaning.
+
+29
+00:01:42,189 --> 00:01:46,780
+The part before the equal sign is the name of the attribute,
+
+30
+00:01:46,780 --> 00:01:48,004
+and the part after,
+
+31
+00:01:48,004 --> 00:01:52,034
+in double quotes, is the value of the attribute.
+
+32
+00:01:52,034 --> 00:02:00,370
+Here, the name is href and the value is http://example.net.
+
+33
+00:02:03,079 --> 00:02:08,304
+The name href stands for hypertext reference,
+
+34
+00:02:08,304 --> 00:02:13,594
+and it's used with <a> tags and a few other tags that link to another document.
+
+35
+00:02:13,594 --> 00:02:19,719
+You won't ever see it on a paragraph or an emphasis tag or something else.
+
+36
+00:02:19,719 --> 00:02:22,824
+Then, there's the contents of the <a> element,
+
+37
+00:02:22,824 --> 00:02:26,134
+which becomes the text that appears on the page.
+
+38
+00:02:26,134 --> 00:02:29,449
+Then there's the closing <a> tag.
+
+39
+00:02:29,449 --> 00:02:32,969
+You might notice that it doesn't have any attributes in it.
+
+40
+00:02:32,969 --> 00:02:39,310
+Attributes like href always only go in the opening tag at the beginning of an element.
+
+41
+00:02:39,310 --> 00:02:43,300
+That's pretty much all there is to making links in HTML.
+
+42
+00:02:43,300 --> 00:02:48,120
+You've just made an <a> element with a start and an end tag.
+
+43
+00:02:48,120 --> 00:02:52,265
+The start tag has an href attribute with an equal sign,
+
+44
+00:02:52,264 --> 00:02:56,875
+and in double-quotes, the url of the page that we want to link to.
+
+45
+00:02:56,875 --> 00:03:01,000
+The contents of the element become the text the user clicks on,
+
+46
+00:03:01,000 --> 00:03:03,520
+and then there's a closing <a> tag.
+

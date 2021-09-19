@@ -1,0 +1,144 @@
+1
+00:00:00,000 --> 00:00:05,580
+All right. My approach is pretty similar to Carl's but I did a few things differently.
+
+2
+00:00:05,580 --> 00:00:07,919
+I'll walk you through my steps.
+
+3
+00:00:07,919 --> 00:00:14,039
+To start, I set the sizes of my elements so I'd have something tangible to work with.
+
+4
+00:00:14,039 --> 00:00:18,599
+I opened up the image and an application on my computer to see how wide the original
+
+5
+00:00:18,600 --> 00:00:23,565
+was and then I made a best guess on how I wanted to size my boxes.
+
+6
+00:00:23,565 --> 00:00:26,984
+Three boxes across 300 pixels.
+
+7
+00:00:26,984 --> 00:00:30,184
+So let's say, 100 pixels for each box.
+
+8
+00:00:30,184 --> 00:00:33,269
+I also want to have a bit of space in between,
+
+9
+00:00:33,270 --> 00:00:35,930
+so I'll add a margin of five pixels.
+
+10
+00:00:35,929 --> 00:00:37,570
+With my long column,
+
+11
+00:00:37,570 --> 00:00:41,350
+I needed to get my list items to go three by three in a grid.
+
+12
+00:00:41,350 --> 00:00:43,170
+In comes float.
+
+13
+00:00:43,170 --> 00:00:49,405
+Float allows items with a set width to float up into the next available space on a page.
+
+14
+00:00:49,405 --> 00:00:52,219
+With my big box set to 300 pixels,
+
+15
+00:00:52,219 --> 00:00:57,379
+I can float up to 300 pixels worth of items into the first row.
+
+16
+00:00:57,609 --> 00:01:02,689
+Only two list items are available to span across each row.
+
+17
+00:01:02,689 --> 00:01:04,864
+Let's look at that math again.
+
+18
+00:01:04,864 --> 00:01:08,734
+It must be because of my additional margins.
+
+19
+00:01:08,734 --> 00:01:11,959
+Well, let's resize the small boxes to accommodate
+
+20
+00:01:11,959 --> 00:01:16,625
+the margins to fit inside the big box width. That's better.
+
+21
+00:01:16,625 --> 00:01:21,109
+But it looks like the boxes are in the wrong order.
+
+22
+00:01:21,109 --> 00:01:24,215
+Using float right, it looks like the boxes
+
+23
+00:01:24,215 --> 00:01:27,689
+filled the rightmost space until the width is full.
+
+24
+00:01:27,689 --> 00:01:32,929
+Instead, I want to fill the leftmost space to keep the ordering consistent.
+
+25
+00:01:32,930 --> 00:01:35,200
+Let's change that here.
+
+26
+00:01:35,200 --> 00:01:37,980
+All right, now we're getting somewhere.
+
+27
+00:01:37,980 --> 00:01:42,545
+The rest of the corrections are the same as Carl's solution.
+
+28
+00:01:42,545 --> 00:01:45,049
+We need to get rid of the list dots,
+
+29
+00:01:45,049 --> 00:01:46,780
+increase the font size,
+
+30
+00:01:46,780 --> 00:01:51,064
+center the text, and set the font family to remove serifs.
+
+31
+00:01:51,064 --> 00:01:54,230
+In addition, I want to set the background color
+
+32
+00:01:54,230 --> 00:01:57,555
+of each of the boxes to match the sample image.
+
+33
+00:01:57,555 --> 00:01:59,575
+It looks like light blue,
+
+34
+00:01:59,575 --> 00:02:01,310
+so I'll set it to that color.
+
+35
+00:02:01,310 --> 00:02:04,280
+Sweet. So, that's another approach to
+
+36
+00:02:04,280 --> 00:02:08,479
+creating a website rendition of the tic-tac-toe design.
+

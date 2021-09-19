@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:03,250
+Wow. You've learned a lot in this lesson,
+
+2
+00:00:03,250 --> 00:00:07,025
+and some of the things that you've learned have been pretty advanced.
+
+3
+00:00:07,025 --> 00:00:09,750
+Tree structures are actually not something that
+
+4
+00:00:09,750 --> 00:00:14,835
+computer science students learn about until several months into a typical CS curriculum.
+
+5
+00:00:14,835 --> 00:00:17,655
+By learning CSS and HTML,
+
+6
+00:00:17,655 --> 00:00:23,039
+you've also mastered two computer languages that have very different syntax.
+
+7
+00:00:23,039 --> 00:00:27,265
+The grammar of HTML is built around elements made with tags.
+
+8
+00:00:27,265 --> 00:00:33,015
+The grammar of CSS is based on rule sets written with selectors and declarations.
+
+9
+00:00:33,015 --> 00:00:38,134
+Visually, CSS code and HTML code look really different,
+
+10
+00:00:38,134 --> 00:00:40,699
+but they do work closely together.
+
+11
+00:00:40,700 --> 00:00:44,359
+You've also seen that it's possible to do the same thing in
+
+12
+00:00:44,359 --> 00:00:50,049
+different ways such as by using a style tag or a linked style sheet file.
+
+13
+00:00:50,049 --> 00:00:53,714
+This is something that will keep coming up as you learn more.
+
+14
+00:00:53,715 --> 00:00:57,440
+In computing, there are often lots of ways to do something.
+
+15
+00:00:57,439 --> 00:00:59,960
+Depending on the requirements of a project,
+
+16
+00:00:59,960 --> 00:01:03,605
+you may find yourself doing one or the other of these things.
+
+17
+00:01:03,604 --> 00:01:07,009
+Up ahead, you'll be putting together a project that includes
+
+18
+00:01:07,010 --> 00:01:13,040
+both HTML and CSS and can also include other resources like images.
+
+19
+00:01:13,040 --> 00:01:14,690
+When you submit that project,
+
+20
+00:01:14,689 --> 00:01:18,524
+make sure to put all of the files that your project needs into a folder.
+
+21
+00:01:18,525 --> 00:01:22,565
+Zip up that folder and then submit the zip file.
+
+22
+00:01:22,564 --> 00:01:26,509
+This is your chance to be big and bold with your work.
+
+23
+00:01:26,510 --> 00:01:29,635
+It's important to meet the general project requirements,
+
+24
+00:01:29,635 --> 00:01:32,770
+but we also want you to have fun with this project.
+
+25
+00:01:32,769 --> 00:01:35,724
+Be inspired by your favorite websites,
+
+26
+00:01:35,724 --> 00:01:40,144
+but of course make sure all the work you submit is your own.
+
+27
+00:01:40,144 --> 00:01:46,114
+Now this project will be a bit more involved as you will be evaluated based on a rubric.
+
+28
+00:01:46,114 --> 00:01:48,484
+Make sure to check your work to see if it meets
+
+29
+00:01:48,484 --> 00:01:52,019
+all the project requirements before you submit your project.
+
+30
+00:01:52,019 --> 00:01:54,619
+Our expert reviewers will happily give you
+
+31
+00:01:54,620 --> 00:01:57,380
+feedback on your work and will either mark your project
+
+32
+00:01:57,379 --> 00:02:03,000
+as requires changes or meets specifications. Good luck.
+

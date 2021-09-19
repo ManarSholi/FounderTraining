@@ -1,0 +1,168 @@
+1
+00:00:00,000 --> 00:00:04,084
+A CSS rule-set is made up of two parts,
+
+2
+00:00:04,084 --> 00:00:07,439
+a selector and a declaration block.
+
+3
+00:00:07,440 --> 00:00:10,290
+The selector is the part that says which
+
+4
+00:00:10,289 --> 00:00:14,799
+html element or elements the rule is going to work on.
+
+5
+00:00:14,800 --> 00:00:20,173
+The declaration block says how the rule will modify those elements.
+
+6
+00:00:20,173 --> 00:00:22,739
+Here's that example from before,
+
+7
+00:00:22,739 --> 00:00:26,464
+a rule-set that turns all of the list items green.
+
+8
+00:00:26,464 --> 00:00:29,085
+The selector here is li,
+
+9
+00:00:29,085 --> 00:00:35,160
+and there's one entry in the declaration block; color, colon, green.
+
+10
+00:00:35,159 --> 00:00:39,134
+CSS rules are always written like this,
+
+11
+00:00:39,134 --> 00:00:41,174
+the selector comes first,
+
+12
+00:00:41,174 --> 00:00:45,814
+and then there are these curly braces around the declaration block.
+
+13
+00:00:45,814 --> 00:00:48,809
+Here are a couple of examples.
+
+14
+00:00:48,810 --> 00:00:50,679
+In this example here,
+
+15
+00:00:50,679 --> 00:00:53,750
+the selector is p. This means that it will
+
+16
+00:00:53,750 --> 00:00:57,634
+apply to all paragraph elements in the document.
+
+17
+00:00:57,634 --> 00:01:02,759
+In this second one, the selector is.weird.
+
+18
+00:01:02,759 --> 00:01:09,170
+This means that it will apply to any element with the class attribute equal to weird.
+
+19
+00:01:09,170 --> 00:01:12,835
+We'll see more about the class attribute just ahead.
+
+20
+00:01:12,834 --> 00:01:17,449
+The part inside the curly braces is called the declaration block,
+
+21
+00:01:17,450 --> 00:01:22,575
+and it consists of one or more declarations, also called rules.
+
+22
+00:01:22,575 --> 00:01:25,490
+Each declaration tells the browser to make
+
+23
+00:01:25,489 --> 00:01:29,354
+one specific change to the style of the selected elements.
+
+24
+00:01:29,355 --> 00:01:34,859
+Like, here's a declaration, width: 50%.
+
+25
+00:01:34,859 --> 00:01:38,829
+This block has two declarations in it; color, colon,
+
+26
+00:01:38,829 --> 00:01:44,000
+purple, and font dash size colon larger.
+
+27
+00:01:44,000 --> 00:01:48,909
+You've probably noticed by now that each of these entries has a descriptive name,
+
+28
+00:01:48,909 --> 00:01:52,114
+like width, or color, or font size.
+
+29
+00:01:52,114 --> 00:01:55,890
+That's called the property that the rule is affecting.
+
+30
+00:01:55,890 --> 00:01:57,674
+Then it has a colon,
+
+31
+00:01:57,674 --> 00:02:00,754
+and then, the value that's giving that property.
+
+32
+00:02:00,754 --> 00:02:05,019
+Then at the end of the rule there is always a semicolon.
+
+33
+00:02:05,019 --> 00:02:07,810
+For instance, in this rule here,
+
+34
+00:02:07,810 --> 00:02:09,520
+color is the property,
+
+35
+00:02:09,520 --> 00:02:13,715
+and purple is the value that's being given to that property.
+
+36
+00:02:13,715 --> 00:02:19,170
+So, the rule ends up being color, colon, purple, semicolon.
+
+37
+00:02:19,169 --> 00:02:25,000
+So, the syntax of CSS doesn't look anything like the syntax of html itself.
+
+38
+00:02:25,000 --> 00:02:30,125
+But, that makes sense because they're really trying to accomplish different things.
+
+39
+00:02:30,125 --> 00:02:35,719
+A piece of html describes a tree structure made out of elements.
+
+40
+00:02:35,719 --> 00:02:38,509
+A CSS declaration says,
+
+41
+00:02:38,509 --> 00:02:40,669
+here's a particular kind of element,
+
+42
+00:02:40,669 --> 00:02:43,879
+and here's some styles to apply to it.
+

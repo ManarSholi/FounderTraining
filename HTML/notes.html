@@ -1,0 +1,219 @@
+<!DOCTYPE html> 
+<!--
+    It tells the browser that we're intending this document 
+    to be treated as modern HTML.
+-->
+<html lang="en">
+    <head>
+        <!--
+            The title is the only required part of head.
+            It tells the browser what titled to put on a tab that's displaying the document.
+        -->
+        <title> 
+            My Notes
+        </title>
+        <!--
+            Style sheets tell the browser things like what fonts and colors to use on the page, and how to position the text
+        -->
+        <style>
+            p{
+                color: green;
+            }
+        </style>
+        <!--
+            scripts: programs that run in the browser.
+        
+        <script>
+
+        </script>
+
+        -->
+
+        <!--
+            meta contains keywords for search engins.
+            <meta name="description" content="Notes on HTML">
+        -->
+
+    </head>
+    <body>
+        <h1>My HTML notes // by manar</h1>
+        <br> <!-- empty or void elements -->
+        <br>
+        <h2>This is an</h2> 
+        <strong>awesome</strong> example of HTML. <!-- element "<strong>awesome</strong>" contains tags <strong> -->
+        <br>
+        <p>
+            Markup is just text that has a special meaning, it's tell the browser what to do.
+        </p>
+        <em>Hi there</em> <!-- emphasis(خط مائل) // <em> opening or start tag, </em> closing or end tag -->
+        <!-- tags always start and end with angle brackets < > and they always come in pairs -->
+        <br>
+        html Did you know? تسمى المسافات وعلامات التبويب وفواصل الأسطر <strong>بالمسافة البيضاء</strong>.
+        <br>
+        `html هل تعلم؟ تسمى المسافات وعلامات التبويب وفواصل الأسطر بالمسافة البيضاء.
+        <br>
+        =================================================================
+        <br>
+        Mary had a little toad <br>
+        Its skin as tough as shell <br>
+        And every file that toad <br> 
+        would write <br>
+        It used HTML.
+        <br>
+        ==================================================================
+        <br>
+        <p>
+            This is a story. Add paragraph tags to make it better. 
+        </p>
+        <p>
+            Once upon a time there was a <mark>baby tiger</mark> named <sub>Talia</sub>. <sup>Talia</sup> lived in a fearsome jungle in the middle of the fearsome jungle. Talia was the most fearsome of all, though she was only a baby.
+        </p>
+        <!-- mark tag is to highlight-->
+        <br>
+        <br>
+        <img src="http://placebear.com/300/200" alt="bear">
+        <ol>
+            <li>hello</li>
+            <li>it's me</li>
+        </ol>
+        <ul>
+            <li>hello</li>
+            <li>it's me</li>
+        </ul>
+        <!--
+            <li> and <p> optional closing tag
+            <ol> and <ul> must have closing tag
+        -->
+        <ul>
+            <li>Mammals: </li>
+        </ul>
+        <ol>
+            <li>Raccoon</li>
+            <li>Gorillas</li>
+        </ol>
+        <ul>
+            <li>Reptiles:</li>
+        </ul>
+        <ol>
+            <li>Iguana</li> 
+            <li>Cobra</li>
+        </ol>
+        <ul>
+            <li>Birds:</li>
+        </ul>
+        <ol>
+            <li>Ostrich</li> 
+            <li>Crows</li>
+        </ol>
+        <!--
+            ======================================================================
+        -->
+        <p>This text is inside the 
+            <strong>
+                firstparagraph element.
+            </strong>
+        </p>
+        <p style="color: blue;">
+            This text is inside the second paragraph element—and it's BLUE!.
+        </p>
+        This text isn't inside<br>
+        any paragraph element ...<br>
+        ...yet!
+        <p>
+            This text is inside the third paragraph element.
+        </p>
+        <!--
+            Web addresses called URL(Uniform Resource Locator)
+        -->
+        <br>
+        <a href="https://www.example.com/">Example</a> <!-- Fully Qualified URL or absolute URL-->
+
+        <!--
+            ** We use http or https to tell the browser whether to use secure encryption to connect to a web server
+            ** The URL for a file that's on your local drive will start with "file" instead. -> file:///Users/kelly/notes.html
+            !! http, https, and file are protocols that the browser used them to get something
+            !! "en.wikipedia.org" is the domane name this tells the browser what server to connect to.
+            !! but File URLs won't have this because there is no server (/Users/kelly/notes.html)
+            !! / -> file path (name of directory and the file that the URL is referring to) -> this sometimes be empty or a single slash if you're linking to the top page or homepage of a site.
+        -->
+        <br>
+        <img src="URL.png" alt="URL.png"/> <!-- Relative URL(URL wuthout ://) -->
+        <br>
+        <br>
+        <!--
+            As Kelly noted at the end of the video: 
+            When you're linking to the top page (or home page) of a site, 
+            the URL does not need a file path after the domain name—so you will just see a single slash at the end of the address:
+
+            http://en.wikipedia.org/
+
+            And often this slash will be omitted altogether:
+
+            http://en.wikipedia.org
+
+            This would still be considered a fully-qualified URL.
+
+            In contrast, if we look at the URL for a file on your local system, we must give the file path—in fact, most of the URL is the file path:
+
+            file:///Users/Kelly/notes.html
+
+            If we took away the file path from the above, we would just have:
+
+            file://
+
+            Which is definitely not a fully qualified URL.
+        -->
+
+
+        <!--
+            Hypertext:
+                text document included links
+            Links tag: <a> thats stands for anchor -> we can't just use <a> by itself
+                There are a couple things we need an <a> element to include in order to make a link:
+                    1. The text that a user clicks on to follow the link
+                    2. The URL of the page we're linking to -> [href(Name)="a url"(value)] (attribute)
+        -->
+        <!--
+            The a element is an inline element. 
+            It doesn't create a box on the page. 
+            Links normally have the appearance of a specially highlighted piece of text.
+        -->
+        <br>
+        <a href="https://www.youtube.com">YouTube</a>
+        <br>
+        <a href="google.com/">The Example Page</a>
+        <br>
+        <a href="https://google.com"><img src="http://placebear.com/300/200" alt="Google!"></a>
+
+        <!--
+            Practice:
+        -->
+        <p>
+            My favorite things:
+        </p>
+        <ol>
+            <li>
+                <a href="https://placebear.com/150/150" target="_blank">
+                Bears
+                </a>
+            </li>
+            <li>
+                <a href="https://placekitten.com/150/150" target="_blank">Kittens
+                </a>
+            </li>
+        </ol>
+        <img src = "https://placebear.com/150/150" alt = "bear">
+        <img src="https://placekitten.com/150/150" alt="cat">
+    </body>
+</html>
+<!--
+    https://validator.w3.org/#validate_by_input
+
+    validator for html
+-->
+
+<!--
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#elements
+
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#elements
+-->

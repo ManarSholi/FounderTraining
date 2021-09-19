@@ -1,0 +1,93 @@
+1
+00:00:00,581 --> 00:00:03,423
+Deixe o editor de texto aberto
+e o navegador preparado,
+
+2
+00:00:03,465 --> 00:00:06,383
+veremos alguns elementos
+do HTML.
+
+3
+00:00:06,425 --> 00:00:09,646
+Nós veremos os elementos
+tipográficos,
+
+4
+00:00:09,688 --> 00:00:13,799
+que são utilizados para exibir
+o texto de forma diferente.
+
+5
+00:00:13,841 --> 00:00:17,431
+Vamos começar com um texto.
+
+6
+00:00:17,473 --> 00:00:20,382
+Se salvarmos
+e carregarmos no navegador,
+
+7
+00:00:20,424 --> 00:00:22,302
+veremos o texto.
+
+8
+00:00:22,344 --> 00:00:24,741
+Está bem, grande coisa.
+
+9
+00:00:24,783 --> 00:00:27,159
+Nós poderíamos adicionar
+ênfase,
+
+10
+00:00:27,201 --> 00:00:29,167
+mas já fizemos isso antes.
+
+11
+00:00:29,209 --> 00:00:30,855
+Vamos experimentar
+outra coisa.
+
+12
+00:00:30,897 --> 00:00:34,391
+Este é outro elemento HTML,
+chamado de "mark".
+
+13
+00:00:34,433 --> 00:00:35,775
+E aí, Mark?
+
+14
+00:00:35,817 --> 00:00:39,055
+Mas este não é alguém
+chamado Mark,
+
+15
+00:00:39,097 --> 00:00:41,063
+é um destaque.
+
+16
+00:00:41,105 --> 00:00:46,379
+No navegador, parece que alguém
+passou um marca-texto em "my life".
+
+17
+00:00:46,421 --> 00:00:48,870
+Vejamos outros elementos.
+
+18
+00:00:48,912 --> 00:00:53,287
+Vamos testar estes:
+<sub> e <sup>.
+
+19
+00:00:53,329 --> 00:00:55,390
+Não vou mostrar
+o que eles fazem,
+
+20
+00:00:55,432 --> 00:00:58,091
+pois quero que você
+os experimente.
+

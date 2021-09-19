@@ -1,0 +1,224 @@
+1
+00:00:00,000 --> 00:00:03,605
+Ushbu rasm URL manzilini avvalroq sezgan bo‘lishingiz mumkin.
+
+2
+00:00:03,605 --> 00:00:07,075
+U placebear.com deb nomlangaan saytdan olingan,
+
+3
+00:00:07,075 --> 00:00:09,750
+ayiqlarning ko‘plab tasvirlari mavjud.
+
+4
+00:00:09,750 --> 00:00:12,474
+Agar siz xohlasangiz o‘lchamlari 800 dan 600 pikselgacha bo‘lgan
+
+5
+00:00:12,474 --> 00:00:15,285
+rasmni xohlasangiz, placebear.com
+
+6
+00:00:15,285 --> 00:00:18,079
+ayiqni tasviri ekanligiga
+
+7
+00:00:18,079 --> 00:00:21,390
+amin bo‘lsangiz sizga buni topib beradi.
+
+8
+00:00:21,390 --> 00:00:24,910
+Ushbu rasmni note.html faylimga qo‘shish uchun,
+
+9
+00:00:24,910 --> 00:00:28,094
+men uni IMG tegigas qo‘shaman,
+
+10
+00:00:28,094 --> 00:00:31,135
+va brauzerim ushbu HTML faylni ochganda,
+
+11
+00:00:31,135 --> 00:00:34,625
+placebear.com saytiga kirib, ushbu rasmni,
+
+12
+00:00:34,625 --> 00:00:36,125
+kerakligini bildiradi,
+
+13
+00:00:36,125 --> 00:00:37,880
+va sahifaga joylashtiriladi.
+
+14
+00:00:37,880 --> 00:00:42,450
+Ammo, o‘zimni kompyuterimda rasm fayli bo‘lsa nima bo‘ladi?
+
+15
+00:00:42,450 --> 00:00:46,750
+Agar u mening HTML faylim bilan bitta papkada bo‘lsa-chi?
+
+16
+00:00:46,750 --> 00:00:51,534
+Rasm tegiga murojaat qilish uchun uni biron bir serverga joylashtirishim kerakmi?
+
+17
+00:00:51,534 --> 00:00:54,195
+Ma’lum bo‘lishicha bunday emas.
+
+18
+00:00:54,195 --> 00:00:57,710
+Buning o‘rniga, men shunchaki rasm tegiga fayl qo‘yishim mumkin.
+
+19
+00:00:57,710 --> 00:00:59,664
+Nima uchun bunday ishlaydi?
+
+20
+00:00:59,664 --> 00:01:05,920
+Xo‘sh, brauzer SRC atributiga qaraydi va to‘liq URLni ko‘rmaydi.
+
+21
+00:01:05,920 --> 00:01:13,959
+Bu  http:// yoki fayl:// yoki shunga o‘xshash narsalar bilan boshlanmaydi.
+
+22
+00:01:13,959 --> 00:01:18,590
+Xususan, u yerda  :// emas ,
+
+23
+00:01:18,590 --> 00:01:23,314
+HTML hujjatida biror-bir narsa yuz berganda nima qilish kerakligi haqida brauzerda qoida mavjud.
+
+24
+00:01:23,314 --> 00:01:30,355
+Ushbu fayl HTML hujjatining o‘z URL manzilining variantiga o‘xshaydi.
+
+25
+00:01:30,355 --> 00:01:33,620
+Bu nisbat URL deb nomlanadi.
+
+26
+00:01:33,620 --> 00:01:37,944
+Endi mening HTML faylim shaxsiy kompyuterimda
+
+27
+00:01:37,944 --> 00:01:47,700
+va brauzer buni URL da ko‘radi: file:///Users/Karl/courses/notes.html.
+
+28
+00:01:47,700 --> 00:01:54,120
+Shunday qilib, ushbu fayl nisbiy URL bo‘lgan kittens.jpg ga murojaat qilganda,
+
+29
+00:01:54,120 --> 00:01:57,230
+ushbu faylni o‘sha katalogda qidiradi.
+
+30
+00:01:57,230 --> 00:02:02,250
+Men faqat HTML faylimga kittens.jpg deb yozishim kerak,
+
+31
+00:02:02,250 --> 00:02:11,629
+bo‘lsa ham brauzer fayl bilan bir xil URL manzilni yuklaydi file:///Users/Carl/courses/kittens.jpg.
+
+32
+00:02:11,629 --> 00:02:15,375
+Nisbiy URL-dan foydalanish kamroq yoziladi,
+
+33
+00:02:15,375 --> 00:02:18,000
+ammo bu uning yagona afzalligi emas.
+
+34
+00:02:18,000 --> 00:02:21,189
+Agar men ushbu veb-sahifani boshqa birovga yubormoqchi bo‘lsam,
+
+35
+00:02:21,189 --> 00:02:25,069
+unda HTMLning o‘zi bu mushukcha rasmini o‘z ichiga olmaydi.
+
+36
+00:02:25,069 --> 00:02:27,139
+Men ularga rasm faylini ham yuborishim kerak.
+
+37
+00:02:27,139 --> 00:02:29,300
+Ushbu faylni Kellyga yuborsam u,
+
+38
+00:02:29,300 --> 00:02:34,419
+kompyuteridagi nomli katologda ko‘rinmaydi /Users/Karl.
+
+39
+00:02:34,419 --> 00:02:36,985
+Agar mening HTMLimda URL manzili bo‘lsa,
+
+40
+00:02:36,985 --> 00:02:39,254
+bu katalog mening kompyuterimda bo‘ladi va
+
+41
+00:02:39,254 --> 00:02:41,634
+ular boshqa birovning kompyuterida ishlamaydi.
+
+42
+00:02:41,634 --> 00:02:43,314
+Shunday qilib qoida tariqasida,
+
+43
+00:02:43,314 --> 00:02:48,830
+siz rasmga yoki veb-serverga, masalan placebear.comga bog‘lansangiz,
+
+44
+00:02:48,830 --> 00:02:57,539
+odatda to‘liq URL manzilidan foydalanishingiz kerak, masalan https://placebear.com/800/600.
+
+45
+00:02:57,539 --> 00:03:00,289
+Ammo, siz HTML faylingiz bilan birga yuboradigan rasmga
+
+46
+00:03:00,289 --> 00:03:04,750
+yoki boshqa faylga havola qilsangiz,
+
+47
+00:03:04,750 --> 00:03:08,009
+tegishli URL manzillardan foydalanishingiz kerak.
+
+48
+00:03:08,009 --> 00:03:11,990
+Aytgancha, nisbiy URL manzillar href=google.comni
+
+49
+00:03:11,990 --> 00:03:15,949
+HTML kodga yozish orqali Googlega havola qila olmasligingizni,
+
+50
+00:03:15,949 --> 00:03:19,719
+haqiqiy sababidir, hatto
+
+51
+00:03:19,719 --> 00:03:24,189
+to‘g‘ridn-to‘g‘ri brauzerga kirsangiz ham Google.comda ishlaydi.
+
+52
+00:03:24,189 --> 00:03:31,745
+HTML da URL no :// har doim nisbiy URL manzili sifatida ko‘rib chiqiladi.
+
+53
+00:03:31,745 --> 00:03:34,280
+Shunday qilib, brauzer Google.com deb nomlangan
+
+54
+00:03:34,280 --> 00:03:37,219
+faylni qidiradi, bu odatda siz xohlaganingiz emas.
+
+55
+00:03:37,219 --> 00:03:40,780
+Shunday qilib, agar siz boshqa saytga ulanishni xohlasangiz
+
+56
+00:03:40,780 --> 00:03:46,449
+siz http yoki httpsni birinchi o‘ringa qo‘yishingiz kerak.
+

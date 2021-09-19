@@ -1,0 +1,169 @@
+1
+00:00:00,267 --> 00:00:03,534
+Temos todos esses números,
+strings e booleanos,
+
+2
+00:00:03,567 --> 00:00:05,734
+mas o que devemos fazer
+com eles?
+
+3
+00:00:06,100 --> 00:00:08,267
+Todos os dados
+com os quais trabalhamos
+
+4
+00:00:08,300 --> 00:00:10,467
+foram usados apenas uma vez.
+
+5
+00:00:10,501 --> 00:00:15,067
+Definimos a string "hello",
+ela é retornada e pronto.
+
+6
+00:00:15,100 --> 00:00:16,300
+Acabou.
+
+7
+00:00:16,334 --> 00:00:18,234
+A string "hello" já se foi.
+
+8
+00:00:18,268 --> 00:00:20,700
+Precisamos de uma maneira
+de armazenar os dados
+
+9
+00:00:20,733 --> 00:00:22,800
+para usá-los
+ou alterá-los depois.
+
+10
+00:00:22,833 --> 00:00:25,434
+Para isso, podemos usar
+as variáveis.
+
+11
+00:00:25,467 --> 00:00:29,400
+Você já deve ter ouvido isso
+na aula de matemática.
+
+12
+00:00:29,434 --> 00:00:33,033
+Uma variável chamada "X"
+tem valor igual a 5.
+
+13
+00:00:33,067 --> 00:00:36,501
+Daí temos a expressão "X+1".
+
+14
+00:00:36,534 --> 00:00:41,567
+Como X é igual a 5,
+substituímos o X por 5.
+
+15
+00:00:41,601 --> 00:00:45,901
+Então a expressão
+se torna "5+1=6".
+
+16
+00:00:45,934 --> 00:00:48,567
+No JavaScript,
+a variável armazena dados -
+
+17
+00:00:48,601 --> 00:00:52,601
+assim como a variável
+armazena o valor cinco -
+
+18
+00:00:52,634 --> 00:00:55,701
+e não se limita a armazenar
+valores numéricos,
+
+19
+00:00:55,734 --> 00:00:58,767
+podemos colocar qualquer
+dado em uma variável.
+
+20
+00:00:58,801 --> 00:01:01,667
+Para criar uma variável,
+use a palavra "var"
+
+21
+00:01:01,701 --> 00:01:03,634
+seguida pelo nome da variável
+
+22
+00:01:03,667 --> 00:01:05,300
+e o operador.
+
+23
+00:01:05,334 --> 00:01:07,934
+O operador é o sinal de igual.
+
+24
+00:01:07,968 --> 00:01:10,400
+Do lado direito do operador,
+
+25
+00:01:10,434 --> 00:01:12,968
+coloque o valor
+associado à variável.
+
+26
+00:01:13,001 --> 00:01:15,901
+Como exemplo,
+vou usar a minha gata Zoe.
+
+27
+00:01:15,934 --> 00:01:18,467
+Podemos usar a variável
+chamada de "name"
+
+28
+00:01:18,501 --> 00:01:21,367
+e deixá-la igual
+à string "Zoe".
+
+29
+00:01:21,400 --> 00:01:23,033
+Para a idade dela,
+
+30
+00:01:23,067 --> 00:01:25,067
+criamos uma variável
+chamada "age"
+
+31
+00:01:25,100 --> 00:01:29,033
+e deixamos igual a 4,
+já que a Zoe tem 4 anos.
+
+32
+00:01:29,067 --> 00:01:31,701
+Posteriormente,
+quando a Zoe fizer aniversário,
+
+33
+00:01:31,734 --> 00:01:34,234
+eu poderei usar a variável
+que eu criei
+
+34
+00:01:34,267 --> 00:01:36,167
+para aumentar a idade da Zoe.
+
+35
+00:01:36,200 --> 00:01:40,067
+Então a variável "age" retornará
+a idade atualizada da Zoe.
+
+36
+00:01:40,100 --> 00:01:41,934
+Agora a Zoe tem 5 anos.
+

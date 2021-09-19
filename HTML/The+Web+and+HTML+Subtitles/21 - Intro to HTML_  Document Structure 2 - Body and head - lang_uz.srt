@@ -1,0 +1,212 @@
+1
+00:00:00,000 --> 00:00:03,899
+To‘liq HTML hujjati 
+
+2
+00:00:03,899 --> 00:00:04,940
+ikki qismdan iborat.
+
+3
+00:00:04,940 --> 00:00:07,170
+ushbu darsda hozirgacha ko‘rgan barcha
+
+4
+00:00:07,170 --> 00:00:09,570
+narsalar, bundan tashqari, doctype tegi haqiqatan ham
+
+5
+00:00:09,570 --> 00:00:12,179
+ushbu qismlarning ikkinchi qismida, 
+
+6
+00:00:12,179 --> 00:00:14,580
+hujjatning asosiy qismida yashaydi
+
+7
+00:00:14,580 --> 00:00:16,650
+bu yerda hujjat tarkibi
+
+8
+00:00:16,650 --> 00:00:20,070
+paragraf rasmlari ro‘yxatiga kiradi va hokazo.
+
+9
+00:00:20,070 --> 00:00:21,390
+Ekranda foydalanuvchi uchun ko‘radigan narsalar,
+
+10
+00:00:21,390 --> 00:00:24,930
+HTML hujjatning boshqa qismi sarlavha deyiladi,
+
+11
+00:00:24,930 --> 00:00:27,449
+unda biz hujjat to‘g‘risidagi muhim
+
+12
+00:00:27,449 --> 00:00:29,580
+ma’lumotlarning ba’zi qismlarini
+
+13
+00:00:29,580 --> 00:00:32,369
+joylashtiramiz
+
+14
+00:00:32,369 --> 00:00:34,920
+va uning tanasi
+
+15
+00:00:34,920 --> 00:00:37,530
+HTML deb nomlangan bitta element ichiga joylashtirilgan.
+
+16
+00:00:37,530 --> 00:00:39,930
+Bu yerda HTML faylning sarlavhasida ko‘rinadigan
+
+17
+00:00:39,930 --> 00:00:43,500
+ba’zi narsalar mavjud: sarlavhaning zaruriy qismi.
+
+18
+00:00:43,500 --> 00:00:46,260
+Bu ochiq brauzerning elementiga 
+
+19
+00:00:46,260 --> 00:00:49,110
+joylashtirilgan hujjatni
+
+20
+00:00:49,110 --> 00:00:51,059
+ko‘rsatadigan bo‘limda
+
+21
+00:00:51,059 --> 00:00:54,270
+qanday sarlavha qo‘yish
+
+22
+00:00:54,270 --> 00:00:56,750
+kerakligini brauzerga aytiladi.
+
+23
+00:00:56,750 --> 00:00:58,949
+Sarlavhada paydo bo‘lgan yana bir narsa
+
+24
+00:00:58,949 --> 00:01:02,160
+stillar jadvallari haqida ma’lumot,
+
+25
+00:01:02,160 --> 00:01:04,890
+keyinchalik stil jadvallarida bilib olasiz,
+
+26
+00:01:04,890 --> 00:01:07,740
+shuningdek sahifada qaysi shrift ranglardan
+
+27
+00:01:07,740 --> 00:01:10,049
+foydalanishni, matnni boshida qanday joylashtirishni
+
+28
+00:01:10,049 --> 00:01:13,470
+brauzerda ishlaydigan dasturlar skriptlarini
+
+29
+00:01:13,470 --> 00:01:16,350
+ham o‘z ichiga oladi, bu veb-ilovalar test kabi ishlaydi.
+
+30
+00:01:16,350 --> 00:01:18,780
+bu brauzerda ishlaydi
+
+31
+00:01:18,780 --> 00:01:21,750
+veb-ilovalarning ishlashi, masalan ushbu kursda ko‘rgan
+
+32
+00:01:21,750 --> 00:01:23,189
+testlar shuningdek ushbu bo‘limda o‘rganganlaringiz
+
+33
+00:01:23,189 --> 00:01:26,850
+metadata bo‘lishi mumkin, bu sahifaning
+
+34
+00:01:26,850 --> 00:01:29,280
+o‘zi haqida boshqa ma’lumotlar, masalaan qidiruv tizimi
+
+35
+00:01:29,280 --> 00:01:32,220
+uchun kalit so‘zlar, ma’lumot,
+
+36
+00:01:32,220 --> 00:01:34,829
+masalan HTML tegining o‘ziga ham
+
+37
+00:01:34,829 --> 00:01:38,790
+ishora qilishi mumkin.
+
+38
+00:01:38,790 --> 00:01:41,070
+Siz aytishingiz mumkin, bu yerda 
+
+39
+00:01:41,070 --> 00:01:43,950
+sizning hujjatingiz kompyuter tilida emas
+
+40
+00:01:43,950 --> 00:01:46,649
+balki HTMl tilida,
+
+41
+00:01:46,649 --> 00:01:48,689
+lekin inson gaplashadigan ingliz, 
+
+42
+00:01:48,689 --> 00:01:51,689
+fransuz, tibetcha yoki suaxilli tili kabidir.
+
+43
+00:01:51,689 --> 00:01:53,340
+Ushbu hujjatning tarkibini tushinishga
+
+44
+00:01:53,340 --> 00:01:56,189
+yoki talaffuz qilishga harakat
+
+45
+00:01:56,189 --> 00:01:59,130
+qiladigan dasturlar uchun,
+
+46
+00:01:59,130 --> 00:02:01,590
+ko‘rish qobiliyati buzigan foydalanuvchilar uchun
+
+47
+00:02:01,590 --> 00:02:06,390
+CH 80 Ingiliz tilida chat
+
+48
+00:02:06,390 --> 00:02:10,440
+yoki fransuzcha Shah deb talaffuz qilinadi,
+
+49
+00:02:10,440 --> 00:02:12,330
+hozirda yagona element 
+
+50
+00:02:12,330 --> 00:02:13,080
+sarlavha tegidir
+
+51
+00:02:13,080 --> 00:02:16,290
+chunki u HTML hujjatlarida talab qilinadi,
+
+52
+00:02:16,290 --> 00:02:19,290
+qolganlarini keyinroq veb-sayt
+
+53
+00:02:19,290 --> 00:02:22,940
+haqida ko‘proq o‘rganish orqali bilib olasiz.
+

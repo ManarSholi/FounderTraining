@@ -1,0 +1,209 @@
+1
+00:00:00,607 --> 00:00:01,853
+Bem-vindo.
+
+2
+00:00:01,895 --> 00:00:05,286
+Nesta aula, você começará
+a criar páginas para internet
+
+3
+00:00:05,328 --> 00:00:08,222
+e aprenderá
+conceitos importantes
+
+4
+00:00:08,264 --> 00:00:10,550
+do funcionamento
+da linguagem da computação.
+
+5
+00:00:10,592 --> 00:00:13,805
+Falaremos o que é a internet,
+do que ela é composta
+
+6
+00:00:13,847 --> 00:00:15,718
+e o básico do funcionamento.
+
+7
+00:00:15,760 --> 00:00:19,461
+Você editará páginas da internet
+usando um editor de texto
+
+8
+00:00:19,503 --> 00:00:22,582
+e testará seu trabalho
+no navegador.
+
+9
+00:00:22,624 --> 00:00:25,173
+Você aprenderá os princípios
+do HTML,
+
+10
+00:00:25,215 --> 00:00:29,510
+a linguagem que usamos
+para estruturar e compor páginas,
+
+11
+00:00:29,552 --> 00:00:31,413
+e também sobre URLs,
+
+12
+00:00:31,455 --> 00:00:32,984
+os endereços que usamos
+
+13
+00:00:33,026 --> 00:00:35,543
+para referenciar documentos
+e sites na internet.
+
+14
+00:00:35,585 --> 00:00:39,295
+Além de anotar
+tudo o que foi aprendido,
+
+15
+00:00:39,337 --> 00:00:41,967
+você transformará
+suas anotações em uma página.
+
+16
+00:00:42,009 --> 00:00:46,736
+A internet é um grande tópico,
+então por onde começamos?
+
+17
+00:00:46,778 --> 00:00:50,398
+Que tal falarmos
+sobre a constituição da internet?
+
+18
+00:00:50,440 --> 00:00:52,446
+Bem, de certo modo,
+
+19
+00:00:52,488 --> 00:00:56,711
+a internet é uma coleção
+de documentos compostos em HTML,
+
+20
+00:00:56,753 --> 00:01:00,703
+que possui outros recursos,
+como imagens e vídeos,
+
+21
+00:01:00,745 --> 00:01:02,693
+além de programas e serviços
+
+22
+00:01:02,735 --> 00:01:05,804
+que interagem com os documentos
+e os recursos.
+
+23
+00:01:05,846 --> 00:01:08,940
+Tudo que acessamos
+usando o navegador da internet
+
+24
+00:01:08,982 --> 00:01:10,389
+faz parte da internet.
+
+25
+00:01:10,431 --> 00:01:16,140
+Os recursos se espalham em milhares
+de sistemas de computadores.
+
+26
+00:01:16,182 --> 00:01:19,398
+A internet é um sistema
+de hipertexto.
+
+27
+00:01:19,440 --> 00:01:23,292
+Isso significa que os documentos,
+as páginas, os sites
+
+28
+00:01:23,334 --> 00:01:26,087
+e os aplicativos da internet
+podem conter referências
+
+29
+00:01:26,129 --> 00:01:27,597
+para outros documentos,
+
+30
+00:01:27,639 --> 00:01:29,973
+e os usuários podem seguir
+tais referências
+
+31
+00:01:30,015 --> 00:01:32,157
+para encontrar
+informações relacionadas.
+
+32
+00:01:32,199 --> 00:01:36,805
+É isso que fazemos quando clicamos
+em um link de uma postagem
+
+33
+00:01:36,847 --> 00:01:38,174
+ou de um artigo.
+
+34
+00:01:38,216 --> 00:01:42,037
+Chamamos essas referências
+de "hiperlinks" ou "links".
+
+35
+00:01:42,079 --> 00:01:45,549
+A possibilidade de segui-los
+de documento em documento
+
+36
+00:01:45,591 --> 00:01:47,837
+é o que faz da internet
+uma rede.
+
+37
+00:01:47,879 --> 00:01:51,662
+Essa possibilidade do hipertexto
+de referenciar outras informações
+
+38
+00:01:51,704 --> 00:01:56,268
+também é utilizada quando a página
+inclui uma imagem, um vídeo
+
+39
+00:01:56,310 --> 00:01:57,973
+ou um pedaço de código.
+
+40
+00:01:58,015 --> 00:02:00,190
+O hipertexto é importante.
+
+41
+00:02:00,232 --> 00:02:03,501
+Toda tecnologia da internet
+é construída a partir da ideia
+
+42
+00:02:03,543 --> 00:02:06,109
+de documentos
+e outros objetos de dados
+
+43
+00:02:06,151 --> 00:02:08,645
+que podem se ligar
+de forma padrão.
+
+44
+00:02:08,687 --> 00:02:13,311
+A forma como isso funciona
+será mostrada nesta aula.
+

@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:02,520
+There are a few different ways that we can tell
+
+2
+00:00:02,520 --> 00:00:06,330
+the browser to apply CSS styles to our HTML.
+
+3
+00:00:06,330 --> 00:00:08,304
+One of them you've seen already.
+
+4
+00:00:08,304 --> 00:00:11,129
+We can just take the CSS code and put it into
+
+5
+00:00:11,130 --> 00:00:14,440
+the HTML documents head in the style element.
+
+6
+00:00:14,439 --> 00:00:16,759
+But this can turn out to be messy.
+
+7
+00:00:16,760 --> 00:00:19,670
+It's really common for a website to have many,
+
+8
+00:00:19,670 --> 00:00:25,005
+many HTML documents, and to want to apply the same styles to all of them.
+
+9
+00:00:25,004 --> 00:00:30,599
+Copying the same CSS code to each of those pages would be a big waste of space.
+
+10
+00:00:30,600 --> 00:00:32,300
+If we wanted to make a change to it,
+
+11
+00:00:32,299 --> 00:00:34,820
+we'd have to change all of those files.
+
+12
+00:00:34,820 --> 00:00:37,310
+So, there's another way we can do it.
+
+13
+00:00:37,310 --> 00:00:40,455
+We can put the CSS into a separate file,
+
+14
+00:00:40,454 --> 00:00:43,320
+and link to that file from the HTML.
+
+15
+00:00:43,320 --> 00:00:51,365
+The way we do this is to put a special tag into the HTML head link rel equals stylesheet,
+
+16
+00:00:51,365 --> 00:00:56,855
+href equals, and then the URL or the file name of the CSS file.
+
+17
+00:00:56,854 --> 00:00:59,689
+Remember the rules for relative URLs?
+
+18
+00:00:59,689 --> 00:01:03,439
+If we're using a CSS file that's somewhere else on the web,
+
+19
+00:01:03,439 --> 00:01:05,635
+we'll put a full URL in here.
+
+20
+00:01:05,635 --> 00:01:09,880
+But if the CSS file is in the same directory as our HTML,
+
+21
+00:01:09,879 --> 00:01:11,584
+and it's called say,
+
+22
+00:01:11,584 --> 00:01:16,030
+style.css, then we can just put that file name here.
+
+23
+00:01:16,030 --> 00:01:21,489
+This link element goes inside the head element of the HTML file.
+
+24
+00:01:21,489 --> 00:01:25,194
+We can put it right after the title element for instance.
+
+25
+00:01:25,194 --> 00:01:28,349
+When the browser loads this HTML file,
+
+26
+00:01:28,349 --> 00:01:30,109
+it will automatically load up
+
+27
+00:01:30,109 --> 00:01:35,159
+styles.css and apply those styles to the elements in this file.
+

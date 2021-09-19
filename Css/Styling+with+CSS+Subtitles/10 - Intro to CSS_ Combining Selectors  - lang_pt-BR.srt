@@ -1,0 +1,91 @@
+1
+00:00:00,934 --> 00:00:04,270
+O CSS também permite combinar
+seletores.
+
+2
+00:00:04,304 --> 00:00:06,673
+Por exemplo,
+você pode querer dizer:
+
+3
+00:00:06,706 --> 00:00:08,808
+"Deixe o texto enfatizado
+em vermelho,
+
+4
+00:00:08,842 --> 00:00:11,244
+mas só se for parte
+de um item de lista."
+
+5
+00:00:11,277 --> 00:00:12,979
+Você faria isto assim.
+
+6
+00:00:13,013 --> 00:00:14,848
+Na parte do seletor da regra,
+
+7
+00:00:14,881 --> 00:00:17,984
+você escreve o seletor
+para o elemento pai li
+
+8
+00:00:18,018 --> 00:00:20,687
+e para o elemento filho em.
+
+9
+00:00:20,720 --> 00:00:22,655
+Quando juntos,
+este seletor significa:
+
+10
+00:00:22,689 --> 00:00:27,761
+"Selecione todo elemento em
+que seja filho de um elemento li."
+
+11
+00:00:27,794 --> 00:00:33,733
+Com este estilo aplicado,
+este HTML vai ficar assim.
+
+12
+00:00:33,767 --> 00:00:36,770
+O elemento em no item de lista
+fica vermelho,
+
+13
+00:00:36,803 --> 00:00:40,674
+mas o outro elemento em não,
+porque não é parte de um li.
+
+14
+00:00:40,707 --> 00:00:43,510
+Este tipo de seletor
+que usa um espaço
+
+15
+00:00:43,543 --> 00:00:45,378
+para criar
+um seletor combinado,
+
+16
+00:00:45,412 --> 00:00:50,016
+"li" espaço "em",
+é chamado de "seletor descendente".
+
+17
+00:00:50,050 --> 00:00:54,554
+Existem muitos outros tipos
+de seletores em CSS.
+
+18
+00:00:54,587 --> 00:00:58,892
+Sugiro que veja a documentação
+de seletores CSS da Mozilla
+
+19
+00:00:58,925 --> 00:01:01,061
+se quiser ver mais deles.
+

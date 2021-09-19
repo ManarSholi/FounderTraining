@@ -1,0 +1,180 @@
+1
+00:00:00,359 --> 00:00:05,302
+Mostrarei o que eu fiz para
+deixar o HTML com aquele design.
+
+2
+00:00:05,344 --> 00:00:09,510
+A primeira coisa foi criar uma borda
+em volta de cada item de lista.
+
+3
+00:00:09,552 --> 00:00:11,983
+Embora eu não precise dela
+na versão final,
+
+4
+00:00:12,025 --> 00:00:14,630
+isso me ajuda a ver
+como estão sendo dispostas.
+
+5
+00:00:14,672 --> 00:00:16,838
+Depois configurei
+a largura e a altura
+
+6
+00:00:16,880 --> 00:00:20,047
+tanto da caixa grande
+quanto das pequenas de dentro.
+
+7
+00:00:20,089 --> 00:00:23,391
+O contêiner terá 300px
+de altura e de largura
+
+8
+00:00:23,433 --> 00:00:26,927
+e cada item terá 90px
+de altura e de largura.
+
+9
+00:00:27,544 --> 00:00:30,983
+Isto está parecendo
+com uma longa coluna de caixas.
+
+10
+00:00:31,025 --> 00:00:33,422
+Eu ativarei o flex.
+
+11
+00:00:33,464 --> 00:00:37,025
+Agora tenho
+uma linha de caixas.
+
+12
+00:00:37,639 --> 00:00:41,419
+Se eu inserir
+"flex-wrap: wrap",
+
+13
+00:00:41,461 --> 00:00:44,154
+já veremos algum progresso.
+
+14
+00:00:44,196 --> 00:00:46,572
+Isto está bem parecido
+com o layout desejado.
+
+15
+00:00:46,614 --> 00:00:50,594
+O texto está pequeno demais,
+mas podemos mudar isso.
+
+16
+00:00:50,636 --> 00:00:53,148
+Configurarei a fonte
+bem grande, com 80px.
+
+17
+00:00:53,932 --> 00:00:58,681
+O design usou a fonte sans-serif
+em vez da fonte serif padrão.
+
+18
+00:00:58,723 --> 00:01:00,602
+Eu adicionarei isso a seguir.
+
+19
+00:01:00,644 --> 00:01:04,842
+A cor de fundo é azul-claro.
+Vamos adicionar isso também.
+
+20
+00:01:04,884 --> 00:01:06,771
+Agora estamos bem perto.
+
+21
+00:01:06,813 --> 00:01:09,810
+No design, há uma margem
+entre as caixas,
+
+22
+00:01:09,852 --> 00:01:13,283
+então eu digitarei
+"margin: 5px".
+
+23
+00:01:13,963 --> 00:01:15,882
+Isso não parece bom.
+
+24
+00:01:15,924 --> 00:01:19,549
+Ficaram largos demais
+por conta da borda que eu adicionei.
+
+25
+00:01:19,591 --> 00:01:21,858
+Vou remover isso.
+
+26
+00:01:21,900 --> 00:01:24,082
+Agora precisamos
+remover os pontos.
+
+27
+00:01:24,124 --> 00:01:28,426
+Eles estão aqui porque o HTML
+começou isto como itens de lista.
+
+28
+00:01:28,468 --> 00:01:30,674
+Isso é algo
+que precisarei pesquisar.
+
+29
+00:01:30,716 --> 00:01:36,706
+Nos resultados achei
+"list-style: none".
+
+30
+00:01:36,748 --> 00:01:38,363
+Vou experimentar.
+
+31
+00:01:38,405 --> 00:01:40,002
+Funcionou.
+
+32
+00:01:40,044 --> 00:01:41,762
+Só há mais uma coisa errada:
+
+33
+00:01:41,804 --> 00:01:45,074
+os Xs e os círculos
+não estão centralizados
+
+34
+00:01:45,116 --> 00:01:47,881
+e eles precisam estar centralizados.
+Vamos pesquisar.
+
+35
+00:01:47,923 --> 00:01:51,418
+Motor de busca:
+"centralizar texto no CSS".
+
+36
+00:01:51,460 --> 00:01:55,847
+Encontrei a resposta
+na documentação do CSS no MDN.
+
+37
+00:01:55,889 --> 00:01:58,990
+Uso "text-align: center".
+
+38
+00:01:59,032 --> 00:02:02,221
+Com isso, igualamos o design
+ao original. Demais!
+

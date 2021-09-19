@@ -1,0 +1,254 @@
+1
+00:00:00,422 --> 00:00:03,863
+O que seria da internet
+sem as fotos de gatos,
+
+2
+00:00:03,905 --> 00:00:07,078
+sem os mapas,
+as fotos das notícias,
+
+3
+00:00:07,120 --> 00:00:10,333
+os diagramas
+e os banners de anúncio?
+
+4
+00:00:10,375 --> 00:00:14,366
+Imagens são um dos motivos
+pelos quais a internet é um sucesso.
+
+5
+00:00:14,408 --> 00:00:17,070
+Você deve estar se perguntando
+como incluir imagens
+
+6
+00:00:17,112 --> 00:00:18,925
+em suas páginas.
+
+7
+00:00:18,967 --> 00:00:21,552
+E não deve ser surpresa
+nenhuma
+
+8
+00:00:21,594 --> 00:00:24,904
+que há um elemento HTML
+para isso.
+
+9
+00:00:24,946 --> 00:00:28,013
+O elemento é o <img>,
+de imagem,
+
+10
+00:00:28,055 --> 00:00:31,373
+e é muito parecido
+como elemento <a>, de links,
+
+11
+00:00:31,415 --> 00:00:33,821
+mas com algumas diferenças.
+
+12
+00:00:33,863 --> 00:00:37,838
+O elemento <a>, de links,
+usa um atributo único
+
+13
+00:00:37,880 --> 00:00:43,878
+chamado "href", cujo valor é o URL
+da página com a qual nos ligaremos,
+
+14
+00:00:43,920 --> 00:00:47,301
+mas o elemento <img>
+usa dois atributos,
+
+15
+00:00:47,343 --> 00:00:50,109
+o src e o alt.
+
+16
+00:00:50,151 --> 00:00:52,813
+"Src" quer dizer "fonte"
+em inglês,
+
+17
+00:00:52,855 --> 00:00:57,798
+e é o URL da imagem
+que desejamos exibir na página.
+
+18
+00:00:57,840 --> 00:01:00,159
+E "alt" quer dizer
+"alternativa",
+
+19
+00:01:00,201 --> 00:01:02,909
+e é uma descrição em texto
+da imagem.
+
+20
+00:01:02,951 --> 00:01:07,765
+O texto que aparece aqui
+é geralmente chamado de "texto alt".
+
+21
+00:01:07,807 --> 00:01:12,222
+Precisamos incluir os dois atributos
+na composição do HTML.
+
+22
+00:01:12,264 --> 00:01:16,845
+O atributo src informa ao navegador
+de onde obter a imagem,
+
+23
+00:01:16,887 --> 00:01:18,965
+qual é a fonte da imagem.
+
+24
+00:01:19,007 --> 00:01:21,869
+O atributo alt
+informa ao navegador
+
+25
+00:01:21,911 --> 00:01:23,461
+qual texto exibir
+
+26
+00:01:23,503 --> 00:01:26,173
+caso ele não consiga
+exibir a imagem.
+
+27
+00:01:26,215 --> 00:01:28,950
+Por exemplo, o texto alt
+será exibido
+
+28
+00:01:28,992 --> 00:01:31,502
+se o arquivo
+não estiver no servidor,
+
+29
+00:01:31,544 --> 00:01:34,164
+se a conexão da rede do usuário
+parar de funcionar
+
+30
+00:01:34,206 --> 00:01:35,901
+antes de a imagem
+ser carregada -
+
+31
+00:01:35,943 --> 00:01:38,388
+o que é comum
+nos celulares, por exemplo -,
+
+32
+00:01:38,430 --> 00:01:40,787
+ou se o usuário
+não puder ver imagens,
+
+33
+00:01:40,829 --> 00:01:42,781
+por exemplo, se forem cegos.
+
+34
+00:01:42,823 --> 00:01:44,428
+Lembre-se de uma coisa:
+
+35
+00:01:44,470 --> 00:01:48,100
+adicionar um elemento <img>
+no arquivo HTML
+
+36
+00:01:48,142 --> 00:01:52,741
+não copiará o arquivo de imagem
+no arquivo HTML,
+
+37
+00:01:52,783 --> 00:01:56,172
+isso só informa ao navegador
+onde encontrar o arquivo de imagem,
+
+38
+00:01:56,214 --> 00:01:58,317
+qual é a fonte dele.
+
+39
+00:01:58,359 --> 00:02:01,085
+O arquivo de imagem
+precisará estar em algum lugar,
+
+40
+00:02:01,127 --> 00:02:04,646
+seja no disco local
+ou no servidor.
+
+41
+00:02:04,688 --> 00:02:09,252
+O elemento <img> é um elemento
+vazio ou void, como o <br>,
+
+42
+00:02:09,294 --> 00:02:11,389
+ele não tem nenhum
+conteúdo de texto
+
+43
+00:02:11,431 --> 00:02:14,124
+e não há tag de encerramento.
+
+44
+00:02:14,166 --> 00:02:16,991
+Lembre-se, os conteúdos
+de um elemento HTML
+
+45
+00:02:17,033 --> 00:02:20,877
+seriam o texto entre as tags
+de abertura e encerramento,
+
+46
+00:02:20,919 --> 00:02:23,093
+como no elemento <p>.
+
+47
+00:02:23,135 --> 00:02:27,644
+No sentido que usamos aqui,
+o src e o alt de uma tag <img>
+
+48
+00:02:27,686 --> 00:02:29,149
+não são conteúdos,
+
+49
+00:02:29,191 --> 00:02:32,661
+são atributos HTML
+do elemento.
+
+50
+00:02:32,703 --> 00:02:35,875
+O elemento <img>
+é um elemento de linha.
+
+51
+00:02:35,917 --> 00:02:39,197
+Podemos inserir uma imagem
+no meio de um texto,
+
+52
+00:02:39,239 --> 00:02:41,780
+e se a imagem for maior
+do que o texto em volta,
+
+53
+00:02:41,822 --> 00:02:43,930
+ele espaçará as linhas
+do texto.
+

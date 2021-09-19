@@ -1,0 +1,176 @@
+1
+00:00:00,000 --> 00:00:04,405
+Okay. So, you've seen a bunch of things that you can do with CSS,
+
+2
+00:00:04,405 --> 00:00:06,860
+but here's a question we haven't answered yet,
+
+3
+00:00:06,860 --> 00:00:11,095
+what's so cascading about cascading style sheets?
+
+4
+00:00:11,095 --> 00:00:17,554
+Well, cascading has to do with how each node in the dom tree gets its styles defined.
+
+5
+00:00:17,554 --> 00:00:21,420
+Basically, any style property defined on a node will
+
+6
+00:00:21,420 --> 00:00:25,455
+apply as a default to all that nodes descendants.
+
+7
+00:00:25,454 --> 00:00:29,864
+Let's say that we have a document whose body looks like this,
+
+8
+00:00:29,864 --> 00:00:33,625
+and we have CSS rules like this.
+
+9
+00:00:33,625 --> 00:00:37,395
+What we want to know is what color will each
+
+10
+00:00:37,395 --> 00:00:41,035
+of these text nodes become when it's displayed in the browser.
+
+11
+00:00:41,034 --> 00:00:47,509
+To find out, we'll walk through the dom tree visiting each node starting at the top.
+
+12
+00:00:47,509 --> 00:00:50,390
+If there's a CSS rule for that node,
+
+13
+00:00:50,390 --> 00:00:52,384
+we'll apply that style to it,
+
+14
+00:00:52,384 --> 00:00:56,570
+but each node will also inherit style from its parent node.
+
+15
+00:00:56,570 --> 00:00:58,539
+We start with the body node.
+
+16
+00:00:58,539 --> 00:00:59,820
+There's a rule for that.
+
+17
+00:00:59,820 --> 00:01:03,850
+This rule says to make this white text on a black background.
+
+18
+00:01:03,850 --> 00:01:07,250
+Then we'll go down the left branch to h1,
+
+19
+00:01:07,250 --> 00:01:12,155
+we don't have a rule for h1 so it gets the same style as its parent.
+
+20
+00:01:12,155 --> 00:01:15,349
+Then we go to the text node "All about."
+
+21
+00:01:15,349 --> 00:01:18,674
+That gets the same style as its parent the h1.
+
+22
+00:01:18,674 --> 00:01:21,299
+Over to the em node here,
+
+23
+00:01:21,299 --> 00:01:25,554
+we have two different rules that might give this node its color.
+
+24
+00:01:25,555 --> 00:01:30,075
+We've got a rule for EM and another rule for h1 em.
+
+25
+00:01:30,075 --> 00:01:33,765
+In this case, the most specific selector applies.
+
+26
+00:01:33,765 --> 00:01:36,549
+Here, that's the h1 em rule.
+
+27
+00:01:36,549 --> 00:01:38,884
+So this gets to be orange not red,
+
+28
+00:01:38,885 --> 00:01:43,335
+but the h1 em rule doesn't define the background color,
+
+29
+00:01:43,334 --> 00:01:45,974
+so, that'll be inherited from above.
+
+30
+00:01:45,974 --> 00:01:48,784
+This text node that says CSS,
+
+31
+00:01:48,784 --> 00:01:52,890
+that'll also inherit the orange on black style from its parent.
+
+32
+00:01:52,890 --> 00:01:55,034
+Over to the right side of the tree,
+
+33
+00:01:55,034 --> 00:01:58,359
+the p node matches the CSS rule for p,
+
+34
+00:01:58,359 --> 00:02:00,170
+so, it gets pink,
+
+35
+00:02:00,170 --> 00:02:02,405
+p for pink paragraph.
+
+36
+00:02:02,405 --> 00:02:06,530
+Still inheriting the black background from the body though,
+
+37
+00:02:06,530 --> 00:02:11,905
+and those will cascade down to this text node but over here,
+
+38
+00:02:11,905 --> 00:02:14,455
+we've got an em node that will be painted red,
+
+39
+00:02:14,455 --> 00:02:18,725
+and that'll cascade down to the text node below. Awesome.
+
+40
+00:02:18,724 --> 00:02:23,810
+So, that's what so cascading about cascading style sheets.
+
+41
+00:02:23,810 --> 00:02:28,099
+Each style property that's defined on a node will cascade
+
+42
+00:02:28,099 --> 00:02:32,509
+or spill down the tree to that node's children and descendants.
+
+43
+00:02:32,509 --> 00:02:37,459
+The black background color in this example cascaded to every node on the tree,
+
+44
+00:02:37,460 --> 00:02:42,840
+but each of these text colors only cascaded within a particular sub-tree.
+

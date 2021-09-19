@@ -1,0 +1,71 @@
+1
+00:00:00,314 --> 00:00:02,848
+Vimos como realizar
+operações básicas
+
+2
+00:00:02,890 --> 00:00:06,129
+e comparações com números
+e strings.
+
+3
+00:00:06,171 --> 00:00:07,690
+Sempre que comparamos dados,
+
+4
+00:00:07,732 --> 00:00:11,449
+o resultado será um valor
+verdadeiro ou falso.
+
+5
+00:00:11,491 --> 00:00:15,457
+Isso é importante porque o 3º tipo
+de dado primitivo, o booleano,
+
+6
+00:00:15,499 --> 00:00:17,561
+somente inclui
+esses dois valores.
+
+7
+00:00:17,603 --> 00:00:21,809
+Imagine: sim ou não, ligado
+ou desligado, verdadeiro ou falso,
+
+8
+00:00:21,851 --> 00:00:23,274
+uns e zeros.
+
+9
+00:00:23,316 --> 00:00:26,745
+Esses valores representam
+a mesma coisa.
+
+10
+00:00:26,787 --> 00:00:30,841
+Usamos a lógica booleana
+para pensar os problemas.
+
+11
+00:00:30,883 --> 00:00:34,186
+Um código executa ou não,
+não há meio-termo,
+
+12
+00:00:34,228 --> 00:00:35,754
+pelo menos não na programação.
+
+13
+00:00:35,802 --> 00:00:36,903
+Nesta seção,
+
+14
+00:00:36,937 --> 00:00:40,081
+usaremos os booleanos para comparar
+dados de diferentes tipos
+
+15
+00:00:40,123 --> 00:00:43,106
+para aprender diferentes formas
+de expressar a igualdade.
+

@@ -1,0 +1,252 @@
+1
+00:00:00,000 --> 00:00:05,410
+Ushbu videoda sizga HTML fayllaringiz bilan ishlash uchun oddiy o‘rnatishni ko‘rsataman.
+
+2
+00:00:05,410 --> 00:00:06,839
+Chap tomonda
+
+3
+00:00:06,839 --> 00:00:08,144
+mening shaxsiy matn muharririm bor
+
+4
+00:00:08,144 --> 00:00:10,695
+va o‘ng tomonda veb-brauzerim bor.
+
+5
+00:00:10,695 --> 00:00:13,570
+Hozir juda ko‘p matn muharrirlari bor,
+
+6
+00:00:13,570 --> 00:00:15,345
+har biri o‘ziga xos xususiyatlarga ega.
+
+7
+00:00:15,345 --> 00:00:18,690
+Aksariyat muharrirlarning ba’zi bir asosiy xususiyatlari, ular haqiqatan ham qulay,
+
+8
+00:00:18,690 --> 00:00:21,149
+sizga aytishga yordam beradigan sintaksisni ta’kidlash kabi
+
+9
+00:00:21,149 --> 00:00:24,690
+turli xil kod va chiziq raqamlari mavjud,
+
+10
+00:00:24,690 --> 00:00:27,844
+shunda kodning ma’lum bir qatoriga osongina kirishingiz mumkin.
+
+11
+00:00:27,844 --> 00:00:30,829
+Biz sizga ba’zi sevimli matn tahrirlovchilariga ba’zi havolalarni ko‘rsatamiz, 
+
+12
+00:00:30,829 --> 00:00:34,225
+ammo tajriba o‘tkazishda o‘zingizni erkin his qiling va qaysi biri sizga ko‘proq yoqishini bilib oling.
+
+13
+00:00:34,225 --> 00:00:37,140
+Agar siz bizning ro‘yxatimizda bo‘lmagan muharrirni tanlasangiz, 
+
+14
+00:00:37,140 --> 00:00:39,255
+Microsoft Word yoki Google Docs yoki sahifalar kabi 
+
+15
+00:00:39,255 --> 00:00:42,579
+matn protsessoridan emas, balki matn muharriridan foydalanayotganingizga
+
+16
+00:00:42,579 --> 00:00:44,659
+ishonch hosil qiling.
+
+17
+00:00:44,659 --> 00:00:48,979
+Matn muharriri oddiy elementar matn fayllarini tahrir qiladi.
+
+18
+00:00:48,979 --> 00:00:53,469
+Bundan farqli o‘laroq, matn protsessorlari shunchaki matnni tahrirlash bilan kifoyalanmaydi.
+
+19
+00:00:53,469 --> 00:00:56,929
+Ular shuningdek, fayllaringizga ma’lumot qo‘shadilar, matnni formatlash, 
+
+20
+00:00:56,929 --> 00:01:00,734
+shriftni o‘rnatish, hatto jadvallar va rasmlarni qo‘shish kabi.
+
+21
+00:01:00,734 --> 00:01:03,590
+Agar kodni matn protsessorida tahrirlashga urinsangiz,
+
+22
+00:01:03,590 --> 00:01:06,620
+bu oddiy matn faylini yaratgandek bo‘ladi.
+
+23
+00:01:06,620 --> 00:01:11,000
+Ammo faylda aslida sizning kodingiz buzilishiga olib keladigan yashirin ma’lumotlar mavjud.
+
+24
+00:01:11,000 --> 00:01:15,739
+Takrorlayman, quyida biz bog‘langan kabi matn muharriridan foydalanayotganingizga 
+
+25
+00:01:15,739 --> 00:01:18,665
+va yaratayotgan fayllaringiz oddiy matnli fayllar ekanligiga ishonch hosil qiling.
+
+26
+00:01:18,665 --> 00:01:21,194
+Shunday qilib, bular sozlash, o‘rnatish bilan bog‘liq elementar tushunchalar edi.
+
+27
+00:01:21,194 --> 00:01:22,890
+Men matn muharririmga
+
+28
+00:01:22,890 --> 00:01:25,609
+ba’zi matnlarni kiritmoqchiman.
+
+29
+00:01:25,609 --> 00:01:29,795
+Keyin brauzer uni HTML fayl sifatida tan olishiga 
+
+30
+00:01:29,795 --> 00:01:33,450
+ishonch hosil qilish uchun men faylimni saqlayman.
+
+31
+00:01:33,450 --> 00:01:41,239
+Fayl nomidagi .html kengaytmasidan foydalanganimga ishonch hosil qilaman.
+
+32
+00:01:41,239 --> 00:01:44,510
+Mana men faylimni saqlagan papka.
+
+33
+00:01:44,510 --> 00:01:47,905
+Men faqat ushbu faylni ushlab, brauzerimga olib boraman.
+
+34
+00:01:47,905 --> 00:01:49,605
+Shunday qilib, brauzer uni ochadi 
+
+35
+00:01:49,605 --> 00:01:53,609
+va siz ko‘rib turganingizdek, men faylimga yozgan matnlar mavjud.
+
+36
+00:01:53,609 --> 00:01:56,989
+Agar siz Macda bo‘lsangiz, matn muharriri sarlavhasi satridan
+
+37
+00:01:56,989 --> 00:02:00,254
+belgini tortib olib, uni brauzeringizga 
+
+38
+00:02:00,254 --> 00:02:02,454
+olib borishingiz mumkin.
+
+39
+00:02:02,454 --> 00:02:04,665
+Bu xuddi shu ishni amalga oshiradi 
+
+40
+00:02:04,665 --> 00:02:06,810
+yoki faylni olib olish o‘rniga, 
+
+41
+00:02:06,810 --> 00:02:08,689
+siz brauzeringizning File menyusiga o‘tishingiz 
+
+42
+00:02:08,689 --> 00:02:10,699
+va uni shu yo‘l bilan bajarishni xohlasangiz, uni o‘sha yerdan ochishingiz mumkin.
+
+43
+00:02:10,699 --> 00:02:14,629
+Endi menda bu yerda kod bilan matnli muharririm bor
+
+44
+00:02:14,629 --> 00:02:18,289
+va mening brauzerim ushbu kodni bu yerda qanday ochilishini namoyish etadi.
+
+45
+00:02:18,289 --> 00:02:21,004
+Agar kodga o‘zgartirish kiritsam, 
+
+46
+00:02:21,004 --> 00:02:24,590
+masalan uni formatlash uchun ba’zi HTML-fayllarni qo‘shsam,
+
+47
+00:02:24,590 --> 00:02:28,349
+u darhol brauzerda ko‘rinmaydi.
+
+48
+00:02:28,349 --> 00:02:30,639
+Uni saqlashim kerak 
+
+49
+00:02:30,639 --> 00:02:33,330
+va keyin yangilash tugmasi bosiladi,
+
+50
+00:02:33,330 --> 00:02:35,944
+keyin men qilgan o‘zgarishlar bo‘ladi.
+
+51
+00:02:35,944 --> 00:02:38,270
+Endi buni amalga oshirishning faqat bitta usuli.
+
+52
+00:02:38,270 --> 00:02:41,569
+Dasturlash muhitini sozlash uchun juda ko‘p turli xil usullar mavjud
+
+53
+00:02:41,569 --> 00:02:44,995
+va siz o‘zingizga mos keladigan istalgan yondashuvni tanlashda o‘zingizni erkin his qilishingiz kerak.
+
+54
+00:02:44,995 --> 00:02:49,400
+Muhimi shundaki, kodni tahrirlashingiz mumkin bo‘lgan va biron bir narsani sinab ko‘rishingiz 
+
+55
+00:02:49,400 --> 00:02:54,520
+mumkin bo‘lgan joyda bu o‘zgarishlarning natijalarini osongina ko‘rishingiz mumkin.
+
+56
+00:02:54,520 --> 00:02:59,360
+Umuman olganda, men bitta to‘plamda bir nechta kodni yoza olmayman,
+
+57
+00:02:59,360 --> 00:03:01,569
+chunki biror narsa noto‘g‘ri ketsa, men uni topib, tuzatishim kerak.
+
+58
+00:03:01,569 --> 00:03:02,745
+Kod ustida ishlayotganimda,
+
+59
+00:03:02,745 --> 00:03:06,849
+ko‘p tajriba o‘tkazishni va natijalarni tezkorlik bilan sinab ko‘rishni yaxshi ko‘raman.
+
+60
+00:03:06,849 --> 00:03:10,615
+Shundagina o‘zgarishlarning men kutganlarimga mos kelishini ko‘rishim mumkin.
+
+61
+00:03:10,615 --> 00:03:12,824
+Shunday qilib, siz bularni sozlash bilan birga, 
+
+62
+00:03:12,824 --> 00:03:15,995
+sozlash sizning ishingiz haqida bunday tezkor fikr-mulohazalarni olishga yordam berishiga ishonch hosil qilsangiz, 
+
+63
+00:03:15,995 --> 00:03:20,250
+sizga eng yaxshi narsalarni o‘rganishga yordam beradi.
+

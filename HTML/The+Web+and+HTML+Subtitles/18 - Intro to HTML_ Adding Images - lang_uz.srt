@@ -1,0 +1,172 @@
+1
+00:00:00,000 --> 00:00:03,815
+Mushuklarning rasmlari xaritalarisiz,
+
+2
+00:00:03,815 --> 00:00:07,110
+yoki yangi fotosuratlar, diagrammalar,
+
+3
+00:00:07,110 --> 00:00:10,160
+va reklamalar bannerlarsiz internet nima bo‘lar edi?
+
+4
+00:00:10,160 --> 00:00:14,085
+Rasmlar Internetning juda muvaffaqiyatli ekanligining muhim qismidir.
+
+5
+00:00:14,085 --> 00:00:19,175
+Siz o‘zingizni veb-sahifangizga rasmlarni qanday kiritish haqida savol tug‘ilgandir.
+
+6
+00:00:19,175 --> 00:00:21,629
+Bu ajablanarli emas.
+
+7
+00:00:21,629 --> 00:00:24,710
+Buning uchun HTML elementi mavjud.
+
+8
+00:00:24,710 --> 00:00:27,995
+Ushbu element rasm uchun img va
+
+9
+00:00:27,995 --> 00:00:33,469
+element bilan bir xil ishlaydi, ammo ba’zi muhim farqlar bilan.
+
+10
+00:00:33,469 --> 00:00:37,969
+Havolalar uchun element href deb nomlangan
+
+11
+00:00:37,969 --> 00:00:43,759
+bitta atributdan foydalanadi, uning qiymati siz bog‘lanmoqchi bo‘lgan sahifaning URL manzilidir.
+
+12
+00:00:43,759 --> 00:00:49,895
+Ammo img elementi ikkita atributdan foydalanadi: src va alt.
+
+13
+00:00:49,895 --> 00:00:53,359
+src manba bu sizning veb-sahifangizga
+
+14
+00:00:53,359 --> 00:00:57,604
+joylashtirmoqchi bo‘lgan rasmning URL manzili.
+
+15
+00:00:57,604 --> 00:01:02,854
+Alt alternativani anglatadi va tasvirning matnli tavsifi.
+
+16
+00:01:02,854 --> 00:01:07,515
+Bu yerda paydo bo‘lgan matn odatda alternativa deb nomlanadi.
+
+17
+00:01:07,515 --> 00:01:12,109
+Endi HTMLni yozganingizda, ikkala atributni ham qo‘shishingiz kerak.
+
+18
+00:01:12,109 --> 00:01:16,855
+src atributi brauzerga tasvirni qayerdan olish,
+
+19
+00:01:16,855 --> 00:01:19,064
+kerakligini, tasvir manbai nima ekanligini anglatadi.
+
+20
+00:01:19,064 --> 00:01:22,040
+Alt atributi brauzerga qaysi matnni 
+
+21
+00:01:22,040 --> 00:01:25,935
+tasvirlay olmasligini aytadi.
+
+22
+00:01:25,935 --> 00:01:32,090
+Masalan, fayl serverda bo‘lmasa yoki ushbu rasmni yuklab olishdan
+
+23
+00:01:32,090 --> 00:01:35,120
+oldin foydalanuvchining tarmoq ulanishlari ishlamasa,
+
+24
+00:01:35,120 --> 00:01:38,465
+muqobil matn paydo bo‘ladi va bu mobil qurilmalar uchun odatiy holdir.
+
+25
+00:01:38,465 --> 00:01:40,924
+Yoki foydalanuvchilar rasmlarni ko‘rmasa,
+
+26
+00:01:40,924 --> 00:01:42,769
+masalan, ular ko‘r bo‘lsa.
+
+27
+00:01:42,769 --> 00:01:44,510
+Esda tutish kerak bo‘lgan narsa: img elementini sizning HTMl
+
+28
+00:01:44,510 --> 00:01:48,364
+faylingizga yozib qoldirish
+
+29
+00:01:48,364 --> 00:01:52,609
+rasm faylingizni HTML faylingizga ko‘chirmaydi.
+
+30
+00:01:52,609 --> 00:01:56,049
+Bu shunchaki brauzerga ushbu rasm faylni qayerdan topish kerakligini,
+
+31
+00:01:56,049 --> 00:01:58,150
+uning manbasi nima ekanligini aytadi.
+
+32
+00:01:58,150 --> 00:02:01,155
+Rasm fayli hali ham lokal disk
+
+33
+00:02:01,155 --> 00:02:04,620
+yoki serverning biror-bir joyida joylashgan bo‘lishi kerak.
+
+34
+00:02:04,620 --> 00:02:09,419
+IMG elementi bo‘sh elementdir, masalan br kabi.
+
+35
+00:02:09,419 --> 00:02:13,974
+U hech qanday matn tarkibiga ega emas va unga yaqin teg yo‘q.
+
+36
+00:02:13,974 --> 00:02:17,675
+Yodda tutingki, HTML elementning tarkibi p 
+
+37
+00:02:17,675 --> 00:02:22,884
+elementida bo‘lgani kabi, ochiq va yopiq teglar orasidagi matn bo‘ladi.
+
+38
+00:02:22,884 --> 00:02:24,879
+Bu yerda ishlatadigan ma’noda src va alt rasm,
+
+39
+00:02:24,879 --> 00:02:29,180
+tegi mazmunga ega emas, ular,
+
+40
+00:02:29,180 --> 00:02:32,485
+ushbu elementning HTML atributlari.
+
+41
+00:02:32,485 --> 00:02:35,895
+IMG elementi ichki element.
+
+42
+00:02:35,895 --> 00:02:39,159
+Siz rasmni matnning o‘rtasiga qo‘yishingiz mumkin.
+
+43
+00:02:39,159 --> 00:02:44,319
+Agar rasm atrofidagi matndan uzunroq bo‘lsa, unda matn atrofida bo‘sh joylar hosil qiladi.
+

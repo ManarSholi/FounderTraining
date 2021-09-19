@@ -1,0 +1,169 @@
+1
+00:00:00,033 --> 00:00:03,000
+A linguagem de programação
+é usada para o computador,
+
+2
+00:00:03,033 --> 00:00:05,268
+mas, conforme o código
+fica mais complexo,
+
+3
+00:00:05,301 --> 00:00:07,134
+fica cada vez mais difícil
+
+4
+00:00:07,167 --> 00:00:10,502
+ler o código
+e entender o que ele faz.
+
+5
+00:00:10,535 --> 00:00:12,602
+Os comentários são utilizados
+
+6
+00:00:12,636 --> 00:00:14,368
+para esclarecer o código
+
+7
+00:00:14,402 --> 00:00:16,301
+em uma linguagem
+próxima da nossa.
+
+8
+00:00:16,335 --> 00:00:20,134
+No JavaScript, um comentário
+é um texto após duas barras.
+
+9
+00:00:20,167 --> 00:00:23,000
+Podemos escrever
+um comentário por linha, assim,
+
+10
+00:00:23,033 --> 00:00:27,100
+ou um texto entre barra,
+asterisco e asterisco, barra
+
+11
+00:00:27,134 --> 00:00:29,870
+quando precisarmos escrever
+um bloco de comentários.
+
+12
+00:00:29,904 --> 00:00:32,870
+Eles não são executados
+pelo interpretador do JavaScript,
+
+13
+00:00:32,904 --> 00:00:35,736
+então podemos escrever
+o que quisermos no comentário,
+
+14
+00:00:35,770 --> 00:00:38,803
+mas tentamos fazer algo
+mais útil do que isso.
+
+15
+00:00:38,837 --> 00:00:41,469
+Este é um código
+que escrevi há algum tempo,
+
+16
+00:00:41,502 --> 00:00:44,770
+e a função dele
+não está muito clara.
+
+17
+00:00:44,803 --> 00:00:47,703
+Parece que há uma função,
+um loop for,
+
+18
+00:00:47,736 --> 00:00:50,569
+algumas variáveis
+com nomes bem terríveis...
+
+19
+00:00:50,602 --> 00:00:53,469
+Não se preocupe em saber
+o que isto significa.
+
+20
+00:00:53,532 --> 00:00:55,293
+Mas saiba que,
+
+21
+00:00:55,327 --> 00:00:57,803
+se eu tivesse deixado
+comentários como estes,
+
+22
+00:00:57,837 --> 00:01:00,435
+seria mais fácil para você
+e para mim
+
+23
+00:01:00,469 --> 00:01:04,100
+lembrar a função deste código.
+
+24
+00:01:04,134 --> 00:01:08,469
+Agora eu sei que esta função
+inverte a ordem dos caracteres -
+
+25
+00:01:08,502 --> 00:01:12,067
+através de um loop
+em reverso -
+
+26
+00:01:12,100 --> 00:01:14,268
+e adiciona isso
+a uma nova palavra.
+
+27
+00:01:14,301 --> 00:01:17,268
+Alguns quizzes deste curso
+podem trazer comentários
+
+28
+00:01:17,301 --> 00:01:20,101
+que apresentam dicas
+ou instruções.
+
+29
+00:01:20,134 --> 00:01:22,837
+Nós aconselhamos você a usar
+comentários nos códigos
+
+30
+00:01:22,870 --> 00:01:26,000
+para explicar qualquer código
+que não seja óbvio.
+
+31
+00:01:26,033 --> 00:01:28,770
+Isso não só lhe trará
+um bom hábito de programação,
+
+32
+00:01:28,803 --> 00:01:31,469
+mas também melhorará
+a leitura do seu código,
+
+33
+00:01:31,502 --> 00:01:34,703
+caso precise revisar
+os quizzes.
+
+34
+00:01:34,736 --> 00:01:37,804
+Muito bem, vamos
+ao seu primeiro quiz.
+
+35
+00:01:37,837 --> 00:01:38,971
+Boa sorte.
+

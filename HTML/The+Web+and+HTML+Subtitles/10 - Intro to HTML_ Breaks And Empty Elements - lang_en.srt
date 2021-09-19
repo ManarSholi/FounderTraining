@@ -1,0 +1,124 @@
+1
+00:00:00,000 --> 00:00:03,595
+Let's talk about whitespace for a moment.
+
+2
+00:00:03,595 --> 00:00:07,200
+You may have noticed that when you enter text in the editor,
+
+3
+00:00:07,200 --> 00:00:09,509
+you can put in multiple lines,
+
+4
+00:00:09,509 --> 00:00:11,679
+or spaces, or paragraph breaks.
+
+5
+00:00:11,679 --> 00:00:13,359
+But when you render it in the browser,
+
+6
+00:00:13,359 --> 00:00:15,219
+it's all run together.
+
+7
+00:00:15,220 --> 00:00:18,844
+This is because when the browser renders HTML,
+
+8
+00:00:18,844 --> 00:00:22,925
+all whitespace gets collapsed into a single space.
+
+9
+00:00:22,925 --> 00:00:27,705
+Now whitespace is a word that programmers use to talk about spaces,
+
+10
+00:00:27,704 --> 00:00:30,119
+tabs and line breaks.
+
+11
+00:00:30,120 --> 00:00:33,689
+The browser by default runs all the whitespace together,
+
+12
+00:00:33,689 --> 00:00:37,189
+so we don't see the line breaks that we put in.
+
+13
+00:00:37,189 --> 00:00:41,109
+I want this poem to show up with separate lines.
+
+14
+00:00:41,109 --> 00:00:43,549
+Now there's a way I can do that in HTML.
+
+15
+00:00:43,549 --> 00:00:48,405
+Which is to put a particular tag on each line, called BR.
+
+16
+00:00:48,405 --> 00:00:50,725
+BR stands for break.
+
+17
+00:00:50,725 --> 00:00:52,179
+As in line break.
+
+18
+00:00:52,179 --> 00:00:53,664
+Start a new line.
+
+19
+00:00:53,664 --> 00:00:56,619
+When we reload the browser window,
+
+20
+00:00:56,619 --> 00:00:59,820
+there, the poem shows up correctly.
+
+21
+00:00:59,820 --> 00:01:05,924
+Now, you might notice that there's no closing tag for the BR element.
+
+22
+00:01:05,924 --> 00:01:09,064
+That's because it doesn't have any contents.
+
+23
+00:01:09,064 --> 00:01:11,579
+There's nothing inside a line break.
+
+24
+00:01:11,579 --> 00:01:15,099
+It's just saying, break the line here.
+
+25
+00:01:15,099 --> 00:01:19,184
+We'll see a few more HTML elements like this later on.
+
+26
+00:01:19,185 --> 00:01:21,620
+One's that don't have a closing tag at all,
+
+27
+00:01:21,620 --> 00:01:23,905
+because they don't have any contents.
+
+28
+00:01:23,905 --> 00:01:28,614
+Elements like this are called void elements, or empty elements.
+
+29
+00:01:28,614 --> 00:01:33,109
+One other example of these is the IMG tag for images.
+
+30
+00:01:33,109 --> 00:01:35,040
+We'll see that later for now,
+
+31
+00:01:35,040 --> 00:01:37,180
+let's stick with text.
+

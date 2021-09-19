@@ -1,0 +1,136 @@
+1
+00:00:02,669 --> 00:00:04,980
+Endi siz muharrirga matn kiritishda siz bir necha
+
+2
+00:00:04,980 --> 00:00:07,529
+qatorlar yoki bo‘shliqlar yoki paragraflar qo‘yishingiz
+
+3
+00:00:07,529 --> 00:00:10,440
+mumkinligini payqadingiz, ammo siz
+
+4
+00:00:10,440 --> 00:00:12,630
+uni brauzerda ko‘rsatganingizda
+
+5
+00:00:12,630 --> 00:00:14,750
+hamma narsa birgalikda ishlaydi.
+
+6
+00:00:14,750 --> 00:00:17,609
+Buning sababi shundaki, brauzer HTMLni namoyish qilganda,
+
+7
+00:00:17,609 --> 00:00:21,270
+barcha bo‘sh joy bitta bo‘sh joyga yig‘iladi va
+
+8
+00:00:21,270 --> 00:00:24,779
+oq bo‘sh joy - bu
+
+9
+00:00:24,779 --> 00:00:26,430
+dasturchilar gapiradigan so‘zdir.
+
+10
+00:00:26,430 --> 00:00:30,689
+Brauzerda teglar va chiziqlar orasidagi
+
+11
+00:00:30,689 --> 00:00:32,969
+bo‘shliqlar barcha bo‘shliqlarni ishga tushiradi.
+
+12
+00:00:32,969 --> 00:00:35,700
+shunday qilib, biz birga qo‘ygan chiziqlar,
+
+13
+00:00:35,700 --> 00:00:36,510
+uzilishlarini ko‘rmayapmiz.
+
+14
+00:00:36,510 --> 00:00:39,540
+Men ushbu she’rni alohida satrlar bilan
+
+15
+00:00:39,540 --> 00:00:41,910
+namoyish etishni xohlayman,
+
+16
+00:00:41,910 --> 00:00:44,309
+endi buni HTMLda qilishim mumkin,
+
+17
+00:00:44,309 --> 00:00:48,770
+bu har bir satrda br br deb
+
+18
+00:00:48,770 --> 00:00:52,500
+nomlangan tegni qo‘yish kerak
+
+19
+00:00:52,500 --> 00:00:54,989
+chunki chiziq sindirilgan bo‘lsa yangi satr boshlanadi
+
+20
+00:00:54,989 --> 00:00:58,379
+va qachon biz brauzer oynasini qayta yuklasak, u yerda she’r paydo bo‘ladi.
+
+21
+00:00:58,379 --> 00:01:02,129
+To‘g‘ri endi siz BR uchun yopiq tag
+
+22
+00:01:02,129 --> 00:01:04,890
+yo‘qligini payqashingiz mumkin.
+
+23
+00:01:04,890 --> 00:01:07,619
+Elementing mazmuni yo‘qligi sababli, 
+
+24
+00:01:07,619 --> 00:01:10,680
+satr oralig‘ida hech narsa yo‘q,
+
+25
+00:01:10,680 --> 00:01:13,799
+shunchaki chiziq oralig‘i borligini aytamiz,
+
+26
+00:01:13,799 --> 00:01:17,280
+biz yana HTMLni ko‘ramiz.
+
+27
+00:01:17,280 --> 00:01:19,799
+Keyinchaalik, shunga o‘xshash tarkibiy qismlarga ega bo‘lmaganligi sababli,
+
+28
+00:01:19,799 --> 00:01:21,869
+shunga o‘xshash elementlar void elementlar yoki
+
+29
+00:01:21,869 --> 00:01:24,630
+bo‘sh elelmentlar deb nomlanadi,
+
+30
+00:01:24,630 --> 00:01:26,790
+bunga yana bir misol, rasmlar uchun
+
+31
+00:01:26,790 --> 00:01:30,119
+IMG tegi, biz bundan keyin
+
+32
+00:01:30,119 --> 00:01:33,390
+ko‘rib chiqamiz,
+
+33
+00:01:33,390 --> 00:01:35,490
+keling endi matnlarni
+
+34
+00:01:35,490 --> 00:01:37,939
+ko‘rib chiqamiz.
+

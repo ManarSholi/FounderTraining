@@ -1,0 +1,241 @@
+1
+00:00:00,198 --> 00:00:04,371
+Certo. Você viu várias coisas
+que podem ser feitas com CSS,
+
+2
+00:00:04,404 --> 00:00:06,806
+mas ainda não respondemos
+uma pergunta:
+
+3
+00:00:06,840 --> 00:00:11,044
+"Cadê a cascata
+em Folhas de Estilos em Cascata?"
+
+4
+00:00:11,077 --> 00:00:15,215
+"Cascata" tem a ver
+com como cada nó na árvore DOM
+
+5
+00:00:15,248 --> 00:00:17,517
+tem seu estilo definido.
+
+6
+00:00:17,550 --> 00:00:21,187
+Basicamente, qualquer propriedade
+de estilo definida em um nó
+
+7
+00:00:21,221 --> 00:00:25,392
+será aplicada como padrão
+para todos os nós descendentes.
+
+8
+00:00:25,425 --> 00:00:29,829
+Digamos que temos um documento
+cujo body seja assim,
+
+9
+00:00:29,863 --> 00:00:33,566
+e temos regras CSS assim.
+
+10
+00:00:33,600 --> 00:00:36,803
+Nós queremos saber
+com qual cor
+
+11
+00:00:36,836 --> 00:00:39,239
+cada um destes nós de texto
+vai ficar
+
+12
+00:00:39,272 --> 00:00:41,040
+quando forem mostrados
+no navegador.
+
+13
+00:00:41,073 --> 00:00:46,112
+Para descobrir, visitaremos
+cada nó da árvore DOM,
+
+14
+00:00:46,146 --> 00:00:47,447
+começando pelo topo.
+
+15
+00:00:47,480 --> 00:00:50,350
+Se há uma regra CSS
+para este nó,
+
+16
+00:00:50,383 --> 00:00:52,318
+nós aplicaremos
+este estilo nele,
+
+17
+00:00:52,352 --> 00:00:56,523
+mas cada nó também herdará
+o estilo do seu nó pai.
+
+18
+00:00:56,556 --> 00:00:59,759
+Começaremos com o nó body.
+Existe uma regra para ele.
+
+19
+00:00:59,793 --> 00:01:03,797
+Esta regra diz para fazer
+um texto branco num fundo preto.
+
+20
+00:01:03,830 --> 00:01:07,200
+Agora vamos para o ramo
+da esquerda, h1.
+
+21
+00:01:07,233 --> 00:01:09,069
+Não temos uma regra para h1,
+
+22
+00:01:09,102 --> 00:01:12,105
+então ele recebe o mesmo estilo
+que seu pai.
+
+23
+00:01:12,369 --> 00:01:15,308
+Então vamos ao nó de texto
+"All about".
+
+24
+00:01:15,342 --> 00:01:18,611
+Ele recebe o mesmo estilo
+que seu pai, o h1.
+
+25
+00:01:18,645 --> 00:01:20,847
+Neste nó em,
+
+26
+00:01:20,880 --> 00:01:25,518
+temos duas regras diferentes
+que podem dar a cor a este nó.
+
+27
+00:01:25,552 --> 00:01:30,023
+Temos uma regra para em
+e outra regra para h1 em.
+
+28
+00:01:30,056 --> 00:01:33,727
+Neste caso, o seletor
+mais específico é aplicado.
+
+29
+00:01:33,760 --> 00:01:36,496
+Aqui, esta é a regra h1 em.
+
+30
+00:01:36,529 --> 00:01:38,832
+Então ele fica laranja,
+não vermelho,
+
+31
+00:01:38,865 --> 00:01:43,269
+mas a regra h1 em não define
+a cor de fundo,
+
+32
+00:01:43,303 --> 00:01:45,939
+então, isso será herdado
+de cima.
+
+33
+00:01:45,972 --> 00:01:48,742
+Este nó de texto que diz "CSS"
+
+34
+00:01:48,775 --> 00:01:52,846
+também herdará o estilo
+laranja com preto de seu pai.
+
+35
+00:01:52,879 --> 00:01:54,981
+No lado direito da árvore,
+
+36
+00:01:55,015 --> 00:01:58,318
+o nó p segue a regra CSS
+para p,
+
+37
+00:01:58,351 --> 00:02:02,355
+então ele fica rosa.
+P de "parágrafo rosa".
+
+38
+00:02:02,389 --> 00:02:06,493
+Mas ainda herdando o fundo preto
+de body.
+
+39
+00:02:06,526 --> 00:02:10,563
+E eles vão descer em cascata
+para este nó de texto.
+
+40
+00:02:10,597 --> 00:02:14,401
+Mas aqui, temos um nó em
+que será pintado de vermelho,
+
+41
+00:02:14,434 --> 00:02:17,570
+e ele vai descer em cascata
+para o nó de texto abaixo:
+
+42
+00:02:17,604 --> 00:02:18,772
+"awesome".
+
+43
+00:02:18,805 --> 00:02:23,743
+Então é aí que está a cascata
+em Folhas de Estilos em Cascata.
+
+44
+00:02:23,777 --> 00:02:26,813
+Cada propriedade de estilo
+que está definida num nó
+
+45
+00:02:26,846 --> 00:02:29,883
+vai descer em cascata
+ou se espalhar pela árvore
+
+46
+00:02:29,916 --> 00:02:32,452
+para os filhos e descendentes
+deste nó.
+
+47
+00:02:32,485 --> 00:02:35,121
+A cor de fundo preta
+neste exemplo
+
+48
+00:02:35,155 --> 00:02:37,257
+desceu em cascata
+para todo nó na árvore,
+
+49
+00:02:37,290 --> 00:02:38,992
+mas cada
+uma destas cores de texto
+
+50
+00:02:39,025 --> 00:02:42,829
+só desceu em cascata
+para uma subárvore em particular.
+

@@ -1,0 +1,176 @@
+1
+00:00:00,000 --> 00:00:04,634
+So, you've seen before that when the browser renders html,
+
+2
+00:00:04,634 --> 00:00:09,660
+every element has an invisible box around it, well usually invisible.
+
+3
+00:00:09,660 --> 00:00:15,900
+These are the boxes that you've seen when you're looking around pages in developer tools.
+
+4
+00:00:15,900 --> 00:00:21,585
+There are a whole bunch of things that we can set about any of these boxes using CSS.
+
+5
+00:00:21,585 --> 00:00:25,875
+There's the width, the height of the box, there's the padding,
+
+6
+00:00:25,875 --> 00:00:28,420
+which is the space around the contents of the box,
+
+7
+00:00:28,420 --> 00:00:30,925
+outside the padding is the box's border,
+
+8
+00:00:30,925 --> 00:00:32,730
+which is usually invisible,
+
+9
+00:00:32,729 --> 00:00:35,128
+but you can turn it on with CSS.
+
+10
+00:00:35,128 --> 00:00:36,799
+Then, there's the margin,
+
+11
+00:00:36,799 --> 00:00:41,384
+which is a space that the browser makes between this box, and other boxes.
+
+12
+00:00:41,384 --> 00:00:44,839
+Each of these is something that you can set a value measured
+
+13
+00:00:44,840 --> 00:00:48,530
+in CSS units such as pixels or m's.
+
+14
+00:00:48,530 --> 00:00:53,240
+Let's take a look at this with a couple of fancy little boxes and a big ole webpage.
+
+15
+00:00:53,240 --> 00:00:57,100
+Let's try configuring some of these properties for these boxes.
+
+16
+00:00:57,100 --> 00:01:01,530
+We'll start out by setting a border, border five pixels.
+
+17
+00:01:01,530 --> 00:01:03,289
+To make the border visible,
+
+18
+00:01:03,289 --> 00:01:06,025
+we'll also say we'll make it solid green.
+
+19
+00:01:06,025 --> 00:01:08,980
+That's something that you can do with borders, and hey,
+
+20
+00:01:08,980 --> 00:01:12,049
+now our boxes have green borders around them,
+
+21
+00:01:12,049 --> 00:01:15,739
+but right now these boxes are jammed up into each other,
+
+22
+00:01:15,739 --> 00:01:17,089
+and that's kind of ugly.
+
+23
+00:01:17,090 --> 00:01:19,439
+How far apart should we space them?
+
+24
+00:01:19,439 --> 00:01:24,644
+Well, how about one M that's the same as the height of this text the inside them.
+
+25
+00:01:24,644 --> 00:01:28,405
+So, let's do that, margin: 1em.
+
+26
+00:01:28,405 --> 00:01:33,700
+The thing is the text inside these boxes is crowded up against those borders,
+
+27
+00:01:33,700 --> 00:01:36,064
+we can fix that by adding padding.
+
+28
+00:01:36,064 --> 00:01:39,274
+Let's make the padding a little bit smaller than the margin,
+
+29
+00:01:39,275 --> 00:01:45,750
+maybe half an m, padding: 0.5em.
+
+30
+00:01:45,750 --> 00:01:49,974
+There we go, now the text is a little bit more comfortable in the boxes.
+
+31
+00:01:49,974 --> 00:01:54,229
+Notice that the padding is space inside the boxes borders,
+
+32
+00:01:54,230 --> 00:01:57,424
+whereas the margin is space outside the border.
+
+33
+00:01:57,424 --> 00:02:02,479
+Finally, right now these boxes are the full width of the page,
+
+34
+00:02:02,480 --> 00:02:05,585
+that's how block elements usually start out by default.
+
+35
+00:02:05,584 --> 00:02:08,340
+Let's make them a little bit smaller than that.
+
+36
+00:02:08,340 --> 00:02:15,719
+Let's say width: 100px, and height: 50px.
+
+37
+00:02:15,719 --> 00:02:17,289
+Ah, there we go.
+
+38
+00:02:17,289 --> 00:02:20,625
+That's looking more like something that we could use on a web page.
+
+39
+00:02:20,625 --> 00:02:22,840
+Okay. One more thing,
+
+40
+00:02:22,840 --> 00:02:26,050
+let's get these boxes to move out of the way.
+
+41
+00:02:26,050 --> 00:02:30,120
+We can do this by telling CSS to make them float right,
+
+42
+00:02:30,120 --> 00:02:34,360
+which makes the browser tries to set them at the right side of the page.
+
+43
+00:02:34,360 --> 00:02:40,535
+Float is one of the many ways that we can change the positioning of the box using CSS.
+
+44
+00:02:40,534 --> 00:02:44,359
+You'll learn a couple more ways later in the lesson.
+

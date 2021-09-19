@@ -1,0 +1,230 @@
+1
+00:00:00,320 --> 00:00:05,615
+Nesta aula, aprendemos muitas regras
+de como compor um HTML.
+
+2
+00:00:05,657 --> 00:00:08,657
+Elas são como as regras
+ortográficas e gramaticais
+
+3
+00:00:08,699 --> 00:00:10,094
+de uma língua,
+
+4
+00:00:10,136 --> 00:00:14,487
+mas como garantir que o HTML
+está correto ortograficamente
+
+5
+00:00:14,529 --> 00:00:17,127
+e gramaticalmente?
+
+6
+00:00:17,169 --> 00:00:20,671
+Para começar,
+basta carregá-lo no navegador.
+
+7
+00:00:20,713 --> 00:00:24,655
+Se funcionar,
+ele deve estar certo, não é mesmo?
+
+8
+00:00:24,697 --> 00:00:26,099
+Nem sempre,
+
+9
+00:00:26,141 --> 00:00:29,222
+pois pode haver um erro
+com o qual o navegador sabe lidar,
+
+10
+00:00:29,264 --> 00:00:31,775
+mas outros navegadores
+não saberão.
+
+11
+00:00:31,817 --> 00:00:34,159
+Já é difícil os navegadores
+funcionarem igual
+
+12
+00:00:34,201 --> 00:00:35,686
+com HTMLs corretos,
+
+13
+00:00:35,728 --> 00:00:41,038
+e daria muito trabalho testar
+o HTML em todos os navegadores.
+
+14
+00:00:41,080 --> 00:00:43,838
+Felizmente, há uma forma
+de conferir o HTML
+
+15
+00:00:43,880 --> 00:00:45,999
+para garantir que a sintaxe
+está correta.
+
+16
+00:00:46,041 --> 00:00:49,239
+Existem ferramentas
+chamadas de "validadores de HTML"
+
+17
+00:00:49,281 --> 00:00:51,767
+que conferem
+todos os detalhes,
+
+18
+00:00:51,809 --> 00:00:54,502
+desde a escrita das tags
+
+19
+00:00:54,544 --> 00:00:56,773
+até as regras mais difíceis
+de aninhamento,
+
+20
+00:00:56,815 --> 00:01:00,142
+como se os itens de lista
+estão dentro de uma lista.
+
+21
+00:01:00,184 --> 00:01:02,644
+O validador de HTML
+mais conhecido
+
+22
+00:01:02,686 --> 00:01:06,172
+é o validator.w3.org,
+
+23
+00:01:06,214 --> 00:01:08,771
+que é administrado pela W3C,
+
+24
+00:01:08,813 --> 00:01:11,507
+o consórcio
+da World Wide Web,
+
+25
+00:01:11,549 --> 00:01:15,099
+a organização que compõe
+os padrões para o HTML
+
+26
+00:01:15,141 --> 00:01:17,364
+e de outros componentes
+da internet.
+
+27
+00:01:17,406 --> 00:01:22,011
+Eles estão aptos a dizer
+se o HTML está correto.
+
+28
+00:01:22,053 --> 00:01:26,555
+Existem três maneiras
+de usar o serviço de validação.
+
+29
+00:01:26,597 --> 00:01:29,780
+Se seu HTML
+estiver em um servidor público,
+
+30
+00:01:29,822 --> 00:01:31,757
+basta fornecer o URL,
+
+31
+00:01:31,799 --> 00:01:35,051
+e ele fará o download
+e conferirá o HTML.
+
+32
+00:01:35,093 --> 00:01:38,844
+Se o arquivo HTML
+estiver no computador,
+
+33
+00:01:38,886 --> 00:01:42,597
+podemos usar
+uma das duas opções.
+
+34
+00:01:42,639 --> 00:01:44,323
+Podemos carregar o arquivo
+
+35
+00:01:44,365 --> 00:01:47,964
+ou podemos copiá-lo do editor
+e colar aqui.
+
+36
+00:01:48,006 --> 00:01:51,472
+Depois disso,
+obteremos um relatório como este.
+
+37
+00:01:51,514 --> 00:01:54,950
+Ele informa se há erros
+no HTML.
+
+38
+00:01:54,992 --> 00:01:58,793
+Se houver erros,
+veremos uma mensagem como esta.
+
+39
+00:02:00,018 --> 00:02:03,720
+No elemento <head>
+falta uma instância
+
+40
+00:02:03,762 --> 00:02:06,904
+do elemento filho <title>.
+
+41
+00:02:06,946 --> 00:02:09,306
+Essa é uma forma técnica
+de dizer
+
+42
+00:02:09,348 --> 00:02:11,153
+que o documento HTML
+
+43
+00:02:11,195 --> 00:02:15,849
+precisa de um elemento <title>,
+que vai no elemento <head>.
+
+44
+00:02:15,891 --> 00:02:17,736
+Quando notar erros como este,
+
+45
+00:02:17,778 --> 00:02:19,706
+conserte-os no editor de texto,
+
+46
+00:02:19,748 --> 00:02:22,344
+cole ou carregue a nova versão
+
+47
+00:02:22,386 --> 00:02:23,985
+e confira novamente.
+
+48
+00:02:24,027 --> 00:02:27,758
+Quando tudo estiver correto,
+obteremos uma mensagem em verde
+
+49
+00:02:27,800 --> 00:02:30,998
+informando que não há erros
+ou avisos a serem exibidos.
+

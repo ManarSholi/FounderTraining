@@ -1,0 +1,179 @@
+1
+00:00:00,341 --> 00:00:03,547
+O quiz perguntou quais
+dos 5 tipos de arquivos
+
+2
+00:00:03,589 --> 00:00:05,068
+são compostos por texto.
+
+3
+00:00:05,110 --> 00:00:08,750
+O primeiro é uma história
+no editor Atom.
+
+4
+00:00:08,792 --> 00:00:12,277
+Se você escrever uma história
+no Atom, ela será um texto simples,
+
+5
+00:00:12,319 --> 00:00:14,174
+então isso está certo.
+
+6
+00:00:14,216 --> 00:00:18,317
+O segundo item no quiz
+é uma música no celular.
+
+7
+00:00:18,359 --> 00:00:21,614
+Vejamos o que acontece
+se abrirmos um arquivo de música
+
+8
+00:00:21,656 --> 00:00:23,828
+em um editor de texto.
+
+9
+00:00:23,870 --> 00:00:27,943
+Temos um arquivo de MP3
+da "9ª Sinfonia", de Beethoven.
+
+10
+00:00:27,985 --> 00:00:30,397
+Vou abri-lo no Atom.
+
+11
+00:00:30,439 --> 00:00:33,317
+Nossa! Que bagunça!
+
+12
+00:00:33,359 --> 00:00:37,517
+O editor está tentando
+tratar o arquivo como texto,
+
+13
+00:00:37,559 --> 00:00:39,479
+mas ele não é um texto.
+
+14
+00:00:39,521 --> 00:00:42,566
+O editor de texto não sabe
+o que fazer com um MP3.
+
+15
+00:00:42,608 --> 00:00:45,814
+Os arquivos de música
+geralmente não são texto.
+
+16
+00:00:45,856 --> 00:00:48,390
+O terceiro é a página principal
+da Udacity.
+
+17
+00:00:48,432 --> 00:00:50,981
+A página é constituída
+de um HTML,
+
+18
+00:00:51,023 --> 00:00:55,582
+que é composto por texto,
+então isto também está certo.
+
+19
+00:00:55,624 --> 00:00:58,206
+O quarto é uma foto
+de um cachorro.
+
+20
+00:00:58,248 --> 00:01:00,188
+Fotos não são texto.
+
+21
+00:01:00,230 --> 00:01:04,006
+Os navegadores sabem exibir
+fotos e outras imagens,
+
+22
+00:01:04,048 --> 00:01:07,732
+mas se tentarmos abri-las
+em um editor de texto,
+
+23
+00:01:07,774 --> 00:01:09,239
+veremos uma grande bagunça,
+
+24
+00:01:09,281 --> 00:01:12,092
+assim como vimos
+com o arquivo de música em MP3.
+
+25
+00:01:12,134 --> 00:01:13,332
+Para editar uma foto,
+
+26
+00:01:13,374 --> 00:01:15,805
+precisaremos de um software
+de edição de fotos.
+
+27
+00:01:15,847 --> 00:01:20,629
+O último é um desafio,
+um arquivo em PDF de um contrato.
+
+28
+00:01:20,671 --> 00:01:22,861
+Quando vemos o PDF
+no navegador
+
+29
+00:01:22,903 --> 00:01:25,573
+ou em um programa
+como o Adobe Acrobat,
+
+30
+00:01:25,615 --> 00:01:28,621
+vemos palavras, frases
+e coisas do tipo,
+
+31
+00:01:28,663 --> 00:01:31,390
+então isso
+parecerá ser texto,
+
+32
+00:01:31,432 --> 00:01:33,942
+mas um PDF não é
+um arquivo de texto
+
+33
+00:01:33,984 --> 00:01:36,990
+e não podemos editá-lo
+em um editor de texto.
+
+34
+00:01:37,032 --> 00:01:40,105
+O mesmo vale para arquivos
+em um processador de texto,
+
+35
+00:01:40,147 --> 00:01:41,640
+como o MS Word.
+
+36
+00:01:41,682 --> 00:01:45,193
+Não usamos o processador de texto
+para editar arquivos de texto
+
+37
+00:01:45,235 --> 00:01:47,689
+como o HTML
+nem outros programas,
+
+38
+00:01:47,731 --> 00:01:49,375
+usamos um editor de texto.
+

@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:02,490
+Welcome back. In this lesson,
+
+2
+00:00:02,490 --> 00:00:06,134
+you're going to learn the basics of a very colorful part of the web.
+
+3
+00:00:06,134 --> 00:00:09,765
+It's called CSS or Cascading Style Sheets.
+
+4
+00:00:09,765 --> 00:00:13,769
+It's how webpages get all their decoration, all the colors,
+
+5
+00:00:13,769 --> 00:00:18,964
+fonts and layout that you see on the web are provided by CSS.
+
+6
+00:00:18,964 --> 00:00:24,039
+Using CSS, you'll be able to greatly improve the look of your HTML pages.
+
+7
+00:00:24,039 --> 00:00:26,780
+That can be anything from changing the color of
+
+8
+00:00:26,780 --> 00:00:30,225
+your text to completely changing the layout.
+
+9
+00:00:30,225 --> 00:00:33,439
+While you're learning about jazzing up your webpage,
+
+10
+00:00:33,439 --> 00:00:37,354
+you'll also be stretching your knowledge of computer language syntax.
+
+11
+00:00:37,354 --> 00:00:41,119
+You'll get a better understanding of how computer languages are put
+
+12
+00:00:41,119 --> 00:00:45,759
+together and that will serve you well throughout your introduction to programming.
+

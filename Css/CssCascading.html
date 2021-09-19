@@ -1,0 +1,25 @@
+<!--
+    The term "cascading" in Cascading Style Sheets refers to the way that style properties "cascade" down the DOM tree, 
+    starting at the top. A style applied to the body element will affect the entire document. A style applied to a 
+    lower-level element will affect that element and all its descendants.
+    
+    A style applied at a lower level can override a style at a higher level. 
+    For instance, if the body has color: red but a paragraph within the body has color: blue, 
+    the blue will apply to that paragraph and to any elements inside it:
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            cascading
+        </title>
+        <style>
+            body { color: red; }
+            p { color: blue; }
+        </style>
+    </head>
+    <body>
+        <p> This will be blue, not red. <br>
+        <em> Same with this. </em> </p>
+    </body>
+</html>

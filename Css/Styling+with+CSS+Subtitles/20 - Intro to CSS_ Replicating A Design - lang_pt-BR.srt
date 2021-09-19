@@ -1,0 +1,114 @@
+1
+00:00:00,404 --> 00:00:04,714
+Aprendemos muitas técnicas de CSS
+nesta aula.
+
+2
+00:00:04,756 --> 00:00:08,331
+Chegou a hora de juntar
+muitas delas.
+
+3
+00:00:08,373 --> 00:00:09,659
+No próximo exercício,
+
+4
+00:00:09,701 --> 00:00:13,256
+você fará algo
+que os desenvolvedores fazem:
+
+5
+00:00:13,298 --> 00:00:16,013
+adicionar
+um design a uma página
+
+6
+00:00:16,055 --> 00:00:18,123
+usando o CSS.
+
+7
+00:00:18,165 --> 00:00:21,378
+O design no qual você trabalhará
+será parecido com este.
+
+8
+00:00:21,420 --> 00:00:23,299
+É uma tela de jogo da velha.
+
+9
+00:00:23,341 --> 00:00:27,524
+Todos os Xs e círculos
+são textos comuns,
+
+10
+00:00:27,566 --> 00:00:31,404
+mas foram aumentados
+e usam uma fonte específica.
+
+11
+00:00:31,446 --> 00:00:33,507
+Além de estarem
+em um plano de fundo
+
+12
+00:00:33,549 --> 00:00:36,883
+e espaçados dentro
+dos próprios quadrados.
+
+13
+00:00:36,925 --> 00:00:39,780
+Você começará
+com um HTML em branco
+
+14
+00:00:39,822 --> 00:00:41,915
+e um arquivo CSS vazio.
+
+15
+00:00:41,957 --> 00:00:45,124
+Seu trabalho será preencher
+o arquivo CSS.
+
+16
+00:00:45,166 --> 00:00:47,099
+Eis como eu sugiro
+que você faça:
+
+17
+00:00:47,141 --> 00:00:49,306
+dê um passo por vez.
+
+18
+00:00:49,348 --> 00:00:51,308
+Eis outra sugestão:
+
+19
+00:00:51,350 --> 00:00:55,268
+comece dispondo as caixas
+na forma como você as deseja,
+
+20
+00:00:55,310 --> 00:00:58,747
+depois trabalhe nas fontes
+e nas cores.
+
+21
+00:00:58,789 --> 00:01:01,907
+Se você se perder,
+não tem problema.
+
+22
+00:01:01,949 --> 00:01:06,387
+Tente e veja o que consegue realizar
+usando apenas o CSS
+
+23
+00:01:06,429 --> 00:01:09,108
+para criar o layout.
+Na próxima página,
+
+24
+00:01:09,150 --> 00:01:12,212
+cada um de nós mostrará
+como abordamos a questão.
+

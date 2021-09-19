@@ -1,0 +1,220 @@
+1
+00:00:00,000 --> 00:00:06,504
+One of the things we can use CSS for is to change the layout of elements on the page.
+
+2
+00:00:06,504 --> 00:00:10,179
+This means, we can move them around, change their sizes,
+
+3
+00:00:10,179 --> 00:00:14,439
+reshape them, and change the way they get positioned around each other.
+
+4
+00:00:14,439 --> 00:00:18,660
+In order to talk about where those elements are on the page,
+
+5
+00:00:18,660 --> 00:00:21,074
+we need to have units of measurement.
+
+6
+00:00:21,074 --> 00:00:22,839
+Just as in everyday life,
+
+7
+00:00:22,839 --> 00:00:25,134
+we might use meters or feet,
+
+8
+00:00:25,135 --> 00:00:30,040
+or miles or kilometers to say where something is or how big it is,
+
+9
+00:00:30,039 --> 00:00:33,954
+in CSS, we have some various units that we use.
+
+10
+00:00:33,954 --> 00:00:37,884
+The basic unit of measurement in CSS is the pixel,
+
+11
+00:00:37,884 --> 00:00:39,614
+or px for short.
+
+12
+00:00:39,615 --> 00:00:42,410
+Pixels are the unit that you'll see developer tools
+
+13
+00:00:42,409 --> 00:00:45,824
+using to measure the size of a box element.
+
+14
+00:00:45,825 --> 00:00:50,719
+Now, normally, a pixel is a single dot of color on your screen.
+
+15
+00:00:50,719 --> 00:00:54,464
+But computer screens don't all have the same size pixels.
+
+16
+00:00:54,465 --> 00:00:57,680
+In particular, the actual hardware pixels on
+
+17
+00:00:57,679 --> 00:01:03,644
+new mobile devices are really tiny compared to the pixels on older computer screens.
+
+18
+00:01:03,645 --> 00:01:10,725
+In CSS, the unit called pixel or px Isn't really a hardware pixel.
+
+19
+00:01:10,724 --> 00:01:15,234
+Instead, it's defined as being one-ninety sixth of an inch.
+
+20
+00:01:15,234 --> 00:01:17,209
+Ninety-six pixels per inch was
+
+21
+00:01:17,209 --> 00:01:21,284
+a common screen resolution when CSS was being standardized.
+
+22
+00:01:21,284 --> 00:01:24,984
+So, that's what the CSS px unit was set to.
+
+23
+00:01:24,984 --> 00:01:27,500
+Yeah, sorry metric fans,
+
+24
+00:01:27,500 --> 00:01:31,159
+CSS measurement is defined in terms of traditional American units,
+
+25
+00:01:31,159 --> 00:01:34,200
+there are 96 CSS pixels to the inch,
+
+26
+00:01:34,200 --> 00:01:38,900
+which means there are 37.8 CSS pixels to the centimeter.
+
+27
+00:01:38,900 --> 00:01:42,565
+Here's an example of how we can use these units.
+
+28
+00:01:42,564 --> 00:01:46,414
+Let's say that we have a p element with class skinny,
+
+29
+00:01:46,415 --> 00:01:49,895
+and we want to make it appear two inches wide on the screen.
+
+30
+00:01:49,894 --> 00:01:55,099
+The CSS property width sets how wide and element will appear.
+
+31
+00:01:55,099 --> 00:01:56,544
+To select the element,
+
+32
+00:01:56,545 --> 00:01:59,725
+we'll use the class selector.skinny,
+
+33
+00:01:59,724 --> 00:02:06,009
+and then we'll add a declaration width: 192 px;,
+
+34
+00:02:06,010 --> 00:02:09,064
+and when that's applied to this html,
+
+35
+00:02:09,064 --> 00:02:12,689
+we get a skinny paragraph, two inches wide.
+
+36
+00:02:12,689 --> 00:02:16,189
+Remember, the class name skinny is just something we
+
+37
+00:02:16,189 --> 00:02:19,704
+made up in order to attach this rule set to that paragraph.
+
+38
+00:02:19,705 --> 00:02:22,105
+We could have named it Aardvark instead,
+
+39
+00:02:22,104 --> 00:02:24,963
+but that wouldn't be very descriptive.
+
+40
+00:02:24,963 --> 00:02:28,004
+There are other units in CSS too.
+
+41
+00:02:28,004 --> 00:02:32,044
+One traditional typographic unit is the point, or pt.
+
+42
+00:02:32,044 --> 00:02:36,004
+You've probably seen this on word processors like MS Word,
+
+43
+00:02:36,004 --> 00:02:39,344
+or Google Docs, where you can have a 12 point font,
+
+44
+00:02:39,344 --> 00:02:41,965
+or a 36 point font, or the like.
+
+45
+00:02:41,965 --> 00:02:45,469
+A point is just one-seventy second of an inch.
+
+46
+00:02:45,469 --> 00:02:49,025
+In CSS, points aren't only for font size,
+
+47
+00:02:49,025 --> 00:02:51,370
+but that's where they're most common.
+
+48
+00:02:51,370 --> 00:02:54,879
+Some units were pretty differently though.
+
+49
+00:02:54,879 --> 00:02:58,719
+Whereas px and points are based on inches,
+
+50
+00:02:58,719 --> 00:03:01,159
+which is a real-world measure of length,
+
+51
+00:03:01,159 --> 00:03:05,995
+other CSS units are relative to the size of something else on the page.
+
+52
+00:03:05,995 --> 00:03:08,379
+One of these is the em,
+
+53
+00:03:08,379 --> 00:03:13,275
+and em is equal to the font size of the text in the element.
+
+54
+00:03:13,275 --> 00:03:16,069
+So, if you're using an 18 point font,
+
+55
+00:03:16,069 --> 00:03:19,560
+then 1em is 18 points
+

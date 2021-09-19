@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:05,099
+A full HTML document actually has two parts.
+
+2
+00:00:05,099 --> 00:00:09,269
+Everything you've seen so far in this lesson except the Doctype Tag,
+
+3
+00:00:09,269 --> 00:00:12,044
+actually lives in the second of these parts,
+
+4
+00:00:12,044 --> 00:00:13,884
+the body of the document,
+
+5
+00:00:13,884 --> 00:00:16,464
+that's where the contents of the document go,
+
+6
+00:00:16,464 --> 00:00:19,239
+the paragraphs, images, lists,
+
+7
+00:00:19,239 --> 00:00:22,820
+links and other things that will appear on the screen for the user.
+
+8
+00:00:22,820 --> 00:00:27,390
+The other part of an HTML document is called the head and it's
+
+9
+00:00:27,390 --> 00:00:31,905
+where we put certain pieces of important information about the document.
+
+10
+00:00:31,905 --> 00:00:37,984
+Both the head and the body occur inside a single enclosing element called HTML.
+
+11
+00:00:37,984 --> 00:00:42,840
+Here's just a few of the things that can appear in the head of an HTML file.
+
+12
+00:00:42,840 --> 00:00:46,920
+The title is the only required part of the head.
+
+13
+00:00:46,920 --> 00:00:52,030
+It tells the browser what titled to put on a tab that's displaying the document.
+
+14
+00:00:52,030 --> 00:00:56,960
+We put the title in a title element with an open and a close tag.
+
+15
+00:00:56,960 --> 00:01:01,560
+Another thing that shows up in the head is style sheet information.
+
+16
+00:01:01,560 --> 00:01:04,189
+You'll learn a lot more about this later on.
+
+17
+00:01:04,189 --> 00:01:10,129
+Style sheets tell the browser things like what fonts and colors to use on the page,
+
+18
+00:01:10,129 --> 00:01:12,329
+and how to position the text.
+
+19
+00:01:12,329 --> 00:01:18,075
+The head can also contain scripts which are programs that run in the browser.
+
+20
+00:01:18,075 --> 00:01:20,844
+This is how front-end web apps work,
+
+21
+00:01:20,844 --> 00:01:24,280
+like the quizzes you've seen in this course for instance.
+
+22
+00:01:24,280 --> 00:01:28,743
+The head can also include metadata which is other information
+
+23
+00:01:28,743 --> 00:01:33,290
+about the page itself such as keywords for search engines.
+
+24
+00:01:33,290 --> 00:01:39,530
+There's also information that can go on the HTML tag itself, for instance,
+
+25
+00:01:39,530 --> 00:01:43,820
+this is where you can say what language your document is written in,
+
+26
+00:01:43,819 --> 00:01:46,359
+not the computer language, that's HTML,
+
+27
+00:01:46,359 --> 00:01:50,930
+but the human language such as English or French or Tibetan or Swahili.
+
+28
+00:01:50,930 --> 00:01:55,460
+This is helpful for programs that try to understand or pronounce
+
+29
+00:01:55,459 --> 00:02:00,839
+the contents of that document such as screen readers for visually impaired users.
+
+30
+00:02:00,840 --> 00:02:09,110
+Should the word CHAT be pronounced as 'chat' in English or as 'sha' in French?
+
+31
+00:02:09,110 --> 00:02:12,770
+For now, the only element of the head that you need to use is
+
+32
+00:02:12,770 --> 00:02:17,375
+the title tag because it's required in HTML documents.
+
+33
+00:02:17,375 --> 00:02:21,599
+The others you will use later as you learn more about the web.
+

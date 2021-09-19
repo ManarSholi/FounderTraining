@@ -1,0 +1,274 @@
+1
+00:00:00,509 --> 00:00:04,828
+A internet é construída
+a partir da ideia de hipertexto.
+
+2
+00:00:04,870 --> 00:00:08,534
+Hipertexto significa que podemos ter
+documentos de texto -
+
+3
+00:00:08,576 --> 00:00:10,171
+como as páginas da internet -,
+
+4
+00:00:10,213 --> 00:00:14,331
+que fazem referência
+uns aos outros.
+
+5
+00:00:14,373 --> 00:00:17,045
+Na internet,
+chamamos isso de "links".
+
+6
+00:00:17,087 --> 00:00:19,980
+Sempre que clicamos em um link
+de uma página,
+
+7
+00:00:20,022 --> 00:00:22,803
+usamos o hipertexto.
+
+8
+00:00:22,845 --> 00:00:24,723
+Quando compomos o HTML,
+
+9
+00:00:24,765 --> 00:00:27,100
+podemos adicionar links
+para outras páginas,
+
+10
+00:00:27,142 --> 00:00:30,340
+tanto para as suas
+como a de outros.
+
+11
+00:00:30,382 --> 00:00:33,452
+É assim que o motor de busca
+funciona, por exemplo.
+
+12
+00:00:33,494 --> 00:00:38,140
+Vejamos como criar um link
+no HTML.
+
+13
+00:00:38,182 --> 00:00:42,156
+O elemento para isso
+é chamado de "<a>".
+
+14
+00:00:42,198 --> 00:00:46,115
+Ele não se chama "link",
+mas "<a>".
+
+15
+00:00:46,893 --> 00:00:48,850
+Isso quer dizer "âncora",
+
+16
+00:00:48,892 --> 00:00:52,059
+porque o elemento <a>
+ancora um endereço
+
+17
+00:00:52,101 --> 00:00:54,132
+em um texto da página.
+
+18
+00:00:54,174 --> 00:00:56,131
+Isso também
+me parece estranho,
+
+19
+00:00:56,173 --> 00:00:59,314
+mas é como funciona.
+Pelo menos é curto.
+
+20
+00:00:59,356 --> 00:01:02,699
+Não podemos usar <a>
+sozinho,
+
+21
+00:01:02,741 --> 00:01:06,515
+precisamos incluir algumas coisas
+no elemento <a>
+
+22
+00:01:06,557 --> 00:01:09,067
+para criarmos um link:
+
+23
+00:01:09,109 --> 00:01:12,411
+o texto que o usuário clicará
+para seguir o link
+
+24
+00:01:12,453 --> 00:01:15,571
+e o URL da página
+para a qual seremos direcionados.
+
+25
+00:01:15,613 --> 00:01:18,451
+E é assim que faremos isso.
+
+26
+00:01:18,493 --> 00:01:20,499
+A tag de abertura
+do elemento <a>
+
+27
+00:01:20,541 --> 00:01:22,395
+possui este pedaço,
+
+28
+00:01:22,437 --> 00:01:25,363
+que não vimos antes
+nas tags do HTML,
+
+29
+00:01:25,405 --> 00:01:28,331
+este "href="
+
+30
+00:01:28,373 --> 00:01:31,947
+e o URL entre aspas.
+
+31
+00:01:31,989 --> 00:01:36,034
+Este é um exemplo
+de um atributo HTML.
+
+32
+00:01:36,076 --> 00:01:39,529
+É um pedaço de dado
+que vem junto com o elemento
+
+33
+00:01:39,571 --> 00:01:41,848
+e traz sentido extra.
+
+34
+00:01:42,560 --> 00:01:46,696
+A parte antes do sinal de igual
+é o nome do atributo,
+
+35
+00:01:46,738 --> 00:01:49,154
+e a parte depois,
+em aspas duplas,
+
+36
+00:01:49,196 --> 00:01:51,529
+é o valor do atributo.
+
+37
+00:01:52,515 --> 00:01:55,112
+Aqui o nome é "href"
+
+38
+00:01:55,154 --> 00:01:56,702
+e o valor
+
+39
+00:01:56,744 --> 00:02:02,670
+é http://example.net.
+
+40
+00:02:03,839 --> 00:02:08,228
+O nome "href" representa
+a referência do hipertexto
+
+41
+00:02:08,270 --> 00:02:11,572
+e é usado com tags <a>
+e outras tags,
+
+42
+00:02:11,614 --> 00:02:13,829
+que conectam
+a outro documento.
+
+43
+00:02:13,871 --> 00:02:17,955
+Você não o verá em uma tag
+de parágrafo, de ênfase
+
+44
+00:02:17,997 --> 00:02:19,955
+ou de outra coisa.
+
+45
+00:02:19,997 --> 00:02:22,803
+Depois vem o conteúdo
+do elemento <a>,
+
+46
+00:02:22,845 --> 00:02:25,701
+que se torna o texto
+que aparecerá na página,
+
+47
+00:02:26,364 --> 00:02:29,698
+e a tag de encerramento.
+
+48
+00:02:29,740 --> 00:02:33,131
+Você deve ter percebido
+que não há nenhum atributo.
+
+49
+00:02:33,173 --> 00:02:37,067
+Atributos como o href
+só aparecem na tag de abertura,
+
+50
+00:02:37,109 --> 00:02:39,163
+no início do elemento.
+
+51
+00:02:39,205 --> 00:02:41,524
+E é só isso
+
+52
+00:02:41,566 --> 00:02:43,659
+que fazemos para criar links
+no HTML.
+
+53
+00:02:43,701 --> 00:02:45,779
+Você criou um elemento <a>
+
+54
+00:02:45,821 --> 00:02:48,259
+com uma tag de início
+e de encerramento.
+
+55
+00:02:48,301 --> 00:02:52,211
+A tag de início tem um atributo href
+com um sinal de igual
+
+56
+00:02:52,253 --> 00:02:57,123
+e - entre aspas - o URL da página
+para a qual desejamos criar o link.
+
+57
+00:02:57,165 --> 00:02:58,666
+Os conteúdos do elemento
+
+58
+00:02:58,708 --> 00:03:00,997
+se tornam o texto
+no qual o usuário clicará,
+
+59
+00:03:01,039 --> 00:03:03,116
+então vem a tag
+de encerramento.
+

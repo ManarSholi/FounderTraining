@@ -1,0 +1,225 @@
+1
+00:00:00,207 --> 00:00:04,102
+A forma padrão na qual o navegador
+dispõe as caixas na página
+
+2
+00:00:04,144 --> 00:00:05,925
+foi desenvolvida para páginas
+
+3
+00:00:05,967 --> 00:00:08,317
+que funcionam
+como documentos tradicionais.
+
+4
+00:00:08,359 --> 00:00:11,396
+Isso é composto por coisas
+como cabeçalhos, parágrafos
+
+5
+00:00:11,438 --> 00:00:12,892
+e listas,
+
+6
+00:00:12,934 --> 00:00:16,421
+seguindo a ordem
+de cima para baixo,
+
+7
+00:00:16,463 --> 00:00:19,908
+o que funciona bem para as páginas
+dos artigos da Wikipédia,
+
+8
+00:00:19,950 --> 00:00:22,645
+de trabalhos científicos
+e de histórias,
+
+9
+00:00:22,687 --> 00:00:26,732
+mas um site hoje é muito mais
+do que um documento:
+
+10
+00:00:26,774 --> 00:00:29,611
+ele é uma galeria de fotos,
+um serviço de mensagens
+
+11
+00:00:29,653 --> 00:00:30,981
+ou um jogo.
+
+12
+00:00:31,023 --> 00:00:33,717
+O tipo de layout que faz sentido
+para um documento
+
+13
+00:00:33,759 --> 00:00:36,996
+nem sempre fará sentido
+para um site atual.
+
+14
+00:00:37,038 --> 00:00:40,038
+Os aplicativos precisam
+de um tipo de layout mais flexível
+
+15
+00:00:40,080 --> 00:00:42,428
+do que um artigo
+ou um romance,
+
+16
+00:00:42,470 --> 00:00:46,260
+e o CSS se adequou
+às mudanças do tempo.
+
+17
+00:00:46,302 --> 00:00:49,277
+Uma das grandes melhorias
+dos últimos anos
+
+18
+00:00:49,319 --> 00:00:52,093
+foi o recurso chamado
+de "Layout de Caixa Flexível",
+
+19
+00:00:52,135 --> 00:00:54,282
+ou "flexbox".
+
+20
+00:00:54,324 --> 00:00:57,167
+É uma forma de solicitar ao CSS
+que modifique as regras
+
+21
+00:00:57,209 --> 00:00:59,405
+de disposição das caixas
+na página
+
+22
+00:00:59,447 --> 00:01:04,116
+de forma que seja mais flexível
+do que na abordagem dos documentos.
+
+23
+00:01:04,158 --> 00:01:06,901
+Vejamos o que isso significa.
+
+24
+00:01:06,943 --> 00:01:11,509
+Aqui eu criarei algumas caixas
+com diferentes cores de fundo,
+
+25
+00:01:11,551 --> 00:01:14,204
+assim veremos
+como o layout mudará.
+
+26
+00:01:14,246 --> 00:01:18,499
+Vamos deixá-las
+com 100px por 100px,
+
+27
+00:01:18,541 --> 00:01:20,676
+colocá-las
+dentro de outro elemento -
+
+28
+00:01:20,718 --> 00:01:23,370
+que agirá como um contêiner
+para elas -,
+
+29
+00:01:23,412 --> 00:01:25,831
+e colocar isto no navegador.
+
+30
+00:01:25,873 --> 00:01:29,940
+Como estamos usando o layout
+de bloco orientado por documento,
+
+31
+00:01:29,982 --> 00:01:33,228
+elas aparecerão uma após a outra
+de forma vertical,
+
+32
+00:01:33,270 --> 00:01:35,951
+assim como os parágrafos
+de uma história.
+
+33
+00:01:35,993 --> 00:01:40,971
+Agora vejamos o que acontece
+quando configuro "display: flex"
+
+34
+00:01:41,013 --> 00:01:42,832
+no contêiner.
+
+35
+00:01:42,874 --> 00:01:46,615
+Nossa!
+Agora estão lado a lado.
+
+36
+00:01:46,657 --> 00:01:52,089
+Eu também poderia fazer isso
+com float: left,
+
+37
+00:01:52,131 --> 00:01:56,482
+mas veja o que acontece quando
+o navegador é redimensionado.
+
+38
+00:01:56,524 --> 00:02:00,091
+Os elementos são redimensionados
+para caber na tela.
+
+39
+00:02:00,133 --> 00:02:01,610
+Isso é muito útil,
+
+40
+00:02:01,652 --> 00:02:05,602
+especialmente quando alguém
+está vendo isto em um celular,
+
+41
+00:02:05,644 --> 00:02:08,210
+em uma janela bem estreita.
+
+42
+00:02:08,252 --> 00:02:12,066
+A flexbox faz algo
+que os floats não fazem.
+
+43
+00:02:12,108 --> 00:02:15,283
+Também podemos configurar
+o comportamento da caixa
+
+44
+00:02:15,325 --> 00:02:17,643
+quando não houver espaço
+suficiente na tela
+
+45
+00:02:17,685 --> 00:02:22,138
+atribuindo a propriedade flex-wrap
+ao valor wrap.
+
+46
+00:02:22,180 --> 00:02:25,139
+Assim as caixas passarão
+para a linha de baixo
+
+47
+00:02:25,181 --> 00:02:27,013
+em uma janela estreita.
+

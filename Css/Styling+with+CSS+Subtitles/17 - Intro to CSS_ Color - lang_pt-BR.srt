@@ -1,0 +1,291 @@
+1
+00:00:00,276 --> 00:00:03,698
+Até agora, neste curso,
+especificamos as cores
+
+2
+00:00:03,740 --> 00:00:06,185
+com palavras como "vermelho"
+e "roxo",
+
+3
+00:00:06,227 --> 00:00:08,947
+mas existem várias palavras
+para as cores
+
+4
+00:00:08,989 --> 00:00:11,452
+e a internet não é uma caixa
+de giz de cera.
+
+5
+00:00:11,494 --> 00:00:14,217
+Você deveria poder usar
+qualquer cor que desejar,
+
+6
+00:00:14,259 --> 00:00:16,393
+e, de fato, pode.
+
+7
+00:00:16,435 --> 00:00:18,962
+As telas de computadores
+criam as cores
+
+8
+00:00:19,004 --> 00:00:21,450
+misturando as cores
+primárias vermelho,
+
+9
+00:00:21,492 --> 00:00:23,755
+verde e azul.
+
+10
+00:00:23,797 --> 00:00:26,400
+Isso significa que podemos
+descrever qualquer cor
+
+11
+00:00:26,442 --> 00:00:30,630
+como uma mistura de uma quantidade
+de vermelho, de verde e de azul.
+
+12
+00:00:30,672 --> 00:00:35,865
+Informamos quanto há de cada uma
+na mistura,
+
+13
+00:00:35,907 --> 00:00:40,697
+desde zero até 100% da cor.
+
+14
+00:00:40,739 --> 00:00:43,993
+Por exemplo,
+se misturarmos 100% do vermelho
+
+15
+00:00:44,035 --> 00:00:48,226
+com 50% do verde,
+obteremos este laranja brilhante.
+
+16
+00:00:48,268 --> 00:00:50,658
+Uma forma
+de escrever isso no CSS
+
+17
+00:00:50,700 --> 00:00:56,178
+seria "rgb(100%, 50%, 0%)".
+
+18
+00:00:56,785 --> 00:01:00,864
+Se eu aplicar isto como cor
+de fundo do corpo da página,
+
+19
+00:01:00,906 --> 00:01:03,809
+ela se tornará laranja.
+
+20
+00:01:03,851 --> 00:01:08,625
+Mas existem várias formas
+de escrever cores no CSS.
+
+21
+00:01:08,667 --> 00:01:12,913
+Podemos ver isso
+em páginas reais da internet.
+
+22
+00:01:12,955 --> 00:01:15,560
+Muito bem.
+Isso é muito diferente.
+
+23
+00:01:15,602 --> 00:01:17,664
+O que está acontecendo?
+
+24
+00:01:17,706 --> 00:01:19,730
+Para entender
+as duas últimas formas,
+
+25
+00:01:19,772 --> 00:01:24,341
+é preciso saber como os computadores
+armazenam informações de cores.
+
+26
+00:01:24,383 --> 00:01:25,909
+Nos navegadores
+
+27
+00:01:25,951 --> 00:01:28,093
+e na maioria dos aplicativos,
+
+28
+00:01:28,135 --> 00:01:33,962
+cada uma das cores primárias
+pode ter 256 valores possíveis.
+
+29
+00:01:34,004 --> 00:01:37,892
+Isso porque cada cor
+é armazenada em um byte único,
+
+30
+00:01:37,934 --> 00:01:43,551
+um espaço na memória que aceita
+um número entre 0 e 255.
+
+31
+00:01:43,593 --> 00:01:48,552
+Podemos escrever um valor de byte
+como um número de 0 a 255,
+
+32
+00:01:48,594 --> 00:01:51,647
+mas também podemos escrevê-lo
+como um número hexadecimal,
+
+33
+00:01:51,689 --> 00:01:54,504
+ou hex, com base 16.
+
+34
+00:01:54,546 --> 00:01:58,119
+No hex, cada dígito
+pode ir de 0 a 9
+
+35
+00:01:58,161 --> 00:02:01,054
+e de A a F.
+
+36
+00:02:01,096 --> 00:02:04,983
+Os códigos hex são mais difíceis
+de serem entendidos,
+
+37
+00:02:05,025 --> 00:02:07,246
+mas são bem tradicionais
+na internet,
+
+38
+00:02:07,288 --> 00:02:10,454
+e os desenvolvedores web
+gostam de brincar com eles,
+
+39
+00:02:10,496 --> 00:02:13,279
+como nesta caneca
+que encontrei na CafePress.
+
+40
+00:02:13,321 --> 00:02:16,640
+Todos os zeros são pretos
+e todos os Fs são brancos,
+
+41
+00:02:16,682 --> 00:02:20,334
+então ela diz que as coisas
+nem sempre são preto no branco.
+
+42
+00:02:20,376 --> 00:02:22,206
+Eis outro exemplo.
+
+43
+00:02:22,248 --> 00:02:26,713
+A cor com o código hex
+02b3e4
+
+44
+00:02:26,755 --> 00:02:28,688
+é o azul da Udacity.
+
+45
+00:02:28,730 --> 00:02:33,887
+Isso é o mesmo que a porcentagem
+rgb(1%, 70%, 89%)
+
+46
+00:02:33,929 --> 00:02:38,831
+ou rgb(2, 179, 228).
+
+47
+00:02:39,687 --> 00:02:42,728
+Lembre-se:
+embora pareçam diferentes,
+
+48
+00:02:42,770 --> 00:02:46,160
+os três informam
+a quantidade de vermelho,
+
+49
+00:02:46,202 --> 00:02:49,192
+de verde e de azul
+que precisa ser misturada
+
+50
+00:02:49,234 --> 00:02:51,128
+para criar uma cor específica.
+
+51
+00:02:51,170 --> 00:02:55,208
+Se quiser usar isto,
+é melhor ter um seletor de cor,
+
+52
+00:02:55,250 --> 00:02:58,153
+uma ferramenta que mostra a cor
+que você quer ver
+
+53
+00:02:58,195 --> 00:03:00,801
+e qual é o código numérico.
+
+54
+00:03:00,843 --> 00:03:05,511
+Felizmente, há um deles
+nas ferramentas do desenvolvedor.
+
+55
+00:03:05,553 --> 00:03:06,976
+Dê uma olhada.
+
+56
+00:03:07,018 --> 00:03:10,849
+Selecione qualquer valor de cor
+em Styles.
+
+57
+00:03:10,891 --> 00:03:14,431
+Você pode selecionar
+qualquer cor na página
+
+58
+00:03:14,473 --> 00:03:17,006
+para ver qual é o código dela.
+
+59
+00:03:17,048 --> 00:03:19,635
+Podemos clicar segurando o shift
+na amostra de cor
+
+60
+00:03:19,677 --> 00:03:22,366
+para que o valor mostre
+os diferentes modos de cor:
+
+61
+00:03:22,408 --> 00:03:25,685
+rgb, hsl, o nome
+
+62
+00:03:25,727 --> 00:03:28,107
+e o valor hex. Legal.
+

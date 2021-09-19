@@ -1,0 +1,232 @@
+1
+00:00:00,030 --> 00:00:02,669
+ko‘pincha brauzeringiz serverlar bilan aloqa 
+
+2
+00:00:02,669 --> 00:00:05,130
+qiladigan veb-sahifalarni shunchaki 
+
+3
+00:00:05,130 --> 00:00:08,220
+Internet-serverlar orqali qabul qiladi
+
+4
+00:00:08,220 --> 00:00:10,469
+internet serverlari ham aslida 
+
+5
+00:00:10,469 --> 00:00:11,519
+hozirda siz ishlatadigan kompyuterlardan tubdan
+
+6
+00:00:11,519 --> 00:00:14,639
+farq qilmaydi, lekin ularda ishlaydigan dasturlar
+
+7
+00:00:14,639 --> 00:00:17,570
+mavjud. brauzer so‘rovlariga javob berish uchun
+
+8
+00:00:17,570 --> 00:00:20,490
+kompyuteringiz hozirda Udacity veb-serveriga 
+
+9
+00:00:20,490 --> 00:00:23,400
+ulangan bo‘lishi mumkin
+
+10
+00:00:23,400 --> 00:00:25,980
+boshqa veb-serverlar kabi Internetning super 
+
+11
+00:00:25,980 --> 00:00:27,810
+kuchlaridan biri, ya’ni
+
+12
+00:00:27,810 --> 00:00:30,090
+joylashgan fayl yoki hujjatga havolalar
+
+13
+00:00:30,090 --> 00:00:33,090
+boshqa serverda, masalan, Udacity
+
+14
+00:00:33,090 --> 00:00:35,340
+veb-sayt buni ko‘rsatishi uchun brauzeringizga aytadi
+
+15
+00:00:35,340 --> 00:00:38,100
+ushbu video YouTube hostidagi
+
+16
+00:00:38,100 --> 00:00:41,070
+veb-sayt veb-sahifasida resurslari bo‘lishi mumkin.
+
+17
+00:00:41,070 --> 00:00:44,460
+video tasvir shriftlari yoki dasturlari kabi
+
+18
+00:00:44,460 --> 00:00:47,239
+kodni bir xil veb-serverdan yoki undan
+
+19
+00:00:47,439 --> 00:00:49,739
+boshqa veb-serverlar veb-brauzerlari va
+
+20
+00:00:49,739 --> 00:00:52,260
+serverlar o‘ziga xos tarzda o‘zaro almashadi
+
+21
+00:00:52,260 --> 00:00:54,960
+veb-sahifaga kirganingizda yoki kuzatganingizda
+
+22
+00:00:54,960 --> 00:00:57,960
+brauzeringiz talab qiladigan havola
+
+23
+00:00:57,960 --> 00:01:00,149
+server aniq bir narsani talab qilmoqda, ya’ni
+
+24
+00:01:00,149 --> 00:01:03,359
+nom va hujjat brauzerga javobni o‘z ichiga 
+
+25
+00:01:03,359 --> 00:01:05,489
+olgan server tomonidan yuboriladi.
+
+26
+00:01:05,489 --> 00:01:08,220
+ushbu hujjatni yoki uni topolmasa
+
+27
+00:01:08,220 --> 00:01:09,960
+hujjat xatoligi haqida xabar yuboradi.
+
+28
+00:01:09,960 --> 00:01:13,619
+Bu talablar kabi qoidalar o‘rniga
+
+29
+00:01:13,619 --> 00:01:15,869
+so‘rov va javoblari chaqiriladi, ularni
+
+30
+00:01:15,869 --> 00:01:19,290
+gipermatnni uzatish protokoli yoki HTTP deyiladi.
+
+31
+00:01:19,290 --> 00:01:22,290
+Shuning uchun veb-manzil odatda 
+
+32
+00:01:22,290 --> 00:01:25,830
+HTTP yoki HTTPS bilan boshlanadi.
+
+33
+00:01:25,830 --> 00:01:28,650
+brauzer server bilan qanday bog‘lanishni aytadi, ammo
+
+34
+00:01:28,650 --> 00:01:30,659
+birinchi marta veb-sahifa yaratganingizda
+
+35
+00:01:30,659 --> 00:01:32,490
+server yoki biror HTTP haqida 
+
+36
+00:01:32,490 --> 00:01:36,329
+o‘ylashingiz shart emas,
+
+37
+00:01:36,329 --> 00:01:38,670
+shunchaki veb-sahifani fayl sifatida saqlaysiz.
+
+38
+00:01:38,670 --> 00:01:41,579
+Uni kompyuteringizda oching va uni o‘zingizda oching
+
+39
+00:01:41,579 --> 00:01:43,710
+brauzeringiz sizdagi saqlanadigan
+
+40
+00:01:43,710 --> 00:01:45,180
+hujjatlar, kompyuterni ham
+
+41
+00:01:45,180 --> 00:01:47,460
+ko‘rsatishi mumkin.
+
+42
+00:01:47,460 --> 00:01:50,189
+Keyinchalik siz veb-sahifani nashr qilmoqchi 
+
+43
+00:01:50,189 --> 00:01:52,229
+bo‘lganingizda butun dunyo buning uchun
+
+44
+00:01:52,229 --> 00:01:54,390
+serverga joylashtirish orqali amalga oshiradi.
+
+45
+00:01:54,390 --> 00:01:58,920
+shuning uchun HTML veb-sahifasiga kiritilgan yoki
+
+46
+00:01:58,920 --> 00:02:01,860
+gipermatnni belgilash tili
+
+47
+00:02:01,860 --> 00:02:03,869
+biz taqdim qiladigan til
+
+48
+00:02:03,869 --> 00:02:07,200
+veb-sahifalarning tuzilishi va matni qachon
+
+49
+00:02:07,200 --> 00:02:08,849
+saytni brauzerga yuklashingizni aytadi.
+
+50
+00:02:08,849 --> 00:02:11,670
+Server brauzeringizga yuboradigan 
+
+51
+00:02:11,670 --> 00:02:13,770
+birinchi narsa bu HTML qismi hisoblanadi.
+
+52
+00:02:13,770 --> 00:02:17,460
+Dasturchilar sozlamalaridan foydalanib ushbu 
+
+53
+00:02:17,460 --> 00:02:19,860
+HTMLga qarasangiz siz hamma narsani ko‘rasiz
+
+54
+00:02:19,860 --> 00:02:21,480
+brauzerga aytiladigan texnik tafsilotlar
+
+55
+00:02:21,480 --> 00:02:24,120
+veb-brauzerda bir xil faylni ochganda nima
+
+56
+00:02:24,120 --> 00:02:26,340
+qilish kerakligini brauzer yo‘riqnomalarga ergashgan holda
+
+57
+00:02:26,340 --> 00:02:28,500
+sahifani quradi va
+
+58
+00:02:28,500 --> 00:02:31,130
+namoyish qiladi.
+

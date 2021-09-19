@@ -1,0 +1,215 @@
+1
+00:00:00,418 --> 00:00:05,265
+Um documento HTML completo
+tem duas partes.
+
+2
+00:00:05,307 --> 00:00:07,713
+Tudo que vimos até agora
+nesta aula -
+
+3
+00:00:07,755 --> 00:00:09,368
+a não ser pela tag DOCTYPE -
+
+4
+00:00:09,410 --> 00:00:13,857
+na verdade, está na segunda parte,
+no corpo do documento,
+
+5
+00:00:13,899 --> 00:00:16,489
+que é onde os conteúdos
+do documento entram,
+
+6
+00:00:16,531 --> 00:00:19,666
+com os parágrafos, as imagens,
+as listas, os links
+
+7
+00:00:19,708 --> 00:00:23,082
+e as outras coisas que aparecerão
+na tela do usuário.
+
+8
+00:00:23,124 --> 00:00:26,881
+A outra parte do documento HTML
+é chamada de "cabeça",
+
+9
+00:00:26,923 --> 00:00:31,881
+e é onde colocamos informações
+importantes sobre o documento.
+
+10
+00:00:31,923 --> 00:00:33,928
+Tanto a cabeça quanto o corpo
+
+11
+00:00:33,970 --> 00:00:38,219
+acontecem dentro de um elemento
+chamado "<html>".
+
+12
+00:00:38,261 --> 00:00:43,105
+Eis algumas coisas que podem
+aparecer na cabeça do arquivo.
+
+13
+00:00:43,147 --> 00:00:47,144
+O título é a única parte
+obrigatória da cabeça,
+
+14
+00:00:47,186 --> 00:00:50,104
+ele informa ao navegador
+qual título colocar na aba
+
+15
+00:00:50,146 --> 00:00:52,096
+que está exibindo o documento.
+
+16
+00:00:52,138 --> 00:00:54,817
+Colocamos o título
+em um elemento <title>,
+
+17
+00:00:54,859 --> 00:00:57,370
+entre tags de abertura
+e de encerramento.
+
+18
+00:00:57,412 --> 00:01:01,665
+Outra coisa que aparece na cabeça
+são as folhas de estilo.
+
+19
+00:01:01,707 --> 00:01:04,526
+Nós aprenderemos muito mais
+sobre isso posteriormente.
+
+20
+00:01:04,568 --> 00:01:10,124
+Elas informam ao navegador
+coisas como fontes e cores da página
+
+21
+00:01:10,166 --> 00:01:12,645
+e como posicionar o texto.
+
+22
+00:01:12,687 --> 00:01:15,444
+A cabeça também
+pode conter scripts,
+
+23
+00:01:15,486 --> 00:01:18,229
+que são programas
+executados no navegador.
+
+24
+00:01:18,271 --> 00:01:20,958
+É assim que os aplicativos
+front-end funcionam,
+
+25
+00:01:21,000 --> 00:01:24,621
+como no quiz que vimos
+neste curso, por exemplo.
+
+26
+00:01:24,663 --> 00:01:27,269
+A cabeça também pode incluir
+metadados,
+
+27
+00:01:27,311 --> 00:01:30,541
+que são outras informações
+sobre a página,
+
+28
+00:01:30,583 --> 00:01:33,452
+como as palavras-chave
+para o motor de busca.
+
+29
+00:01:33,494 --> 00:01:38,535
+Também há informações
+que podem ir na tag HTML.
+
+30
+00:01:38,577 --> 00:01:40,844
+Por exemplo, podemos informar
+
+31
+00:01:40,886 --> 00:01:43,620
+a língua da composição
+do documento.
+
+32
+00:01:43,662 --> 00:01:46,315
+Não a linguagem do computador,
+que é HTML,
+
+33
+00:01:46,357 --> 00:01:49,140
+mas a língua humana,
+como inglês, francês,
+
+34
+00:01:49,182 --> 00:01:51,275
+tibetano ou suaíli.
+
+35
+00:01:51,317 --> 00:01:54,404
+Isso ajuda os programas
+que tentarão entender
+
+36
+00:01:54,446 --> 00:01:57,195
+ou pronunciar o conteúdo
+do documento,
+
+37
+00:01:57,237 --> 00:01:58,926
+como os leitores de tela
+
+38
+00:01:58,968 --> 00:02:00,908
+para usuários
+com deficiência visual.
+
+39
+00:02:00,950 --> 00:02:03,697
+A palavra C-H-A-T
+
+40
+00:02:03,739 --> 00:02:06,788
+deve ser pronunciada
+como "chat", em inglês,
+
+41
+00:02:06,830 --> 00:02:09,325
+ou como "chat" em francês?
+
+42
+00:02:09,367 --> 00:02:12,589
+Por ora, o único elemento da cabeça
+que precisamos usar
+
+43
+00:02:12,631 --> 00:02:14,283
+é o da tag <title>,
+
+44
+00:02:14,325 --> 00:02:17,320
+porque ela é obrigatória
+nos documentos HTML.
+
+45
+00:02:17,362 --> 00:02:21,207
+Os outros serão usados quando
+aprendermos mais sobre a internet.
+

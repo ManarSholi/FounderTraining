@@ -1,0 +1,235 @@
+1
+00:00:00,330 --> 00:00:04,449
+Nós já vimos que, quando o navegador
+renderiza o HTML,
+
+2
+00:00:04,491 --> 00:00:07,816
+cada elemento tem
+uma caixa invisível em volta.
+
+3
+00:00:07,858 --> 00:00:09,752
+Bem, geralmente
+ela é invisível.
+
+4
+00:00:09,794 --> 00:00:11,898
+Estas são as caixas
+que vocês viram
+
+5
+00:00:11,940 --> 00:00:16,170
+quando observamos as páginas
+em ferramentas do desenvolvedor.
+
+6
+00:00:16,212 --> 00:00:21,578
+Existem várias coisas que podemos
+configurar nas caixas usando o CSS,
+
+7
+00:00:21,620 --> 00:00:25,882
+como a largura, a altura,
+o preenchimento,
+
+8
+00:00:25,924 --> 00:00:28,569
+que é o espaço em volta
+do conteúdo da caixa.
+
+9
+00:00:28,611 --> 00:00:30,993
+Fora do preenchimento
+existe a borda da caixa,
+
+10
+00:00:31,035 --> 00:00:35,250
+que geralmente é invisível,
+mas podemos ligá-la com o CSS.
+
+11
+00:00:35,292 --> 00:00:36,850
+Depois vem a margem,
+
+12
+00:00:36,892 --> 00:00:41,690
+que é o espaço que o navegador cria
+entre a caixa e as outras caixas.
+
+13
+00:00:41,732 --> 00:00:44,295
+Podemos atribuir um valor
+para cada um deles
+
+14
+00:00:44,337 --> 00:00:48,614
+medido em unidades de CSS,
+como em pixel ou em.
+
+15
+00:00:48,656 --> 00:00:53,471
+Vejamos isso em algumas caixas
+de uma página.
+
+16
+00:00:53,513 --> 00:00:57,088
+Vamos tentar configurar
+algumas propriedades das caixas.
+
+17
+00:00:57,130 --> 00:01:01,807
+Começaremos configurando
+a borda, "border: 5px".
+
+18
+00:01:01,849 --> 00:01:06,162
+Para torná-la visível,
+também digitaremos "solid green".
+
+19
+00:01:06,204 --> 00:01:08,521
+Isso é algo que podemos fazer
+com as bordas.
+
+20
+00:01:08,563 --> 00:01:12,306
+Agora as caixas
+têm bordas verdes em volta,
+
+21
+00:01:12,348 --> 00:01:15,778
+mas, no momento, elas estão
+coladas umas às outras,
+
+22
+00:01:15,820 --> 00:01:17,298
+e isso é feio.
+
+23
+00:01:17,340 --> 00:01:19,538
+Qual deve ser o espaçamento
+entre elas?
+
+24
+00:01:19,580 --> 00:01:21,568
+Que tal um em?
+
+25
+00:01:21,610 --> 00:01:24,753
+Isso é o mesmo que a altura
+do texto dentro delas.
+
+26
+00:01:24,795 --> 00:01:29,234
+Vamos fazer assim:
+margin: 1em.
+
+27
+00:01:29,276 --> 00:01:33,673
+O texto dentro das caixas
+está amontoado nas bordas,
+
+28
+00:01:33,715 --> 00:01:36,097
+e podemos resolver
+adicionando preenchimento.
+
+29
+00:01:36,139 --> 00:01:39,302
+Vamos torná-lo um pouco menor
+do que a margem,
+
+30
+00:01:39,344 --> 00:01:41,252
+talvez 0,5em:
+
+31
+00:01:41,294 --> 00:01:46,469
+padding: 0.5em. Prontinho.
+
+32
+00:01:46,511 --> 00:01:50,091
+Agora o texto está mais confortável
+dentro das caixas.
+
+33
+00:01:50,133 --> 00:01:54,196
+O preenchimento está espaçado
+dentro das bordas das caixas,
+
+34
+00:01:54,238 --> 00:01:57,723
+enquanto a margem é espaçada
+por fora da borda.
+
+35
+00:01:57,765 --> 00:02:02,243
+Por fim, no momento, as caixas
+estão tomando a largura da página,
+
+36
+00:02:02,285 --> 00:02:05,747
+e é assim que os elementos de bloco
+começam por padrão.
+
+37
+00:02:05,789 --> 00:02:08,491
+Vamos deixá-las
+um pouco menores.
+
+38
+00:02:08,533 --> 00:02:12,331
+Vamos digitar:
+"width: 100px"
+
+39
+00:02:12,373 --> 00:02:17,232
+e "height: 50px". Prontinho.
+
+40
+00:02:17,274 --> 00:02:20,784
+Isso parece mais com algo
+que usaríamos em uma página.
+
+41
+00:02:20,826 --> 00:02:22,862
+Muito bem. Mais uma coisa.
+
+42
+00:02:22,904 --> 00:02:26,295
+Vamos tirar as caixas
+do caminho.
+
+43
+00:02:26,337 --> 00:02:28,654
+Podemos fazer isso
+pedindo ao CSS
+
+44
+00:02:28,696 --> 00:02:30,238
+que as mova para a direita,
+
+45
+00:02:30,280 --> 00:02:32,306
+assim o navegador
+tentará posicioná-las
+
+46
+00:02:32,348 --> 00:02:34,648
+à direita da página.
+
+47
+00:02:34,690 --> 00:02:39,040
+O float é uma das formas
+de alterar o posicionamento da caixa
+
+48
+00:02:39,082 --> 00:02:40,697
+usando CSS.
+
+49
+00:02:40,739 --> 00:02:43,963
+Aprenderemos mais formas
+posteriormente na aula.
+

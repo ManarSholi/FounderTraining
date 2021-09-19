@@ -1,0 +1,252 @@
+1
+00:00:00,000 --> 00:00:05,410
+In this video, I'm going to show you a simple setup for working with your HTML files.
+
+2
+00:00:05,410 --> 00:00:06,839
+On the left side here,
+
+3
+00:00:06,839 --> 00:00:08,144
+I have my text editor,
+
+4
+00:00:08,144 --> 00:00:10,695
+and on the right side I have my web browser.
+
+5
+00:00:10,695 --> 00:00:13,570
+Now, there are many text editors out there,
+
+6
+00:00:13,570 --> 00:00:15,345
+each with its own features.
+
+7
+00:00:15,345 --> 00:00:18,690
+Most editors have some basic features that are really handy,
+
+8
+00:00:18,690 --> 00:00:21,150
+like syntax highlighting to help you tell
+
+9
+00:00:21,149 --> 00:00:24,689
+the different parts of the code apart and line numbers,
+
+10
+00:00:24,690 --> 00:00:27,845
+so that you can easily refer to a particular line of code.
+
+11
+00:00:27,844 --> 00:00:30,829
+We'll show you some links to some of our favorite text editors,
+
+12
+00:00:30,829 --> 00:00:34,225
+but feel free to experiment and see which one you like the best.
+
+13
+00:00:34,225 --> 00:00:37,140
+If you do pick something that's not on our list,
+
+14
+00:00:37,140 --> 00:00:39,255
+make sure that you're using a text editor,
+
+15
+00:00:39,255 --> 00:00:42,580
+and not a word processor like Microsoft Word,
+
+16
+00:00:42,579 --> 00:00:44,659
+or Google Docs, or pages.
+
+17
+00:00:44,659 --> 00:00:48,979
+A text editor edits plain basic text files.
+
+18
+00:00:48,979 --> 00:00:53,469
+In contrast, a word processor does a lot more than just edit text.
+
+19
+00:00:53,469 --> 00:00:56,929
+They also add information to your files but how to format the text,
+
+20
+00:00:56,929 --> 00:01:00,734
+set the font, even insert tables and images.
+
+21
+00:01:00,734 --> 00:01:03,589
+If you try to edit your code in a word processor,
+
+22
+00:01:03,590 --> 00:01:06,620
+it may look like you've created a plain text file.
+
+23
+00:01:06,620 --> 00:01:11,000
+But there's actually hidden information in the file that would cause your code to fail.
+
+24
+00:01:11,000 --> 00:01:15,739
+So, again, make sure that you're using a text editor like the ones we're linking below,
+
+25
+00:01:15,739 --> 00:01:18,664
+and that the files you are creating are plain text files.
+
+26
+00:01:18,665 --> 00:01:21,195
+So, here's the basic way to work with this setup.
+
+27
+00:01:21,194 --> 00:01:22,889
+In my text editor,
+
+28
+00:01:22,890 --> 00:01:25,420
+I'm going to type some text.
+
+29
+00:01:25,609 --> 00:01:29,795
+Then I will save my file in order to make
+
+30
+00:01:29,795 --> 00:01:33,450
+sure that the browser recognizes it as an HTML file.
+
+31
+00:01:33,450 --> 00:01:38,350
+I'll make sure to use the.html extension on my file name.
+
+32
+00:01:41,239 --> 00:01:44,509
+Here's the folder where I saved my file.
+
+33
+00:01:44,510 --> 00:01:47,905
+I'm just going to click and drag this file over to my browser.
+
+34
+00:01:47,905 --> 00:01:49,605
+So, the browser opens it,
+
+35
+00:01:49,605 --> 00:01:53,609
+and as you can see, there's the texts that I put in my file.
+
+36
+00:01:53,609 --> 00:01:56,989
+If you're on a Mac, you may also be able to drag
+
+37
+00:01:56,989 --> 00:02:00,254
+the icon from the title bar of your text editor,
+
+38
+00:02:00,254 --> 00:02:02,454
+and drag that over to your browser.
+
+39
+00:02:02,454 --> 00:02:04,664
+That does exactly the same thing,
+
+40
+00:02:04,665 --> 00:02:06,810
+or instead of dragging the file then,
+
+41
+00:02:06,810 --> 00:02:08,689
+you can go to your browser's File menu
+
+42
+00:02:08,689 --> 00:02:10,699
+and open it from there if you'd rather do it that way.
+
+43
+00:02:10,699 --> 00:02:14,629
+So, now I have my text editor with my code over here,
+
+44
+00:02:14,629 --> 00:02:18,289
+and my browser displaying how that code gets rendered over here.
+
+45
+00:02:18,289 --> 00:02:21,004
+If I make a change to the code,
+
+46
+00:02:21,004 --> 00:02:24,590
+like adding some HTML to format it,
+
+47
+00:02:24,590 --> 00:02:28,349
+it doesn't immediately show up in the browser.
+
+48
+00:02:28,349 --> 00:02:30,639
+I have to save,
+
+49
+00:02:30,639 --> 00:02:33,329
+and then hit the refresh button,
+
+50
+00:02:33,330 --> 00:02:35,945
+and then they are the changes I made.
+
+51
+00:02:35,944 --> 00:02:38,269
+Now, this is just one way to do this.
+
+52
+00:02:38,270 --> 00:02:41,570
+There are lots of different ways to set up your programming environment,
+
+53
+00:02:41,569 --> 00:02:44,995
+and you should feel free to develop whatever approach works best for you.
+
+54
+00:02:44,995 --> 00:02:49,400
+The important thing is to have some place where you can edit your code and try things
+
+55
+00:02:49,400 --> 00:02:54,520
+out right along some place where you can easily see the results of those changes.
+
+56
+00:02:54,520 --> 00:02:59,360
+Generally, I can't write a whole bunch of code in one go because something will go wrong,
+
+57
+00:02:59,360 --> 00:03:01,570
+and I'll need to find the Issue and fix it.
+
+58
+00:03:01,569 --> 00:03:02,745
+When I'm working on my code,
+
+59
+00:03:02,745 --> 00:03:06,849
+I like to be experimenting a lot and testing the results frequently.
+
+60
+00:03:06,849 --> 00:03:10,614
+So, I can see whether the changes are behaving in the way that I expect.
+
+61
+00:03:10,615 --> 00:03:12,825
+So, however you set things up,
+
+62
+00:03:12,824 --> 00:03:15,994
+it will help you learn best if you make sure that your setup
+
+63
+00:03:15,995 --> 00:03:20,250
+helps you to get this kind of immediate feedback on your work.
+

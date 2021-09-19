@@ -1,0 +1,224 @@
+1
+00:00:00,000 --> 00:00:03,605
+You might have noticed this Image URL earlier.
+
+2
+00:00:03,605 --> 00:00:07,075
+It's from a site called placebear.com,
+
+3
+00:00:07,075 --> 00:00:09,750
+which has a lot of images of bears.
+
+4
+00:00:09,750 --> 00:00:12,474
+If you want a picture of a particular size,
+
+5
+00:00:12,474 --> 00:00:15,285
+say 800 by 600 pixels,
+
+6
+00:00:15,285 --> 00:00:18,079
+placebear.com will find one for you,
+
+7
+00:00:18,079 --> 00:00:21,389
+as long as you're okay with it being a picture of a bear.
+
+8
+00:00:21,390 --> 00:00:24,910
+To put this image into my notes.html file,
+
+9
+00:00:24,910 --> 00:00:28,094
+I'll put it in an IMG tag like so,
+
+10
+00:00:28,094 --> 00:00:31,134
+and when my browser opens this HTML file,
+
+11
+00:00:31,135 --> 00:00:34,625
+it'll know to go out to the placebear.com server,
+
+12
+00:00:34,625 --> 00:00:36,125
+and fetch that image,
+
+13
+00:00:36,125 --> 00:00:37,880
+and put it into the page.
+
+14
+00:00:37,880 --> 00:00:42,450
+But, what if I have an image file right here on my own computer?
+
+15
+00:00:42,450 --> 00:00:46,750
+In fact, what if it's sitting in the same folder as my HTML file?
+
+16
+00:00:46,750 --> 00:00:51,534
+Do I have to put it on a server someplace in order to refer to it by an image tag?
+
+17
+00:00:51,534 --> 00:00:54,194
+As it turns out, I don't.
+
+18
+00:00:54,195 --> 00:00:57,710
+Instead, I can just put the file name in the image tag.
+
+19
+00:00:57,710 --> 00:00:59,664
+Now why does that work?
+
+20
+00:00:59,664 --> 00:01:05,920
+Well, the browser looks at the SRC attribute here and it doesn't see a full URL.
+
+21
+00:01:05,920 --> 00:01:13,960
+It doesn't start with http:// or file:// or something like that.
+
+22
+00:01:13,959 --> 00:01:18,589
+Specifically, there's no :// anywhere in it,
+
+23
+00:01:18,590 --> 00:01:23,314
+and the browser has a rule for what to do when that happens in an HTML document.
+
+24
+00:01:23,314 --> 00:01:30,355
+Specifically, it looks for this file name as a variation of the HTML document's own URL.
+
+25
+00:01:30,355 --> 00:01:33,620
+This is called a relative URL.
+
+26
+00:01:33,620 --> 00:01:37,945
+Now, right now my HTML file is on my own computer,
+
+27
+00:01:37,944 --> 00:01:47,699
+and the browser sees it with the URL: file:///Users/Karl/courses/notes.html.
+
+28
+00:01:47,700 --> 00:01:54,120
+So, when this file refers to the relative URL kittens.jpg,
+
+29
+00:01:54,120 --> 00:01:57,230
+it will look for that file in the same directory.
+
+30
+00:01:57,230 --> 00:02:02,250
+Even though I only had to write and kittens.jpg in my HTML file,
+
+31
+00:02:02,250 --> 00:02:11,500
+the browser will load the same URL as file:///Users/Carl/courses/kittens.jpg.
+
+32
+00:02:11,629 --> 00:02:15,375
+Using the relative URL has a lot less typing,
+
+33
+00:02:15,375 --> 00:02:18,000
+but that's not the only advantage of it.
+
+34
+00:02:18,000 --> 00:02:21,189
+If I wanted to send this Web page to someone else, well,
+
+35
+00:02:21,189 --> 00:02:25,069
+the HTML itself doesn't contain that kitten image file.
+
+36
+00:02:25,069 --> 00:02:27,139
+I need to send them the image file too.
+
+37
+00:02:27,139 --> 00:02:29,299
+But, if I send this file to Kelly,
+
+38
+00:02:29,300 --> 00:02:34,420
+it's sure not going to show up on her computer in a directory called /Users/Karl.
+
+39
+00:02:34,419 --> 00:02:36,984
+If I have URLs in my HTML,
+
+40
+00:02:36,985 --> 00:02:39,255
+that point to directory is on my computer,
+
+41
+00:02:39,254 --> 00:02:41,634
+and they're not going to work on someone else's computer.
+
+42
+00:02:41,634 --> 00:02:43,314
+So, as a general rule,
+
+43
+00:02:43,314 --> 00:02:48,829
+if you're referring to an image or a link that's on a Web server, like placebear.com,
+
+44
+00:02:48,830 --> 00:02:57,540
+you'll usually want to use a full URL like https://placebear.com/800/600.
+
+45
+00:02:57,539 --> 00:03:00,289
+But, if you're referring to an image or
+
+46
+00:03:00,289 --> 00:03:04,750
+another file that you're passing around along with your HTML file,
+
+47
+00:03:04,750 --> 00:03:08,009
+you should use relative URLs.
+
+48
+00:03:08,009 --> 00:03:11,989
+By the way, relative URLs are the real reason
+
+49
+00:03:11,990 --> 00:03:15,950
+that you can't make an a link to Google by just writing,
+
+50
+00:03:15,949 --> 00:03:19,719
+a href = google.com in your HTML,
+
+51
+00:03:19,719 --> 00:03:24,189
+even though Google.com works if you type it directly into your browser.
+
+52
+00:03:24,189 --> 00:03:31,745
+In HTML, a URL with no :// in it is always treated as a relative URL.
+
+53
+00:03:31,745 --> 00:03:34,280
+So the browser would look for a file called
+
+54
+00:03:34,280 --> 00:03:37,219
+Google.com which is usually not what you want.
+
+55
+00:03:37,219 --> 00:03:40,780
+So, if you want to make a link to another site,
+
+56
+00:03:40,780 --> 00:03:46,449
+you have to put the http or https on the front.
+
