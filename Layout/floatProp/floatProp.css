@@ -1,0 +1,23 @@
+img {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+
+/* Prevent page disruption by setting the article to have a flow root context */
+
+article {
+    display: flow-root;
+}
+
+
+/* Presentational styles */
+
+img {
+    margin-inline-end: 1em;
+}
+
+p+p {
+    margin-top: 1em;
+}

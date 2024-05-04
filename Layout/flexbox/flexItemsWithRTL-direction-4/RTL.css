@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    direction: rtl;
+}
+
+
+/*
+
+This flex container has a writing-mode of vertical-rl. 
+A row now runs vertically. Use the select list to change the flex-direction.
+
+.container {
+  display: flex;
+  gap: 1rem;
+  writing-mode: vertical-rl;
+}
+
+*/

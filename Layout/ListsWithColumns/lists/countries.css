@@ -1,0 +1,23 @@
+.countries {
+    column-count: 2;
+    column-gap: 1em;
+}
+
+
+/*
+
+Instead of setting the number of columns that the content is split into, 
+you can also define a minimum desired width, using column-width. 
+As more space is made available in the viewport, 
+more columns will automatically be created and as space is reduced, 
+columns will also reduce. This is very useful in responsive web design contexts
+
+
+
+.countries {
+  width: 100%;
+  column-width: 260px;
+  column-gap: 1em;
+}
+
+*/
