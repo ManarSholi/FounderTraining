@@ -1,0 +1,103 @@
+.title {
+    margin-left: 40%;
+    margin-bottom: 20px;
+    font-size: 100px;
+    transform: translate(0%, -3%);
+    font-family: sans-serif;
+}
+
+span {
+    display: inline-block;
+    font-weight: bolder;
+    animation: mover 6s linear infinite;
+}
+
+span:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+span:nth-child(3) {
+    animation-delay: 1s;
+}
+
+span:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+@keyframes mover {
+    0% {
+        text-shadow: 0 0 30px rgba(99, 16, 216, 0);
+    }
+    50% {
+        text-shadow: 0 0 30px rgba(212, 36, 30, 0.3);
+        transform: translateY(30px);
+    }
+    100% {
+        text-shadow: 0 0 30px rgba(31, 192, 25, 0.5);
+    }
+}
+
+.cat-box {
+    width: 210px;
+    height: 350px;
+    border: 0.5px solid gray;
+    background-color: rgb(204, 201, 201);
+    margin: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(#f19696, #f1f1a1);
+}
+
+.cap {
+    text-indent: 26px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-prop0 {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.img-prop1 {
+    margin-left: 37px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.img-prop2 {
+    margin-left: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.img-prop3 {
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#cat-body {
+    /*width: 100%;*/
+    display: grid;
+    grid-template-columns: minmax(10px, 1.5fr) minmax(10px, 1.5fr) minmax(10px, 1.5fr) minmax(10px, 4fr);
+    /*     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+    /*flex-wrap: wrap;*/
+    margin-left: 0px;
+    padding-left: 212px;
+    column-gap: 92px;
+    box-sizing: content-box;
+}
+
+html {
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?size=626&ext=jpg&ga=GA1.2.1687694167.1632787200");
+}

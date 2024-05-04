@@ -1,0 +1,18 @@
+.helper {
+    display: none;
+}
+
+ :focus-within .helper {
+    display: block;
+}
+
+.button:focus {
+    outline: 2px dashed blue;
+    outline-offset: 2px;
+    background-color: black;
+}
+
+.helper {
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
